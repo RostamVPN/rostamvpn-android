@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven { url = new File(settingsDir, 'local-maven').toURI() }
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+include ':app'

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">人人可用、处处畅通的开放互联网</string>
+    <string name="about_description_1">%1$s 让您快速、私密地访问开放互联网，您依赖的网站和应用无论身在何处都能正常使用。</string>
+    <string name="about_description_2">%1$s 由一支国际化的网络与安全工程师团队以及长期倡导互联网自由的人士开发和运营。十多年来，我们致力于加强数字安全，保护所有人自由、不受审查地获取信息。</string>
+
+    <string name="about_screen_title">关于 %1$s</string>
+
+    <string name="protected_apps">受保护的应用程序</string>
+    <string name="only_selected_apps">仅选定的应用程序将使用 VPN</string>
+
+    <string name="appearance">外观</string>
+    <string name="theme_auto">自动</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+
+    <string name="settings">设置</string>
+    <string name="help_improve">帮助我们改进 %1$s</string>
+    <string name="help_improve_desc">分享匿名连接探测，帮助我们更快找到可用的传输方式。</string>
+    <string name="share_debug_log">分享调试日志</string>
+    <string name="about">关于</string>
+    <string name="version_format">版本 %s</string>
+
+    <string name="open_source_libraries">开源库</string>
+
+    <string name="privacy_policy">隐私政策</string>
+    <string name="effective_date">生效日期：2026 年 2 月 3 日</string>
+
+    <string name="vpn_on">VPN 已开启</string>
+    <string name="vpn_off">VPN 已关闭</string>
+    <string name="connecting">连接中…</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="tap_to_connect">点击连接</string>
+    <string name="tap_to_disconnect">点击断开</string>
+    <string name="connecting_to_server">正在连接服务器…</string>
+    <string name="cd_menu">菜单</string>
+
+    <string name="trying_server">正在尝试下一个服务器…</string>
+
+    <string name="tap_to_cancel">点击取消</string>
+    <string name="close_menu">关闭菜单</string>
+    <string name="made_in_usa">美国制造</string>
+
+    <string name="region_label">区域</string>
+    <string name="region_automatic">自动</string>
+    <string name="region_auto_hint">自动选择最快的可用区域</string>
+    <string name="region_location_hint">通过此位置连接</string>
+    <string name="region_locked_hint">自动 — 升级会员后可选择区域</string>
+    <string name="go_premium">升级会员</string>
+    <string name="premium_tagline">始终全速 · 任选区域</string>
+    <string name="upgrade">升级</string>
+    <string name="language">语言</string>
+    <string name="language_auto">自动（按区域）</string>
+    <string name="premium">高级会员</string>
+    <string name="usage_stats">使用统计</string>
+    <string name="usage_total_used">总用量</string>
+    <string name="usage_this_session">本次会话</string>
+    <string name="usage_free_allowance">免费额度</string>
+    <string name="usage_device_note">总量在本设备上跨所有会话统计。</string>
+    <string name="usage_used_up">免费流量已用完 — 升级以获取更多</string>
+    <string name="data_free_remaining">剩余 %1$s</string>
+    <string name="data_free_out">免费流量已用完</string>
+    <string name="data_free_low_cta">即将用完 — 升级以保持全速</string>
+    <string name="data_free_out_cta">想要恢复全速？升级到 Premium。</string>
+    <string name="speed_state_full">全速</string>
+    <string name="speed_state_reduced">已限速</string>
+    <string name="premium_title_throttled">恢复你的全速体验</string>
+
+    <string name="qr_config_applied_ok">已添加新服务器 — 将在下次连接时生效</string>
+
+    <string name="premium_active">高级会员已启用 ✓</string>
+    <string name="loading_plans">正在加载套餐…</string>
+    <string name="restore">恢复</string>
+    <string name="restore_none">此应用商店账号下未找到订阅</string>
+
+    <string name="search_apps">搜索应用…</string>
+
+    <string name="status_starting_vpn">正在启动 VPN…</string>
+    <string name="status_finding_path">正在寻找最快的线路…</string>
+    <string name="status_disconnected">已断开连接</string>
+    <string name="status_failed">连接失败：%1$s</string>
+    <string name="wgtcp_no_data_path">WGTCP 无法传输流量 — 改用 RedSocket</string>
+
+    <string name="welcome_title">守护你的每一次连接</string>
+
+    <string name="welcome_title_accent">守护</string>
+    <string name="welcome_body">沉静、警觉、绝不妥协。%1$s 守在你与开放互联网之间。</string>
+    <string name="get_started">开始使用</string>
+
+    <string name="paywall_eyebrow">%1$s 高级会员</string>
+    <string name="paywall_subhead">无限制 · 全速直连</string>
+    <string name="paywall_perk_regions_title">任选节点</string>
+    <string name="paywall_perk_regions_body">随时切换全球任意线路。</string>
+    <string name="paywall_perk_speed_title">始终全速</string>
+    <string name="paywall_perk_speed_body">不限量，永不降速。</string>
+
+    <string name="plan_period_weekly">每周</string>
+    <string name="plan_period_monthly">每月</string>
+    <string name="plan_period_3month">每 3 个月</string>
+    <string name="plan_period_6month">每 6 个月</string>
+    <string name="plan_period_yearly">每年</string>
+    <string name="plan_save_badge">省 %1$d%%</string>
+    <string name="plans_unavailable">暂时无法获取套餐，请稍后再试。</string>
+    <string name="start_free_trial">开始免费试用</string>
+    <string name="pay_with_card">银行卡支付</string>
+    <string name="pay_with_crypto">加密货币支付</string>
+    <string name="paywall_disclosure_play">到期自动续订，直到取消。可随时在 \u2068Google Play \u203A Subscriptions\u2069 中取消。</string>
+    <string name="paywall_disclosure_stripe">银行卡、Apple Pay 和 Google Pay \u2014 由 Stripe 提供安全保障。到期自动续订，直到取消。</string>
+    <string name="paywall_disclosure_crypto">Bitcoin、USDT 等币种。无需银行卡，无需银行 \u2014 没有任何信息把这笔付款和你联系起来。</string>
+    <string name="cd_close">关闭</string>
+
+    <string name="split_tunnel_title">应用与 VPN</string>
+    <string name="split_mode_exclude">除所选之外的所有应用</string>
+    <string name="split_mode_exclude_desc">所选应用不走 VPN，直接连接。银行等本地应用请用这个模式。</string>
+    <string name="split_mode_include">仅所选应用</string>
+    <string name="split_state_all">所有应用都走 VPN</string>
+    <string name="split_state_none">没有应用走 VPN</string>
+    <string name="split_state_bypass">%2$d 个应用中有 %1$d 个不走 VPN</string>
+    <string name="split_state_only">%2$d 个应用中有 %1$d 个走 VPN</string>
+    <string name="split_reconnect_note">更改后会重新连接 VPN。</string>
+    <string name="select_recommended">推荐</string>
+    <string name="select_all">全选</string>
+    <string name="select_none">全不选</string>
+
+    <string name="speed_state_limited">限速至 %1$s</string>
+    <string name="data_free_low_note">之后仍可使用，速度为 %1$s。高级会员始终全速。</string>
+    <string name="data_free_out_note">仍在连接中，速度为 %1$s。高级会员可恢复全速。</string>
+    <string name="data_free_one_time">每月额度</string>
+    <string name="premium_title_default">不限流量，始终全速</string>
+    <string name="paywall_subhead_offer">免费额度每月刷新。高级版永不用尽。</string>
+    <string name="paywall_subhead_throttled">你当前被限速至 %1$s。高级会员取消该限制。</string>
+    <string name="paywall_perk_data_title">不限流量</string>
+    <string name="paywall_perk_data_body">免费额度每月刷新。高级版没有上限。</string>
+    <string name="paywall_perk_data_body_once">免费额度只给一次。高级版的流量永远用不完。</string>
+    <string name="paywall_perk_speed_body_limit">免费额度用完后会降到 %1$s。高级会员永不降速。</string>
+    <string name="paywall_reassure">无需账号，也无需邮箱。</string>
+    <string name="plan_per_month">%1$s / 月</string>
+    <string name="proof_downloads">下载量超过 %1$s</string>
+    <string name="proof_rating">%2$s 条评价，%1$s 分</string>
+    <string name="bypass_title">不走 VPN 的目标地址</string>
+    <string name="bypass_desc">发往这些 IP 地址和网段的流量将直接连接，无论由哪个应用发出。适用于拒绝境外地址的本地银行和政务服务。</string>
+    <string name="bypass_hint">IP 或网段，例如 192.168.1.0/24</string>
+    <string name="bypass_add">添加</string>
+    <string name="bypass_remove">移除</string>
+    <string name="bypass_invalid">请输入 IP 地址或网段，例如 10.0.0.0/8</string>
+    <string name="bypass_none">无：所有目标地址都走 VPN</string>
+    <string name="bypass_count">%1$d 个目标地址不走 VPN</string>
+    <string name="bypass_over_budget">%1$d 个条目无法在本设备上生效，仍走 VPN。请移除部分条目，或改用范围更大的网段。</string>
+    <string name="restore_ok">高级会员已恢复</string>
+    <string name="restore_invalid">代码无效</string>
+    <string name="open_source_intro">%1$s 的开发得益于以下开源项目。</string>
+    <string name="cd_back">返回</string>
+    <string name="paywall_perk_ixp_title">我们自己的硬件</string>
+    <string name="paywall_perk_ixp_body">大多数 VPN 租用廉价虚拟服务器。我们的设备位于互联网交换中心内部，全球主要网络在那里交汇——路径更短，应用更快。</string>
+    <string name="onboarding_plans_title">免费或高级版</string>
+    <string name="continue_label">继续</string>
+    <string name="skip_label">跳过</string>
+    <string name="rate_app">给 %1$s 评分</string>
+    <string name="tabs_notices">公告</string>
+</resources>

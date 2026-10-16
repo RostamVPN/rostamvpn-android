@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <integer name="brand_proof_downloads">0</integer>
+    <integer name="brand_proof_rating_x10">0</integer>
+    <integer name="brand_proof_reviews">0</integer>
+
+    <bool name="brand_has_mascot">false</bool>
+
+</resources>

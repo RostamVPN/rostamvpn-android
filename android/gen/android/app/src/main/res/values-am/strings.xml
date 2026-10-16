@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">ለሁሉም ሰው፣ በሁሉም ቦታ ክፍት ኢንተርኔት</string>
+    <string name="about_description_1">%1$s ወደ ክፍት ኢንተርኔት ፈጣንና የግል መዳረሻ ይሰጥዎታል፤ የሚተማመኑባቸው ድረ ገጾችና መተግበሪያዎች የትም ቢሆኑ መሥራታቸውን ይቀጥላሉ።</string>
+    <string name="about_description_2">%1$s በዓለም አቀፍ የአውታረ መረብና የደኅንነት መሐንዲሶች እንዲሁም ለረጅም ጊዜ የኢንተርኔት ነጻነትን በሚደግፉ ሰዎች ቡድን ተገንብቶ ይተዳደራል። ከአሥር ዓመታት በላይ ዲጂታል ደኅንነትን ለማጠናከርና በየትኛውም ቦታ ላሉ ሰዎች ክፍትና ሳንሱር ያልተደረገበት የመረጃ መዳረሻን ለመጠበቅ ስንሠራ ቆይተናል።</string>
+    <string name="about_screen_title">ስለ %1$s</string>
+
+    <string name="premium">ፕሪሚየም</string>
+    <string name="usage_stats">የአጠቃቀም ስታቲስቲክስ</string>
+    <string name="usage_total_used">በጠቅላላ የተጠቀሙት ዳታ</string>
+    <string name="usage_this_session">ይህ ክፍለ ጊዜ</string>
+    <string name="usage_free_allowance">ነጻ ድርሻ</string>
+    <string name="usage_device_note">ጠቅላላው በዚህ መሣሪያ ላይ በሁሉም ክፍለ ጊዜያት ይለካል።</string>
+    <string name="usage_used_up">ነጻ ዳታ አልቋል — ተጨማሪ ለማግኘት ያሻሽሉ</string>
+
+    <string name="protected_apps">የተጠበቁ መተግበሪያዎች</string>
+    <string name="only_selected_apps">የተመረጡት መተግበሪያዎች ብቻ VPN ይጠቀማሉ</string>
+
+    <string name="appearance">መልክ</string>
+    <string name="theme_auto">ራስ-ሰር</string>
+    <string name="theme_light">ብሩህ</string>
+    <string name="theme_dark">ጨለማ</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="help_improve">%1$s እንዲሻሻል ያግዙ</string>
+    <string name="help_improve_desc">የሚሠሩ መንገዶችን በፍጥነት እንድናገኝ ስም-አልባ የግንኙነት ምርመራዎችን ያጋሩ።</string>
+    <string name="share_debug_log">የማረሚያ መዝገብ አጋራ</string>
+    <string name="about">ስለ</string>
+    <string name="version_format">ስሪት %s</string>
+    <string name="open_source_libraries">ክፍት ምንጭ ላይብረሪዎች</string>
+    <string name="privacy_policy">የግላዊነት ፖሊሲ</string>
+    <string name="effective_date">ተፈጻሚ የሚሆንበት ቀን፡ ፌብሩዋሪ 5፣ 2026</string>
+
+    <string name="vpn_on">VPN በርቷል</string>
+    <string name="vpn_off">VPN ጠፍቷል</string>
+    <string name="connecting">በመገናኘት ላይ…</string>
+    <string name="connection_failed">ግንኙነት አልተሳካም</string>
+    <string name="tap_to_connect">ለመገናኘት ይንኩ</string>
+    <string name="tap_to_disconnect">ለማቋረጥ ይንኩ</string>
+    <string name="connecting_to_server">ከአገልጋይ ጋር በመገናኘት ላይ…</string>
+    <string name="cd_menu">ምናሌ</string>
+    <string name="trying_server">ቀጣዩን አገልጋይ በመሞከር ላይ…</string>
+    <string name="tap_to_cancel">ለመሰረዝ ይንኩ</string>
+    <string name="close_menu">ምናሌን ዝጋ</string>
+    <string name="made_in_usa">በአሜሪካ የተሠራ</string>
+
+    <string name="region_label">ክልል</string>
+    <string name="region_automatic">ራስ-ሰር</string>
+    <string name="region_auto_hint">በጣም ፈጣኑን የሚሠራ ክልል ይመርጣል</string>
+    <string name="region_location_hint">በዚህ ቦታ በኩል ይገናኙ</string>
+    <string name="region_locked_hint">ራስ-ሰር — ክልል ለመምረጥ ፕሪሚየም ያስፈልጋል</string>
+
+    <string name="go_premium">ወደ ፕሪሚየም</string>
+    <string name="premium_tagline">ሁልጊዜ ሙሉ ፍጥነት · ማንኛውም ክልል</string>
+    <string name="upgrade">አሻሽል</string>
+    <string name="language">ቋንቋ</string>
+    <string name="language_auto">ራስ-ሰር (በክልል)</string>
+    <string name="data_free_remaining">%1$s ቀርቷል</string>
+    <string name="data_free_out">ነጻ ዳታ ተጠቅሟል</string>
+    <string name="data_free_low_cta">ዳታ እያለቀ ነው — በሙሉ ፍጥነት ለመቀጠል ያሻሽሉ</string>
+    <string name="data_free_out_cta">ሙሉ ፍጥነት ይፈልጋሉ? ወደ ፕሪሚየም ያሻሽሉ።</string>
+    <string name="speed_state_full">ሙሉ ፍጥነት</string>
+    <string name="speed_state_reduced">የቀነሰ ፍጥነት</string>
+    <string name="premium_title_throttled">ሙሉ ፍጥነትዎን መልሰው ያግኙ</string>
+
+    <string name="premium_active">ፕሪሚየም ገቢር ነው ✓</string>
+    <string name="loading_plans">ዕቅዶች በመጫን ላይ…</string>
+    <string name="restore">መልሶ ማግኘት</string>
+    <string name="restore_none">በዚህ የመደብር መለያ ላይ ምንም ምዝገባ አልተገኘም</string>
+    <string name="search_apps">መተግበሪያዎችን ፈልግ…</string>
+
+    <string name="status_starting_vpn">VPN በመጀመር ላይ…</string>
+    <string name="status_finding_path">ፈጣኑን መንገድ በመፈለግ ላይ…</string>
+    <string name="status_disconnected">ተቋርጧል</string>
+    <string name="status_failed">ግንኙነት አልተሳካም፡ %1$s</string>
+
+    <string name="welcome_title">ለግንኙነትዎ ጠባቂ</string>
+    <string name="welcome_title_accent">ጠባቂ</string>
+    <string name="welcome_body">ጸጥተኛ፣ ንቁ፣ የማይደራደር። %1$s በእርስዎና በክፍት ኢንተርኔት መካከል ይቆማል።</string>
+    <string name="get_started">ይጀምሩ</string>
+
+    <string name="qr_config_applied_ok">አዲስ አገልጋዮች ተጨመሩ — በሚቀጥለው ግንኙነትዎ ተግባራዊ ይሆናሉ</string>
+
+    <string name="wgtcp_no_data_path">WGTCP ትራፊክ ማስተላለፍ አልቻለም — RedSocket በመጠቀም ላይ</string>
+
+    <string name="paywall_eyebrow">%1$s ፕሪሚየም</string>
+    <string name="paywall_subhead">ምንም እንቅፋት የለም።</string>
+    <string name="paywall_perk_regions_title">ሁሉም ክልሎች</string>
+    <string name="paywall_perk_regions_body">ከየትም ይገናኙ፣ በፈለጉት ጊዜ ይቀይሩ።</string>
+    <string name="paywall_perk_speed_title">ሁልጊዜ ሙሉ ፍጥነት</string>
+    <string name="paywall_perk_speed_body">ገደብ የለም፣ ፍጥነትም አይቀንስም።</string>
+    <string name="plan_period_weekly">በየሳምንቱ</string>
+    <string name="plan_period_monthly">በየወሩ</string>
+    <string name="plan_period_3month">በየ3 ወሩ</string>
+    <string name="plan_period_6month">በየ6 ወሩ</string>
+    <string name="plan_period_yearly">በየዓመቱ</string>
+    <string name="plan_save_badge">%1$d%% ቅናሽ</string>
+    <string name="plans_unavailable">ዕቅዶች አሁን አይገኙም። እባክዎ ቆይተው እንደገና ይሞክሩ።</string>
+    <string name="start_free_trial">ነጻ ሙከራ ይጀምሩ</string>
+    <string name="pay_with_card">በካርድ ይክፈሉ</string>
+    <string name="pay_with_crypto">በክሪፕቶ ይክፈሉ</string>
+    <string name="paywall_disclosure_play">እስኪሰርዙት ድረስ በራሱ ይታደሳል። በማንኛውም ጊዜ በ\u2068Google Play \u203A Subscriptions\u2069 ውስጥ መሰረዝ ይችላሉ።</string>
+    <string name="paywall_disclosure_stripe">ካርዶች፣ Apple Pay እና Google Pay \u2014 በStripe የተጠበቀ። እስኪሰረዝ ድረስ ይታደሳል።</string>
+    <string name="paywall_disclosure_crypto">Bitcoin፣ USDT እና ሌሎች ሳንቲሞች። ካርድ የለም፣ ባንክ የለም \u2014 ክፍያውን ከእርስዎ ጋር የሚያገናኝ ምንም የለም።</string>
+    <string name="cd_close">ዝጋ</string>
+
+    <string name="split_tunnel_title">መተግበሪያዎች እና VPN</string>
+    <string name="split_mode_exclude">ከተመረጡት በስተቀር ሁሉም መተግበሪያዎች</string>
+    <string name="split_mode_exclude_desc">የተመረጡት መተግበሪያዎች VPN ሳይጠቀሙ በቀጥታ ይገናኛሉ። ለባንክና ለሌሎች የአገር ውስጥ መተግበሪያዎች ይህን ይጠቀሙ።</string>
+    <string name="split_mode_include">የተመረጡት መተግበሪያዎች ብቻ</string>
+    <string name="split_state_all">ሁሉም መተግበሪያዎች VPN ይጠቀማሉ</string>
+    <string name="split_state_none">ምንም መተግበሪያ VPN አይጠቀምም</string>
+    <string name="split_state_bypass">ከ%2$d መተግበሪያዎች %1$d VPN ሳይጠቀሙ ይገናኛሉ</string>
+    <string name="split_state_only">ከ%2$d መተግበሪያዎች %1$d VPN ይጠቀማሉ</string>
+    <string name="split_reconnect_note">ለውጦች VPN እንደገና እንዲገናኝ ያደርጋሉ።</string>
+    <string name="select_recommended">የሚመከሩ</string>
+    <string name="select_all">ሁሉም</string>
+    <string name="select_none">ምንም</string>
+
+    <string name="speed_state_limited">እስከ %1$s ተወስኗል</string>
+    <string name="data_free_low_note">ከዚህ በኋላ በ%1$s መስራቱን ይቀጥላል። ፕሪሚየም በሙሉ ፍጥነት ይቆያል።</string>
+    <string name="data_free_out_note">አሁንም ተገናኝቷል፣ በ%1$s። ፕሪሚየም ሙሉ ፍጥነትን ይመልሳል።</string>
+    <string name="data_free_one_time">ወርሃዊ ኮታ</string>
+    <string name="premium_title_default">ያልተገደበ ዳታ፣ ሁልጊዜ ሙሉ ፍጥነት</string>
+    <string name="paywall_subhead_offer">ነጻ ድርሻዎ በየወሩ ይታደሳል። ፕሪሚየም ፈጽሞ አያልቅም።</string>
+    <string name="paywall_subhead_throttled">አሁን እስከ %1$s ተወስነዋል። ፕሪሚየም ገደቡን ያስወግዳል።</string>
+    <string name="paywall_perk_data_title">ያልተገደበ ዳታ</string>
+    <string name="paywall_perk_data_body">ነጻ ድርሻው በየወሩ ይታደሳል። ፕሪሚየም ገደብ የለውም።</string>
+    <string name="paywall_perk_data_body_once">ነጻ ድርሻው አንድ ጊዜ ብቻ ነው የሚሰጠው። በፕሪሚየም ዳታ ፈጽሞ አያልቅም።</string>
+    <string name="paywall_perk_speed_body_limit">ነጻው ካለቀ በኋላ ወደ %1$s ይወርዳል። ፕሪሚየም ፈጽሞ አይወርድም።</string>
+    <string name="paywall_reassure">መለያ ወይም ኢሜይል አያስፈልግም።</string>
+    <string name="plan_per_month">%1$s በወር</string>
+    <string name="proof_downloads">ከ%1$s በላይ ውርዶች</string>
+    <string name="proof_rating">%1$s ከ%2$s ግምገማዎች</string>
+    <string name="bypass_title">VPN የማይጠቀሙ መድረሻዎች</string>
+    <string name="bypass_desc">ወደ እነዚህ IP አድራሻዎችና ክልሎች የሚሄድ ትራፊክ የትኛውም መተግበሪያ ቢልከው በቀጥታ ይገናኛል። የውጭ አድራሻዎችን ለማይቀበሉ የአገር ውስጥ የባንክና የመንግሥት አገልግሎቶች ይጠቅማል።</string>
+    <string name="bypass_hint">IP ወይም ክልል፣ ለምሳሌ 192.168.1.0/24</string>
+    <string name="bypass_add">ይጨምሩ</string>
+    <string name="bypass_remove">ያስወግዱ</string>
+    <string name="bypass_invalid">IP አድራሻ ወይም ክልል ያስገቡ፣ ለምሳሌ 10.0.0.0/8</string>
+    <string name="bypass_none">ምንም የለም — ሁሉም መድረሻዎች VPN ይጠቀማሉ</string>
+    <string name="bypass_count">VPN የማይጠቀሙ መድረሻዎች፦ %1$d</string>
+    <string name="bypass_over_budget">በዚህ መሣሪያ ላይ መተግበር ያልተቻሉ ግቤቶች፦ %1$d። እነዚህ አሁንም VPN ይጠቀማሉ። አንዳንድ ግቤቶችን ያስወግዱ ወይም ሰፋ ያሉ ክልሎችን ይጠቀሙ።</string>
+    <string name="restore_ok">ፕሪሚየም ተመልሷል</string>
+    <string name="restore_invalid">ኮዱ ትክክል አይደለም</string>
+    <string name="open_source_intro">%1$s በሚከተሉት ክፍት ምንጭ ፕሮጀክቶች እገዛ ተገንብቷል።</string>
+    <string name="cd_back">ተመለስ</string>
+    <string name="paywall_perk_ixp_title">የራሳችን ሃርድዌር</string>
+    <string name="paywall_perk_ixp_body">አብዛኞቹ ቪፒኤኖች ርካሽ ምናባዊ አገልጋዮችን ይከራያሉ። የእኛ የዓለም ዋና አውታረ መረቦች በሚገናኙባቸው የኢንተርኔት መለዋወጫዎች ውስጥ ይገኛል — አጭር መንገድ፣ ፈጣን መተግበሪያ።</string>
+    <string name="onboarding_plans_title">ነጻ ወይም ፕሪሚየም</string>
+    <string name="continue_label">ቀጥል</string>
+    <string name="skip_label">ዝለል</string>
+    <string name="rate_app">%1$s ደረጃ ይስጡ</string>
+    <string name="tabs_notices">ማሳወቂያዎች</string>
+</resources>

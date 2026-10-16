@@ -1,0 +1,160 @@
+<resources>
+
+    <string name="about_title">Herkese, Her Yerde Özgür İnternet</string>
+    <string name="about_description_1">%1$s açık internete hızlı ve gizli erişim sunar; böylece güvendiğiniz siteler ve uygulamalar nerede olursanız olun çalışmaya devam eder.</string>
+    <string name="about_description_2">%1$s, ağ ve güvenlik mühendislerinden oluşan uluslararası bir ekip ve yıllardır internet özgürlüğünü savunan kişiler tarafından geliştiriliyor ve işletiliyor. On yılı aşkın süredir dijital güvenliği güçlendirmek ve dünyanın her yerindeki insanların bilgiye sansürsüz erişimini korumak için çalışıyoruz.</string>
+
+    <string name="about_screen_title">%1$s Hakkında</string>
+
+    <string name="premium">Premium</string>
+    <string name="usage_stats">Kullanım istatistikleri</string>
+    <string name="usage_total_used">Toplam kullanılan veri</string>
+    <string name="usage_this_session">Bu oturum</string>
+    <string name="usage_free_allowance">Ücretsiz kota</string>
+    <string name="usage_device_note">Toplam, bu cihazdaki tüm oturumlar üzerinden ölçülür.</string>
+    <string name="usage_used_up">Ücretsiz veri bitti — daha fazlası için yükseltin</string>
+
+    <string name="protected_apps">Korunan Uygulamalar</string>
+    <string name="only_selected_apps">VPN\'i yalnızca seçili uygulamalar kullanır</string>
+
+    <string name="appearance">Görünüm</string>
+    <string name="theme_auto">Otomatik</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+
+    <string name="settings">Ayarlar</string>
+    <string name="help_improve">%1$s\'i Geliştirmeye Yardım Edin</string>
+    <string name="help_improve_desc">Çalışan bağlantı yollarını daha hızlı bulmamız için anonim bağlantı testleri paylaşın.</string>
+    <string name="share_debug_log">Hata Günlüğünü Paylaş</string>
+    <string name="about">Hakkında</string>
+    <string name="version_format">Sürüm %s</string>
+
+    <string name="open_source_libraries">Açık Kaynak Kütüphaneler</string>
+
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="effective_date">Yürürlük tarihi: 5 Şubat 2026</string>
+
+    <string name="vpn_on">VPN Açık</string>
+    <string name="vpn_off">VPN Kapalı</string>
+    <string name="connecting">Bağlanıyor…</string>
+    <string name="connection_failed">Bağlantı Kurulamadı</string>
+    <string name="tap_to_connect">Bağlanmak için dokunun</string>
+    <string name="tap_to_disconnect">Bağlantıyı kesmek için dokunun</string>
+    <string name="connecting_to_server">Sunucuya bağlanılıyor…</string>
+    <string name="cd_menu">Menü</string>
+
+    <string name="trying_server">Sonraki sunucu deneniyor…</string>
+
+    <string name="tap_to_cancel">İptal için dokunun</string>
+    <string name="close_menu">Menüyü kapat</string>
+    <string name="made_in_usa">ABD\'de üretildi</string>
+
+    <string name="region_label">Bölge</string>
+    <string name="region_automatic">Otomatik</string>
+    <string name="region_auto_hint">En hızlı çalışan bölgeyi seçer</string>
+    <string name="region_location_hint">Bu konum üzerinden bağlan</string>
+    <string name="region_locked_hint">Otomatik — bölge seçimi Premium\'da</string>
+    <string name="go_premium">Premium\'a Geç</string>
+    <string name="premium_tagline">Her zaman tam hız · istediğiniz bölge</string>
+    <string name="upgrade">Yükselt</string>
+    <string name="language">Dil</string>
+    <string name="language_auto">Otomatik (bölgeye göre)</string>
+    <string name="data_free_remaining">%1$s kaldı</string>
+    <string name="data_free_out">Ücretsiz veri bitti</string>
+    <string name="data_free_low_cta">Veriniz azalıyor — tam hızda kalmak için yükseltin</string>
+    <string name="data_free_out_cta">Tam hızı geri istiyor musunuz? Premium\'a geçin.</string>
+    <string name="speed_state_full">Tam hız</string>
+    <string name="speed_state_reduced">Düşük hız</string>
+    <string name="premium_title_throttled">Tam hızınızı geri alın</string>
+
+    <string name="qr_config_applied_ok">Yeni sunucular eklendi \u2014 bir sonraki bağlantınızda geçerli olur</string>
+
+    <string name="premium_active">Premium etkin \u2713</string>
+    <string name="loading_plans">Planlar yükleniyor\u2026</string>
+    <string name="restore">Geri yükle</string>
+    <string name="restore_none">Bu mağaza hesabında abonelik bulunamadı</string>
+
+    <string name="search_apps">Uygulama ara\u2026</string>
+
+    <string name="status_starting_vpn">VPN başlatılıyor\u2026</string>
+    <string name="status_finding_path">En hızlı yol aranıyor\u2026</string>
+    <string name="status_disconnected">Bağlantı kesildi</string>
+    <string name="status_failed">Bağlantı başarısız: %1$s</string>
+    <string name="wgtcp_no_data_path">WGTCP trafiği geçiremedi \u2014 RedSocket kullanılıyor</string>
+
+    <string name="welcome_title">Bağlantınız için bir koruyucu</string>
+
+    <string name="welcome_title_accent">koruyucu</string>
+    <string name="welcome_body">Sessiz, tetikte, ödün vermez. %1$s, sizinle özgür internet arasında durur.</string>
+    <string name="get_started">Başla</string>
+
+    <string name="paywall_eyebrow">%1$s PREMIUM</string>
+    <string name="paywall_subhead">Önünüzde hiçbir engel yok.</string>
+    <string name="paywall_perk_regions_title">Tüm bölgeler</string>
+    <string name="paywall_perk_regions_body">Her yerden bağlanın, istediğiniz zaman değiştirin.</string>
+    <string name="paywall_perk_speed_title">Her zaman tam hız</string>
+    <string name="paywall_perk_speed_body">Kota yok, hız da hiç düşürülmüyor.</string>
+    <string name="plan_period_weekly">Haftalık</string>
+    <string name="plan_period_monthly">Aylık</string>
+    <string name="plan_period_3month">3 ayda bir</string>
+    <string name="plan_period_6month">6 ayda bir</string>
+    <string name="plan_period_yearly">Yıllık</string>
+    <string name="plan_save_badge">%1$d%% İNDİRİM</string>
+    <string name="plans_unavailable">Planlar şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="start_free_trial">Ücretsiz denemeyi başlat</string>
+    <string name="pay_with_card">Kartla öde</string>
+    <string name="pay_with_crypto">Kripto ile öde</string>
+    <string name="paywall_disclosure_play">İptal edilene kadar otomatik yenilenir. Dilediğiniz zaman \u2068Google Play \u203A Subscriptions\u2069 bölümünden iptal edin.</string>
+    <string name="paywall_disclosure_stripe">Kartlar, Apple Pay ve Google Pay \u2014 Stripe güvencesiyle. İptal edilene kadar yenilenir.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT ve diğer coinler. Kart yok, banka yok \u2014 ödemeyi size bağlayan hiçbir şey yok.</string>
+    <string name="cd_close">Kapat</string>
+
+    <string name="split_tunnel_title">Uygulamalar ve VPN</string>
+    <string name="split_mode_exclude">Seçilenler dışındaki tüm uygulamalar</string>
+    <string name="split_mode_exclude_desc">Seçilen uygulamalar VPN\'i atlayıp doğrudan bağlanır. Bunu bankacılık ve diğer yerel uygulamalar için kullanın.</string>
+    <string name="split_mode_include">Yalnızca seçili uygulamalar</string>
+    <string name="split_state_all">Tüm uygulamalar VPN kullanıyor</string>
+    <string name="split_state_none">Hiçbir uygulama VPN kullanmıyor</string>
+    <string name="split_state_bypass">%2$d uygulamadan %1$d tanesi VPN\'i atlıyor</string>
+    <string name="split_state_only">%2$d uygulamadan %1$d tanesi VPN kullanıyor</string>
+    <string name="split_reconnect_note">Değişiklikler VPN\'i yeniden bağlar.</string>
+    <string name="select_recommended">Önerilenler</string>
+    <string name="select_all">Tümü</string>
+    <string name="select_none">Hiçbiri</string>
+
+    <string name="speed_state_limited">%1$s ile sınırlı</string>
+    <string name="data_free_low_note">Bundan sonra %1$s hızında çalışmaya devam eder. Premium tam hızda kalır.</string>
+    <string name="data_free_out_note">Bağlantı sürüyor, %1$s hızında. Premium tam hızı geri getirir.</string>
+    <string name="data_free_one_time">Aylık kota</string>
+    <string name="premium_title_default">Sınırsız veri, her zaman tam hız</string>
+    <string name="paywall_subhead_offer">Ücretsiz kotanız her ay yenilenir. Premium hiç bitmez.</string>
+    <string name="paywall_subhead_throttled">Şu anda %1$s ile sınırlısınız. Premium bu sınırı kaldırır.</string>
+    <string name="paywall_perk_data_title">Sınırsız veri</string>
+    <string name="paywall_perk_data_body">Ücretsiz kota her ay yenilenir. Premium\'da sınır yoktur.</string>
+    <string name="paywall_perk_data_body_once">Ücretsiz kota yalnızca bir kez verilir. Premium\'da veri hiç bitmez.</string>
+    <string name="paywall_perk_speed_body_limit">Ücretsiz kota bitince hız %1$s seviyesine düşer. Premium sürümünde hiç düşmez.</string>
+    <string name="paywall_reassure">Hesap da e-posta da gerekmez.</string>
+    <string name="plan_per_month">aylık %1$s</string>
+    <string name="proof_downloads">%1$s üzerinde indirme</string>
+    <string name="proof_rating">%2$s değerlendirmeden %1$s</string>
+    <string name="bypass_title">VPN’i atlayan hedefler</string>
+    <string name="bypass_desc">Bu IP adreslerine ve aralıklarına giden trafik, hangi uygulama gönderirse göndersin doğrudan bağlanır. Yabancı adresleri kabul etmeyen yerel bankacılık ve devlet hizmetleri için kullanışlıdır.</string>
+    <string name="bypass_hint">IP veya aralık, örn. 192.168.1.0/24</string>
+    <string name="bypass_add">Ekle</string>
+    <string name="bypass_remove">Kaldır</string>
+    <string name="bypass_invalid">Bir IP adresi veya aralığı girin, örneğin 10.0.0.0/8</string>
+    <string name="bypass_none">Yok — tüm hedefler VPN kullanıyor</string>
+    <string name="bypass_count">%1$d hedef VPN’i atlıyor</string>
+    <string name="bypass_over_budget">%1$d girdi bu cihazda uygulanamıyor ve VPN kullanmaya devam ediyor. Bazı girdileri kaldırın veya daha geniş aralıklar kullanın.</string>
+    <string name="restore_ok">Premium geri yüklendi</string>
+    <string name="restore_invalid">Kod geçersiz</string>
+    <string name="open_source_intro">%1$s aşağıdaki açık kaynak projelerinin yardımıyla geliştirilmiştir.</string>
+    <string name="cd_back">Geri</string>
+    <string name="paywall_perk_ixp_title">Kendi donanımımız</string>
+    <string name="paywall_perk_ixp_body">Çoğu VPN ucuz sanal sunucu kiralar. Bizimkiler dünyanın büyük ağlarının buluştuğu internet değişim noktalarının içinde — daha kısa yol, daha hızlı uygulama.</string>
+    <string name="onboarding_plans_title">Ücretsiz veya Premium</string>
+    <string name="continue_label">Devam</string>
+    <string name="skip_label">Atla</string>
+    <string name="rate_app">%1$s uygulamasını değerlendir</string>
+    <string name="tabs_notices">Duyurular</string>
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">Интернети озод барои ҳама, дар ҳама ҷо</string>
+    <string name="about_description_1">%1$s ба шумо дастрасии тез ва хусусиро ба интернети озод медиҳад, то сайтҳо ва барномаҳое, ки ба онҳо такя мекунед, дар ҳар ҷое бошед, кор кунанд.</string>
+    <string name="about_description_2">%1$s аз ҷониби гурӯҳи байналмилалии муҳандисони шабака ва амният ва ҷонибдорони деринаи озодии интернет сохта ва идора карда мешавад. Зиёда аз даҳ сол боз мо барои мустаҳкам кардани амнияти рақамӣ ва ҳифзи дастрасии озод ва бесензура ба маълумот барои мардум дар ҳама ҷо кор мекунем.</string>
+    <string name="about_screen_title">Дар бораи %1$s</string>
+
+    <string name="premium">Premium</string>
+    <string name="usage_stats">Омори истифода</string>
+    <string name="usage_total_used">Ҳаҷми умумии истифодашуда</string>
+    <string name="usage_this_session">Ин ҷаласа</string>
+    <string name="usage_free_allowance">Ҳаҷми ройгон</string>
+    <string name="usage_device_note">Ҳаҷми умумӣ дар ин дастгоҳ аз рӯи ҳамаи ҷаласаҳо ҳисоб карда мешавад.</string>
+    <string name="usage_used_up">Ҳаҷми ройгон тамом шуд — барои бештар такмил диҳед</string>
+
+    <string name="protected_apps">Барномаҳои муҳофизатшаванда</string>
+    <string name="only_selected_apps">Танҳо барномаҳои интихобшуда VPN-ро истифода мебаранд</string>
+
+    <string name="appearance">Намуди зоҳирӣ</string>
+    <string name="theme_auto">Худкор</string>
+    <string name="theme_light">Равшан</string>
+    <string name="theme_dark">Торик</string>
+    <string name="settings">Танзимот</string>
+    <string name="help_improve">Ба беҳтар шудани %1$s кӯмак кунед</string>
+    <string name="help_improve_desc">Санҷишҳои беноми пайвастшавиро мубодила кунед, то мо роҳҳои кориро зудтар пайдо кунем.</string>
+    <string name="share_debug_log">Мубодилаи сабти ислоҳи хатоҳо</string>
+    <string name="about">Дар бораи барнома</string>
+    <string name="version_format">Нусхаи %s</string>
+    <string name="open_source_libraries">Китобхонаҳои сарчашмаи кушод</string>
+    <string name="privacy_policy">Сиёсати махфият</string>
+    <string name="effective_date">Санаи эътибор: 5 феврали соли 2026</string>
+
+    <string name="vpn_on">VPN фаъол</string>
+    <string name="vpn_off">VPN хомӯш</string>
+    <string name="connecting">Пайвастшавӣ…</string>
+    <string name="connection_failed">Пайвастшавӣ ноком шуд</string>
+    <string name="tap_to_connect">Барои пайваст шудан зер кунед</string>
+    <string name="tap_to_disconnect">Барои қатъ кардан зер кунед</string>
+    <string name="connecting_to_server">Пайвастшавӣ ба сервер…</string>
+    <string name="cd_menu">Меню</string>
+    <string name="trying_server">Санҷиши сервери навбатӣ…</string>
+    <string name="tap_to_cancel">Барои бекор кардан зер кунед</string>
+    <string name="close_menu">Пӯшидани меню</string>
+    <string name="made_in_usa">Сохти ИМА</string>
+
+    <string name="region_label">Минтақа</string>
+    <string name="region_automatic">Худкор</string>
+    <string name="region_auto_hint">Зудтарин минтақаи кориро интихоб мекунад</string>
+    <string name="region_location_hint">Тавассути ин ҷойгиршавӣ пайваст шавед</string>
+    <string name="region_locked_hint">Худкор — бо Premium минтақа интихоб кунед</string>
+
+    <string name="go_premium">Ба Premium гузаред</string>
+    <string name="premium_tagline">Ҳамеша суръати пурра · ҳар минтақа</string>
+    <string name="upgrade">Такмил</string>
+    <string name="language">Забон</string>
+    <string name="language_auto">Худкор (аз рӯи минтақа)</string>
+    <string name="data_free_remaining">%1$s боқӣ мондааст</string>
+    <string name="data_free_out">Ҳаҷми ройгон истифода шуд</string>
+    <string name="data_free_low_cta">Ҳаҷм кам мондааст — барои суръати пурра такмил диҳед</string>
+    <string name="data_free_out_cta">Суръати пурра мехоҳед? Ба Premium гузаред.</string>
+    <string name="speed_state_full">Суръати пурра</string>
+    <string name="speed_state_reduced">Суръати маҳдуд</string>
+    <string name="premium_title_throttled">Суръати пурраатонро баргардонед</string>
+
+    <string name="premium_active">Premium фаъол аст ✓</string>
+    <string name="loading_plans">Боркунии нақшаҳо…</string>
+    <string name="restore">Барқарор кардан</string>
+    <string name="restore_none">Дар ин ҳисоби мағоза обуна ёфт нашуд</string>
+    <string name="search_apps">Ҷустуҷӯи барномаҳо…</string>
+
+    <string name="status_starting_vpn">Оғози VPN…</string>
+    <string name="status_finding_path">Ҷустуҷӯи зудтарин роҳ…</string>
+    <string name="status_disconnected">Қатъ шуд</string>
+    <string name="status_failed">Пайвастшавӣ ноком шуд: %1$s</string>
+
+    <string name="welcome_title">Нигаҳбон барои пайвасти шумо</string>
+    <string name="welcome_title_accent">Нигаҳбон</string>
+    <string name="welcome_body">Ором, ҳушёр, устувор. %1$s байни шумо ва интернети озод меистад.</string>
+    <string name="get_started">Оғоз кунед</string>
+
+    <string name="qr_config_applied_ok">Серверҳои нав илова шуданд — ҳангоми пайвасти навбатӣ татбиқ мешаванд</string>
+
+    <string name="wgtcp_no_data_path">WGTCP трафикро гузаронида натавонист — RedSocket истифода мешавад</string>
+
+    <string name="paywall_eyebrow">%1$s PREMIUM</string>
+    <string name="paywall_subhead">Дар роҳи шумо ҳеҷ монеае нест.</string>
+    <string name="paywall_perk_regions_title">Ҳамаи минтақаҳо</string>
+    <string name="paywall_perk_regions_body">Аз ҳар ҷо пайваст шавед, ҳар вақт иваз кунед.</string>
+    <string name="paywall_perk_speed_title">Ҳамеша суръати пурра</string>
+    <string name="paywall_perk_speed_body">Бе маҳдудият ва бе сустшавии суръат.</string>
+    <string name="plan_period_weekly">Ҳарҳафтаина</string>
+    <string name="plan_period_monthly">Ҳармоҳа</string>
+    <string name="plan_period_3month">Ҳар 3 моҳ</string>
+    <string name="plan_period_6month">Ҳар 6 моҳ</string>
+    <string name="plan_period_yearly">Ҳарсола</string>
+    <string name="plan_save_badge">%1$d%% сарфа</string>
+    <string name="plans_unavailable">Нақшаҳо ҳоло дастрас нестанд. Лутфан, баъдтар боз кӯшиш кунед.</string>
+    <string name="start_free_trial">Оғози давраи ройгон</string>
+    <string name="pay_with_card">Пардохт бо корт</string>
+    <string name="pay_with_crypto">Пардохт бо криптоасъор</string>
+    <string name="paywall_disclosure_play">То лағв кардан худкор нав мешавад. Дар ҳар вақт аз \u2068Google Play \u203A Subscriptions\u2069 лағв кунед.</string>
+    <string name="paywall_disclosure_stripe">Кортҳо, Apple Pay ва Google Pay \u2014 бо Stripe муҳофизат мешавад. То лағв кардан нав мешавад.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT ва тангаҳои дигар. Бе корт, бе бонк \u2014 ҳеҷ чиз пардохтро бо шумо пайваст намекунад.</string>
+    <string name="cd_close">Пӯшидан</string>
+
+    <string name="split_tunnel_title">Барномаҳо ва VPN</string>
+    <string name="split_mode_exclude">Ҳамаи барномаҳо ба ғайр аз интихобшудагон</string>
+    <string name="split_mode_exclude_desc">Барномаҳои интихобшуда аз VPN намегузаранд ва мустақим пайваст мешаванд. Инро барои барномаҳои бонкӣ ва дигар барномаҳои маҳаллӣ истифода баред.</string>
+    <string name="split_mode_include">Танҳо барномаҳои интихобшуда</string>
+    <string name="split_state_all">Ҳамаи барномаҳо VPN-ро истифода мебаранд</string>
+    <string name="split_state_none">Ҳеҷ барнома VPN-ро истифода намебарад</string>
+    <string name="split_state_bypass">%1$d аз %2$d барнома аз VPN намегузарад</string>
+    <string name="split_state_only">%1$d аз %2$d барнома VPN-ро истифода мебарад</string>
+    <string name="split_reconnect_note">Тағйирот VPN-ро аз нав пайваст мекунад.</string>
+    <string name="select_recommended">Тавсияшуда</string>
+    <string name="select_all">Ҳама</string>
+    <string name="select_none">Ҳеҷ</string>
+
+    <string name="speed_state_limited">То %1$s маҳдуд</string>
+    <string name="data_free_low_note">Пас аз ин бо %1$s кор мекунад. Premium бо суръати пурра мемонад.</string>
+    <string name="data_free_out_note">Пайваст боқӣ мемонад, бо %1$s. Premium суръати пурраро бармегардонад.</string>
+    <string name="data_free_one_time">Ҳаҷми моҳона</string>
+    <string name="premium_title_default">Ҳаҷми бемаҳдуд, ҳамеша суръати пурра</string>
+    <string name="paywall_subhead_offer">Ҳаҷми ройгони шумо ҳар моҳ нав мешавад. Premium ҳеҷ гоҳ тамом намешавад.</string>
+    <string name="paywall_subhead_throttled">Ҳоло суръати шумо то %1$s маҳдуд аст. Premium ин маҳдудиятро бармедорад.</string>
+    <string name="paywall_perk_data_title">Ҳаҷми бемаҳдуд</string>
+    <string name="paywall_perk_data_body">Ҳаҷми ройгон ҳар моҳ нав мешавад. Premium маҳдудият надорад.</string>
+    <string name="paywall_perk_data_body_once">Ҳаҷми ройгон танҳо як бор дода мешавад. Бо Premium ҳаҷм ҳеҷ гоҳ тамом намешавад.</string>
+    <string name="paywall_perk_speed_body_limit">Пас аз тамом шудани ҳаҷми ройгон суръат то %1$s мефарояд. Дар Premium ҳеҷ гоҳ.</string>
+    <string name="paywall_reassure">На ҳисоб лозим аст, на почтаи электронӣ.</string>
+    <string name="plan_per_month">%1$s дар як моҳ</string>
+    <string name="proof_downloads">Зиёда аз %1$s боргирӣ</string>
+    <string name="proof_rating">%1$s аз рӯи %2$s баррасӣ</string>
+    <string name="bypass_title">Суроғаҳое, ки аз VPN намегузаранд</string>
+    <string name="bypass_desc">Трафик ба ин суроғаҳо ва диапазонҳои IP новобаста аз барнома мустақим пайваст мешавад. Барои хизматрасониҳои бонкӣ ва давлатии маҳаллӣ, ки суроғаҳои хориҷиро қабул намекунанд, муфид аст.</string>
+    <string name="bypass_hint">Суроғаи IP ё диапазон, масалан 192.168.1.0/24</string>
+    <string name="bypass_add">Илова кардан</string>
+    <string name="bypass_remove">Нест кардан</string>
+    <string name="bypass_invalid">Суроғаи IP ё диапазонро ворид кунед, масалан 10.0.0.0/8</string>
+    <string name="bypass_none">Ҳеҷ — ҳамаи суроғаҳо аз VPN мегузаранд</string>
+    <string name="bypass_count">%1$d суроға аз VPN намегузарад</string>
+    <string name="bypass_over_budget">%1$d сабт дар ин дастгоҳ татбиқ намешавад ва ҳанӯз ҳам аз VPN мегузарад. Якчанд сабтро нест кунед ё диапазонҳои васеътарро истифода баред.</string>
+    <string name="restore_ok">Premium барқарор шуд</string>
+    <string name="restore_invalid">Рамз эътибор надорад</string>
+    <string name="open_source_intro">%1$s бо кӯмаки лоиҳаҳои зерини кушодаманбаъ сохта шудааст.</string>
+    <string name="cd_back">Бозгашт</string>
+    <string name="paywall_perk_ixp_title">Таҷҳизоти худи мо</string>
+    <string name="paywall_perk_ixp_body">Аксари VPN серверҳои виртуалии арзонро иҷора мегиранд. Аз они мо дар дохили марказҳои мубодилаи интернет ҷойгиранд, ки шабакаҳои бузурги ҷаҳон дар он ҷо вомехӯранд — роҳи кӯтоҳтар ва барномаи тезтар.</string>
+    <string name="onboarding_plans_title">Ройгон ё Premium</string>
+    <string name="continue_label">Идома</string>
+    <string name="skip_label">Гузарондан</string>
+    <string name="rate_app">Баҳо додан ба %1$s</string>
+    <string name="tabs_notices">Огоҳиҳо</string>
+</resources>

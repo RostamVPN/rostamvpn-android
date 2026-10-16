@@ -1,0 +1,49 @@
+# ── Rust ──────────────────────────────────────────────
+**/target/
+Cargo.lock.orig
+
+# ── Android / Gradle ──────────────────────────────────
+android/gen/android/build/
+android/gen/android/app/build/
+.gradle/
+**/.cxx/
+local.properties
+*.apk
+*.aab
+
+# ── Node ──────────────────────────────────────────────
+**/node_modules/
+
+# ── Large data / dumps ────────────────────────────────
+*.csv
+
+# ── IDE / OS ──────────────────────────────────────────
+.idea/
+*.iml
+.DS_Store
+
+# Signing material is never committed. See android/README.md for the
+# key.properties layout.
+*.jks
+*.keystore
+key.properties
+
+# Derived knowledge-graph output; regenerable.
+.ua/
+build/store/
+
+# Kotlin compiler session files: build scratch, never source.
+.kotlin/
+
+# Generated handoff kits: rebuild with tools/brand/gen-brand-kit.py.
+brand-kits/
+
+# Python bytecode.
+__pycache__/
+*.pyc
+
+!**/vendor/**
+!**/vendor/**/target/
+!**/vendor/**/.cargo/
+!**/.cargo/
+!**/local-maven/**

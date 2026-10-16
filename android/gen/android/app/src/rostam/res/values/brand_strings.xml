@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name" translatable="false">RostamVPN</string>
+  <string name="main_activity_title" translatable="false">RostamVPN</string>
+  <string name="app_tagline">Your Digital Guardian</string>
+  <string name="legal_operator" translatable="false">REPLACE_WITH_OPERATOR</string>
+  <string name="legal_email" translatable="false">support@rostam.app</string>
+  <string name="legal_site" translatable="false">https://www.Rostam.app/</string>
+</resources>

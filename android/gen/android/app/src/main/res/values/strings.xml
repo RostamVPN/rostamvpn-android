@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name" translatable="false">RostamVPN</string>
+    <string name="main_activity_title" translatable="false">RostamVPN</string>
+
+    <string name="about_title">An Open Internet for Everyone, Everywhere</string>
+    <string name="about_description_1">%1$s gives you fast, private access to the open internet, so the sites and apps you rely on keep working wherever you are.</string>
+    <string name="about_description_2">%1$s is built and operated by an international team of network and security engineers and longtime advocates for internet freedom. For over a decade, we have worked to strengthen digital security and protect open, uncensored access to information for people everywhere.</string>
+
+    <string name="about_screen_title">About %1$s</string>
+
+    <string name="premium">Premium</string>
+    <string name="usage_stats">Usage stats</string>
+    <string name="usage_total_used">Total data used</string>
+    <string name="usage_this_session">This session</string>
+    <string name="usage_free_allowance">Free allowance</string>
+    <string name="usage_device_note">Total is measured on this device across all sessions.</string>
+    <string name="usage_used_up">Free data used up — upgrade for more</string>
+
+    <string name="protected_apps">Protected Apps</string>
+
+    <string name="only_selected_apps">Only selected apps will use the VPN</string>
+    <string name="split_tunnel_title">Apps and the VPN</string>
+    <string name="split_mode_exclude">All apps except selected</string>
+    <string name="split_mode_exclude_desc">Selected apps skip the VPN and connect directly. Use this for banking and other local apps.</string>
+    <string name="split_mode_include">Only selected apps</string>
+    <string name="split_state_all">All apps use the VPN</string>
+    <string name="split_state_none">No apps use the VPN</string>
+    <string name="split_state_bypass">%1$d of %2$d apps skip the VPN</string>
+    <string name="split_state_only">%1$d of %2$d apps use the VPN</string>
+    <string name="split_reconnect_note">Changes reconnect the VPN.</string>
+    <string name="bypass_title">Destinations that skip the VPN</string>
+    <string name="bypass_desc">Traffic to these IP addresses and ranges connects directly, whichever app sends it. Useful for local banking and government services that refuse foreign addresses.</string>
+    <string name="bypass_hint">IP or range, e.g. 192.168.1.0/24</string>
+    <string name="bypass_add">Add</string>
+    <string name="bypass_remove">Remove</string>
+    <string name="bypass_invalid">Enter an IP address or range, such as 10.0.0.0/8</string>
+    <string name="bypass_none">None — all destinations use the VPN</string>
+    <string name="bypass_count">%1$d destination(s) skip the VPN</string>
+    <string name="bypass_over_budget">%1$d entry cannot be applied on this device and still uses the VPN. Remove some entries or use wider ranges.</string>
+    <string name="select_recommended">Recommended</string>
+    <string name="select_all">All</string>
+    <string name="select_none">None</string>
+
+    <string name="appearance">Appearance</string>
+    <string name="theme_auto">Auto</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="settings">Settings</string>
+    <string name="help_improve">Help %1$s Improve</string>
+    <string name="help_improve_desc">Share anonymous connectivity probes to help us find working transports faster.</string>
+    <string name="share_debug_log">Share Debug Log</string>
+    <string name="about">About</string>
+    <string name="version_format">Version %s</string>
+    <string name="app_tagline">Your Digital Guardian</string>
+
+    <string name="open_source_libraries">Open Source Libraries</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="effective_date">Effective date: February 5, 2026</string>
+
+    <string name="vpn_on">VPN On</string>
+    <string name="vpn_off">VPN Off</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="tap_to_connect">Tap to connect</string>
+    <string name="tap_to_disconnect">Tap to disconnect</string>
+    <string name="connecting_to_server">Connecting to server…</string>
+    <string name="cd_menu">Menu</string>
+
+    <string name="trying_server">Trying next server…</string>
+
+    <string name="tap_to_cancel">Tap to cancel</string>
+    <string name="close_menu">Close menu</string>
+    <string name="made_in_usa">Made in USA</string>
+
+    <string name="region_label">Region</string>
+    <string name="region_automatic">Automatic</string>
+    <string name="region_auto_hint">Picks the fastest working region</string>
+    <string name="region_location_hint">Connect via this location</string>
+    <string name="region_locked_hint">Automatic — choose a region with Premium</string>
+    <string name="go_premium">Go Premium</string>
+    <string name="premium_tagline">Full speed always · choose any region</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="language">Language</string>
+    <string name="language_auto">Automatic (by region)</string>
+    <string name="data_free_remaining">%1$s left</string>
+    <string name="data_free_out">Free data used</string>
+    <string name="data_free_low_cta">Running low — upgrade to stay at full speed</string>
+    <string name="data_free_out_cta">Want full speed back? Upgrade to Premium.</string>
+    <string name="speed_state_full">Full speed</string>
+    <string name="speed_state_reduced">Reduced speed</string>
+    <string name="premium_title_throttled">Get your full speed back</string>
+
+    <string name="speed_state_limited">Limited to %1$s</string>
+    <string name="data_free_low_note">It keeps working at %1$s after this. Premium stays at full speed.</string>
+    <string name="data_free_out_note">Still connected, at %1$s. Premium restores full speed.</string>
+    <string name="data_free_one_time">Monthly allowance</string>
+
+    <string name="premium_title_default">Unlimited data, always full speed</string>
+
+    <string name="premium_active">Premium is active \u2713</string>
+    <string name="loading_plans">Loading plans\u2026</string>
+    <string name="restore">Restore</string>
+
+    <string name="search_apps">Search apps\u2026</string>
+
+    <string name="status_starting_vpn">Starting VPN\u2026</string>
+    <string name="status_finding_path">Finding fastest path\u2026</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_failed">Connection failed: %1$s</string>
+
+    <string name="welcome_title">A guardian for your connection</string>
+
+    <string name="welcome_title_accent">guardian</string>
+    <string name="welcome_body">Quiet, vigilant, uncompromising. %1$s stands between you and the open internet.</string>
+    <string name="get_started">Get started</string>
+
+    <string name="qr_config_applied_ok">New servers added \u2014 they apply on your next connect</string>
+
+    <string name="wgtcp_no_data_path">WGTCP couldn\'t pass traffic \u2014 using RedSocket</string>
+
+    <string name="paywall_eyebrow">%1$s PREMIUM</string>
+    <string name="paywall_subhead">Nothing in your way.</string>
+    <string name="paywall_perk_regions_title">Every region</string>
+    <string name="paywall_perk_regions_body">Connect anywhere, switch anytime.</string>
+    <string name="paywall_perk_speed_title">Full speed, always</string>
+    <string name="paywall_perk_speed_body">No cap, and never slowed down.</string>
+
+    <string name="paywall_subhead_offer">Your free allowance renews every month. Premium never runs out.</string>
+    <string name="paywall_subhead_throttled">You are limited to %1$s right now. Premium removes the cap.</string>
+
+    <string name="paywall_perk_data_title">Unlimited data</string>
+    <string name="paywall_perk_data_body">The free allowance renews every month. Premium has no cap.</string>
+
+    <string name="paywall_perk_data_body_once">Your free data is a one-time allowance. Premium never runs out.</string>
+    <string name="paywall_perk_speed_body_limit">Free drops to %1$s once it runs out. Premium never does.</string>
+    <string name="paywall_perk_ixp_title">Our own hardware</string>
+    <string name="paywall_perk_ixp_body">Most VPNs rent cheap virtual servers. Ours sits inside the internet exchanges where the world\'s major networks meet — a shorter path, and a faster app.</string>
+
+    <string name="paywall_reassure">No account or email needed.</string>
+
+    <string name="plan_per_month">%1$s per month</string>
+
+    <string name="proof_downloads">Over %1$s downloads</string>
+    <string name="proof_rating">%1$s from %2$s reviews</string>
+    <string name="plan_period_weekly">Weekly</string>
+    <string name="plan_period_monthly">Monthly</string>
+    <string name="plan_period_3month">Every 3 months</string>
+    <string name="plan_period_6month">Every 6 months</string>
+    <string name="plan_period_yearly">Yearly</string>
+    <string name="plan_save_badge">SAVE %1$d%%</string>
+    <string name="plans_unavailable">Plans aren\'t available right now. Please try again later.</string>
+    <string name="start_free_trial">Start free trial</string>
+    <string name="pay_with_card">Pay with card</string>
+    <string name="pay_with_crypto">Pay with crypto</string>
+    <string name="paywall_disclosure_play">Renews automatically until canceled. Cancel anytime in \u2068Google Play \u203A Subscriptions\u2069.</string>
+    <string name="paywall_disclosure_stripe">Cards, Apple Pay &amp; Google Pay \u2014 secured by Stripe. Renews until canceled.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT and other coins. No card, no bank \u2014 nothing links the payment to you.</string>
+    <string name="cd_close">Close</string>
+    <string name="restore_ok">Premium restored</string>
+    <string name="restore_invalid">Code not valid</string>
+    <string name="restore_none">No subscription found on this store account</string>
+    <string name="open_source_intro">%1$s is built with the help of the following open source projects.</string>
+    <string name="cd_back">Back</string>
+    <string name="onboarding_plans_title">Free, or Premium</string>
+    <string name="continue_label">Continue</string>
+    <string name="skip_label">Skip</string>
+    <string name="rate_app">Rate %1$s</string>
+
+    <string name="tabs_notices">Notices</string>
+</resources>

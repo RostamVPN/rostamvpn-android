@@ -1,0 +1,24 @@
+[target.aarch64-linux-android]
+rustflags = [
+  "--cfg", "chacha20_force_neon",
+  "--remap-path-prefix=/Users=/build",
+]
+
+[target.armv7-linux-androideabi]
+rustflags = [
+  "--remap-path-prefix=/Users=/build",
+]
+
+[build]
+rustflags = [
+  "--remap-path-prefix=/Users=/build",
+]
+
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+
+[env]
+CFLAGS = "-ffile-prefix-map=/Users=/build -ffile-prefix-map=/home=/build"

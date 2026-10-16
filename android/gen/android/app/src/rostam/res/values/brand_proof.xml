@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer name="brand_proof_downloads">2700000</integer>
+  <integer name="brand_proof_rating_x10">41</integer>
+  <integer name="brand_proof_reviews">15600</integer>
+</resources>

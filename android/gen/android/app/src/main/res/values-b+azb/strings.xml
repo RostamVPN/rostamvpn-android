@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">هامی اۆچون، هر یئرده آچیق اینترنت</string>
+    <string name="about_description_1">%1$s سیزه آچیق اینترنته سۆرعتلی و گیزلی گیریش تأمین ائدیر، بئله‌لیکله اعتماد ائتدیگینیز سایتلار و اپلیکاسیالار هارادا اولسانیز دا ایشله‌مه‌یه داوام ائدیر.</string>
+    <string name="about_description_2">%1$s بئینه‌لمیللی بیر شبکه و امنیت مۆهندیسلری تیمی، حابئله اینترنت آزادلیغینین چوخ ایللیک مۆدافیعچیلری طرفیندن یارادیلیب و ایداره اولونور. اون ایلدن آرتیقدیر کی رقمی امنیتی گۆجلندیرمک و هر یئرده اینسانلار اۆچون آچیق و سانسورسوز معلومات گیریشینی قوروماق یولوندا چالیشیریق.</string>
+
+    <string name="about_screen_title">%1$s حاقیندا</string>
+
+    <string name="premium">اؤزل نۆسخه</string>
+    <string name="usage_stats">ایستیفاده آمارلاری</string>
+    <string name="usage_total_used">ایشله‌نن اۆمومی داده</string>
+    <string name="usage_this_session">بۇ جلسه</string>
+    <string name="usage_free_allowance">پولسوز سهمیه</string>
+    <string name="usage_device_note">اۆمومی مقدار بۇ جیهازدا و بۆتۆن جلسه‌لر بویو اؤلچۆلۆر.</string>
+    <string name="usage_used_up">پولسوز داده قورتاردی — داها آرتیق اۆچون یۆکسلدین</string>
+
+    <string name="protected_apps">قورونان برنامه‌لر</string>
+    <string name="only_selected_apps">یالنیز سئچیلن برنامه‌لر VPN‌دن ایستیفاده ائده‌جک</string>
+
+    <string name="appearance">گؤرۆنۆش</string>
+    <string name="theme_auto">اوتوماتیک</string>
+    <string name="theme_light">ایشیقلی</string>
+    <string name="theme_dark">قارانلیق</string>
+
+    <string name="settings">تنظیملر</string>
+    <string name="help_improve">%1$s‌ی یاخشیلاشدیرماغا کؤمک ائدین</string>
+    <string name="help_improve_desc">آدسیز باغلانتی تستلرینی پایلاشماقلا، ایشله‌ین یوللاری داها تئز تاپماغیمیزا کؤمک ائدین.</string>
+    <string name="share_debug_log">خطا لاگینی پایلاش</string>
+    <string name="about">حاقیندا</string>
+    <string name="version_format">نۆسخه %s</string>
+
+    <string name="open_source_libraries">آچیق قایناقلی کیتابخانالار</string>
+
+    <string name="privacy_policy">محرمانه‌لیک سیاستی</string>
+    <string name="effective_date">اعتبار تاریخی: ۵ فوریه ۲۰۲۶</string>
+
+    <string name="vpn_on">VPN آچیق</string>
+    <string name="vpn_off">VPN باغلی</string>
+    <string name="connecting">باغلانیر…</string>
+    <string name="connection_failed">باغلانتی آلینمادی</string>
+    <string name="tap_to_connect">باغلانماق اۆچون توخونون</string>
+    <string name="tap_to_disconnect">باغلانتینی کسمک اۆچون توخونون</string>
+    <string name="connecting_to_server">سرورا باغلانیر…</string>
+    <string name="cd_menu">منو</string>
+
+    <string name="trying_server">سونراکی سرور یوخلانیر…</string>
+
+    <string name="tap_to_cancel">لغو ائتمک اۆچون توخونون</string>
+    <string name="close_menu">منونو باغلا</string>
+    <string name="made_in_usa">آمریکا ساختی</string>
+
+    <string name="region_label">بؤلگه</string>
+    <string name="region_automatic">اوتوماتیک</string>
+    <string name="region_auto_hint">ان سۆرعتلی ایشله‌ین بؤلگه‌نی سئچیر</string>
+    <string name="region_location_hint">بۇ یئر اۆزریندن باغلانین</string>
+    <string name="region_locked_hint">اوتوماتیک — بؤلگه سئچمک اۆچون اؤزل نۆسخه لازیمدیر</string>
+    <string name="go_premium">اؤزل نۆسخه آل</string>
+    <string name="premium_tagline">همیشه تام سۆرعت · ایسته‌دیگین بؤلگه‌نی سئچ</string>
+    <string name="upgrade">یۆکسلت</string>
+    <string name="language">دیل</string>
+    <string name="language_auto">اوتوماتیک (بؤلگه‌یه گؤره)</string>
+    <string name="data_free_remaining">%1$s قالیب</string>
+    <string name="data_free_out">پولسوز داده قورتاریب</string>
+    <string name="data_free_low_cta">آز قالیب — تام سۆرعتده قالماق اۆچون یۆکسلدین</string>
+    <string name="data_free_out_cta">تام سۆرعت ایسته‌ییرسن؟ اؤزل نۆسخه‌یه یۆکسلت.</string>
+    <string name="speed_state_full">تام سۆرعت</string>
+    <string name="speed_state_reduced">آزالدیلمیش سۆرعت</string>
+    <string name="premium_title_throttled">تام سۆرعتینی گئری آل</string>
+
+    <string name="qr_config_applied_ok">یئنی سرورلر اَلاوه اولوندو — سونراکی باغلانتیدان اعتبارلا ایشه دۆشۆر</string>
+
+    <string name="premium_active">اؤزل نۆسخه فعالدیر \u2713</string>
+    <string name="loading_plans">پلانلار یۆکلنیر\u2026</string>
+    <string name="restore">گری قایتار</string>
+    <string name="restore_none">بو مغازه حسابیندا آبونه‌لیک تاپیلمادی</string>
+
+    <string name="search_apps">برنامه‌لرده آختار\u2026</string>
+
+    <string name="status_starting_vpn">VPN باشلادیلیر\u2026</string>
+    <string name="status_finding_path">ان سۆرعتلی یول آختاریلیر\u2026</string>
+    <string name="status_disconnected">باغلانتی کسیلدی</string>
+    <string name="status_failed">باغلانتی آلینمادی: %1$s</string>
+
+    <string name="wgtcp_no_data_path">WGTCP ترافیکی کئچیره بیلمه‌دی — RedSocket ایشلدیلیر</string>
+
+    <string name="welcome_title">باغلانتین اۆچون بیر کشیکچی</string>
+
+    <string name="welcome_title_accent">کشیکچی</string>
+    <string name="welcome_body">سسسیز، آییق، گۆزشتسیز. %1$s سنینله آچیق اینترنت آراسیندا دایانیر.</string>
+    <string name="get_started">باشلا</string>
+
+    <string name="paywall_eyebrow">%1$s اؤزل نۆسخه</string>
+    <string name="paywall_subhead">قاباغیزدا هئچ بیر انگل یوخدور.</string>
+    <string name="paywall_perk_regions_title">بوتون بؤلگه‌لر</string>
+    <string name="paywall_perk_regions_body">هر یئره باغلانین، هر واخت ده‌ییشین.</string>
+    <string name="paywall_perk_speed_title">همیشه تام سوره‌ت</string>
+    <string name="paywall_perk_speed_body">لیمیت یوخدور، سوره‌ت هئچ واخت آزالدیلمیر.</string>
+    <string name="plan_period_weekly">هفته‌لیک</string>
+    <string name="plan_period_monthly">آیلیق</string>
+    <string name="plan_period_3month">هر 3 آیدان بیر</string>
+    <string name="plan_period_6month">هر 6 آیدان بیر</string>
+    <string name="plan_period_yearly">ایللیک</string>
+    <string name="plan_save_badge">%1$d%% ائندیریم</string>
+    <string name="plans_unavailable">پلانلار حاضیردا الچاتان دئییل. لطفاً سونرا یئنیدن جهد ائدین.</string>
+    <string name="start_free_trial">پولسوز سیناغا باشلا</string>
+    <string name="pay_with_card">کارتلا اؤده</string>
+    <string name="pay_with_crypto">کریپتو ایله اؤده</string>
+    <string name="paywall_disclosure_play">لغو ائدیلنه قدر اؤزو یئنیله‌نیر. هر واخت \u2068Google Play \u203A Subscriptions\u2069 بؤلومونده لغو ائده بیلرسینیز.</string>
+    <string name="paywall_disclosure_stripe">کارتلار، \u2068Apple Pay\u2069 و \u2068Google Pay\u2069 \u2014 \u2068Stripe\u2069 طرفیندن قورونور. لغو ائدیلنه قدر یئنیله‌نیر.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069، \u2068USDT\u2069 و باشقا کریپتووالیوتالار. کارت یوخدور، بانک یوخدور \u2014 اؤده‌نیشی سیزینله باغلایان هئچ نه یوخدور.</string>
+    <string name="cd_close">باغلا</string>
+
+    <string name="split_tunnel_title">برنامه‌لر و VPN</string>
+    <string name="split_mode_exclude">سئچیلنلردن باشقا بۆتون برنامه‌لر</string>
+    <string name="split_mode_exclude_desc">سئچیلن برنامه‌لر VPN‌دن یان کئچیب دوغرودان باغلانیر. بونو بانک و باشقا یئرلی برنامه‌لر اۆچون ایشلدین.</string>
+    <string name="split_mode_include">یالنیز سئچیلن برنامه‌لر</string>
+    <string name="split_state_all">بۆتون برنامه‌لر VPN ایشلدیر</string>
+    <string name="split_state_none">هئچ بیر برنامه VPN ایشلتمیر</string>
+    <string name="split_state_bypass">%2$d برنامه‌دن %1$d دنه‌سی VPN‌دن یان کئچیر</string>
+    <string name="split_state_only">%2$d برنامه‌دن %1$d دنه‌سی VPN ایشلدیر</string>
+    <string name="split_reconnect_note">ده‌ییشیکلیکلر VPN‌ی یئنیدن باغلاییر.</string>
+    <string name="select_recommended">تؤوصیه اولونان</string>
+    <string name="select_all">هامیسی</string>
+    <string name="select_none">هئچ بیری</string>
+
+    <string name="speed_state_limited">%1$s ایله محدودلاشیب</string>
+    <string name="data_free_low_note">بوندان سونرا %1$s سۆرعتی ایله ایشلمه‌یه داوام ائدیر. اؤزل نۆسخه تام سۆرعتده قالیر.</string>
+    <string name="data_free_out_note">باغلی قالیر، %1$s سۆرعتی ایله. اؤزل نۆسخه تام سۆرعتی قایتاریر.</string>
+    <string name="data_free_one_time">آیلیق کوتا</string>
+    <string name="premium_title_default">لیمیتسیز داده، همیشه تام سۆرعت</string>
+    <string name="paywall_subhead_offer">پولسوز سهمیه‌نیز هر آی یئنیله‌نیر. اؤزل نۆسخه هئچ واخت قورتارماز.</string>
+    <string name="paywall_subhead_throttled">ایندی %1$s ایله محدودلاشیبسان. اؤزل نۆسخه بو حددی گؤتۆرۆر.</string>
+    <string name="paywall_perk_data_title">لیمیتسیز داده</string>
+    <string name="paywall_perk_data_body">پولسوز سهمیه هر آی یئنیله‌نیر. اؤزل نۆسخه‌ده حدّ یوخدور.</string>
+    <string name="paywall_perk_data_body_once">پولسوز سهمیه یالنیز بیر دفعه وئریلیر. اؤزل نۆسخه‌ده داده هئچ واخت قورتارمیر.</string>
+    <string name="paywall_perk_speed_body_limit">پولسوز داده قورتاراندا سۆرعت %1$s سویه‌سینه دۆشۆر. اؤزل نۆسخه‌ده هئچ واخت دۆشمۆر.</string>
+    <string name="paywall_reassure">حساب و یا ای‌میل لازیم دئییل.</string>
+    <string name="plan_per_month">آیدا %1$s</string>
+    <string name="proof_downloads">%1$s-دن آرتیق ائندیرمه</string>
+    <string name="proof_rating">%2$s رأی اساسیندا %1$s</string>
+    <string name="bypass_title">VPN‌دن یان کئچن آدرسلر</string>
+    <string name="bypass_desc">بۇ IP آدرسلرینه و آرالیقلارینا گئدن ترافیک، هانسی برنامه گؤندرمه‌سیندن آسیلی اولمایاراق، دوغرودان باغلانیر. خارجی آدرسلری رد ائدن یئرلی بانک و دؤولت خیدمتلری اۆچون فایدالیدیر.</string>
+    <string name="bypass_hint">IP یا دا آرالیق، مثلاً 192.168.1.0/24</string>
+    <string name="bypass_add">اَلاوه ائت</string>
+    <string name="bypass_remove">سیل</string>
+    <string name="bypass_invalid">IP آدرسی یا دا آرالیق داخیل ائدین، مثلاً 10.0.0.0/8</string>
+    <string name="bypass_none">هئچ بیری — بۆتون آدرسلر VPN ایشلدیر</string>
+    <string name="bypass_count">%1$d آدرس VPN‌دن یان کئچیر</string>
+    <string name="bypass_over_budget">%1$d آدرس بۇ جیهازدا تطبیق اولونا بیلمیر و هله ده VPN ایشلدیر. بیر نئچه آدرسی سیلین یا دا داها گئنیش آرالیقلار ایشلدین.</string>
+    <string name="restore_ok">اؤزل نۆسخه گری قایتاریلدی</string>
+    <string name="restore_invalid">کود گئچرلی دئییل</string>
+    <string name="open_source_intro">%1$s آشاغیداکی آچیق قایناقلی پروژه‌لرین کؤمه‌یی ایله قورولوب.</string>
+    <string name="cd_back">گئری</string>
+    <string name="paywall_perk_ixp_title">اؤز دونانیمیمیز</string>
+    <string name="paywall_perk_ixp_body">چوخ VPN‌لر اوجوز مجازی سرورلر کیرایه‌لیر. بیزیمکی دونیانین باشلیجا شبکه‌لری بیرلشن اینترنت دَییشیم مرکزلرینده‌دیر — داها قیسا یول، داها سورعتلی اپلیکاسیون.</string>
+    <string name="onboarding_plans_title">پولسوز یا پریمیوم</string>
+    <string name="continue_label">داوام ائت</string>
+    <string name="skip_label">کئچ</string>
+    <string name="rate_app">%1$s دَیرلندیر</string>
+    <string name="tabs_notices">بیلدیریش‌لر</string>
+</resources>

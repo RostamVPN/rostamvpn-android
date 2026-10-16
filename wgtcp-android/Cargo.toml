@@ -1,0 +1,28 @@
+# Copyright 2026 Internet Mastering & Company, Inc.
+# SPDX-License-Identifier: Apache-2.0
+
+[package]
+name = "wgtcp-android"
+version = "1.0.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "WGTCP Android client core (WireGuard over a TCP carrier) — second protocol alongside redsocket_http"
+
+[lib]
+name = "wgtcp_core"
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+jni = "0.21"
+redsocket-wgtcp = { path = "../vendor/redsocket_wgtcp", default-features = false }
+tokio = { version = "1", features = ["net", "time", "sync", "io-util", "rt", "rt-multi-thread", "macros"] }
+log = { version = "0.4", features = ["release_max_level_warn"] }
+android_logger = "0.14"
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "unwind"
+strip = true

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">ንኹሉ ሰብ፡ ኣብ ኩሉ ቦታ ክፉት ኢንተርነት</string>
+    <string name="about_description_1">%1$s ናብ ክፉት ኢንተርነት ቅልጡፍን ብሕታውን መእተዊ ይህበካ፣ ስለዚ እቶም እትውከሶም ወብ ሳይታትን ኣፕሊኬሽናትን ኣበይ እንተሃለኻ ይሰርሑ።</string>
+    <string name="about_description_2">%1$s ብዓለምለኻዊት ጋንታ ናይ መርበብን ጸጥታን መሃንድሳት፡ ከምኡውን ነዊሕ እዋን ንናጽነት ኢንተርነት ዝጣበቑ ሰባት ይህነጽን ይመሓደርን። ልዕሊ ዓሰርተ ዓመታት ዲጂታላዊ ጸጥታ ንምሕያልን ኣብ ኩሉ ቦታ ንዘለዉ ሰባት ክፉትን ብዘይ ሳንሱርን መእተዊ ሓበሬታ ንምሕላውን ክንሰርሕ ጸኒሕና።</string>
+    <string name="about_screen_title">ብዛዕባ %1$s</string>
+
+    <string name="premium">ፕሪሚየም</string>
+    <string name="usage_stats">ስታቲስቲክስ ኣጠቓቕማ</string>
+    <string name="usage_total_used">ጠቕላላ ዝተጠቕመ ዳታ</string>
+    <string name="usage_this_session">እዚ ክፍለ ግዜ</string>
+    <string name="usage_free_allowance">ናጻ ድርሻ</string>
+    <string name="usage_device_note">ጠቕላላ ኣብዚ መሳርሒ ኣብ ኩሎም ክፍለ ግዜታት ይልካዕ።</string>
+    <string name="usage_used_up">ናጻ ዳታ ተወዲኡ — ተወሳኺ ንምርካብ ኣመሓይሹ</string>
+
+    <string name="protected_apps">ዝተሓለዉ ኣፕሊኬሽናት</string>
+    <string name="only_selected_apps">ዝተመርጹ ኣፕሊኬሽናት ጥራይ VPN ክጥቀሙ እዮም</string>
+
+    <string name="appearance">ትርኢት</string>
+    <string name="theme_auto">ኣውቶማቲክ</string>
+    <string name="theme_light">ብሩህ</string>
+    <string name="theme_dark">ጸሊም</string>
+    <string name="settings">ቅንብራት</string>
+    <string name="help_improve">%1$s ንኽመሓየሽ ሓግዙ</string>
+    <string name="help_improve_desc">ዝሰርሑ መንገድታት ብቕልጡፍ ንኽንረክብ ስም ኣልቦ መርመራታት ርክብ ኣካፍሉ።</string>
+    <string name="share_debug_log">መዝገብ ጸገማት ኣካፍል</string>
+    <string name="about">ብዛዕባ</string>
+    <string name="version_format">ሕታም %s</string>
+    <string name="open_source_libraries">ክፉት ምንጪ ላይብረሪታት</string>
+    <string name="privacy_policy">ፖሊሲ ብሕትውና</string>
+    <string name="effective_date">ዝጸንዓሉ ዕለት፡ 5 ፈብሩዋሪ 2026</string>
+
+    <string name="vpn_on">VPN ተወሊዑ</string>
+    <string name="vpn_off">VPN ጠፊኡ</string>
+    <string name="connecting">ይራኸብ ኣሎ…</string>
+    <string name="connection_failed">ርክብ ኣይተሳኸዐን</string>
+    <string name="tap_to_connect">ንምርኻብ ጠውቑ</string>
+    <string name="tap_to_disconnect">ንምቁራጽ ጠውቑ</string>
+    <string name="connecting_to_server">ምስ ሰርቨር ይራኸብ ኣሎ…</string>
+    <string name="cd_menu">ሜኑ</string>
+    <string name="trying_server">ዝቕጽል ሰርቨር ይፍትን ኣሎ…</string>
+    <string name="tap_to_cancel">ንምስራዝ ጠውቑ</string>
+    <string name="close_menu">ሜኑ ዕጸዉ</string>
+    <string name="made_in_usa">ኣብ ኣመሪካ ዝተሰርሐ</string>
+
+    <string name="region_label">ዞባ</string>
+    <string name="region_automatic">ኣውቶማቲክ</string>
+    <string name="region_auto_hint">እቲ ዝቐልጠፈ ዝሰርሕ ዞባ ይመርጽ</string>
+    <string name="region_location_hint">በዚ ቦታ ተራኸቡ</string>
+    <string name="region_locked_hint">ኣውቶማቲክ — ዞባ ንምምራጽ ፕሪሚየም የድሊ</string>
+
+    <string name="go_premium">ናብ ፕሪሚየም</string>
+    <string name="premium_tagline">ኩሉ ግዜ ምሉእ ቅልጣፈ · ዝኾነ ዞባ</string>
+    <string name="upgrade">ኣመሓይሽ</string>
+    <string name="language">ቋንቋ</string>
+    <string name="language_auto">ኣውቶማቲክ (ብዞባ)</string>
+    <string name="data_free_remaining">%1$s ተሪፉ</string>
+    <string name="data_free_out">ዝተጠቕመ ናጻ ዳታ</string>
+    <string name="data_free_low_cta">ዳታ እናወሓደ ይኸይድ — ብምሉእ ቅልጣፈ ንምቕጻል ኣመሓይሹ</string>
+    <string name="data_free_out_cta">ምሉእ ቅልጣፈ ትደልዩ ዲኹም? ናብ ፕሪሚየም ኣመሓይሹ።</string>
+    <string name="speed_state_full">ምሉእ ቅልጣፈ</string>
+    <string name="speed_state_reduced">ዝወሓደ ቅልጣፈ</string>
+    <string name="premium_title_throttled">ምሉእ ቅልጣፈኹም መሊስኩም ርኸቡ</string>
+
+    <string name="premium_active">ፕሪሚየም ንጡፍ እዩ ✓</string>
+    <string name="loading_plans">ትልምታት ይጽዓኑ ኣለዉ…</string>
+    <string name="restore">መልሱ</string>
+    <string name="restore_none">ኣብዚ ናይ መደብር ሕሳብ ምዝገባ ኣይተረኽበን</string>
+    <string name="search_apps">ኣፕሊኬሽናት ድለዩ…</string>
+
+    <string name="status_starting_vpn">VPN ይጅምር ኣሎ…</string>
+    <string name="status_finding_path">እቲ ዝቐልጠፈ መንገዲ ይድለ ኣሎ…</string>
+    <string name="status_disconnected">ተቋሪጹ</string>
+    <string name="status_failed">ርክብ ኣይተሳኸዐን፡ %1$s</string>
+
+    <string name="welcome_title">ሓላዊ ንርክብኩም</string>
+    <string name="welcome_title_accent">ሓላዊ</string>
+    <string name="welcome_body">ህዱእ፡ ንቑሕ፡ ዘይሰማማዕ። %1$s ኣብ መንጎኹምን ክፉት ኢንተርነትን ይቐውም።</string>
+    <string name="get_started">ጀምሩ</string>
+
+    <string name="qr_config_applied_ok">ሓደስቲ ሰርቨራት ተወሲኾም — ኣብ ዝቕጽል ርክብኩም ይሰርሑ</string>
+
+    <string name="wgtcp_no_data_path">WGTCP ትራፊክ ከሕልፍ ኣይከኣለን — RedSocket ይጥቀም ኣሎ</string>
+
+    <string name="paywall_eyebrow">%1$s ፕሪሚየም</string>
+    <string name="paywall_subhead">ዝዓግተካ ነገር የለን።</string>
+    <string name="paywall_perk_regions_title">ኩሎም ዞባታት</string>
+    <string name="paywall_perk_regions_body">ካብ ዝኾነ ቦታ ተራኸቡ፣ ኣብ ዝደለኹምዎ ግዜ ቀይሩ።</string>
+    <string name="paywall_perk_speed_title">ወትሩ ምሉእ ፍጥነት</string>
+    <string name="paywall_perk_speed_body">ደረት የብሉን፣ ፍጥነት እውን ኣይንኪን።</string>
+    <string name="plan_period_weekly">ሰሙናዊ</string>
+    <string name="plan_period_monthly">ወርሓዊ</string>
+    <string name="plan_period_3month">ኣብ ነፍሲ ወከፍ 3 ወርሒ</string>
+    <string name="plan_period_6month">ኣብ ነፍሲ ወከፍ 6 ወርሒ</string>
+    <string name="plan_period_yearly">ዓመታዊ</string>
+    <string name="plan_save_badge">%1$d%% ቅናሽ</string>
+    <string name="plans_unavailable">ውጥናት ሕጂ ኣይርከቡን። በጃኹም ደሓር ደጊምኩም ፈትኑ።</string>
+    <string name="start_free_trial">ናጻ ፈተነ ጀምር</string>
+    <string name="pay_with_card">ብካርድ ክፈል</string>
+    <string name="pay_with_crypto">ብክሪፕቶ ክፈል</string>
+    <string name="paywall_disclosure_play">ክሳብ ትስርዞ ባዕሉ ይሕደስ። ኣብ ዝኾነ ግዜ ኣብ \u2068Google Play \u203A Subscriptions\u2069 ክትስርዞ ትኽእል።</string>
+    <string name="paywall_disclosure_stripe">ካርድታት፣ Apple Pay ከምኡውን Google Pay \u2014 ብStripe ዝተሓለወ። ክሳብ ዝስረዝ ይሕደስ።</string>
+    <string name="paywall_disclosure_crypto">Bitcoin፣ USDT ከምኡውን ካልኦት ሳንቲማት። ካርድ የለን፣ ባንክ የለን \u2014 ነቲ ክፍሊት ምሳኻ ዘራኽብ ነገር የለን።</string>
+    <string name="cd_close">ዕጸው</string>
+
+    <string name="split_tunnel_title">ኣፕሊኬሽናትን VPNን</string>
+    <string name="split_mode_exclude">ብዘይካ እቶም ዝተመርጹ ኩሎም ኣፕሊኬሽናት</string>
+    <string name="split_mode_exclude_desc">ዝተመርጹ ኣፕሊኬሽናት ብ VPN ኣይሓልፉን፣ ብቐጥታ ይራኸቡ። ንባንክን ንኻልኦት ናይ ውሽጢ ዓዲ ኣፕሊኬሽናትን እዚ ተጠቐሙ።</string>
+    <string name="split_mode_include">ዝተመርጹ ኣፕሊኬሽናት ጥራይ</string>
+    <string name="split_state_all">ኩሎም ኣፕሊኬሽናት VPN ይጥቀሙ</string>
+    <string name="split_state_none">ዝኾነ ኣፕሊኬሽን VPN ኣይጥቀምን</string>
+    <string name="split_state_bypass">ካብ %2$d ኣፕሊኬሽናት %1$d ብ VPN ኣይሓልፉን</string>
+    <string name="split_state_only">ካብ %2$d ኣፕሊኬሽናት %1$d VPN ይጥቀሙ</string>
+    <string name="split_reconnect_note">ለውጢ ምስ ገበርኩም VPN ደጊሙ ይራኸብ።</string>
+    <string name="select_recommended">ዝምረጽ</string>
+    <string name="select_all">ኩሉ</string>
+    <string name="select_none">የለን</string>
+
+    <string name="speed_state_limited">ናብ %1$s ተደሪቱ</string>
+    <string name="data_free_low_note">ድሕሪ እዚ ብ %1$s ይቕጽል። ፕሪሚየም ብምሉእ ቅልጣፈ ይጸንሕ።</string>
+    <string name="data_free_out_note">ገና ተራኺቡ ኣሎ፣ ብ %1$s። ፕሪሚየም ምሉእ ቅልጣፈ ይመልስ።</string>
+    <string name="data_free_one_time">ወርሓዊ ኮታ</string>
+    <string name="premium_title_default">ዘይተደረተ ዳታ፣ ወትሩ ምሉእ ቅልጣፈ</string>
+    <string name="paywall_subhead_offer">ናጻ ኮታኻ ኣብ ወርሒ ይሕደስ። Premium ፈጺሙ ኣይውዳእን።</string>
+    <string name="paywall_subhead_throttled">ሕጂ ናብ %1$s ተደሪትኩም ኣለኹም። ፕሪሚየም ነዚ ደረት የልግሶ።</string>
+    <string name="paywall_perk_data_title">ዘይተደረተ ዳታ</string>
+    <string name="paywall_perk_data_body">ናጻ ኮታ ኣብ ወርሒ ይሕደስ። Premium ገደብ የብሉን።</string>
+    <string name="paywall_perk_data_body_once">ናጻ ኮታ ሓንሳብ ጥራይ እዩ ዝወሃብ። ምስ Premium ዳታ ፈጺሙ ኣይውዳእን።</string>
+    <string name="paywall_perk_speed_body_limit">ናጻ ዳታ ምስ ተወድአ ቅልጣፈ ናብ %1$s ይወርድ። ፕሪሚየም ፈጺሙ ኣይወርድን።</string>
+    <string name="paywall_reassure">ሕሳብ ወይ ኢመይል ኣየድልን።</string>
+    <string name="plan_per_month">%1$s ኣብ ወርሒ</string>
+    <string name="proof_downloads">ልዕሊ %1$s ምውራድ</string>
+    <string name="proof_rating">ካብ %2$s ገምጋማት %1$s</string>
+    <string name="bypass_title">ብ VPN ዘይሓልፉ ኣድራሻታት</string>
+    <string name="bypass_desc">ካብ ዝኾነ ኣፕሊኬሽን ይኹን፣ ናብዞም IP ኣድራሻታትን ክልላትን ዝኸይድ ትራፊክ ብቐጥታ ይራኸብ። ናይ ወጻኢ ኣድራሻታት ንዘይቅበሉ ናይ ውሽጢ ዓዲ ባንክን መንግስታዊ ኣገልግሎታትን ይጠቅም።</string>
+    <string name="bypass_hint">IP ወይ ክልል፣ ንኣብነት 192.168.1.0/24</string>
+    <string name="bypass_add">ወስኹ</string>
+    <string name="bypass_remove">ኣወግዱ</string>
+    <string name="bypass_invalid">IP ኣድራሻ ወይ ክልል ኣእትዉ፣ ንኣብነት 10.0.0.0/8</string>
+    <string name="bypass_none">የለን — ኩሎም ኣድራሻታት ብ VPN ይሓልፉ</string>
+    <string name="bypass_count">ብ VPN ዘይሓልፉ ኣድራሻታት፦ %1$d</string>
+    <string name="bypass_over_budget">ኣብዚ መሳርሒ ክትግበሩ ዘይከኣሉ ኣድራሻታት፦ %1$d። እዚኦም ገና ብ VPN ይሓልፉ። ገለ ኣድራሻታት ኣወግዱ ወይ ዝሰፍሑ ክልላት ተጠቐሙ።</string>
+    <string name="restore_ok">ፕሪሚየም ተመሊሱ እዩ</string>
+    <string name="restore_invalid">ኮድ ቅኑዕ ኣይኮነን</string>
+    <string name="open_source_intro">%1$s በዞም ዝስዕቡ ክፉት ምንጪ ፕሮጀክትታት ሓገዝ ዝተሰርሐ እዩ።</string>
+    <string name="cd_back">ተመለስ</string>
+    <string name="paywall_perk_ixp_title">ናትና ሃርድዌር</string>
+    <string name="paywall_perk_ixp_body">መብዛሕትኦም VPN ሕሱር ቨርቹዋል ሰርቨራት ይካረዩ። ናትና ግና ዓበይቲ መርበባት ዓለም ኣብ ዝራኸቡሉ ማእከላት ምልውዋጥ ኢንተርነት ይርከብ — ሓጺር መንገዲ፡ ቅልጡፍ ኣፕ።</string>
+    <string name="onboarding_plans_title">ብናጻ ወይ ፕሪምየም</string>
+    <string name="continue_label">ቀጽል</string>
+    <string name="skip_label">ሓለፎ</string>
+    <string name="rate_app">ን%1$s ደረጃ ሃብ</string>
+    <string name="tabs_notices">መፍለጢታት</string>
+</resources>

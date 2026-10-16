@@ -1,0 +1,12 @@
+{
+  "rostam": {
+    "android": {
+      "applicationId": "com.rostamvpn.android"
+    },
+    "ios": {
+      "bundleId": "com.rostamvpn",
+      "tunnelBundleId": "com.rostamvpn.redsocket",
+      "teamId": "REPLACE_WITH_TEAM_ID"
+    }
+  }
+}

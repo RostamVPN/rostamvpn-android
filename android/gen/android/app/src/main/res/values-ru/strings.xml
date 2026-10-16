@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">Открытый интернет для всех и везде</string>
+    <string name="about_description_1">%1$s даёт вам быстрый и приватный доступ к открытому интернету, чтобы нужные вам сайты и приложения работали где угодно.</string>
+    <string name="about_description_2">%1$s создаётся и управляется международной командой сетевых инженеров и специалистов по безопасности, а также давними защитниками свободы интернета. Более десяти лет мы работаем над усилением цифровой безопасности и защитой открытого, нецензурируемого доступа к информации для всех.</string>
+
+    <string name="about_screen_title">О %1$s</string>
+
+    <string name="protected_apps">Защищённые приложения</string>
+    <string name="only_selected_apps">Только выбранные приложения будут использовать VPN</string>
+
+    <string name="appearance">Оформление</string>
+    <string name="theme_auto">Авто</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+
+    <string name="settings">Параметры</string>
+    <string name="help_improve">Помогите улучшить %1$s</string>
+    <string name="help_improve_desc">Поделитесь анонимными пробами подключения, чтобы помочь нам быстрее найти работающие транспорты.</string>
+    <string name="share_debug_log">Поделиться журналом отладки</string>
+    <string name="about">О программе</string>
+    <string name="version_format">Версия %s</string>
+
+    <string name="open_source_libraries">Библиотеки с открытым исходным кодом</string>
+
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="effective_date">Дата вступления в силу: 3 февраля 2026</string>
+
+    <string name="vpn_on">VPN включён</string>
+    <string name="vpn_off">VPN выключен</string>
+    <string name="connecting">Подключение…</string>
+    <string name="connection_failed">Ошибка подключения</string>
+    <string name="tap_to_connect">Нажмите для подключения</string>
+    <string name="tap_to_disconnect">Нажмите для отключения</string>
+    <string name="connecting_to_server">Подключение к серверу…</string>
+    <string name="cd_menu">Меню</string>
+
+    <string name="trying_server">Пробуем следующий сервер…</string>
+
+    <string name="tap_to_cancel">Нажмите для отмены</string>
+    <string name="close_menu">Закрыть меню</string>
+    <string name="made_in_usa">Сделано в США</string>
+
+    <string name="region_label">Регион</string>
+    <string name="region_automatic">Автоматически</string>
+    <string name="region_auto_hint">Выбирает самый быстрый доступный регион</string>
+    <string name="region_location_hint">Подключиться через эту локацию</string>
+    <string name="region_locked_hint">Автоматически — выбор региона в Premium</string>
+    <string name="go_premium">Premium</string>
+    <string name="premium_tagline">Всегда полная скорость · любой регион</string>
+    <string name="upgrade">Улучшить</string>
+    <string name="language">Язык</string>
+    <string name="language_auto">Автоматически (по региону)</string>
+    <string name="premium">Премиум</string>
+    <string name="usage_stats">Статистика трафика</string>
+    <string name="usage_total_used">Всего использовано</string>
+    <string name="usage_this_session">Эта сессия</string>
+    <string name="usage_free_allowance">Бесплатный объём</string>
+    <string name="usage_device_note">Итог считается на этом устройстве за все сессии.</string>
+    <string name="usage_used_up">Бесплатный трафик исчерпан — оформите Премиум</string>
+    <string name="data_free_remaining">осталось %1$s</string>
+    <string name="data_free_out">Бесплатные данные израсходованы</string>
+    <string name="data_free_low_cta">Заканчивается — обновите, чтобы сохранить полную скорость</string>
+    <string name="data_free_out_cta">Хотите полную скорость? Оформите Premium.</string>
+    <string name="speed_state_full">Полная скорость</string>
+    <string name="speed_state_reduced">Пониженная скорость</string>
+    <string name="premium_title_throttled">Верните полную скорость</string>
+
+    <string name="qr_config_applied_ok">Новые серверы добавлены — они будут использованы при следующем подключении</string>
+
+    <string name="premium_active">Premium активен ✓</string>
+    <string name="loading_plans">Загрузка тарифов…</string>
+    <string name="restore">Восстановить</string>
+    <string name="restore_none">На этом аккаунте магазина подписка не найдена</string>
+
+    <string name="search_apps">Поиск приложений…</string>
+
+    <string name="status_starting_vpn">Запуск VPN…</string>
+    <string name="status_finding_path">Поиск быстрого пути…</string>
+    <string name="status_disconnected">Отключено</string>
+    <string name="status_failed">Ошибка подключения: %1$s</string>
+    <string name="wgtcp_no_data_path">WGTCP не смог передать трафик — используется RedSocket</string>
+
+    <string name="welcome_title">Защитник вашего соединения</string>
+
+    <string name="welcome_title_accent">Защитник</string>
+    <string name="welcome_body">Спокойно, бдительно, непреклонно. %1$s стоит между вами и открытым интернетом.</string>
+    <string name="get_started">Начать</string>
+
+    <string name="paywall_eyebrow">%1$s ПРЕМИУМ</string>
+    <string name="paywall_subhead">Ничего на пути.</string>
+    <string name="paywall_perk_regions_title">Все регионы</string>
+    <string name="paywall_perk_regions_body">Подключайтесь откуда угодно, переключайтесь когда угодно.</string>
+    <string name="paywall_perk_speed_title">Всегда полная скорость</string>
+    <string name="paywall_perk_speed_body">Без лимита и без замедления.</string>
+    <string name="plan_period_weekly">Еженедельно</string>
+    <string name="plan_period_monthly">Ежемесячно</string>
+    <string name="plan_period_3month">Каждые 3 месяца</string>
+    <string name="plan_period_6month">Каждые 6 месяцев</string>
+    <string name="plan_period_yearly">Ежегодно</string>
+    <string name="plan_save_badge">СКИДКА %1$d%%</string>
+    <string name="plans_unavailable">Тарифы сейчас недоступны. Попробуйте позже.</string>
+    <string name="start_free_trial">Начать бесплатный период</string>
+    <string name="pay_with_card">Оплатить картой</string>
+    <string name="pay_with_crypto">Оплатить криптовалютой</string>
+    <string name="paywall_disclosure_play">Продлевается автоматически до отмены. Отменить можно в любой момент в \u2068Google Play \u203A Subscriptions\u2069.</string>
+    <string name="paywall_disclosure_stripe">Карты, Apple Pay и Google Pay \u2014 защищено Stripe. Продлевается до отмены.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT и другие монеты. Без карты и без банка \u2014 ничто не связывает платёж с вами.</string>
+    <string name="cd_close">Закрыть</string>
+
+    <string name="split_tunnel_title">Приложения и VPN</string>
+    <string name="split_mode_exclude">Все приложения, кроме выбранных</string>
+    <string name="split_mode_exclude_desc">Выбранные приложения идут в обход VPN и подключаются напрямую. Используйте это для банковских и других локальных приложений.</string>
+    <string name="split_mode_include">Только выбранные приложения</string>
+    <string name="split_state_all">Все приложения используют VPN</string>
+    <string name="split_state_none">Ни одно приложение не использует VPN</string>
+    <string name="split_state_bypass">%1$d из %2$d приложений идут в обход VPN</string>
+    <string name="split_state_only">%1$d из %2$d приложений используют VPN</string>
+    <string name="split_reconnect_note">Изменения переподключают VPN.</string>
+    <string name="select_recommended">Рекомендуемые</string>
+    <string name="select_all">Все</string>
+    <string name="select_none">Ничего</string>
+
+    <string name="speed_state_limited">Ограничено до %1$s</string>
+    <string name="data_free_low_note">После этого продолжит работать на %1$s. Премиум остаётся на полной скорости.</string>
+    <string name="data_free_out_note">Подключение сохраняется, на %1$s. Премиум возвращает полную скорость.</string>
+    <string name="data_free_one_time">Ежемесячный объём</string>
+    <string name="premium_title_default">Безлимитный трафик, всегда полная скорость</string>
+    <string name="paywall_subhead_offer">Бесплатный объём обновляется каждый месяц. Premium не заканчивается.</string>
+    <string name="paywall_subhead_throttled">Сейчас скорость ограничена до %1$s. Премиум снимает ограничение.</string>
+    <string name="paywall_perk_data_title">Безлимитный трафик</string>
+    <string name="paywall_perk_data_body">Бесплатный объём обновляется каждый месяц. У Premium нет лимита.</string>
+    <string name="paywall_perk_data_body_once">Бесплатный объём даётся один раз. С Premium трафик никогда не заканчивается.</string>
+    <string name="paywall_perk_speed_body_limit">Когда бесплатный трафик закончится, скорость падает до %1$s. У Премиума — никогда.</string>
+    <string name="paywall_reassure">Не нужны ни аккаунт, ни почта.</string>
+    <string name="plan_per_month">%1$s в месяц</string>
+    <string name="proof_downloads">Более %1$s загрузок</string>
+    <string name="proof_rating">%1$s на основе %2$s отзывов</string>
+    <string name="bypass_title">Адреса в обход VPN</string>
+    <string name="bypass_desc">Трафик к этим IP-адресам и диапазонам идёт напрямую, из любого приложения. Подходит для местных банковских и государственных сервисов, которые не принимают иностранные адреса.</string>
+    <string name="bypass_hint">IP или диапазон, например 192.168.1.0/24</string>
+    <string name="bypass_add">Добавить</string>
+    <string name="bypass_remove">Удалить</string>
+    <string name="bypass_invalid">Введите IP-адрес или диапазон, например 10.0.0.0/8</string>
+    <string name="bypass_none">Список пуст — весь трафик идёт через VPN</string>
+    <string name="bypass_count">Адресов в обход VPN: %1$d</string>
+    <string name="bypass_over_budget">Записей не применено на этом устройстве: %1$d — они по-прежнему идут через VPN. Удалите часть записей или используйте более широкие диапазоны.</string>
+    <string name="restore_ok">Premium восстановлен</string>
+    <string name="restore_invalid">Код недействителен</string>
+    <string name="open_source_intro">%1$s создан с помощью следующих проектов с открытым исходным кодом.</string>
+    <string name="cd_back">Назад</string>
+    <string name="paywall_perk_ixp_title">Наше собственное оборудование</string>
+    <string name="paywall_perk_ixp_body">Большинство VPN арендуют дешёвые виртуальные серверы. Наши стоят внутри точек обмена трафиком, где сходятся крупнейшие сети мира — короче путь и быстрее приложение.</string>
+    <string name="onboarding_plans_title">Бесплатно или Premium</string>
+    <string name="continue_label">Продолжить</string>
+    <string name="skip_label">Пропустить</string>
+    <string name="rate_app">Оценить %1$s</string>
+    <string name="tabs_notices">Уведомления</string>
+</resources>

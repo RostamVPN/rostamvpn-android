@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">إنترنت مفتوح للجميع، في كل مكان</string>
+    <string name="about_description_1">يمنحك %1$s وصولاً سريعاً وخاصاً إلى الإنترنت المفتوح، لتظل المواقع والتطبيقات التي تعتمد عليها تعمل أينما كنت.</string>
+    <string name="about_description_2">يُطوَّر ويُدار %1$s بواسطة فريق دولي من مهندسي الشبكات والأمن ومن المدافعين العريقين عن حرية الإنترنت. منذ أكثر من عقد ونحن نعمل على تعزيز الأمان الرقمي وحماية الوصول المفتوح وغير الخاضع للرقابة إلى المعلومات للجميع.</string>
+
+    <string name="about_screen_title">حول %1$s</string>
+
+    <string name="protected_apps">التطبيقات المحمية</string>
+    <string name="only_selected_apps">فقط التطبيقات المحددة ستستخدم VPN</string>
+
+    <string name="appearance">المظهر</string>
+    <string name="theme_auto">تلقائي</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="help_improve">ساعد في تحسين %1$s</string>
+    <string name="help_improve_desc">شارك اختبارات الاتصال المجهولة لمساعدتنا في العثور على طرق نقل تعمل بشكل أسرع.</string>
+    <string name="share_debug_log">مشاركة سجل التصحيح</string>
+    <string name="about">حول</string>
+    <string name="version_format">الإصدار %s</string>
+
+    <string name="open_source_libraries">مكتبات المصدر المفتوح</string>
+
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="effective_date">تاريخ النفاذ: 3 فبراير 2026</string>
+
+    <string name="vpn_on">VPN مُفعّل</string>
+    <string name="vpn_off">VPN مُعطّل</string>
+    <string name="connecting">جارٍ الاتصال…</string>
+    <string name="connection_failed">فشل الاتصال</string>
+    <string name="tap_to_connect">اضغط للاتصال</string>
+    <string name="tap_to_disconnect">اضغط لقطع الاتصال</string>
+    <string name="connecting_to_server">جارٍ الاتصال بالخادم…</string>
+    <string name="cd_menu">القائمة</string>
+
+    <string name="trying_server">جارٍ تجربة الخادم التالي…</string>
+
+    <string name="tap_to_cancel">اضغط للإلغاء</string>
+    <string name="close_menu">إغلاق القائمة</string>
+    <string name="made_in_usa">صُنع في أمريكا</string>
+    <string name="region_label">المنطقة</string>
+    <string name="region_automatic">تلقائي</string>
+    <string name="region_auto_hint">يختار أسرع منطقة متاحة</string>
+    <string name="region_location_hint">الاتصال عبر هذا الموقع</string>
+    <string name="region_locked_hint">تلقائي — اختر منطقة مع الاشتراك المميز</string>
+    <string name="go_premium">اشترك في بريميوم</string>
+    <string name="premium_tagline">سرعة كاملة دائمًا · أي منطقة</string>
+    <string name="upgrade">ترقية</string>
+    <string name="language">اللغة</string>
+    <string name="language_auto">تلقائي (حسب المنطقة)</string>
+    <string name="premium">النسخة المميزة</string>
+    <string name="usage_stats">إحصاءات الاستخدام</string>
+    <string name="usage_total_used">إجمالي البيانات المستخدمة</string>
+    <string name="usage_this_session">هذه الجلسة</string>
+    <string name="usage_free_allowance">الحصة المجانية</string>
+    <string name="usage_device_note">يُحتسب الإجمالي على هذا الجهاز عبر كل الجلسات.</string>
+    <string name="usage_used_up">انتهت البيانات المجانية — بادر بالترقية للمزيد</string>
+    <string name="data_free_remaining">متبقٍ %1$s</string>
+    <string name="data_free_out">نفدت البيانات المجانية</string>
+    <string name="data_free_low_cta">على وشك النفاد — قم بالترقية للحفاظ على السرعة الكاملة</string>
+    <string name="data_free_out_cta">تريد السرعة الكاملة؟ قم بالترقية إلى Premium.</string>
+    <string name="speed_state_full">سرعة كاملة</string>
+    <string name="speed_state_reduced">سرعة مخفّضة</string>
+    <string name="premium_title_throttled">استعد سرعتك الكاملة</string>
+
+    <string name="qr_config_applied_ok">تمت إضافة خوادم جديدة — تُطبَّق عند الاتصال التالي</string>
+
+    <string name="premium_active">النسخة المميزة مفعّلة ✓</string>
+    <string name="loading_plans">جارٍ تحميل الخطط…</string>
+    <string name="restore">استعادة</string>
+    <string name="restore_none">لم يُعثر على أي اشتراك في حساب المتجر هذا</string>
+
+    <string name="search_apps">البحث في التطبيقات…</string>
+
+    <string name="status_starting_vpn">جارٍ تشغيل VPN…</string>
+    <string name="status_finding_path">جارٍ البحث عن أسرع مسار…</string>
+    <string name="status_disconnected">غير متصل</string>
+    <string name="status_failed">فشل الاتصال: %1$s</string>
+
+    <string name="wgtcp_no_data_path">WGTCP لم يتمكن من تمرير البيانات — يتم استخدام RedSocket</string>
+
+    <string name="welcome_title">حارس لاتصالك</string>
+
+    <string name="welcome_title_accent">حارس</string>
+    <string name="welcome_body">هادئ، يقظ، لا يساوم. يقف %1$s بينك وبين الإنترنت المفتوح.</string>
+    <string name="get_started">ابدأ الآن</string>
+
+    <string name="paywall_eyebrow">%1$s بريميوم</string>
+    <string name="paywall_subhead">لا شيء يقف في طريقك.</string>
+    <string name="paywall_perk_regions_title">كل المناطق</string>
+    <string name="paywall_perk_regions_body">اتصل من أي مكان، وبدّل وقتما تشاء.</string>
+    <string name="paywall_perk_speed_title">سرعة كاملة دائمًا</string>
+    <string name="paywall_perk_speed_body">بلا حد للاستهلاك، وبلا إبطاء.</string>
+    <string name="plan_period_weekly">أسبوعي</string>
+    <string name="plan_period_monthly">شهري</string>
+    <string name="plan_period_3month">كل ٣ أشهر</string>
+    <string name="plan_period_6month">كل ٦ أشهر</string>
+    <string name="plan_period_yearly">سنوي</string>
+    <string name="plan_save_badge">خصم %1$d%%</string>
+    <string name="plans_unavailable">الخطط غير متاحة حاليًا. يرجى المحاولة لاحقًا.</string>
+    <string name="start_free_trial">ابدأ التجربة المجانية</string>
+    <string name="pay_with_card">الدفع بالبطاقة</string>
+    <string name="pay_with_crypto">الدفع بالعملات الرقمية</string>
+    <string name="paywall_disclosure_play">يتجدد تلقائيًا حتى الإلغاء. يمكنك الإلغاء في أي وقت من \u2068Google Play \u203A Subscriptions\u2069.</string>
+    <string name="paywall_disclosure_stripe">بطاقات و\u2068Apple Pay\u2069 و\u2068Google Pay\u2069 \u2014 بحماية \u2068Stripe\u2069. يتجدد حتى الإلغاء.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069 و\u2068USDT\u2069 وعملات أخرى. بلا بطاقة وبلا بنك \u2014 لا شيء يربط الدفع بك.</string>
+    <string name="cd_close">إغلاق</string>
+
+    <string name="split_tunnel_title">التطبيقات وشبكة VPN</string>
+    <string name="split_mode_exclude">كل التطبيقات ما عدا المحددة</string>
+    <string name="split_mode_exclude_desc">التطبيقات المحددة تتجاوز VPN وتتصل مباشرة. استخدم هذا لتطبيقات البنوك والتطبيقات المحلية الأخرى.</string>
+    <string name="split_mode_include">التطبيقات المحددة فقط</string>
+    <string name="split_state_all">كل التطبيقات تستخدم VPN</string>
+    <string name="split_state_none">لا يستخدم VPN أي تطبيق</string>
+    <string name="split_state_bypass">%1$d من %2$d تطبيقًا تتجاوز VPN</string>
+    <string name="split_state_only">%1$d من %2$d تطبيقًا تستخدم VPN</string>
+    <string name="split_reconnect_note">أي تغيير يعيد اتصال VPN.</string>
+    <string name="select_recommended">المقترحة</string>
+    <string name="select_all">الكل</string>
+    <string name="select_none">لا شيء</string>
+
+    <string name="speed_state_limited">محدودة بـ %1$s</string>
+    <string name="data_free_low_note">سيستمر العمل بسرعة %1$s بعد ذلك. النسخة المميزة تبقى بالسرعة الكاملة.</string>
+    <string name="data_free_out_note">الاتصال قائم، بسرعة %1$s. النسخة المميزة تعيد السرعة الكاملة.</string>
+    <string name="data_free_one_time">حصة شهرية</string>
+    <string name="premium_title_default">بيانات بلا حدود، وسرعة كاملة دائمًا</string>
+    <string name="paywall_subhead_offer">تتجدد حصتك المجانية كل شهر. الاشتراك المميز لا ينفد أبدًا.</string>
+    <string name="paywall_subhead_throttled">سرعتك محدودة الآن بـ %1$s. النسخة المميزة تزيل هذا الحد.</string>
+    <string name="paywall_perk_data_title">بيانات بلا حدود</string>
+    <string name="paywall_perk_data_body">تتجدد الحصة المجانية كل شهر. الاشتراك المميز بلا حد.</string>
+    <string name="paywall_perk_data_body_once">الحصة المجانية تُمنح مرة واحدة فقط. مع الاشتراك المميز لا تنفد البيانات أبدًا.</string>
+    <string name="paywall_perk_speed_body_limit">تنخفض المجانية إلى %1$s بعد نفادها. النسخة المميزة لا تنخفض أبدًا.</string>
+    <string name="paywall_reassure">لا حاجة إلى حساب أو بريد إلكتروني.</string>
+    <string name="plan_per_month">%1$s شهريًا</string>
+    <string name="proof_downloads">أكثر من %1$s تنزيل</string>
+    <string name="proof_rating">%1$s من %2$s تقييم</string>
+    <string name="bypass_title">الوجهات التي تتجاوز VPN</string>
+    <string name="bypass_desc">تتصل حركة البيانات المتجهة إلى عناوين IP والنطاقات المدرجة هنا اتصالاً مباشرًا، أيًا كان التطبيق الذي يرسلها. مفيد للخدمات المصرفية والحكومية المحلية التي ترفض العناوين الأجنبية.</string>
+    <string name="bypass_hint">عنوان IP أو نطاق، مثل 192.168.1.0/24</string>
+    <string name="bypass_add">إضافة</string>
+    <string name="bypass_remove">إزالة</string>
+    <string name="bypass_invalid">أدخل عنوان IP أو نطاقًا، مثل 10.0.0.0/8</string>
+    <string name="bypass_none">لا شيء — كل الوجهات تستخدم VPN</string>
+    <string name="bypass_count">الوجهات التي تتجاوز VPN: %1$d</string>
+    <string name="bypass_over_budget">تعذّر تطبيق %1$d من المدخلات على هذا الجهاز، وهي ما زالت تستخدم VPN. أزل بعض المدخلات أو استخدم نطاقات أوسع.</string>
+    <string name="restore_ok">تمت استعادة بريميوم</string>
+    <string name="restore_invalid">الرمز غير صالح</string>
+    <string name="open_source_intro">تم بناء %1$s بمساعدة مشاريع المصدر المفتوح التالية.</string>
+    <string name="cd_back">رجوع</string>
+    <string name="paywall_perk_ixp_title">أجهزتنا الخاصة</string>
+    <string name="paywall_perk_ixp_body">معظم شبكات VPN تستأجر خوادم افتراضية رخيصة. أما خوادمنا فتوجد داخل نقاط تبادل الإنترنت حيث تلتقي كبرى شبكات العالم — مسار أقصر وتطبيق أسرع.</string>
+    <string name="onboarding_plans_title">مجاني أو مميز</string>
+    <string name="continue_label">متابعة</string>
+    <string name="skip_label">تخطي</string>
+    <string name="rate_app">قيّم %1$s</string>
+    <string name="tabs_notices">إشعارات</string>
+</resources>

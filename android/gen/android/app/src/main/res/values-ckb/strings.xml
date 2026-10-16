@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">ئینتەرنێتێکی ئازاد بۆ هەمووان، لە هەموو شوێنێک</string>
+    <string name="about_description_1">%1$s دەستڕاگەیشتنێکی خێرا و تایبەت بە ئینتەرنێتی ئازادت پێ دەبەخشێت، تا ئەو ماڵپەڕ و ئەپانەی پشتیان پێ دەبەستیت لە هەر شوێنێکدا کار بکەن.</string>
+    <string name="about_description_2">%1$s لەلایەن تیمێکی نێودەوڵەتی ئەندازیارانی تۆڕ و ئاسایش و لایەنگرانی دێرینی ئازادی ئینتەرنێتەوە دروست کراوە و بەڕێوە دەبرێت. زیاتر لە دە ساڵە کار دەکەین بۆ بەهێزکردنی ئاسایشی دیجیتاڵ و پاراستنی دەستڕاگەیشتنی ئازاد و بێ سانسۆر بە زانیاری بۆ خەڵکی هەموو شوێنێک.</string>
+
+    <string name="about_screen_title">دەربارەی %1$s</string>
+
+    <string name="premium">پرێمیۆم</string>
+    <string name="usage_stats">ئاماری بەکارهێنان</string>
+    <string name="usage_total_used">کۆی داتای بەکارهاتوو</string>
+    <string name="usage_this_session">ئەم دانیشتنە</string>
+    <string name="usage_free_allowance">بەشی بەخۆڕایی</string>
+    <string name="usage_device_note">کۆی گشتی لەسەر ئەم ئامێرە و بۆ هەموو دانیشتنەکان دەپێورێت.</string>
+    <string name="usage_used_up">داتای بەخۆڕایی تەواو بوو — بۆ زیاتر بەرزی بکەرەوە</string>
+
+    <string name="protected_apps">ئەپە پارێزراوەکان</string>
+    <string name="only_selected_apps">تەنها ئەپە هەڵبژێردراوەکان VPN بەکاردەهێنن</string>
+
+    <string name="appearance">ڕووکار</string>
+    <string name="theme_auto">خۆکار</string>
+    <string name="theme_light">ڕووناک</string>
+    <string name="theme_dark">تاریک</string>
+
+    <string name="settings">ڕێکخستنەکان</string>
+    <string name="help_improve">یارمەتی باشترکردنی %1$s بدە</string>
+    <string name="help_improve_desc">بە هاوبەشکردنی تاقیکردنەوەی نەناسراوی پەیوەندی، یارمەتیمان بدە زووتر ڕێڕەوی کارا بدۆزینەوە.</string>
+    <string name="share_debug_log">هاوبەشکردنی لۆگی هەڵەدۆزی</string>
+    <string name="about">دەربارە</string>
+    <string name="version_format">وەشانی %s</string>
+
+    <string name="open_source_libraries">کتێبخانە سەرچاوەکراوەکان</string>
+
+    <string name="privacy_policy">سیاسەتی تایبەتمەندێتی</string>
+    <string name="effective_date">بەرواری جێبەجێبوون: ٥ی شوباتی ٢٠٢٦</string>
+
+    <string name="vpn_on">VPN چالاکە</string>
+    <string name="vpn_off">VPN ناچالاکە</string>
+    <string name="connecting">پەیوەندی دەکرێت…</string>
+    <string name="connection_failed">پەیوەندی سەرکەوتوو نەبوو</string>
+    <string name="tap_to_connect">بۆ پەیوەندی دەستی لێبدە</string>
+    <string name="tap_to_disconnect">بۆ پچڕاندن دەستی لێبدە</string>
+    <string name="connecting_to_server">پەیوەندی بە ڕاژە دەکرێت…</string>
+    <string name="cd_menu">مێنیو</string>
+
+    <string name="trying_server">ڕاژەی داهاتوو تاقی دەکرێتەوە…</string>
+
+    <string name="tap_to_cancel">بۆ هەڵوەشاندنەوە دەستی لێبدە</string>
+    <string name="close_menu">داخستنی مێنیو</string>
+    <string name="made_in_usa">دروستکراوە لە ئەمریکا</string>
+
+    <string name="region_label">ناوچە</string>
+    <string name="region_automatic">خۆکار</string>
+    <string name="region_auto_hint">خێراترین ناوچەی کارا هەڵدەبژێرێت</string>
+    <string name="region_location_hint">لە ڕێگەی ئەم شوێنەوە پەیوەندی بکە</string>
+    <string name="region_locked_hint">خۆکار — بە پرێمیۆم ناوچە هەڵبژێرە</string>
+    <string name="go_premium">پرێمیۆم وەربگرە</string>
+    <string name="premium_tagline">هەمیشە خێرایی تەواو · هەر ناوچەیەک هەڵبژێرە</string>
+    <string name="upgrade">بەرزکردنەوە</string>
+    <string name="language">زمان</string>
+    <string name="language_auto">خۆکار (بەپێی ناوچە)</string>
+    <string name="data_free_remaining">%1$s ماوە</string>
+    <string name="data_free_out">داتای بەخۆڕایی تەواو بوو</string>
+    <string name="data_free_low_cta">کەم ماوە — بۆ مانەوە لەسەر خێرایی تەواو بەرزی بکەرەوە</string>
+    <string name="data_free_out_cta">خێرایی تەواوت دەوێتەوە؟ بەرز ببەرەوە بۆ پرێمیۆم.</string>
+    <string name="speed_state_full">خێرایی تەواو</string>
+    <string name="speed_state_reduced">خێرایی کەمکراوە</string>
+    <string name="premium_title_throttled">خێرایی تەواوت بگەڕێنەوە</string>
+
+    <string name="qr_config_applied_ok">ڕاژەی نوێ زیادکرا — لە پەیوەندی داهاتووت جێبەجێ دەبن</string>
+
+    <string name="premium_active">پرێمیۆم چالاکە \u2713</string>
+    <string name="loading_plans">پلانەکان بار دەکرێن\u2026</string>
+    <string name="restore">گەڕاندنەوە</string>
+    <string name="restore_none">هیچ بەشداریەک لەم هەژمارەی کۆگادا نەدۆزرایەوە</string>
+
+    <string name="search_apps">گەڕان بەدوای ئەپەکان\u2026</string>
+
+    <string name="status_starting_vpn">VPN دەست پێدەکات\u2026</string>
+    <string name="status_finding_path">خێراترین ڕێڕەو دەدۆزرێتەوە\u2026</string>
+    <string name="status_disconnected">پەیوەندی پچڕا</string>
+    <string name="status_failed">پەیوەندی سەرکەوتوو نەبوو: %1$s</string>
+
+    <string name="wgtcp_no_data_path">WGTCP نەیتوانی ترافیک بگوازێتەوە — RedSocket بەکاردەهێنرێت</string>
+
+    <string name="welcome_title">پارێزەرێک بۆ پەیوەندییەکەت</string>
+
+    <string name="welcome_title_accent">پارێزەرێک</string>
+    <string name="welcome_body">بێدەنگ، ئاگادار، بێ کۆڵدان. %1$s لە نێوان تۆ و ئینتەرنێتی کراوەدا دەوەستێت.</string>
+    <string name="get_started">دەستپێبکە</string>
+
+    <string name="paywall_eyebrow">%1$s پرێمیۆم</string>
+    <string name="paywall_subhead">هیچ بەربەستێک لەبەردەمت نییە.</string>
+    <string name="paywall_perk_regions_title">هەموو ناوچەکان</string>
+    <string name="paywall_perk_regions_body">لە هەر شوێنێکەوە پەیوەندی بکە، هەر کاتێک بتەوێت بگۆڕە.</string>
+    <string name="paywall_perk_speed_title">هەمیشە بە خێرایی تەواو</string>
+    <string name="paywall_perk_speed_body">سنووری بەکارهێنان نییە، خێراییش کەم ناکرێتەوە.</string>
+    <string name="plan_period_weekly">هەفتانە</string>
+    <string name="plan_period_monthly">مانگانە</string>
+    <string name="plan_period_3month">هەر 3 مانگ جارێک</string>
+    <string name="plan_period_6month">هەر 6 مانگ جارێک</string>
+    <string name="plan_period_yearly">ساڵانە</string>
+    <string name="plan_save_badge">%1$d%% داشکاندن</string>
+    <string name="plans_unavailable">پلانەکان لە ئێستادا بەردەست نین. تکایە دواتر هەوڵ بدەرەوە.</string>
+    <string name="start_free_trial">دەستپێکردنی ماوەی خۆڕایی</string>
+    <string name="pay_with_card">پارەدان بە کارت</string>
+    <string name="pay_with_crypto">پارەدان بە دراوی دیجیتاڵی</string>
+    <string name="paywall_disclosure_play">تا هەڵنەوەشێنرێتەوە خۆکارانە نوێ دەبێتەوە. هەر کاتێک لە \u2068Google Play \u203A Subscriptions\u2069 هەڵیبوەشێنەرەوە.</string>
+    <string name="paywall_disclosure_stripe">کارت و \u2068Apple Pay\u2069 و \u2068Google Pay\u2069 \u2014 بە \u2068Stripe\u2069 پارێزراوە. تا هەڵنەوەشێنرێتەوە نوێ دەبێتەوە.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069 و \u2068USDT\u2069 و دراوی تر. بێ کارت، بێ بانک \u2014 هیچ شتێک پارەدانەکە بە تۆوە نابەستێتەوە.</string>
+    <string name="cd_close">داخستن</string>
+
+    <string name="split_tunnel_title">ئەپەکان و VPN</string>
+    <string name="split_mode_exclude">هەموو ئەپەکان جگە لە هەڵبژێردراوەکان</string>
+    <string name="split_mode_exclude_desc">ئەپە هەڵبژێردراوەکان VPN بەکارناهێنن و ڕاستەوخۆ پەیوەندی دەکەن. ئەمە بۆ ئەپی بانک و ئەپە ناوخۆییەکانی تر بەکاربهێنە.</string>
+    <string name="split_mode_include">تەنها ئەپە هەڵبژێردراوەکان</string>
+    <string name="split_state_all">هەموو ئەپەکان VPN بەکاردەهێنن</string>
+    <string name="split_state_none">هیچ ئەپێک VPN بەکارناهێنێت</string>
+    <string name="split_state_bypass">%1$d لە %2$d ئەپ VPN بەکارناهێنن</string>
+    <string name="split_state_only">%1$d لە %2$d ئەپ VPN بەکاردەهێنن</string>
+    <string name="split_reconnect_note">گۆڕانکاری VPN دووبارە پەیوەست دەکاتەوە.</string>
+    <string name="select_recommended">پێشنیارکراو</string>
+    <string name="select_all">هەموو</string>
+    <string name="select_none">هیچ</string>
+
+    <string name="speed_state_limited">سنووردارە بە %1$s</string>
+    <string name="data_free_low_note">دوای ئەمە بە %1$s بەردەوام دەبێت. پرێمیۆم لەسەر خێرایی تەواو دەمێنێتەوە.</string>
+    <string name="data_free_out_note">هێشتا پەیوەستە، بە %1$s. پرێمیۆم خێرایی تەواو دەگەڕێنێتەوە.</string>
+    <string name="data_free_one_time">بەشی مانگانە</string>
+    <string name="premium_title_default">داتای بێسنوور، هەمیشە خێرایی تەواو</string>
+    <string name="paywall_subhead_offer">بەشە بەخۆڕاییەکەت هەموو مانگێک نوێ دەبێتەوە. پرێمیۆم هەرگیز تەواو نابێت.</string>
+    <string name="paywall_subhead_throttled">ئێستا سنووردار کراویت بە %1$s. پرێمیۆم ئەم سنوورە لادەبات.</string>
+    <string name="paywall_perk_data_title">داتای بێسنوور</string>
+    <string name="paywall_perk_data_body">بەشە بەخۆڕاییەکە هەموو مانگێک نوێ دەبێتەوە. پرێمیۆم سنووری نییە.</string>
+    <string name="paywall_perk_data_body_once">بەشە بەخۆڕاییەکە تەنها جارێک دەدرێت. لەگەڵ پرێمیۆم داتا هەرگیز تەواو نابێت.</string>
+    <string name="paywall_perk_speed_body_limit">دوای تەواوبوونی بەخۆڕایی خێرایی دەکەوێتە %1$s. پرێمیۆم هەرگیز وا نابێت.</string>
+    <string name="paywall_reassure">پێویست بە هەژمار یان ئیمەیل ناکات.</string>
+    <string name="plan_per_month">%1$s مانگانە</string>
+    <string name="proof_downloads">زیاتر لە %1$s داگرتن</string>
+    <string name="proof_rating">%1$s لە %2$s پێداچوونەوە</string>
+    <string name="bypass_title">ئەو ناونیشانانەی VPN بەکارناهێنن</string>
+    <string name="bypass_desc">ترافیک بۆ ئەم ناونیشان و مەودایانەی IP ڕاستەوخۆ پەیوەست دەبێت، لە هەر ئەپێکەوە بێت. بەسوودە بۆ خزمەتگوزارییە بانکی و حکومییە ناوخۆییەکان کە ناونیشانی بیانی ڕەت دەکەنەوە.</string>
+    <string name="bypass_hint">ناونیشانی IP یان مەودا، بۆ نموونە 192.168.1.0/24</string>
+    <string name="bypass_add">زیادکردن</string>
+    <string name="bypass_remove">لابردن</string>
+    <string name="bypass_invalid">ناونیشانی IP یان مەودایەک بنووسن، وەک 10.0.0.0/8</string>
+    <string name="bypass_none">هیچ — هەموو ناونیشانەکان VPN بەکاردەهێنن</string>
+    <string name="bypass_count">VPN بۆ %1$d ناونیشان بەکارناهێنرێت</string>
+    <string name="bypass_over_budget">%1$d تۆمار لەم ئامێرەدا جێبەجێ ناکرێت و هێشتا VPN بەکاردەهێنێت. هەندێک تۆمار لاببەن یان مەودای فراوانتر بەکاربهێنن.</string>
+    <string name="restore_ok">پرێمیۆم گەڕێنرایەوە</string>
+    <string name="restore_invalid">کۆدەکە دروست نییە</string>
+    <string name="open_source_intro">%1$s بە یارمەتی ئەم پڕۆژانەی سەرچاوەکراوەی خوارەوە دروست کراوە.</string>
+    <string name="cd_back">گەڕانەوە</string>
+    <string name="paywall_perk_ixp_title">ئامێری خۆمان</string>
+    <string name="paywall_perk_ixp_body">زۆربەی VPNەکان ڕاژەی مەعنەوی هەرزان بەکرێ دەگرن. هی ئێمە لەناو ناوەندەکانی ئاڵوگۆڕی ئینتەرنێتدایە کە گەورەترین تۆڕەکانی جیهان تێیدا کۆدەبنەوە — ڕێگایەکی کورتتر و ئەپێکی خێراتر.</string>
+    <string name="onboarding_plans_title">بەخۆڕایی یان پرێمیەم</string>
+    <string name="continue_label">بەردەوام بە</string>
+    <string name="skip_label">بازبدە</string>
+    <string name="rate_app">هەڵسەنگاندنی %1$s</string>
+    <string name="tabs_notices">ئاگادارییەکان</string>
+</resources>

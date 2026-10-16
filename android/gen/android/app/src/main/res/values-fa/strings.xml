@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_title">اینترنت آزاد برای همه، در همه‌جا</string>
+    <string name="about_description_1">%1$s دسترسی سریع و خصوصی به اینترنت آزاد را در اختیار شما می‌گذارد تا سایت‌ها و برنامه‌هایی که به آن‌ها نیاز دارید هر جا که باشید کار کنند.</string>
+    <string name="about_description_2">%1$s توسط تیمی بین‌المللی از مهندسان شبکه و امنیت و کارزاران دیرینهٔ آزادی اینترنت ساخته و اداره می‌شود. بیش از یک دهه است که برای تقویت امنیت دیجیتال و حفاظت از دسترسی آزاد و بدون سانسور به اطلاعات برای همهٔ مردم تلاش می‌کنیم.</string>
+
+    <string name="about_screen_title">درباره %1$s</string>
+
+    <string name="protected_apps">برنامه‌های محافظت‌شده</string>
+    <string name="only_selected_apps">فقط برنامه‌های انتخاب‌شده از VPN استفاده خواهند کرد</string>
+
+    <string name="appearance">ظاهر</string>
+    <string name="theme_auto">خودکار</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک</string>
+
+    <string name="settings">تنظیمات</string>
+    <string name="help_improve">کمک به بهبود %1$s</string>
+    <string name="help_improve_desc">با اشتراک‌گذاری آزمایش‌های اتصال ناشناس، به ما در یافتن سریع‌تر مسیرهای کارآمد کمک کنید.</string>
+    <string name="share_debug_log">اشتراک‌گذاری گزارش اشکال‌زدایی</string>
+    <string name="about">درباره</string>
+    <string name="version_format">نسخه %s</string>
+
+    <string name="open_source_libraries">کتابخانه‌های متن‌باز</string>
+
+    <string name="privacy_policy">سیاست حفاظت از حریم‌خصوصی</string>
+    <string name="effective_date">تاریخ اعتبار: ۵ فوریه ۲۰۲۶</string>
+
+    <string name="vpn_on">VPN روشن</string>
+    <string name="vpn_off">VPN خاموش</string>
+    <string name="connecting">در حال اتصال…</string>
+    <string name="connection_failed">اتصال ناموفق</string>
+    <string name="tap_to_connect">برای اتصال ضربه بزنید</string>
+    <string name="tap_to_disconnect">برای قطع اتصال ضربه بزنید</string>
+    <string name="connecting_to_server">در حال اتصال به سرور…</string>
+    <string name="cd_menu">منو</string>
+
+    <string name="trying_server">در حال تلاش سرور بعدی…</string>
+
+    <string name="tap_to_cancel">برای لغو ضربه بزنید</string>
+    <string name="close_menu">بستن منو</string>
+    <string name="made_in_usa">ساخت آمریکا</string>
+
+    <string name="region_label">منطقه</string>
+    <string name="region_automatic">خودکار</string>
+    <string name="region_auto_hint">سریع‌ترین منطقهٔ در دسترس را انتخاب می‌کند</string>
+    <string name="region_location_hint">اتصال از این مکان</string>
+    <string name="region_locked_hint">خودکار — با نسخهٔ ویژه منطقه را انتخاب کنید</string>
+    <string name="go_premium">نسخهٔ ویژه</string>
+    <string name="premium_tagline">همیشه سرعت کامل · انتخاب هر منطقه</string>
+    <string name="upgrade">ارتقا</string>
+    <string name="language">زبان</string>
+    <string name="language_auto">خودکار (بر اساس منطقه)</string>
+    <string name="premium">نسخه ویژه</string>
+    <string name="usage_stats">آمار مصرف</string>
+    <string name="usage_total_used">کل داده مصرف‌شده</string>
+    <string name="usage_this_session">این نشست</string>
+    <string name="usage_free_allowance">سهمیه رایگان</string>
+    <string name="usage_device_note">مجموع روی این دستگاه و در همهٔ نشست‌ها اندازه‌گیری می‌شود.</string>
+    <string name="usage_used_up">داده رایگان تمام شد — برای ادامه ارتقا دهید</string>
+    <string name="data_free_remaining">%1$s باقی مانده</string>
+    <string name="data_free_out">داده رایگان مصرف شد</string>
+    <string name="data_free_low_cta">رو به اتمام — برای حفظ سرعت کامل ارتقا دهید</string>
+    <string name="data_free_out_cta">سرعت کامل می‌خواهید؟ به نسخهٔ ویژه ارتقا دهید.</string>
+    <string name="speed_state_full">سرعت کامل</string>
+    <string name="speed_state_reduced">سرعت کاهش‌یافته</string>
+    <string name="premium_title_throttled">سرعت کامل خود را بازگردانید</string>
+
+    <string name="qr_config_applied_ok">سرورهای تازه افزوده شد — از اتصال بعدی اعمال می‌شوند</string>
+
+    <string name="premium_active">نسخهٔ ویژه فعال است ✓</string>
+    <string name="loading_plans">در حال بارگذاری طرح‌ها…</string>
+    <string name="restore">بازیابی</string>
+    <string name="restore_none">اشتراکی روی این حساب فروشگاه پیدا نشد</string>
+
+    <string name="search_apps">جست‌وجوی برنامه‌ها…</string>
+
+    <string name="status_starting_vpn">در حال راه‌اندازی VPN…</string>
+    <string name="status_finding_path">در حال یافتن سریع‌ترین مسیر…</string>
+    <string name="status_disconnected">اتصال قطع شد</string>
+    <string name="status_failed">اتصال ناموفق بود: %1$s</string>
+
+    <string name="wgtcp_no_data_path">WGTCP نتوانست ترافیک را عبور دهد — از RedSocket استفاده می‌شود</string>
+
+    <string name="welcome_title">نگهبان اتصال شما</string>
+
+    <string name="welcome_title_accent">نگهبان</string>
+    <string name="welcome_body">آرام، هوشیار و استوار. %1$s میان شما و اینترنت آزاد ایستاده است.</string>
+    <string name="get_started">شروع</string>
+
+    <string name="paywall_eyebrow">%1$s نسخهٔ ویژه</string>
+    <string name="paywall_subhead">بدون هیچ مانعی.</string>
+    <string name="paywall_perk_regions_title">همهٔ مناطق</string>
+    <string name="paywall_perk_regions_body">به هر منطقه وصل شوید و هر وقت خواستید عوض کنید.</string>
+    <string name="paywall_perk_speed_title">همیشه با سرعت کامل</string>
+    <string name="paywall_perk_speed_body">بدون سقف مصرف، بدون کاهش سرعت.</string>
+    <string name="plan_period_weekly">هفتگی</string>
+    <string name="plan_period_monthly">ماهانه</string>
+    <string name="plan_period_3month">هر ۳ ماه</string>
+    <string name="plan_period_6month">هر ۶ ماه</string>
+    <string name="plan_period_yearly">سالانه</string>
+    <string name="plan_save_badge">%1$d%% تخفیف</string>
+    <string name="plans_unavailable">پلن‌ها در حال حاضر در دسترس نیستند. بعداً دوباره تلاش کنید.</string>
+    <string name="start_free_trial">شروع دورهٔ رایگان</string>
+    <string name="pay_with_card">پرداخت با کارت</string>
+    <string name="pay_with_crypto">پرداخت با رمزارز</string>
+    <string name="paywall_disclosure_play">تا زمانی که لغو نکنید به‌طور خودکار تمدید می‌شود. هر وقت خواستید از \u2068Google Play \u203A Subscriptions\u2069 لغو کنید.</string>
+    <string name="paywall_disclosure_stripe">کارت‌های بانکی، \u2068Apple Pay\u2069 و \u2068Google Pay\u2069 \u2014 با امنیت \u2068Stripe\u2069. تا زمان لغو تمدید می‌شود.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069، \u2068USDT\u2069 و رمزارزهای دیگر. بدون کارت، بدون بانک \u2014 هیچ چیز پرداخت را به شما وصل نمی‌کند.</string>
+    <string name="cd_close">بستن</string>
+
+    <string name="split_tunnel_title">برنامه‌ها و VPN</string>
+    <string name="split_mode_exclude">همهٔ برنامه‌ها به‌جز انتخاب‌شده‌ها</string>
+    <string name="split_mode_exclude_desc">برنامه‌های انتخاب‌شده از VPN عبور نمی‌کنند و مستقیم وصل می‌شوند. برای برنامه‌های بانکی و دیگر برنامه‌های داخلی از این حالت استفاده کنید.</string>
+    <string name="split_mode_include">فقط برنامه‌های انتخاب‌شده</string>
+    <string name="split_state_all">همهٔ برنامه‌ها از VPN استفاده می‌کنند</string>
+    <string name="split_state_none">هیچ برنامه‌ای از VPN استفاده نمی‌کند</string>
+    <string name="split_state_bypass">%1$d از %2$d برنامه بدون VPN وصل می‌شوند</string>
+    <string name="split_state_only">%1$d از %2$d برنامه از VPN استفاده می‌کنند</string>
+    <string name="split_reconnect_note">تغییرات، VPN را دوباره وصل می‌کند.</string>
+    <string name="select_recommended">پیشنهادی</string>
+    <string name="select_all">همه</string>
+    <string name="select_none">هیچ‌کدام</string>
+
+    <string name="speed_state_limited">محدود به %1$s</string>
+    <string name="data_free_low_note">بعد از آن با %1$s کار می‌کند. نسخهٔ ویژه با سرعت کامل می‌ماند.</string>
+    <string name="data_free_out_note">هنوز متصل است، با %1$s. نسخهٔ ویژه سرعت کامل را برمی‌گرداند.</string>
+    <string name="data_free_one_time">سهمیهٔ ماهانه</string>
+    <string name="premium_title_default">دادهٔ نامحدود، همیشه سرعت کامل</string>
+    <string name="paywall_subhead_offer">سهمیهٔ رایگان شما هر ماه تازه می‌شود. پرمیوم هرگز تمام نمی‌شود.</string>
+    <string name="paywall_subhead_throttled">همین حالا به %1$s محدود شده‌اید. نسخهٔ ویژه این سقف را برمی‌دارد.</string>
+    <string name="paywall_perk_data_title">دادهٔ نامحدود</string>
+    <string name="paywall_perk_data_body">سهمیهٔ رایگان هر ماه تازه می‌شود. پرمیوم سقف ندارد.</string>
+    <string name="paywall_perk_data_body_once">سهمیهٔ رایگان فقط یک‌بار داده می‌شود. با پرمیوم داده هیچ‌وقت تمام نمی‌شود.</string>
+    <string name="paywall_perk_speed_body_limit">با تمام‌شدن سهمیهٔ رایگان، سرعت به %1$s می‌رسد. در نسخهٔ ویژه هرگز.</string>
+    <string name="paywall_reassure">به حساب کاربری یا ایمیل نیاز نیست.</string>
+    <string name="plan_per_month">ماهی %1$s</string>
+    <string name="proof_downloads">بیش از %1$s بار دانلود</string>
+    <string name="proof_rating">%1$s از %2$s نظر</string>
+    <string name="bypass_title">مقصدهایی که از VPN عبور نمی‌کنند</string>
+    <string name="bypass_desc">ترافیک این نشانی‌های IP و محدوده‌ها، از هر برنامه‌ای که باشد، مستقیم وصل می‌شود. برای خدمات بانکی و دولتی داخلی که نشانی‌های خارجی را نمی‌پذیرند مفید است.</string>
+    <string name="bypass_hint">نشانی IP یا محدوده، مانند 192.168.1.0/24</string>
+    <string name="bypass_add">افزودن</string>
+    <string name="bypass_remove">حذف</string>
+    <string name="bypass_invalid">یک نشانی IP یا محدوده وارد کنید، مانند 10.0.0.0/8</string>
+    <string name="bypass_none">هیچ‌کدام — همهٔ مقصدها از VPN استفاده می‌کنند</string>
+    <string name="bypass_count">%1$d مقصد از VPN عبور نمی‌کند</string>
+    <string name="bypass_over_budget">%1$d مورد روی این دستگاه اعمال نمی‌شود و همچنان از VPN استفاده می‌کند. چند مورد را حذف کنید یا از محدوده‌های بزرگ‌تر استفاده کنید.</string>
+    <string name="restore_ok">نسخهٔ ویژه بازیابی شد</string>
+    <string name="restore_invalid">کد معتبر نیست</string>
+    <string name="open_source_intro">%1$s با کمک پروژه‌های متن‌باز زیر ساخته شده است.</string>
+    <string name="cd_back">بازگشت</string>
+    <string name="paywall_perk_ixp_title">سخت‌افزار خودمان</string>
+    <string name="paywall_perk_ixp_body">بیشتر وی‌پی‌ان‌ها سرورهای مجازی ارزان اجاره می‌کنند. سرورهای ما داخل مراکز تبادل اینترنت قرار دارند، جایی که شبکه‌های بزرگ جهان به هم می‌رسند — مسیر کوتاه‌تر و برنامه‌ای سریع‌تر.</string>
+    <string name="onboarding_plans_title">رایگان یا ویژه</string>
+    <string name="continue_label">ادامه</string>
+    <string name="skip_label">رد کردن</string>
+    <string name="rate_app">امتیاز دادن به %1$s</string>
+    <string name="tabs_notices">اطلاعیه‌ها</string>
+</resources>

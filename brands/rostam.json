@@ -1,0 +1,94 @@
+{
+  "id": "rostam",
+  "displayName": "RostamVPN",
+  "cashier": {
+    "brand": "rostam",
+    "base": "https://cashier.example.com"
+  },
+  "wgtcpApiKey": "REPLACE_WITH_WGTCP_API_KEY",
+  "android": {
+    "applicationId": "com.rostamvpn.android",
+    "subProductIds": [
+      "p1m",
+      "p1a"
+    ],
+    "versionName": "6.7.3",
+    "versionCode": 466
+  },
+  "ios": {
+    "bundleId": "com.rostamvpn",
+    "storeKitProductIds": [
+      "rostamvpn.monthly",
+      "rostamvpn.yearly"
+    ],
+    "appStoreId": "1487875612",
+    "tunnelBundleId": "com.rostamvpn.redsocket",
+    "_tunnelBundleIdNote": "EXPLICIT AND LOCKED, never derived. gen-ios.py used to derive <bundleId>.tunnel; the shipped extension is .redsocket and RostamVPNApp pins saved NEVPNManager profiles to it. Adopting the derived convention would rename a live app's provider id and every saved profile on every installed device would stop matching.",
+    "teamId": "REPLACE_WITH_TEAM_ID",
+    "legacyTunnelBundleIds": [
+      "com.rostamvpn.network-extension"
+    ],
+    "_legacyTunnelBundleIdsNote": "Provider ids this brand shipped BEFORE and no longer uses. The app removes these profiles at launch: every live NEVPNConnection in the process posts .NEVPNStatusDidChange, and an orphan answers .disconnected forever, which is what made a healthy tunnel report 'disconnected unexpectedly' 346 ms after connecting. com.rostamvpn.network-extension was the WireGuardTunnel appex, deleted 2026-09-09.",
+    "marketingVersion": "6.0.1",
+    "buildNumber": "81",
+    "_buildNumberNote": "NEXT FREE number, never the last used. RE-READ from App Store Connect 2026-09-21 (issuer REPLACE_WITH_UUID, key REPLACE_WITH_ASC_KEY_ID, GET /v1/builds?filter[app]=1487875612&sort=-uploadedDate). Highest ever seen on this record is 71, uploaded 2026-09-21T15:53 -07:00, VALID and not expired, so 71 is BURNED and 72 is next. Builds 52-71 are all burned. This field has gone stale after nearly every upload; bump it the moment an upload lands. One integer, no second chance.",
+    "_storeKitNote": "Confirmed against ASC 2026-09-09: rostamvpn.monthly and rostamvpn.yearly, both READY_TO_SUBMIT."
+  },
+  "live": {
+    "androidVersionCode": 133,
+    "androidVersionName": "6.4.3-nowruz",
+    "androidTrack": "production",
+    "iosVersion": null
+  },
+  "branding": {
+    "appName": "RostamVPN",
+    "launcherBackground": "#00000000",
+    "assetsDir": "brands/assets/rostam",
+    "hasMascot": true,
+    "theme": {
+      "primary": "#3D6B6F",
+      "primaryDeep": "#0E1E25",
+      "secondary": "#4A9BA3",
+      "accent": "#EFA638",
+      "accentOnLight": "#DB4645",
+      "success": "#45988A",
+      "danger": "#D32F2F",
+      "background": "#F5F5F5",
+      "launchDeep": "#D9D2BE",
+      "launchDeepNight": "#0E1E25",
+      "ink": "#2D3436",
+      "warning": "#D7A23E"
+    },
+    "logo": "brands/assets/rostam/logo.png",
+    "proof": {
+      "downloads": 2700000,
+      "rating": 4.1,
+      "reviews": 15600
+    },
+    "markScale": 1.1818181818181819,
+    "tagline": "Your Digital Guardian",
+    "provenance": "Made in USA",
+    "_provenanceNote": "The second footer line under the connect dial, below the tagline. Absent means the line is not drawn at all -- the same rule legal.contactEmail follows, because a claim about who made the app is worse wrong than missing. Emitted by gen-ios.py; gen-branding.py does not read it and Android's footer carries the made_in_usa string. If Android ever brands its footer, read this key there too rather than adding a second one.",
+    "_warningNote": "The 'running low' colour. A brand role rather than a literal so it is never hardcoded in a shared file, and it cannot simply be `danger`: low and used-up must read as different states, and collapsing them loses the warning."
+  },
+  "site": {
+    "downloadPath": "/download",
+    "privacyPath": "/privacy/",
+    "plans": [
+      {
+        "key": "plan_monthly",
+        "usd": "3.99"
+      },
+      {
+        "key": "plan_yearly",
+        "usd": "39.99"
+      }
+    ],
+    "_plansNote": "USD list prices shown on the website, and they must match what the stores actually charge. The site advertised weekly 1.05, monthly 1.99, quarterly 4.99 and yearly 12.99 while Play and the App Store sold monthly 3.99 and yearly 39.99: a visitor read one number and was billed another, which is a refund generator and a Play misrepresentation exposure. Only the two periods the stores actually sell are listed. Change these together with the stores, never alone."
+  },
+  "legal": {
+    "operator": "REPLACE_WITH_OPERATOR",
+    "contactEmail": "support@rostam.app",
+    "siteUrl": "https://www.Rostam.app/"
+  }
+}

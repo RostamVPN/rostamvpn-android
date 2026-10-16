@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <bool name="brand_has_mascot">true</bool>
+  <item name="brand_mark_scale" type="dimen" format="float">1.181818</item>
+  <bool name="brand_disc_fills_on_connect">true</bool>
+</resources>
