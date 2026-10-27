@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Arabic script: letters JOIN, so letter tracking breaks words, and there is
+     no serif Arabic face in Android's fallback stack. See values/bools.xml. -->
+<resources>
+    <bool name="paywall_letter_tracking">false</bool>
+</resources>

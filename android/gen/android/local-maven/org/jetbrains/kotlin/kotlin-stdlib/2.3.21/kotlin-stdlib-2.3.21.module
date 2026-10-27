@@ -1,0 +1,372 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlin",
+    "module": "kotlin-stdlib",
+    "version": "2.3.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.3.21.jar",
+          "url": "kotlin-stdlib-2.3.21.jar",
+          "size": 1804721,
+          "sha512": "5564b17f006a9fdf93c93439b357e1fb82742c72d23b7aaa2e50d6db730d0b40426257e4e40eca7c70f9d514367b0057e51b84e1d0e49817002bc463939fee59",
+          "sha256": "6f64eac736db9434dd6925b4a518b9d1d17177652320c37916cf9ba3ce7d7d7a",
+          "sha1": "a2ee2c4e220fee522f0451b723bab2a43f3481a7",
+          "md5": "67d962e3bcffbbb88f84b4d49e47fc56"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.3.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.3.21.jar",
+          "url": "kotlin-stdlib-2.3.21.jar",
+          "size": 1804721,
+          "sha512": "5564b17f006a9fdf93c93439b357e1fb82742c72d23b7aaa2e50d6db730d0b40426257e4e40eca7c70f9d514367b0057e51b84e1d0e49817002bc463939fee59",
+          "sha256": "6f64eac736db9434dd6925b4a518b9d1d17177652320c37916cf9ba3ce7d7d7a",
+          "sha1": "a2ee2c4e220fee522f0451b723bab2a43f3481a7",
+          "md5": "67d962e3bcffbbb88f84b4d49e47fc56"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.3.21-sources.jar",
+          "url": "kotlin-stdlib-2.3.21-sources.jar",
+          "size": 746730,
+          "sha512": "b128f0eac30bdb006d36fb386d127bbfbea532ac4bd2be4b3bc8089e8d133bcfa8c83df8311631913d21b74bbeb257558ed4eeff21f902e0f13cbba63dc82c32",
+          "sha256": "8693386ae174f7e4a91eb82c5c632d169d236704da24f78b9c8c84d87af2fd64",
+          "sha1": "e83b401761ec424bd131011507e692dcf053c3ae",
+          "md5": "c2a4e8751817394dd448c48c815c67ae"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.3.21-all.jar",
+          "url": "kotlin-stdlib-2.3.21-all.jar",
+          "size": 214627,
+          "sha512": "262f6b1bdc89fa0a96f22f115b9e69b255a7e8497db20c69f4682c2c83971f2955662da00771992f4a3dfe5c3fb9d8653e0d7424d66b8bfa501044ce07746c7b",
+          "sha256": "2197ae07788b09d03d5f3f2a2d52073859e352481bb6feb4335e391093116270",
+          "sha1": "22daa2d20e4598f059e8851f1f9aad897aa7155c",
+          "md5": "e6a8c3cde3ef56631bf219fa5e47a891"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "kotlin-stdlib-2.3.21-common-sources.jar",
+          "url": "kotlin-stdlib-2.3.21-common-sources.jar",
+          "size": 470349,
+          "sha512": "a00187ac66b8d73f4a8983a7ae3076c57c3171e81b50a35aa73faca8f47fc8f339bc186ab4c2ec8ec93e69f22cd33e53fcea6db312a7363872f8a6146057e767",
+          "sha256": "a6a03911e7e6be80072d2dff909e3c2a432c0880a1a2295fe714663bcf613444",
+          "sha1": "f6b5ba3aea40388cadb820701a84e970bf34ee94",
+          "md5": "9487094e72d71da39355e73e736732bf"
+        }
+      ]
+    },
+    {
+      "name": "nativeApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ]
+    },
+    {
+      "name": "jsApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-js/2.3.21/kotlin-stdlib-js-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-js",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "jsRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-js/2.3.21/kotlin-stdlib-js-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-js",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "jsSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-js/2.3.21/kotlin-stdlib-js-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-js",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "wasmJsApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-js/2.3.21/kotlin-stdlib-wasm-js-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-js",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-js/2.3.21/kotlin-stdlib-wasm-js-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-js",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-js/2.3.21/kotlin-stdlib-wasm-js-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-js",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-wasi/2.3.21/kotlin-stdlib-wasm-wasi-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-wasi",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.klib.packaging": "packed",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-wasi/2.3.21/kotlin-stdlib-wasm-wasi-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-wasi",
+        "version": "2.3.21"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../kotlin-stdlib-wasm-wasi/2.3.21/kotlin-stdlib-wasm-wasi-2.3.21.module",
+        "group": "org.jetbrains.kotlin",
+        "module": "kotlin-stdlib-wasm-wasi",
+        "version": "2.3.21"
+      }
+    }
+  ]
+}

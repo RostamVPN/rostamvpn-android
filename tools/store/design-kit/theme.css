@@ -1,0 +1,32 @@
+:root {
+  --deep:#0E1E25; --primary:#3D6B6F; --secondary:#4A9BA3;
+  --accent:#EFA638; --success:#45988A; --ink:#2D3436;
+  --muted:#A8B8BC; --card:#1C343A;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a1418;display:flex;align-items:center;justify-content:center;
+  min-height:100vh;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif}
+.panel{width:430px;aspect-ratio:1290/2796;background:linear-gradient(180deg,var(--deep),#22383c);
+  color:#fff;padding:50px 30px;display:flex;flex-direction:column;align-items:center;
+  border-radius:22px;overflow:hidden}
+h1{font-size:27px;line-height:1.2;font-weight:800;text-align:center;letter-spacing:-.5px}
+.sub{font-size:14px;color:var(--muted);text-align:center;margin-top:12px;line-height:1.45}
+.body{margin-top:34px;width:100%;display:flex;flex-direction:column;align-items:center;gap:14px;flex:1}
+.card{background:var(--card);border-radius:16px;padding:18px 20px;width:100%}
+.label{font-size:12px;color:var(--muted)}
+.value{font-size:22px;font-weight:700;margin-top:4px}
+.bar{height:7px;background:#344A50;border-radius:4px;margin-top:14px;overflow:hidden}
+.bar>i{display:block;height:100%;width:70%;background:var(--accent);border-radius:4px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.chip{background:var(--card);border-radius:20px;padding:8px 15px;font-size:13px}
+.power{width:150px;height:150px;border-radius:50%;background:var(--success);display:flex;
+  align-items:center;justify-content:center;margin-top:20px;
+  box-shadow:0 0 0 14px rgba(69,152,138,.16),0 0 0 28px rgba(69,152,138,.08),0 0 60px rgba(69,152,138,.45)}
+.power svg{width:62px;height:62px}
+.row{display:flex;align-items:center;gap:14px;width:100%}
+.tick{width:34px;height:34px;border-radius:50%;border:2px solid var(--success);
+  display:flex;align-items:center;justify-content:center;flex:none;color:var(--success);font-size:17px}
+.rt{font-size:15px;font-weight:700} .rs{font-size:12px;color:var(--muted);margin-top:2px}
+.pill{background:var(--accent);color:#3A2706;font-weight:700;border-radius:22px;
+  padding:11px 22px;font-size:14px;display:inline-block}
+.foot{margin-top:auto;font-size:12px;color:var(--muted);text-align:center}

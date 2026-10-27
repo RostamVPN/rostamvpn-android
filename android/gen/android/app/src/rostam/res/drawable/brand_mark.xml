@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ROSTAM, as the face of the connect dial. Vector, traced from the same drawing
+  as brands/assets/rostam/logo.png.
+
+  THE SHIELD IS DELIBERATELY NOT HERE. The mark is a pointed heraldic shield and
+  the dial is a circle. Nesting one in the other is two unrelated silhouettes
+  with white crescents left over where they disagree, and it looked exactly like
+  what it was: a logo pasted into a button. Built that way first, judged on the
+  device, discarded. The HEAD in a circular aperture is ONE shape.
+
+  THE HORNS ARE THE JOIN. In the source drawing only face, hair and beard are
+  cropped by the shield; the helmet and horns sit outside that crop. The
+  aperture below crops the same three, so the horn tips rise past the circle on
+  their own. The dial then draws its ring OVER them, so the horns pass BEHIND
+  the ring: the two geometries interlock instead of nesting, and the ring is
+  never notched. That last part is not cosmetic. The ring is the sole carrier of
+  connected / connecting / disconnected / failed, so nothing may occlude it.
+
+  VIEWPORT IS 1040, NOT 1024, and that is a bug fix rather than a preference. The
+  horn tips sit 511 units above the aperture centre; at 1024 with the aperture
+  centred they landed at y=1 and were shaved flat against the viewport edge.
+  Visible on device as blunt, cut-off horns. 520 clears them with 9 units to
+  spare. If the aperture or the crop ever moves, re-check this first.
+
+  APERTURE: circle (506,555) r440, chosen by rendering the real artwork at
+  device scale. Tighter crops the side locks; wider exposes the flat bottom edge
+  of the beard, which is drawn to be cropped and has no ending of its own.
+
+  FLAT, no light/dark split. The source carries it as an feComponentTransfer
+  filter and VectorDrawable has no filters. Measured off logo.png it is #E29F40
+  vs #E4A44B on the helmet and #343434 vs #3F3F3F on the beard, under 12/255 per
+  channel. Reproducing it needs a nested clip-path per shape, and nested clips
+  are the part of VectorDrawable least worth trusting at minSdk 23 across 500K
+  installs. The strong split in this logo was always the SHIELD (#CABA9C vs
+  #A0885F), and the shield is gone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="217.5dp"
+    android:height="217.5dp"
+    android:viewportWidth="1040"
+    android:viewportHeight="1040">
+
+    <group
+        android:translateX="14"
+        android:translateY="-35">
+
+        <!-- cropped by the aperture, exactly as the shield used to crop them -->
+        <group>
+            <clip-path android:pathData="M66,555 A440,440 0 1,0 946,555 A440,440 0 1,0 66,555 Z" />
+            <path
+                android:fillColor="#D9A278"
+                android:pathData="M330 376 C306 400 300 430 302 470 C306 545 322 605 348 655 C378 700 440 726 506 726 C572 726 634 700 664 655 C690 605 706 545 710 470 C712 430 706 400 682 376 Z" />
+            <path
+                android:fillColor="#7E6C5E"
+                android:pathData="M286 447 L310 444 C318 458 317 500 316 540 C317 590 325 630 325 672 C325 700 318 730 306 768 C296 795 275 825 250 848 L130 890 L130 786 C146 760 170 738 188 720 C200 690 222 630 250 544 C268 500 280 470 286 447 Z" />
+            <path
+                android:fillColor="#7E6C5E"
+                android:pathData="M726 447 L702 444 C694 458 695 500 696 540 C695 590 687 630 687 672 C687 700 694 730 706 768 C716 795 737 825 762 848 L882 890 L882 786 C866 760 842 738 824 720 C812 690 790 630 762 544 C744 500 732 470 726 447 Z" />
+            <path
+                android:fillColor="#3F3F3F"
+                android:pathData="M506 622 C502 618 496 613 483 608 L475 605 C462 608 448 614 434 624 C415 638 400 651 385 662 L382 656 C381 630 377 600 369 576 C356 545 332 496 313 442 C311 484 314 530 318 570 C322 610 325 645 325 680 C324 710 316 740 306 770 C292 800 272 826 250 848 L150 900 L150 1060 L862 1060 L862 900 L762 848 C740 826 720 800 706 770 C696 740 688 710 687 680 C687 645 690 610 694 570 C698 530 701 484 699 442 C680 496 656 545 643 576 C635 600 631 630 630 656 L627 662 C612 651 597 638 578 624 C564 614 550 608 537 605 L529 608 C516 613 510 618 506 622 Z" />
+        </group>
+
+        <!-- uncropped: the horns leave the circle, which is the point -->
+        <path
+            android:fillColor="#E4A44B"
+            android:pathData="M403 190 L281 216 C279 228 279 244 281 260 C285 280 295 305 305 330 C309 338 310 342 310 348 C309 356 306 366 303 378 C300 390 296 402 292 416 C290 426 287 438 285 452 L318 449 C320 438 326 428 339 416 C348 409 366 401 391 396 L404 393 C412 395 425 397 437 400 C452 405 465 412 475 424 C483 432 494 442 506 455 C518 442 529 432 537 424 C547 412 560 405 575 400 C587 397 600 395 608 393 L621 396 C646 401 664 409 673 416 C686 428 692 438 694 449 L727 452 C725 438 722 426 720 416 C716 402 712 390 709 378 C706 366 703 356 702 348 C702 342 703 338 707 330 C717 305 727 280 731 260 C733 244 733 228 731 216 L609 190 C591 184 566 176 537 172 C526 170 516 169 506 169 C496 169 486 170 475 172 C446 176 421 182 403 190 Z" />
+        <path
+            android:fillColor="#E4A44B"
+            android:pathData="M354 44 C357 53 359 66 359 82 C358 100 353 112 344 128 C331 148 313 164 297 180 C291 188 285 198 281 214 L410 214 C409 202 400 188 397 176 C398 158 407 143 415 126 C419 114 419 100 411 82 C398 65 377 52 354 44 Z" />
+        <path
+            android:fillColor="#E4A44B"
+            android:pathData="M658 44 C655 53 653 66 653 82 C654 100 659 112 668 128 C681 148 699 164 715 180 C721 188 727 198 731 214 L602 214 C603 202 612 188 615 176 C614 158 605 143 597 126 C593 114 593 100 601 82 C614 65 635 52 658 44 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M352 309 C362 305 369 299 379 297 C400 298 419 307 433 323 C444 337 451 351 457 365 C446 360 435 356 424 357 C410 359 398 356 388 348 C376 337 362 320 352 309 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M660 309 C650 305 643 299 633 297 C612 298 593 307 579 323 C568 337 561 351 555 365 C566 360 577 356 588 357 C602 359 614 356 624 348 C636 337 650 320 660 309 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M342 446 L348 436 L393 412 L468 439 L459 462 L391 433 L357 444 Z" />
+        <path
+            android:fillColor="#000000"
+            android:pathData="M670 446 L664 436 L619 412 L544 439 L553 462 L621 433 L655 444 Z" />
+        <path
+            android:fillColor="#D9A278"
+            android:pathData="M430 704 C430 694 438 680 454 668 C462 661 478 656 506 655 C534 656 550 661 558 668 C574 680 582 694 582 704 C583 712 579 719 573 719 C567 719 564 712 562 706 C558 698 550 693 540 690 C529 689 518 689 506 689 C494 689 483 689 472 690 C462 693 454 698 450 706 C450 712 447 719 441 719 C435 719 429 712 430 704 Z" />
+    </group>
+</vector>

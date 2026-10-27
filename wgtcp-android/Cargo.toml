@@ -1,0 +1,41 @@
+# Copyright 2026 Internet Mastering & Company, Inc. <sina@redteam.net>
+# SPDX-License-Identifier: Apache-2.0
+
+[package]
+name = "wgtcp-android"
+version = "1.0.0"
+edition = "2021"
+description = "WGTCP Android client core (WireGuard over a TCP carrier) — second protocol alongside netcore"
+
+# Produces libwgtcp_core.so. Deliberately a DIFFERENT .so name from
+# libnetcore.so: the two protocols coexist in one APK and are selected
+# at runtime, so they must not collide at the dynamic-linker level.
+[lib]
+name = "wgtcp_core"
+# cdylib for Android (JNI .so); staticlib for iOS, where the Network Extension
+# links the transport in rather than dlopen-ing it -- same split as
+# the netcore crate, so both protocols ship the same way on both platforms.
+# rlib as well, so an integration harness (examples/apple_e2e.rs) can link
+# the crate and drive the C ABI directly. Costs nothing in the shipped
+# artefacts -- Android takes the cdylib, iOS the staticlib.
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+jni = "0.21"
+redsocket-wgtcp = { path = "../vendor/redsocket_wgtcp" }
+tokio = { version = "1", features = ["net", "time", "sync", "io-util", "rt", "rt-multi-thread", "macros"] }
+# release_max_level_warn compiles info!/debug!/trace! to nothing so their format
+# strings never reach the shipped binary — `strings` on the .so would otherwise
+# leak endpoint and protocol internals. warn/error survive for diagnosis.
+log = { version = "0.4", features = ["release_max_level_warn"] }
+android_logger = "0.14"
+serde_json = "1"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+# MUST stay unwind: the JNI entry points use catch_unwind so a Rust panic
+# returns an "err:panic:…" string instead of killing the app process.
+panic = "unwind"
+strip = true

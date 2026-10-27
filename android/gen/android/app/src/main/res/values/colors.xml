@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--
+      Launch ground. FALLBACKS ONLY: every brand overlays its own
+      res/values/launch_colors.xml, generated from brands/<id>.json by
+      gen-branding.py, so these three are what a brand added without running the
+      generator would get, rather than a build failure.
+
+      launch_bg is read in TWO places that must agree or the launch flashes:
+      windowSplashScreenBackground (the system splash) and LaunchOverlay's ground
+      at t=0. It is one resource for exactly that reason. It is also
+      android:windowBackground on the post splash theme, which is the frame
+      between the two.
+    -->
+    <color name="launch_bg">#FFF5F5F5</color>
+    <color name="launch_bg_deep">#FFD9D2BE</color>
+    <color name="launch_ink">#FF2D3436</color>
+</resources>

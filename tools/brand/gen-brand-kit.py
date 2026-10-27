@@ -1,0 +1,182 @@
+#!/usr/bin/env python3
+"""Assemble a per-brand graphics kit for handoff to marketing.
+
+The artwork for one brand is scattered across four trees: the manifest's source
+assets, the Android res overlay, the iOS asset catalogue, and the generated
+store panels. Nobody outside this repo can be expected to know that, and an
+advertiser handed the Android res folder gets 192px launcher icons and no
+wordmark. So this collects the LARGEST copy of each distinct piece of artwork
+into one folder per brand, with a sheet naming the ids, the palette and the
+store links.
+
+Regenerate any time: it rewrites brand-kits/ from scratch, and reads nothing
+that is not already checked in.
+"""
+import json, pathlib, shutil, subprocess, sys
+
+REPO = pathlib.Path(__file__).resolve().parents[2]
+IOS = pathlib.Path.home() / "silo/rostamvpn-ios"
+OUT = REPO / "brand-kits"
+
+# Named by the owner as the designer's original package. RedVPN only; no other
+# brand has one, and inventing a folder for the others would imply otherwise.
+DESIGN_SOURCE = {"redvpn": pathlib.Path.home() / "code/appdev/graphics-redvpn"}
+
+
+def px(p: pathlib.Path) -> int:
+    """Pixel width, so "largest copy" is measured rather than assumed."""
+    try:
+        out = subprocess.run(["sips", "-g", "pixelWidth", str(p)],
+                             capture_output=True, text=True, timeout=20).stdout
+        return int(out.strip().rsplit(":", 1)[1])
+    except Exception:
+        return 0
+
+
+def take(cands, dst: pathlib.Path, label: str, log: list) -> None:
+    """Copy the widest of `cands` to dst/label.<ext>."""
+    real = [c for c in cands if c.exists()]
+    if not real:
+        return
+    best = max(real, key=px)
+    dst.mkdir(parents=True, exist_ok=True)
+    target = dst / (label + best.suffix)
+    shutil.copy2(best, target)
+    w = px(best)
+    log.append((target.relative_to(OUT), f"{w}px" if w else "vector",
+                best.relative_to(best.parents[len(best.parts) - 2])))
+
+
+def build(bid: str) -> str:
+    man = json.loads((REPO / "brands" / f"{bid}.json").read_text())
+    kit = OUT / bid
+    if kit.exists():
+        shutil.rmtree(kit)
+    kit.mkdir(parents=True)
+    log: list = []
+
+    src = REPO / "brands/assets" / bid
+    res = REPO / "android/gen/android/app/src" / bid / "res"
+    ios = IOS / "Brands" / bid / "Brand.xcassets"
+
+    # ── LOGO: the pieces an ad actually needs, largest copy of each ──
+    take([src / "logo.png", res / "drawable/brand_logo.png"], kit / "logo", "logo", log)
+    take([src / "mark.png", res / "drawable/brand_mark.xml"], kit / "logo", "mark", log)
+    take([src / "dial-mark.svg", src / "dial-mark.png",
+          *(ios / "BrandDialMark.imageset").glob("*.png")], kit / "logo", "dial-mark", log)
+    take([res / "drawable-xxhdpi/launch_wordmark.png"], kit / "logo", "wordmark", log)
+    take([res / "drawable/brand_mascot.png",
+          *(ios / "BrandMascot.imageset").glob("*.png")], kit / "logo", "mascot", log)
+    take([res / "drawable/brand_splash.png",
+          *(ios / "LaunchGradient.imageset").glob("*.png")], kit / "logo", "splash", log)
+
+    # ── ICON: 1024 from iOS beats 192 from Android, so both are offered ──
+    take([src / "ios-icon.png", *(ios / "AppIcon.appiconset").glob("*.png")],
+         kit / "icon", "app-icon-ios", log)
+    take([src / "icon.png", res / "mipmap-xxxhdpi/ic_launcher.png"],
+         kit / "icon", "app-icon-android", log)
+    take([res / "mipmap-xxxhdpi/ic_launcher_foreground.png"],
+         kit / "icon", "app-icon-android-foreground", log)
+
+    # ── STORE PANELS, already localised, kept in their locale folders ──
+    gen = REPO / "build/store" / bid
+    if gen.is_dir():
+        for loc in sorted(p for p in gen.iterdir() if p.is_dir()):
+            for f in sorted(loc.glob("*.png")):
+                d = kit / ("feature-graphic" if "feature" in f.name else "screens") / loc.name
+                d.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(f, d / f.name)
+
+    # ── The designer's own package, verbatim, where one exists ──
+    ds = DESIGN_SOURCE.get(bid)
+    if ds and ds.is_dir():
+        for f in ds.rglob("*.png"):
+            if ".DS_Store" in f.name:
+                continue
+            rel = f.relative_to(ds)
+            d = kit / "design-source" / rel.parent
+            d.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(f, d / f.name)
+
+    theme = (man.get("branding") or {}).get("theme") or {}
+    (kit / "palette.json").write_text(json.dumps({
+        "brand": bid,
+        "displayName": man.get("displayName"),
+        "tagline": (man.get("branding") or {}).get("tagline"),
+        "theme": theme,
+    }, indent=2, ensure_ascii=False) + "\n")
+
+    a, i = man.get("android") or {}, man.get("ios") or {}
+    rows = "\n".join(
+        f"| `{p}` | {s} | {n} |" for p, s, n in [
+            (a.get("applicationId", "-"), "Google Play", "Android"),
+            (i.get("bundleId", "-"), "App Store", "iOS")] if p != "-")
+    pal = "\n".join(f"| `{k}` | `{v}` |" for k, v in theme.items()
+                    ) or "_inherits the default palette_"
+    files = "\n".join(f"| `{p}` | {w} |" for p, w, _ in log)
+
+    (kit / "README.md").write_text(f"""# {man.get('displayName', bid)} brand kit
+
+Generated by `tools/brand/gen-brand-kit.py`. Do not edit in place: edit the
+source and regenerate, or the next run silently discards the change.
+
+**Tagline:** {(man.get('branding') or {}).get('tagline') or '_none set_'}
+
+## Where the code lives
+
+| Platform | Repo | This brand's files |
+|---|---|---|
+| Android | `~/silo/rostamvpn-android-v3` | `android/gen/android/app/src/{bid}/` |
+| iOS | `~/silo/rostamvpn-ios` | `Brands/{bid}/` |
+| Manifest (the source of truth for everything below) | `~/silo/rostamvpn-android-v3` | `brands/{bid}.json` |
+| Published app config | `~/silo/rostamvpn-android-v3` | `brands/configs/{bid}.json` |
+
+## Store identity
+
+| Identifier | Store | Platform |
+|---|---|---|
+{rows}
+
+## Palette
+
+Every colour in the app derives from these. Nothing else is a brand colour, and
+an ad that introduces a sixth hue will not match the product.
+
+| Role | Hex |
+|---|---|
+{pal}
+
+## What is in this folder
+
+| File | Size |
+|---|---|
+{files}
+
+`screens/<locale>/` and `feature-graphic/<locale>/` hold the generated store
+panels. `design-source/` is the designer's original package, verbatim, and
+exists only for brands that have one.
+
+## Rules that apply to anything made from this
+
+- **No infrastructure in public copy or artwork.** No protocol names, no server
+  counts, no IPs, no provider names, no exit countries. Iran's regulator reads
+  public stores, and a screenshot naming a transport tells a censor what to
+  block. This has already shipped once and had to be pulled.
+- **Do not name a country as somewhere the app defeats blocking.** Naming a
+  jurisdiction in store text makes the listing that jurisdiction's problem.
+- **No performance claims.** No speed figures, no server counts, no "no-log"
+  absolutes. A generated screenshot once carried an invented speed test.
+- **Check Persian, Arabic and Chinese panels by eye.** A missing glyph renders
+  as a hollow box and nothing in the pipeline raises an error.
+""")
+    return f"{bid}: {len(log)} artwork files, {sum(1 for _ in kit.rglob('*.png'))} png total"
+
+
+if __name__ == "__main__":
+    ids = sys.argv[1:] or [
+        p.stem for p in sorted((REPO / "brands").glob("*.json"))
+        if isinstance(json.loads(p.read_text()).get("branding"), dict)]
+    OUT.mkdir(exist_ok=True)
+    for b in ids:
+        if (REPO / "brands" / f"{b}.json").exists():
+            print("  " + build(b))

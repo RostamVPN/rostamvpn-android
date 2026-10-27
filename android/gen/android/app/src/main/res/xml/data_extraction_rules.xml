@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 12+ (dataExtractionRules).
+
+  cloud-backup: excluded, because a private key must not sync to the user's
+  Google Drive. That would be silent, and this is a VPN used where being
+  identified as a circumvention user is dangerous.
+
+  device-transfer: excluded as well. A direct phone-to-phone transfer is far
+  safer than cloud backup, but it would place the same key on two devices at
+  once and leave WireGuard with two peers racing one identity. A fresh key on
+  the new phone costs a single provisioning round trip and avoids that.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="wgtcp_identity.xml" />
+        <exclude domain="sharedpref" path="esim_session.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="wgtcp_identity.xml" />
+        <exclude domain="sharedpref" path="esim_session.xml" />
+    </device-transfer>
+</data-extraction-rules>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NEUTRAL FALLBACK for the connect dial's face. This is not artwork; it is the
+  power glyph, and it exists so that every flavor compiles.
+
+  PowerButton references R.drawable.brand_mark inside a branch gated on
+  R.bool.brand_has_mascot, and a resource referenced from Kotlin must resolve in
+  ALL five flavors even where the branch can never be taken. Only rostam has
+  real artwork (src/rostam/res/drawable/brand_mark.xml overrides this one), and
+  brand_has_mascot is false everywhere else, so on those four brands this file
+  is never drawn.
+
+  It is a GLYPH rather than a copy of Rostam's face on purpose. If a brand ever
+  sets branding.hasMascot without supplying its own brand_mark, the failure mode
+  must be a generic button — not another brand's mascot rendered as though it
+  were theirs. Same principle as the zeroed numbers in values/brand_defaults.xml:
+  the cost of forgetting is blandness, never a false claim.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="76dp"
+    android:height="76dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#6B7280"
+        android:pathData="M13,3h-2v10h2V3zm4.83,2.17l-1.42,1.42C17.99,7.86 19,9.81 19,12c0,3.87 -3.13,7 -7,7s-7,-3.13,-7,-7c0,-2.19,1.01,-4.14,2.58,-5.42L6.17,5.17C4.23,6.82 3,9.26 3,12c0,4.97 4.03,9 9,9s9,-4.03,9,-9c0,-2.74,-1.23,-5.18,-3.17,-6.83z" />
+</vector>

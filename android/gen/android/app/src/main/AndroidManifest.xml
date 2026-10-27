@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+        <!-- Advertising ID. Contributed by `play-services-ads-identifier`, declared
+         explicitly so it is visible here rather than appearing by merge.
+
+         🚨 IT LIVES IN src/main, NOT src/withAds, and the difference is the
+         whole point: this permission belongs to the IDENTIFIER, which every
+         brand reads for attribution and fraud, not to the ad SDK. It was in the
+         adtech-only manifest, so switching ads off for a brand took its
+         advertising id away too — silently, since `Gaid` just returned null.
+
+         Play's advertising-id declaration asks about THIS PERMISSION, so the
+         answer stays "yes, uses an advertising id, for app functionality" on
+         every brand, including the ones that now serve no ads. That is the
+         honest answer and it is unchanged by the ad SDK going away. -->
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <!-- NOT QUERY_ALL_PACKAGES. The only package lookup this app makes is the
+         split-tunnel picker asking for launchable apps, which this grants; the
+         permission is broader than the behaviour and Play requires a Console
+         declaration for it. -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- No CAMERA permission — using Google Code Scanner API (permission-free) -->
+
+    <!-- Google Play Billing (subscriptions) -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- Google Advertising ID (API 33+). Sent to our own adtech/cashier as
+         ifa. Limit-Ad-Tracking is honored: when the user opts out the GAID is
+         omitted and lmt=1 is sent instead. -->
+
+    <!-- NO AndroidTV. The leanback uses-feature and the LEANBACK_LAUNCHER
+         category were removed 2026-09-23. They were aspirational: there is no
+         TV UI, and no android:banner anywhere, which Play requires of a real TV
+         app, so this only ever CLAIMED to be a TV app.
+
+         It was not free. Play refuses an APK outright for any manifest carrying
+         a TV launcher ("APK has a tv launcher and should be published as an app
+         bundle"), which removed the one fallback available while rostam's
+         bundle upload was blocked. Do not re-add either line unless a TV build
+         actually exists, with a banner and a TV listing. -->
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.App.Starting"
+        android:usesCleartextTraffic="${usesCleartextTraffic}"
+        android:extractNativeLibs="true"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        tools:replace="android:fullBackupContent,android:dataExtractionRules"
+        android:supportsRtl="true"
+        android:localeConfig="@xml/locales_config">
+
+        <activity
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
+            android:launchMode="singleTask"
+            android:label="@string/main_activity_title"
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Handle rostam://c/ deep links (QR config, shared configs) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="rostam" android:host="c" />
+            </intent-filter>
+
+            <!-- Handle .rostam config files opened from file manager / downloads -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.rostam" />
+                <data android:pathPattern=".*\\..*\\.rostam" />
+                <data android:pathPattern=".*\\..*\\..*\\.rostam" />
+            </intent-filter>
+
+            <!-- Handle .rostam config files shared from Telegram / email / etc -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+        </activity>
+
+        <provider
+          android:name="androidx.core.content.FileProvider"
+          android:authorities="${applicationId}.fileprovider"
+          android:exported="false"
+          android:grantUriPermissions="true">
+          <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name=".TunnelVpnService"
+            android:exported="false"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:foregroundServiceType="specialUse">
+            <!-- Android 14+ wants the specialUse justification in the manifest,
+                 not only in the Console declaration. There is no
+                 FOREGROUND_SERVICE_TYPE_VPN — Android never added one for
+                 VpnService — which is why specialUse is the applicable type
+                 here and for every VPN on Play. -->
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="vpn" />
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+
+        <!-- Override ML Kit barcode scanner portrait lock (Android 16 large screen compat) -->
+        <activity
+            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+            android:screenOrientation="unspecified"
+            tools:replace="android:screenOrientation" />
+    </application>
+</manifest>

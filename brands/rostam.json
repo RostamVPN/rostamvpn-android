@@ -1,0 +1,122 @@
+{
+ "id": "rostam",
+ "displayName": "RostamVPN",
+ "cashier": {
+  "brand": "rostam",
+  "base": "https://cashier.example.com"
+ },
+ "wgtcpApiKey": "REPLACE_WITH_WGTCP_API_KEY",
+ "android": {
+  "applicationId": "com.rostamvpn.android",
+  "subProductIds": [
+   "p1m",
+   "p1a"
+  ],
+  "admobAppId": "ca-app-pub-3666521938553232~3645731035",
+  "adtech": false,
+  "admobInterstitialId": "ca-app-pub-3666521938553232/9531523048",
+  "versionName": "6.8.5",
+  "versionCode": 478,
+  "_versionCodeNote": "Release history is tracked outside this repository.",
+  "advertisingId": false,
+  "_advertisingIdNote": "2026-10-27 owner: RostamVPN carries no ads and no ad SDK, as RedVPN. false = no play-services-ads-identifier, no Firebase Analytics, AD_ID removed in the generated manifest (build.gradle.kts noAdIdBrands).",
+  "appAttribution": true,
+  "_appAttributionNote": "2026-10-27: Protect Mode's Traffic by app, parity with RedVPN (src/hevOrigin tun bridge)."
+ },
+ "ios": {
+  "bundleId": "com.rostamvpn",
+  "storeKitProductIds": [
+   "rostamvpn.monthly",
+   "rostamvpn.yearly"
+  ],
+  "appStoreId": "1487875612",
+  "tunnelBundleId": "com.rostamvpn.redsocket",
+  "_tunnelBundleIdNote": "EXPLICIT AND LOCKED, never derived. gen-ios.py used to derive <bundleId>.tunnel; the shipped extension is .redsocket and RostamVPNApp pins saved NEVPNManager profiles to it. Adopting the derived convention would rename a live app's provider id and every saved profile on every installed device would stop matching.",
+  "teamId": "LR3WWLG3FQ",
+  "legacyTunnelBundleIds": [
+   "com.rostamvpn.network-extension"
+  ],
+  "_legacyTunnelBundleIdsNote": "Provider ids this brand shipped BEFORE and no longer uses. The app removes these profiles at launch: every live NEVPNConnection in the process posts .NEVPNStatusDidChange, and an orphan answers .disconnected forever, which is what made a healthy tunnel report 'disconnected unexpectedly' 346 ms after connecting. com.rostamvpn.network-extension was the WireGuardTunnel appex, deleted 2026-09-09.",
+  "marketingVersion": "6.0.2",
+  "buildNumber": "85",
+  "_buildNumberNote": "NEXT FREE number, never the last used. RE-READ from App Store Connect 2026-09-21 (issuer 901067d3, key 9KJP7745B5, GET /v1/builds?filter[app]=1487875612&sort=-uploadedDate). Highest ever seen on this record is 71, uploaded 2026-09-21T15:53 -07:00, VALID and not expired, so 71 is BURNED and 72 is next. Builds 52-71 are all burned. This field has gone stale after nearly every upload; bump it the moment an upload lands. One integer, no second chance.",
+  "_storeKitNote": "Confirmed against ASC 2026-09-09: rostamvpn.monthly and rostamvpn.yearly, both READY_TO_SUBMIT.",
+  "admobAppId": "ca-app-pub-3666521938553232~4907175921",
+  "adtech": false,
+  "admobInterstitialId": "ca-app-pub-3666521938553232/9818799166",
+  "_admobNote": "NULL for every brand: AdMob apps and units are PER PLATFORM and no iOS AdMob app exists in the account. The generator emits Google's SAMPLE app id when this is null, never an empty string -- an EMPTY GADApplicationIdentifier crashes the SDK the day a config carries a real interstitial id, while the sample is inert because AdsManager fails closed on a missing ads.ios_interstitial_id."
+ },
+ "live": {
+  "androidVersionCode": 477,
+  "androidVersionName": "6.8.4",
+  "androidTrack": "direct",
+  "_liveNote": "2026-10-27: the Play developer account is terminated; the live Android channel is https://rostam.app/dist/RostamVPN-latest.apk. 477 / 6.8.4 is what it serves (owner, 2026-10-27); the sha256 of the served file has NOT been re-read since 470 (af7d4a62...429b), so do not quote one here until it has. Play beta last carried 471.",
+  "iosVersion": null
+ },
+ "branding": {
+  "appName": "RostamVPN",
+  "launcherBackground": "#00000000",
+  "assetsDir": "brands/assets/rostam",
+  "hasMascot": true,
+  "theme": {
+   "primary": "#3D6B6F",
+   "primaryDeep": "#0E1E25",
+   "secondary": "#4A9BA3",
+   "accent": "#EFA638",
+   "accentOnLight": "#DB4645",
+   "success": "#45988A",
+   "danger": "#D32F2F",
+   "background": "#F5F5F5",
+   "launchDeep": "#D9D2BE",
+   "launchDeepNight": "#0E1E25",
+   "ink": "#2D3436",
+   "warning": "#D7A23E"
+  },
+  "logo": "brands/assets/rostam/logo.png",
+  "proof": {
+   "downloads": 2700000,
+   "rating": 4.1,
+   "reviews": 15600
+  },
+  "markScale": 1.1818181818181819,
+  "tagline": "Mobile Security",
+  "_taglineNote": "2026-10-27 owner: the brand is Rostam Mobile Security, not a VPN company. Replaced \"Your Digital Guardian\", which the website carried in 38 locales and gen-ios.py draws under the connect dial. The product NAME stays RostamVPN everywhere a store or a search engine reads it; this is the descriptor beneath it.",
+  "provenance": "Made in USA",
+  "_provenanceNote": "The second footer line under the connect dial, below the tagline. iOS ONLY today: RostamVPNApp.taglineView hardcoded it as a shared literal, so every brand printed rostam's provenance. Absent means the line is not drawn at all -- the same rule legal.contactEmail follows, because a claim about who made the app is worse wrong than missing. ⚠️ Emitted only by gen-ios.py; gen-branding.py does not read it and Android's footer still carries the literal. Same one-sided shape theme.warning had before it was added to gen-ios.py -- if Android ever brands its footer, read this key there too rather than adding a second one.",
+  "_warningNote": "The 'running low' colour, and a brand role rather than a literal because it was #D7A23E hardcoded in three shared files: rostam's gold, rendered by all five brands. It cannot simply be `danger`, which is already per-brand: low and used-up must read as different states, and collapsing them loses the warning. redvpn takes an amber rather than a red for the same reason."
+ },
+ "features": {
+  "esim": false,
+  "protectionName": "Protect Mode",
+  "_protectionNameNote": "2026-10-27 owner: RostamVPN gets Protect Mode, the same feature as RedVPN (BuildConfig.PROTECTION_NAME gates every Protect Mode path; no brand ifs). Plain descriptive name; never RedShield (a registered mark elsewhere).",
+  "protectionApiBase": "https://rostam.app",
+  "healthProbeUrl": "https://api.rostam.app/health-probe",
+  "throttleHardStop": true,
+  "_throttleHardStopNote": "2026-10-27: the bundled boot config is a FALLBACK, and its throttle block had drifted. It said hard_stop false, so a fresh install slowed to 2 Mbps for the window between first launch and its first successful OTA fetch, then switched to stopping once the real config landed. The served config (gen2 v57) says hard_stop true, and the owner's decision is that there is no 2 Mbps tier at all -- three free days, then pay. Patched per brand by the boot config generator because src/main/assets/default-config.json is shared with redvpn and goglobe, which are not changing. Absent = leave the bundled value alone.",
+  "_healthProbeUrlNote": "2026-10-27 owner: the tunnel-health probe on RostamVPN's own domain. It was https://ip-geo.example.com/ for every brand, so a RedVPN-owned hostname was compiled into the RostamVPN binary (ConfigManager.HealthConfig.DEFAULT and the bundled boot config) -- a brand link readable with `strings` even though the OTA config pointed elsewhere. Served by nginx on the rostamvpn-api site; the OTA gen2 config was republished as v57 with the same value. Absent = the shared worker, which is still what the other brands use.",
+  "_protectionApiBaseNote": "2026-10-27: the Protect Mode API (score, scan, profiles, geo) on RostamVPN's own domain; same backend as vpn.red, X-App-Key rostam. Absent = https://vpn.red (RedVPN)."
+ },
+ "site": {
+  "downloadPath": "/download",
+  "privacyPath": "/privacy/",
+  "plans": [
+   {
+    "key": "plan_monthly",
+    "usd": "3.99"
+   },
+   {
+    "key": "plan_yearly",
+    "usd": "39.99"
+   }
+  ],
+  "_plansNote": "USD list prices shown on the website, and they must match what the stores actually charge. The site advertised weekly 1.05, monthly 1.99, quarterly 4.99 and yearly 12.99 while Play and the App Store sold monthly 3.99 and yearly 39.99: a visitor read one number and was billed another, which is a refund generator and a Play misrepresentation exposure. Only the two periods the stores actually sell are listed. Change these together with the stores, never alone."
+ },
+ "legal": {
+  "operator": "Red Team LTD",
+  "_operatorNote": "2026-10-27 owner, asked directly which company is real: Red Team LTD. This is the legal entity printed in the in-app privacy policy (gen-branding.py -> legal_operator). It used to read 'RedVPN Inc.', which named a sister brand inside a legal document and did not match the live policy page this screen links to. The Apple team is 'Red Team LTD (LR3WWLG3FQ)', which corroborates it. Any other brand that gains an operator gets the same answer.",
+  "contactEmail": "nazar@rostam.app",
+  "siteUrl": "https://www.Rostam.app/",
+  "privacyUrl": "https://rostam.app/privacy/",
+  "_privacyUrlNote": "2026-10-27. The page the VPN and Protect Mode disclosures link to (BuildConfig.PRIVACY_URL); 200 when read. Empty or absent = no link."
+ }
+}

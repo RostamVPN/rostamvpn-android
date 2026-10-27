@@ -1,0 +1,585 @@
+<resources>
+    <!-- Main Screen Tagline -->
+
+    <!-- About Screen Strings -->
+    <string name="about_title">Herkese, Her Yerde Özgür İnternet</string>
+    <string name="about_description_1">%1$s açık internete hızlı ve gizli erişim sunar; böylece güvendiğiniz siteler ve uygulamalar nerede olursanız olun çalışmaya devam eder.</string>
+    <string name="about_description_2">%1$s, ağ ve güvenlik mühendislerinden oluşan uluslararası bir ekip ve yıllardır internet özgürlüğünü savunan kişiler tarafından geliştiriliyor ve işletiliyor. On yılı aşkın süredir dijital güvenliği güçlendirmek ve dünyanın her yerindeki insanların bilgiye sansürsüz erişimini korumak için çalışıyoruz.</string>
+
+    <!-- About Screen Header -->
+    <string name="about_screen_title">%1$s Hakkında</string>
+
+    <!-- Premium / paywall -->
+    <string name="premium">Premium</string>
+    <string name="usage_stats">Kullanım istatistikleri</string>
+    <string name="usage_total_used">Toplam kullanılan veri</string>
+    <string name="usage_this_session">Bu oturum</string>
+    <string name="usage_free_allowance">Ücretsiz kota</string>
+    <string name="usage_device_note">Toplam, bu cihazdaki tüm oturumlar üzerinden ölçülür.</string>
+    <string name="usage_used_up">Ücretsiz veri bitti — daha fazlası için yükseltin</string>
+
+    <!-- About Screen Sections -->
+
+    <!-- Server Selection - Connection Mode -->
+
+    <!-- App Selection -->
+    <string name="protected_apps">Korunan Uygulamalar</string>
+    <string name="only_selected_apps">VPN\'i yalnızca seçili uygulamalar kullanır</string>
+
+    <!-- Theme -->
+    <string name="appearance">Görünüm</string>
+    <string name="theme_auto">Otomatik</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+
+    <!-- Settings -->
+    <string name="settings">Ayarlar</string>
+    <string name="share_debug_log">Hata Günlüğünü Paylaş</string>
+    <string name="about">Hakkında</string>
+    <string name="version_format">Sürüm %s</string>
+
+    <!-- DNS Resolver Settings -->
+
+    <!-- Open Source Screen -->
+    <string name="open_source_libraries">Açık Kaynak Kütüphaneler</string>
+
+    <!-- Privacy Policy Screen -->
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="effective_date">Yürürlük tarihi: 5 Şubat 2026</string>
+
+    <!-- Main Screen Status -->
+    <string name="vpn_on">VPN Açık</string>
+    <string name="vpn_off">VPN Kapalı</string>
+    <string name="connecting">Bağlanıyor…</string>
+    <string name="connection_failed">Bağlantı Kurulamadı</string>
+    <string name="tap_to_connect">Bağlanmak için dokunun</string>
+    <string name="tap_to_disconnect">Bağlantıyı kesmek için dokunun</string>
+    <string name="connecting_to_server">Sunucuya bağlanılıyor…</string>
+    <string name="cd_menu">Menü</string>
+
+    <!-- Auto-failover status -->
+    <string name="trying_server">Sonraki sunucu deneniyor…</string>
+
+    <!-- Traffic Display -->
+
+    <!-- QR Config -->
+    <string name="qr_config">Yapılandırma QR</string>
+
+    <!-- Messages Screen -->
+
+    <!-- Hardcoded strings moved to resources -->
+    <string name="tap_to_cancel">İptal için dokunun</string>
+    <string name="close_menu">Menüyü kapat</string>
+    <string name="made_in_usa">ABD\'de üretildi</string>
+
+    <!-- CDN Scanner -->
+
+    <!-- Network Scanner -->
+    <string name="region_label">Bölge</string>
+    <string name="region_automatic">Otomatik</string>
+    <string name="region_auto_hint">En hızlı çalışan bölgeyi seçer</string>
+    <string name="region_location_hint">Bu konum üzerinden bağlan</string>
+    <string name="region_locked_hint">Otomatik — bölge seçimi Premium\'da</string>
+    <string name="go_premium">Premium\'a Geç</string>
+    <string name="premium_tagline">Her zaman tam hız · istediğiniz bölge</string>
+    <string name="upgrade">Yükselt</string>
+    <string name="language">Dil</string>
+    <string name="language_auto">Otomatik (bölgeye göre)</string>
+    <string name="settings_connection">Bağlantı</string>
+    <string name="connection_hint">Otomatik, en iyi yolu seçer. Birini tercih etmek için değiştirin.</string>
+    <string name="data_free_remaining">%1$s kaldı</string>
+    <string name="data_free_out">Ücretsiz veri bitti</string>
+    <string name="data_free_low_cta">Veriniz azalıyor — tam hızda kalmak için yükseltin</string>
+    <string name="data_free_out_cta">Tam hızı geri istiyor musunuz? Premium\'a geçin.</string>
+    <string name="speed_state_full">Tam hız</string>
+    <string name="speed_state_reduced">Düşük hız</string>
+    <string name="premium_title_throttled">Tam hızınızı geri alın</string>
+    <string name="premium_tagline_throttled">Tam hızı geri istiyor musunuz? Premium\'a geçin.</string>
+    <!-- QR config -->
+    <string name="scan_qr_code">QR Kodu Tara</string>
+    <string name="scan_another">Tekrar Tara</string>
+    <string name="regenerate_qr">QR\'ı Yenile</string>
+    <string name="qr_config_applied_ok">Yeni sunucular eklendi \u2014 bir sonraki bağlantınızda geçerli olur</string>
+    <string name="qr_share_title">Sunucularınızı paylaşın</string>
+    <string name="qr_share_body">Bağlantısı engellenen biri bunu tarayarak çalışan sunuculara ulaşabilir.</string>
+    <string name="qr_share_count">%1$d sunucu dahil</string>
+    <string name="qr_share_unavailable">Şu anda paylaşılabilir bir kod yayımlanmış değil</string>
+    <string name="qr_share_unverified">Bu kod doğrulanamadı ve gösterilmedi</string>
+
+    <!-- Paywall / restore -->
+    <string name="premium_active">Premium etkin \u2713</string>
+    <string name="restore_code_hint">Geri yükleme kodu \u2014 Premium\'u başka bir cihazda kullanın:</string>
+    <string name="loading_plans">Planlar yükleniyor\u2026</string>
+    <string name="already_premium_restore">Zaten Premium mu? Kodunuzla geri yükleyin</string>
+    <string name="account_code">Hesap kodu</string>
+    <string name="restore">Geri yükle</string>
+    <string name="restore_none">Bu mağaza hesabında abonelik bulunamadı</string>
+
+    <!-- App selection -->
+    <string name="search_apps">Uygulama ara\u2026</string>
+
+    <!-- Connection status (shown in toasts and the connect button) -->
+    <string name="status_starting_vpn">VPN başlatılıyor\u2026</string>
+    <string name="status_finding_path">En hızlı yol aranıyor\u2026</string>
+    <string name="status_connected">Bağlandı \u00B7 %1$s</string>
+    <string name="status_disconnected">Bağlantı kesildi</string>
+    <string name="status_failed">Bağlantı başarısız: %1$s</string>
+    <!-- Entry flow: splash, welcome, sign-in -->
+    <string name="splash_tagline">Hattın koruyucusu</string>
+    <string name="welcome_title">Bağlantınız için bir koruyucu</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">koruyucu</string>
+    <string name="welcome_body">Sessiz, tetikte, ödün vermez. %1$s, sizinle özgür internet arasında durur.</string>
+    <string name="get_started">Başla</string>
+    <string name="signin_title">%1$s\'e hoş geldiniz</string>
+    <string name="signin_subtitle">Premium\'unuzu tüm cihazlarınızda kullanmak için giriş yapın ya da öylece devam edin \u2014 uygulama hesap olmadan da çalışır.</string>
+    <string name="continue_with_google">Google ile devam et</string>
+    <string name="continue_with_apple">Apple ile devam et</string>
+    <string name="have_account_code">Hesap kodum var</string>
+    <string name="continue_as_guest">Hesapsız devam et</string>
+    <string name="back_action">Geri</string>
+    <string name="signin_unavailable">Giriş şu anda kullanılamıyor. Uygulamayı hesap olmadan kullanmaya devam edebilirsiniz.</string>
+
+    <!-- Account screen (Settings -> Account) -->
+    <string name="account">Hesap</string>
+    <string name="account_free_title">Bu cihazda abonelik yok</string>
+    <string name="account_free_body">%1$s hesap olmadan çalışır. Premium, mağazadaki satın alımınızdan gelir. Yeni bir cihaza taşımak için Geri yükle düğmesine dokunun.</string>
+    <string name="account_premium_title">Premium etkin</string>
+    <string name="account_plan">Plan</string>
+    <string name="account_renews">Yenilenme %1$s</string>
+    <string name="account_expires">Bitiş %1$s</string>
+    <string name="already_subscribed">Aboneliğiniz var mı? Geri yüklemek için giriş yapın</string>
+    <string name="account_signed_in">Giriş yapıldı \u2014 aboneliğiniz bu hesaba bağlı</string>
+
+    <!-- Paywall — hero, plan rows, rails. -->
+    <string name="paywall_eyebrow">%1$s PREMIUM</string>
+    <string name="paywall_headline">Dışarıya açılan hızlı yol.</string>
+    <string name="paywall_subhead">Önünüzde hiçbir engel yok.</string>
+    <string name="paywall_perk_regions_title">Tüm bölgeler</string>
+    <string name="paywall_perk_regions_body">Her yerden bağlanın, istediğiniz zaman değiştirin.</string>
+    <string name="paywall_perk_speed_title">Her zaman tam hız</string>
+    <string name="paywall_perk_speed_body">Kota yok, hız da hiç düşürülmüyor.</string>
+    <string name="plan_period_weekly">Haftalık</string>
+    <string name="plan_period_monthly">Aylık</string>
+    <string name="plan_period_3month">3 ayda bir</string>
+    <string name="plan_period_6month">6 ayda bir</string>
+    <string name="plan_period_yearly">Yıllık</string>
+    <string name="plan_save_badge">%1$d%% İNDİRİM</string>
+    <string name="plan_save_vs_monthly">Aylığa göre %1$d%% tasarruf</string>
+    <string name="plans_unavailable">Planlar şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="start_free_trial">Ücretsiz denemeyi başlat</string>
+    <string name="pay_with_card">Kartla öde</string>
+    <string name="pay_with_crypto">Kripto ile öde</string>
+    <string name="pay_alipay">Alipay</string>
+    <string name="pay_wechat">WeChat Pay</string>
+    <string name="paywall_disclosure_play">İptal edilene kadar otomatik yenilenir. Dilediğiniz zaman \u2068Google Play \u203A Subscriptions\u2069 bölümünden iptal edin.</string>
+    <string name="paywall_disclosure_stripe">Kartlar, Apple Pay ve Google Pay \u2014 Stripe güvencesiyle. İptal edilene kadar yenilenir.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT ve diğer coinler. Kart yok, banka yok \u2014 ödemeyi size bağlayan hiçbir şey yok.</string>
+    <string name="paywall_disclosure_paymentwall">Kartlar ve yerel ödeme yöntemleri. İptal edilene kadar yenilenir.</string>
+    <string name="paywall_disclosure_china">Ödeme tamamlanır tamamlanmaz Premium otomatik etkinleşir, uçtan uca şifreli.</string>
+    <string name="cd_close">Kapat</string>
+
+    <!-- Split tunnelling (app selector) -->
+    <string name="split_tunnel_title">Uygulamalar ve VPN</string>
+    <string name="split_mode_exclude">Seçilenler dışındaki tüm uygulamalar</string>
+    <string name="split_mode_exclude_desc">Seçilen uygulamalar VPN\'i atlayıp doğrudan bağlanır. Bunu bankacılık ve diğer yerel uygulamalar için kullanın.</string>
+    <string name="split_mode_include">Yalnızca seçili uygulamalar</string>
+    <string name="split_state_all">Tüm uygulamalar VPN kullanıyor</string>
+    <string name="split_state_none">Hiçbir uygulama VPN kullanmıyor</string>
+    <string name="split_state_bypass">%2$d uygulamadan %1$d tanesi VPN\'i atlıyor</string>
+    <string name="split_state_only">%2$d uygulamadan %1$d tanesi VPN kullanıyor</string>
+    <string name="split_reconnect_note">Değişiklikler VPN\'i yeniden bağlar.</string>
+    <string name="select_recommended">Önerilenler</string>
+    <string name="select_all">Tümü</string>
+    <string name="select_none">Hiçbiri</string>
+
+    <!-- Paywall and free-data meter -->
+    <string name="speed_state_limited">%1$s ile sınırlı</string>
+    <string name="data_free_low_note">Bundan sonra %1$s hızında çalışmaya devam eder. Premium tam hızda kalır.</string>
+    <string name="data_free_out_note">Bağlantı sürüyor, %1$s hızında. Premium tam hızı geri getirir.</string>
+    <string name="data_free_one_time">Aylık kota</string>
+    <string name="premium_title_default">Sınırsız veri, her zaman tam hız</string>
+    <string name="premium_body_default">Premium · tüm bölgeler · reklamsız</string>
+    <string name="paywall_headline_offer">Sınırsız. Tam hız. Reklamsız.</string>
+    <string name="paywall_subhead_offer">Ücretsiz kotanız her ay yenilenir. Premium hiç bitmez.</string>
+    <string name="paywall_subhead_throttled">Şu anda %1$s ile sınırlısınız. Premium bu sınırı kaldırır.</string>
+    <string name="plan_hero_unit">aylık</string>
+    <string name="paywall_perk_data_title">Sınırsız veri</string>
+    <string name="paywall_perk_data_body">Ücretsiz kota her ay yenilenir. Premium\'da sınır yoktur.</string>
+    <string name="paywall_perk_data_body_once">Ücretsiz kota yalnızca bir kez verilir. Premium\'da veri hiç bitmez.</string>
+    <string name="paywall_perk_speed_body_limit">Ücretsiz kota bitince hız %1$s seviyesine düşer. Premium sürümünde hiç düşmez.</string>
+    <string name="paywall_perk_ads_title">Reklamsız</string>
+    <string name="paywall_perk_ads_body">Bağlanırken tam ekran reklam yok.</string>
+    <string name="paywall_reassure">Hesap da e-posta da gerekmez.</string>
+    <string name="plan_per_month">aylık %1$s</string>
+    <string name="proof_downloads">%1$s üzerinde indirme</string>
+    <string name="proof_rating">%2$s değerlendirmeden %1$s</string>
+    <string name="bypass_title">VPN’i atlayan hedefler</string>
+    <string name="bypass_desc">Bu IP adreslerine ve aralıklarına giden trafik, hangi uygulama gönderirse göndersin doğrudan bağlanır. Yabancı adresleri kabul etmeyen yerel bankacılık ve devlet hizmetleri için kullanışlıdır.</string>
+    <string name="bypass_hint">IP veya aralık, örn. 192.168.1.0/24</string>
+    <string name="bypass_add">Ekle</string>
+    <string name="bypass_remove">Kaldır</string>
+    <string name="bypass_invalid">Bir IP adresi veya aralığı girin, örneğin 10.0.0.0/8</string>
+    <string name="bypass_none">Yok — tüm hedefler VPN kullanıyor</string>
+    <string name="bypass_count">%1$d hedef VPN’i atlıyor</string>
+    <string name="bypass_over_budget">%1$d girdi bu cihazda uygulanamıyor ve VPN kullanmaya devam ediyor. Bazı girdileri kaldırın veya daha geniş aralıklar kullanın.</string>
+    <string name="restore_ok">Premium geri yüklendi</string>
+    <string name="restore_invalid">Kod geçersiz</string>
+    <string name="open_source_intro">%1$s aşağıdaki açık kaynak projelerinin yardımıyla geliştirilmiştir.</string>
+    <string name="cd_back">Geri</string>
+    <string name="paywall_perk_ixp_title">Kendi donanımımız</string>
+    <string name="paywall_perk_ixp_body">Çoğu VPN ucuz sanal sunucu kiralar. Bizimkiler dünyanın büyük ağlarının buluştuğu internet değişim noktalarının içinde — daha kısa yol, daha hızlı uygulama.</string>
+    <string name="onboarding_plans_title">Ücretsiz veya Premium</string>
+    <string name="onboarding_plans_body">Ücretsizde aylık bir kota tam hızda verilir, sonrasında reklamlarla daha düşük hızda sınırsız trafik. Premium kotayı, yavaşlamayı ve reklamları kaldırır.</string>
+    <string name="continue_label">Devam</string>
+    <string name="skip_label">Atla</string>
+    <string name="rate_app">%1$s uygulamasını değerlendir</string>
+    <string name="esim_mine">eSIM\'lerim</string>
+    <string name="esim_purchase_unavailable">eSIM satın alımları bu sürümde henüz kullanılamıyor.</string>
+    <string name="esim_install">Bu telefona yükle</string>
+    <string name="esim_install_failed">Otomatik yüklenemedi. QR kodunu tarayın veya aşağıdaki kodları girin.</string>
+    <string name="esim_installed">eSIM yüklendi. Ayarlarda görünmesi bir dakika sürebilir.</string>
+    <string name="esim_activation_code">Etkinleştirme kodu</string>
+    <string name="esim_copy">Kopyala</string>
+    <string name="esim_copied">Kopyalandı</string>
+    <string name="esim_none">Bu cihazda henüz eSIM yok.</string>
+    <string name="esim_load_failed">eSIM\'leriniz yüklenemedi. Bağlantınızı kontrol edip tekrar deneyin.</string>
+    <string name="esim_retry">Tekrar dene</string>
+    <string name="esim_left_of">%2$s içinden %1$s kaldı</string>
+    <string name="esim_status_ready">Yüklemeye hazır</string>
+    <string name="esim_status_active">Etkin</string>
+    <string name="esim_status_used">Tükendi</string>
+    <string name="esim_status_expired">Süresi doldu</string>
+    <string name="esim_account">Hesap ve geri yükleme</string>
+    <string name="tabs_connect">Bağlan</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">Hesap</string>
+    <string name="tabs_status_protected">Korunuyor · bugün %1$d engellendi</string>
+    <string name="tabs_status_connected">Bağlandı</string>
+    <string name="tabs_status_connecting">Bağlanıyor…</string>
+    <string name="tabs_status_failed">Bağlanılamadı. Tekrar denemek için dokunun.</string>
+    <string name="tabs_status_off">Kapalı</string>
+    <string name="tabs_guardian_open">Neyin reddedildiğini görün</string>
+    <string name="tabs_ring_connect">Bağlan</string>
+    <string name="tabs_ring_disconnect">Bağlantıyı kes</string>
+    <string name="tabs_ring_cancel">Bağlanıyor, iptal için dokunun</string>
+    <string name="tabs_elapsed">Süre</string>
+    <string name="tabs_download">İndirme</string>
+    <string name="tabs_upload">Yükleme</string>
+    <string name="tabs_route">Rota</string>
+    <string name="tabs_route_auto">Otomatik</string>
+    <string name="tabs_disconnect">Bağlantıyı kes</string>
+    <string name="tabs_guardian_title">Koruyucu</string>
+    <string name="tabs_guardian_on">Son 30 günde reddedilen ve işaretlenen bağlantılar.</string>
+    <string name="tabs_guardian_off">Koruma kapalı. Hiçbir şey reddedilmiyor.</string>
+    <string name="tabs_guardian_empty">Henüz hiçbir şey reddedilmedi.</string>
+    <string name="tabs_guardian_row">Bağlantı noktası %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">İzin ver</string>
+    <string name="tabs_allowed">İzin verildi</string>
+    <string name="tabs_rules">Kurallar</string>
+    <string name="tabs_rules_master">Koruma</string>
+    <string name="tabs_rules_master_sub">Bilinen kötü amaçlı sitelere bağlantıları reddet.</string>
+    <string name="tabs_rules_categories">Kategoriye göre reddedilenler</string>
+    <string name="tabs_rules_allow">Her zaman izin ver</string>
+    <string name="tabs_rules_deny">Her zaman reddet</string>
+    <string name="tabs_rules_empty">Henüz yok.</string>
+    <string name="tabs_rules_remove">Kaldır</string>
+    <string name="tabs_rules_hint">Site veya adres</string>
+    <string name="tabs_rules_add">Ekle</string>
+    <string name="tabs_passes_title">eSIM\'ler</string>
+    <string name="tabs_store">Mağaza</string>
+    <string name="tabs_my_passes">eSIM\'lerim</string>
+    <string name="tabs_where">Nereye gidiyorsunuz?</string>
+    <string name="tabs_search_hint">Ülke, şehir veya bölge</string>
+    <string name="tabs_from">En düşük %1$s</string>
+    <string name="tabs_all_destinations">Tüm destinasyonlar</string>
+    <string name="tabs_how_long">Seyahat ne kadar sürecek?</string>
+    <string name="tabs_days">%1$d gün</string>
+    <string name="tabs_how_much">İnterneti nasıl kullanıyorsunuz?</string>
+    <string name="tabs_usage_maps">Harita ve mesajlaşma</string>
+    <string name="tabs_usage_socials">Sosyal medya ve gezinme</string>
+    <string name="tabs_usage_streaming">Video ve yayın</string>
+    <string name="tabs_need">%2$d gün için yaklaşık %1$s GB.</string>
+    <string name="tabs_recommended">ÖNERİLEN</string>
+    <string name="tabs_plan_line">%1$s · %2$d gün</string>
+    <string name="tabs_buy">Satın al</string>
+    <string name="tabs_number_row">Yerel numarayla: %1$d dk · %2$s · %3$d gün</string>
+    <string name="tabs_see_all">Tüm planları gör</string>
+    <string name="tabs_hide_all">Tüm planları gizle</string>
+    <string name="tabs_unlimited">Sınırsız</string>
+    <string name="tabs_refund">İnternetiniz etkinleşmezse para iadesi.</string>
+    <string name="tabs_no_passes">Henüz eSIM yok</string>
+    <string name="tabs_no_passes_body">Bir eSIM alın, saniyeler içinde telefonunuza kurulsun. SIM kart değiştirmek yok, ana numaranız aramalar için açık kalır.</string>
+    <string name="tabs_browse">eSIM\'lere göz atın</string>
+    <string name="tabs_status_active">Etkin</string>
+    <string name="tabs_status_ready">Hazır</string>
+    <string name="tabs_status_used">Tükendi</string>
+    <string name="tabs_status_expired">Süresi doldu</string>
+    <string name="tabs_used">%1$s kullanıldı</string>
+    <string name="tabs_left">%1$s kaldı</string>
+    <string name="tabs_install">Kur</string>
+    <string name="tabs_topup">Yükle</string>
+    <string name="tabs_install_title">eSIM\'inizi kurun</string>
+    <string name="tabs_install_here">Bu telefona kur</string>
+    <string name="tabs_install_other">Veya bu kodu başka bir telefondan tarayın: Ayarlar, ardından Mobil veri, ardından Plan ekle.</string>
+    <string name="tabs_installed">eSIM yüklendi. Ayarlarda görünmesi bir dakika sürebilir.</string>
+    <string name="tabs_install_failed">Otomatik kurulamadı. Kodu tarayın veya aşağıdaki bilgileri girin.</string>
+    <string name="tabs_topup_none">Bu eSIM\'e yükleme yapılamaz. Bunun yerine yeni bir eSIM alın.</string>
+    <string name="tabs_checkout">Ödeme</string>
+    <string name="tabs_pay_unavailable">Bu sürümde henüz eSIM satın alınamıyor.</string>
+    <string name="tabs_load_failed">Yüklenemedi. Bağlantınızı kontrol edin.</string>
+    <string name="tabs_retry">Tekrar dene</string>
+    <string name="tabs_pro">Pro</string>
+    <string name="tabs_per_month">%1$s / ay</string>
+    <string name="tabs_active_until">%1$s tarihine kadar etkin</string>
+    <string name="tabs_active">Etkin</string>
+    <string name="tabs_not_active">Etkin değil</string>
+    <string name="tabs_go_pro">Pro\'ya geçin</string>
+    <string name="tabs_renews">Her ay yenilenir. İstediğiniz zaman iptal edin.</string>
+    <string name="tabs_restore_code">Geri yükleme kodu</string>
+    <string name="tabs_other_device">Başka bir cihazda kullanın</string>
+    <string name="tabs_code_body">Bu kod sizin hesabınızdır. Güvenli bir yerde saklayın ve Pro\'yu geri yüklemek için yeni bir telefonda girin.</string>
+    <string name="tabs_legal">Yasal bilgiler</string>
+    <string name="tabs_guardian_updated">Koruma listesi güncellendi: %1$s</string>
+    <string name="tabs_notified">İşaretlendi</string>
+    <string name="tabs_notices">Duyurular</string>
+    <string name="tabs_rules_toggles">Kategoriler</string>
+    <string name="tabs_second_number">İkinci numara</string>
+    <string name="tabs_second_number_body">İnternet, dakika ve SMS içeren yerel bir numara. Süresi dolar; numarayı korumak için öncesinde yükleme yapın.</string>
+    <string name="tabs_number_where">Hangi ülkenin numarası?</string>
+    <string name="tabs_number_note">İlk bağlandığınızda başlar. Numarayı korumak için süresi dolmadan kendiniz yükleme yapın.</string>
+    <string name="tabs_number_line">%1$s · %2$d dk · %3$d SMS</string>
+    <string name="tabs_expires_on">Son kullanma: %1$s</string>
+    <string name="tabs_starts_on_connect">İlk bağlandığınızda başlar</string>
+    <string name="tabs_voice_sms_left">%1$d dk · %2$d SMS kaldı</string>
+    <string name="tabs_reload_keep">Bu numarayı korumak için yükleyin</string>
+    <string name="tabs_reload_within">Bu numarayı korumak için %1$d gün içinde yükleme yapın</string>
+    <string name="tabs_not_reloadable">Bu numaraya yükleme yapılamaz; %1$s tarihinde sona erer</string>
+    <string name="tabs_not_reloadable_nodate">Bu numaraya yükleme yapılamaz</string>
+    <string name="tabs_number_ended">Bu numaranın süresi sona erdi</string>
+    <string name="tabs_number_label">Numaranız</string>
+    <string name="tabs_number_label_hint">Numaranız SIM durumu bölümünde görünür</string>
+    <string name="tabs_save">Kaydet</string>
+    <string name="tabs_edit">Düzenle</string>
+    <string name="tabs_alerts_channel">eSIM uyarıları</string>
+    <string name="tabs_alert_expired">%1$s: eSIM\'in süresi doldu.</string>
+    <string name="tabs_alert_expired_number">%1$s: eSIM\'in süresi doldu. Bu numarayı korumak için %2$d gün içinde yükleme yapın.</string>
+    <string name="tabs_alert_grace">%1$s: bu numarayı korumak için %2$d gün içinde yükleme yapın.</string>
+    <string name="tabs_alert_data">%1$s: veri kullanımı %%%2$d oldu.</string>
+    <string name="tabs_reload">Yükle</string>
+    <string name="tabs_offline_pay">Çevrimdışısınız. Satın almak için internet bağlantısı gerekir.</string>
+    <string name="tabs_offline_saved">Son ziyaretinizden kaydedilmiş fiyatlar. Değişmiş olabilirler.</string>
+    <string name="tabs_runout">Bu hızla veriniz yaklaşık %1$s tarihinde biter.</string>
+    <string name="tabs_add_topup">%1$s ekle · %2$s</string>
+    <string name="tabs_esim_code">eSIM erişim kodu</string>
+    <string name="tabs_esim_code_body">eSIM\'lerinizi orada görmek için bu kodu başka bir telefona veya e-sim.net\'e girin. Gizli tutun: eSIM\'lerinizin kurulum kodlarını açar.</string>
+    <string name="tabs_esim_restore">eSIM\'leri başka bir telefondan geri yükle</string>
+    <string name="tabs_esim_restored">Bu telefona taşınan eSIM\'ler: %1$d</string>
+    <string name="tabs_esim_code_bad">Bu kod bulunamadı. Kontrol edip tekrar deneyin.</string>
+    <string name="tabs_sort_total">En düşük fiyat</string>
+    <string name="tabs_sort_per_gb">GB başına</string>
+    <string name="tabs_sort_per_day">Gün başına</string>
+    <string name="tabs_best_value">En iyi fiyat</string>
+    <string name="tabs_signin_body">E-postanızla aldığınız eSIM\'leri her telefonda görmek için giriş yapın.</string>
+    <string name="tabs_signin_google">Google ile devam et</string>
+    <string name="tabs_signin_apple">Apple ile devam et</string>
+    <string name="tabs_signed_in_as">%1$s olarak giriş yapıldı</string>
+    <string name="tabs_sign_out">Çıkış yap</string>
+    <string name="tabs_delete_account">eSIM hesabını sil</string>
+    <string name="tabs_delete_body">E-postanız eSIM siparişlerinizden kaldırılır ve oturumunuz kapanır. eSIM\'leriniz bu telefonda kalır.</string>
+    <string name="tabs_delete_confirm">Sil</string>
+    <string name="tabs_deleted">eSIM hesabınız silindi.</string>
+    <string name="tabs_expiry_unavailable">Son kullanma tarihi şu anda alınamıyor</string>
+    <string name="tabs_alert_exp_days">%1$s: eSIM\'in süresi %2$d gün içinde doluyor.</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s: eSIM\'in süresi yarın doluyor.</string>
+    <string name="tabs_alert_ends_on">%1$s: %2$s tarihinde sona eriyor. Bu hatta yükleme yapılamaz.</string>
+    <string name="tabs_alert_reload_hint">Kullanmaya devam etmek için yükleyin.</string>
+    <string name="tabs_tile_protected">Korunuyor</string>
+    <string name="tabs_widget_desc">Bağlantı, bugün engellenenler ve eSIM verisi tek bakışta</string>
+    <string name="tabs_widget_blocked">Bugün %1$d engellendi</string>
+    <string name="tabs_live_esim">%1$s: %2$s kaldı, %3$s tarihine kadar</string>
+    <string name="tabs_live_esim_left">%1$s: %2$s kaldı</string>
+    <string name="tabs_live_days_left">Kalan gün: %1$d</string>
+    <string name="tabs_live_route">Rota: %1$s</string>
+    <string name="tabs_live_session">Bu oturum: ↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">%2$s dahil: %1$d gün</string>
+    <string name="link_signin_confirm">Bu bağlantıyı %1$s üzerinde açan hesapla oturum açılsın mı? Bu cihaz o hesabın planını kullanacak.</string>
+    <string name="link_claim_confirm">Bu bağlantıdaki hesap koduyla geri yüklensin mi? Bu cihaz o kodun planını kullanacak.</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">Yükselt</string>
+    <string name="home_data_line">Seyahat eSIM\'i ve ABD numarası aynı uygulamada</string>
+    <string name="home_travel_esim">Seyahat eSIM\'i</string>
+    <string name="home_countries_170">170+ ülke</string>
+    <string name="home_us_number">ABD numarası</string>
+    <string name="home_second_line">İkinci bir hat</string>
+    <string name="home_free_helper">Nereye giderseniz gidin güvenli bağlantı</string>
+    <string name="home_connected">Bağlandı</string>
+    <string name="home_connecting">Bağlanıyor…</string>
+    <string name="home_disconnecting">Bağlantı kesiliyor</string>
+    <string name="home_failed">Bağlantı başarısız</string>
+    <string name="home_not_connected">Bağlı değil</string>
+    <string name="home_try_again_long">Tekrar deneyin veya ağınızı kontrol edin.</string>
+    <string name="home_try_again">Tekrar dene</string>
+    <string name="shop_where">Nereye gidiyorsunuz?</string>
+    <string name="shop_search">Ülke, bölge veya şehir</string>
+    <string name="shop_clear">Temizle</string>
+    <string name="shop_local_helper">Tek ülke, tek eSIM. Gösterilen fiyat oradaki en ucuz pakettir.</string>
+    <string name="shop_regional_helper">Tek eSIM\'de birden fazla ülke. Gösterilen fiyat en ucuz pakettir.</string>
+    <string name="shop_global_helper">Dünyanın çoğu için tek eSIM. Gösterilen fiyat en ucuz pakettir.</string>
+    <string name="shop_near_me">Yakınımda</string>
+    <string name="shop_americas">Amerika</string>
+    <string name="shop_middle_east">Orta Doğu</string>
+    <string name="shop_your_country">Ülkeniz</string>
+    <string name="shop_no_match">“%1$s” ile eşleşen yer yok.</string>
+    <string name="shop_try_nearby">Yakındaki bir ülkeyi ya da bölgesel bir eSIM\'i dene.</string>
+    <string name="shop_results">Sonuçlar</string>
+    <string name="shop_from">başlangıç</string>
+    <string name="shop_real_us_number">Gerçek bir ABD numarası</string>
+    <string name="shop_us_number_sub">İkinci hat olarak bir ABD numarası edinin</string>
+    <string name="shop_dest_unavailable">Bu hedef kullanılamıyor.</string>
+    <string name="shop_try_again">Tekrar dene</string>
+    <string name="shop_data_plans">Veri planları</string>
+    <string name="shop_data_only">Yalnızca veri. Ana numaranız aramalar ve SMS\'ler için açık kalır.</string>
+    <string name="shop_with_number">Telefon numaralı</string>
+    <string name="shop_with_number_sub">Bu ülkeye ait veri, dakika ve SMS içeren yerel bir numara.</string>
+    <string name="shop_supports_esim">Otomatik kontrol edildi · eSIM destekliyor</string>
+    <string name="shop_no_esim_support">eSIM desteklemiyor, bu yüzden seyahat eSIM\'i buraya kurulamaz.</string>
+    <string name="shop_install_now">Şimdi kurun; vardığınızda ve bağlandığınızda başlar.</string>
+    <string name="shop_delivered">Planlar e-sim.net tarafından sağlanır.</string>
+    <string name="shop_plans_from">Başlangıç fiyatı %1$s</string>
+    <string name="shop_trip_length">Seyahat süresi</string>
+    <string name="shop_how_you_use">Veriyi nasıl kullanıyorsunuz</string>
+    <string name="shop_light">Açık</string>
+    <string name="shop_heavy">Yoğun</string>
+    <string name="shop_recommended_for">%1$s için önerilen</string>
+    <string name="shop_your_trip">Seyahatiniz</string>
+    <string name="shop_buy_now">Hemen satın al</string>
+    <string name="shop_per_day">%1$s/gün</string>
+    <string name="shop_one_day">1 gün</string>
+    <string name="shop_number_plan">Telefon numarası + %1$d dk + %2$d SMS</string>
+    <string name="shop_checkout">Ödeme</string>
+    <string name="shop_top_up">Yükleme yap</string>
+    <string name="shop_cancel">Vazgeç</string>
+    <string name="shop_your_plan">Planınız</string>
+    <string name="shop_esim_with_number">Telefon numaralı eSIM</string>
+    <string name="shop_data_esim">Veri eSIM\'i</string>
+    <string name="shop_valid_for">Geçerlilik</string>
+    <string name="shop_calls_texts">Arama ve SMS</string>
+    <string name="shop_min_texts">%1$d dk · %2$d SMS</string>
+    <string name="shop_network">Şebeke</string>
+    <string name="shop_adds_to">Eklenecek eSIM</string>
+    <string name="shop_pay_with">Ödeme yöntemi</string>
+    <string name="shop_card">Kart</string>
+    <string name="shop_discount_code">İndirim kodu</string>
+    <string name="shop_apply">Uygula</string>
+    <string name="shop_code_applied">%1$s uygulandı: %2$s indirim</string>
+    <string name="shop_add_code">İndirim kodu ekle</string>
+    <string name="shop_price">Fiyat</string>
+    <string name="shop_discount">İndirim</string>
+    <string name="shop_one_payment">Tek ödeme, abonelik yok. Fiyatlar ABD doları cinsindendir.</string>
+    <string name="shop_send_exactly">%3$s ağında tam olarak %1$s %2$s gönderin</string>
+    <string name="shop_wallet_code">Cüzdanınız için ödeme kodu</string>
+    <string name="shop_amount_unique">Tutar bu siparişe özeldir. Herhangi bir cüzdandan veya borsadan tek seferde gönderin.</string>
+    <string name="shop_amount">Tutar (%1$s)</string>
+    <string name="shop_address">Adres (%1$s)</string>
+    <string name="shop_open_wallet">Cüzdanda aç</string>
+    <string name="shop_waiting_payment">Ödeme bekleniyor</string>
+    <string name="shop_send_before">Son gönderim saati: %1$s. Genellikle bir dakika içinde ulaşır.</string>
+    <string name="shop_coinbase">Coinbase ile diğer coin\'ler</string>
+    <string name="shop_pay_crypto_title">Kripto ile öde</string>
+    <string name="shop_pay">%1$s öde</string>
+    <string name="shop_pay_in_crypto">%1$s kripto ile öde</string>
+    <string name="shop_too_many">Çok fazla deneme. Birkaç dakika bekleyip tekrar deneyin.</string>
+    <string name="shop_sheet_failed">Ödeme ekranı açılamadı.</string>
+    <string name="shop_unexpected">e-sim.net\'ten beklenmedik bir yanıt geldi. Uygulamayı güncelleyin veya tekrar deneyin.</string>
+    <string name="shop_offline_pay">Çevrimdışısınız. Ödemek için bağlanın.</string>
+    <string name="shop_copy">Kopyala</string>
+    <string name="shop_copy_code">Kodu kopyalayın</string>
+    <string name="shop_your_esim">eSIM\'iniz</string>
+    <string name="shop_order">Sipariş</string>
+    <string name="shop_confirming">Ödemeniz onaylanıyor</string>
+    <string name="shop_setting_up">eSIM\'iniz hazırlanıyor</string>
+    <string name="shop_under_minute">Bu genellikle bir dakikadan kısa sürer. Bu ekrandan çıkabilirsiniz; eSIM\'iniz eSIM\'lerim bölümünde olacak.</string>
+    <string name="shop_payment">Ödeme</string>
+    <string name="shop_ready_install">Kuruluma hazır</string>
+    <string name="shop_order_id">Sipariş %1$s</string>
+    <string name="shop_refunded">Bu sipariş iade edildi</string>
+    <string name="shop_setup_failed">eSIM\'iniz hazırlanamadı</string>
+    <string name="shop_payment_safe">Ödemeniz güvende. %1$s sipariş numarasıyla support@e-sim.net adresine yazın; sorunu çözelim ya da ücreti iade edelim.</string>
+    <string name="shop_email_support">Desteğe e-posta gönder</string>
+    <string name="shop_close">Kapat</string>
+    <string name="shop_done">Tamam</string>
+    <string name="shop_ready">eSIM\'iniz hazır</string>
+    <string name="shop_your_number">Numaranız</string>
+    <string name="shop_install_esim">eSIM\'i yükle</string>
+    <string name="shop_install_code">Bu eSIM\'i kurma kodu</string>
+    <string name="shop_smdp">SM-DP+ adresi</string>
+    <string name="shop_activation_code">Etkinleştirme kodu</string>
+    <string name="shop_install">Kur</string>
+    <string name="shop_other_ways">Diğer kurulum yolları</string>
+    <string name="shop_install_guide">Kurulum kılavuzunu aç</string>
+    <string name="shop_open_settings">Ayarları Aç</string>
+    <string name="shop_my_esims">eSIM\'lerim</string>
+    <string name="shop_no_esims">Henüz eSIM yok</string>
+    <string name="shop_no_esims_body">Mağaza\'dan bir eSIM alın, burada görünür. Fiziksel SIM yok, ana numaranız aramalar için açık kalır.</string>
+    <string name="shop_past">Geçmiş</string>
+    <string name="shop_not_installed">Kurulmadı</string>
+    <string name="shop_used_up">Tükendi</string>
+    <string name="shop_expired">Süresi doldu</string>
+    <string name="shop_unlimited_data">Sınırsız veri</string>
+    <string name="shop_left_of">%2$s içinden %1$s kaldı</string>
+    <string name="shop_one_day_left">1 gün kaldı</string>
+    <string name="shop_install_again">Yeniden kur</string>
+    <string name="shop_installs_once">Bir eSIM her telefona bir kez kurulur. Ayarlar\'dan sildiyseniz yeniden kurulamayabilir.</string>
+    <string name="shop_not_reloadable">Bu eSIM\'e yükleme yapılamaz. Bunun yerine aynı yer için yeni bir eSIM kullanılabilir.</string>
+    <string name="shop_add_data">İnternet ekle</string>
+    <string name="shop_data_added">Veri bu eSIM\'e eklenir. Yeniden kurulum gerekmez.</string>
+    <string name="shop_restore_here">Bu telefondaki eSIM\'leri geri yükle</string>
+    <string name="shop_your_access_code">Erişim kodunuz</string>
+    <string name="shop_restore_title">eSIM\'leri geri yükle</string>
+    <string name="shop_access_code">Erişim kodu</string>
+    <string name="shop_find_code">Diğer telefonunuzda eSIM\'lerim › Erişim kodunuz bölümünde veya makbuz e-postanızda bulabilirsiniz.</string>
+    <string name="shop_restore">Geri yükle</string>
+    <string name="shop_code_body">eSIM\'lerinizi orada görmek için bu kodu diğer cihazınıza girin. Gizli tutun: eSIM\'lerinizi taşır.</string>
+    <string name="shop_second_number">İkinci numara</string>
+    <string name="shop_from_price">%1$s başlayan fiyatlarla</string>
+    <string name="shop_number_body">Veri, dakika ve SMS içeren yerel bir numara. Süresi dolar; numarayı korumak için yükleme yapın.</string>
+    <string name="shop_number_p1">İkinci bir hat</string>
+    <string name="shop_number_p1_sub">Ana numaranız ve SIM\'iniz olduğu gibi kalır.</string>
+    <string name="shop_number_p2">Aramalar ve SMS\'ler buraya gelir</string>
+    <string name="shop_number_p3">Hesap yok, kimlik yok</string>
+    <string name="shop_number_p3_sub">Kayıt gerekmez. Ödeyin ve kurun.</string>
+    <string name="shop_number_p4">Veri dahil</string>
+    <string name="shop_number_p4_sub">Her plan ABD\'de mobil veri içerir.</string>
+    <string name="shop_choose_plan">Bir plan seçin</string>
+    <string name="acct_upgrade">Yükselt</string>
+    <string name="acct_free_plan">Ücretsiz plan</string>
+    <string name="acct_manage_sub">Aboneliği yönet</string>
+    <string name="acct_usage">Kullanım istatistikleri</string>
+    <string name="acct_subscription">Abonelik</string>
+    <string name="acct_connection">Bağlantı</string>
+    <string name="acct_settings">Ayarlar</string>
+    <string name="acct_appearance">Görünüm</string>
+    <string name="acct_language">Dil</string>
+    <string name="acct_light">Açık</string>
+    <string name="acct_dark">Koyu</string>
+    <string name="acct_automatic">Otomatik</string>
+    <string name="acct_rate">%1$s uygulamasını değerlendir</string>
+    <string name="acct_about">%1$s hakkında</string>
+    <string name="acct_privacy">Gizlilik Politikası</string>
+    <string name="acct_terms">Kullanım Koşulları</string>
+    <string name="acct_support">Destek ve yasal</string>
+    <string name="shop_stablecoins">USDT · USDC stabil coin</string>
+    <string name="acct_delete">Hesabı sil</string>
+    <string name="acct_delete_title">Hesabınız silinsin mi?</string>
+    <string name="acct_delete_footer">Hesabınızı, kodunu ve kullanım geçmişinizi siler. Aboneliği iptal etmez.</string>
+    <string name="acct_delete_body">Hesabınız ve kullanım geçmişiniz şimdi silinecek.</string>
+    <string name="acct_deleted">Hesap silindi. Bu telefondaki eSIM\'ler yüklü kalır.</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">Bağlanmadan önce</string>
+    <string name="vpn_disclosure_what">%1$s, bu telefonun internet trafiğini şifreli bir tünelle %1$s sunucularına göndermek için Android\'in VPN hizmetini kullanır.</string>
+    <string name="vpn_disclosure_data">Bağlıyken sunucularımız IP adresinizi ve ne kadar veri kullandığınızı görür. Planınızı sağlamak ve kötüye kullanımı önlemek için IP adreslerinizi, bunların ülkesini ve ağını, en son ne zaman bağlandığınızı ve veri kullanımınızı bu cihazın %1$s kimliğiyle birlikte saklarız. Bu verileri satmayız.</string>
+    <string name="vpn_disclosure_next">Ardından Android sizden VPN bağlantısına izin vermenizi isteyecek.</string>
+    <string name="disclosure_not_now">Şimdi değil</string>
+</resources>

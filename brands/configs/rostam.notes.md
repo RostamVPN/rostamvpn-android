@@ -1,0 +1,105 @@
+# Notes for `rostam.json`
+
+Moved out of the JSON on 2026-09-08 because they were 62% of a file that ships sealed to every device on a metered connection.
+
+They are kept because each one records something that already cost somebody a debugging session. Edit them here; they are no longer read by anything.
+
+## `api`
+
+**`_note`**
+
+How the app reaches the backend. This block is the BOOTSTRAP: it is the one thing that cannot come from the server, because it is what tells the app where the server is. Everything else in this file is replaced by whatever GET {base}/api/v1/config returns. A newer config may carry a new api block, so bases and the key can be rotated without a store release -- the bundled copy only has to work once.
+
+**`_fallback_note`**
+
+Tried in order when base is unreachable. SAME IP as base today, so these defeat per-name DNS poisoning -- the likely failure mode in Iran -- but NOT an IP block, which takes them all at once. A fallback on a DIFFERENT network (a CDN front, or a static copy on the POPs) is still the missing piece. e-sim.net was removed: it is the eSIM store's customer-facing domain and has no business being an API bootstrap host.
+
+**`_google_note`**
+
+The cashier's WEB OAuth client id. Native Google sign-in returns an ID token whose `aud` must equal this, and the cashier verifies it server-side. It is a web client on purpose -- an Android client id would produce a token the server cannot accept. Per brand: each cashier tenant has its own.
+
+## `(root)`
+
+**`_transport_order_note`**
+
+Protocol priority: which top-level transport is tried first. Listed order = try order; omit one to skip it entirely (region_policies[tz].disabled_transports still overrides per region). Endpoint-level priority/weight live on each entry: lower priority is tried first (SRV semantics, defaults 10 premium / 20 entries / 30 region v4 / 31 region v6 / 40 cdn / 50 named), weight breaks ties with a per-install-stable shuffle, and weight 0 disables an endpoint without removing it.
+
+**`_ipv6_note`**
+
+v6 transit is effectively free for us, so IPv6 literals are tried before IPv4 everywhere EXCEPT the regions listed in ipv4_first_regions. Iran is the exception: its mobile networks are largely v4-only, so a v6 dial is a guaranteed 8s timeout rather than a cheap win. The client's region is resolved from its timezone using freedom_regions below, so the two can never drift. Preference applies only to IP LITERALS — CDN fronts and names still come last, so this never costs extra DNS exposure. If the device has no routable v6 at all, v6 endpoints are dropped entirely (detected with a UDP route lookup that sends nothing).
+
+**`_freedom_regions_note`**
+
+Regions that get the product free (donor-funded), NOT a paid tier. Key = ISO country, matched against SIM/network country; value = device timezones that also count, so a foreign SIM in-country is still free. Adding a region is a config edit — no Kotlin knows any region by name. Keep in sync with the cashier: CASHIER_FREEDOM_REGIONS and app/region.py _TZ_REGION.
+
+**`_health_note`**
+
+Tunnel health watchdog. Active probe down the live data path; failures_before_reconnect consecutive misses trigger a full reconnect (AWG then the default transport). After max_auto_reconnects failures it waits cooldown_secs and retries forever. probe_url MUST remain the approved echo endpoint (CLAUDE.md hard rule: no web bugs).
+
+**`_throttle_note`**
+
+Free tier gets full speed up to the region free_quota_mb, then free_kbps instead of a hard cut-off. Freedom regions and paying users are NEVER limited — the app decides and the core only enforces. 0 disables it entirely. NOTE: this is client-side, so a patched APK removes it; real enforcement belongs on the POP.
+
+
+**`_brand`**
+
+rostam
+
+**`_note`**
+
+Config for the rostam app ONLY. Published with `publish-config --brand rostam`; the API returns it to clients sending `X-App-Key: rostam`. A brand with nothing published falls back to the shared config, so deleting this file's published keys reverts that app to shared policy without touching the others.
+
+## `transport.redsocket`
+
+**`_mux_note`**
+
+MUX2: carry many SOCKS5 streams over ONE Noise carrier instead of a fresh TCP + HTTP-Upgrade + Noise handshake per destination. A page load costs one handshake instead of thirty, and the server's connection count falls to roughly requests / streams-per-carrier. The fleet already accepts MUX2, so this is a client-only switch. Any per-request failure falls back to the legacy single-stream path, and setting this false reverts every device on its next config fetch with no app release.
+
+**`_premium_entries_note`**
+
+Paid-tier POP pool. Tried FIRST for entitled users; the shared entries above stay as fallback so premium is never worse off. Free users never see these. Empty = premium shares the free pool (today). Same schema as entries: host + port are BOTH required.
+
+**`_upgrade_hosts_note`**
+
+Decoy Host header for direct-IP dials. Each install picks one deterministically (cid+endpoint), so a single grep of the binary no longer yields one string that identifies every client. Must be hostnames a middlebox finds unremarkable. The server reads Host for logging only — it routes on the Upgrade header — so this is NOT a wire change.
+
+## `transport.wgtcp`
+
+**`_comment`**
+
+Per-device keys now come from the provisioning API (POST /api/v1/wgtcp/profile) -- see WgtcpProvisioner. This block carries only the on/off switch and defaults. The shared private key that used to live here shipped identically to every install and was bound to one /32 on the server, so exactly one device could use the tunnel at a time and nothing could be revoked. It is gone; do not reintroduce a key here.
+
+
+## `region_policies`
+
+**`_default`**
+
+{
+ "seeded_winners": [
+  "http"
+ ],
+ "disabled_transports": []
+}
+
+## `ads`
+
+**`_interval_secs_note`**
+
+0 = once per connect only (no mid-session loop). Positive = seconds between asks while still connected. Cashier ad_cooldown_secs=0 is required for every reconnect to show; a positive cashier cooldown still blocks rapid reconnect spam.
+
+**`_ad_sources_note`**
+
+Two independent ad sources, each on/off. admob_ad = Google AdMob + mediation (tried first). rostam_adtech = our own adtech container (cashier /ad/interstitial), the fallback. Set enabled:false to kill a source everywhere, or list ISO regions in off_regions to kill it only there. A source that is off never runs; the other still can. region mode 'off' below still turns off BOTH.
+
+**`_adtech_url_note`**
+
+Base host that serves the adtech container HTML (path /ad/interstitial). Empty = the cashier base. Point this at a dedicated adtech host to serve the container shell from there instead of baking it into the app.
+
+**`_admob_share_note`**
+
+Share of impressions that ask AdMob FIRST, 0-100, rolled per impression. The other source is still the fallback, so steering the mix never costs an impression. A REVENUE MIX control, not a fill workaround: AdMob serves every region we operate in, including IR and RU. IR and RU are 0 -- every impression there goes to our own exchange, because they are the largest regions and our exchange needs volume before its demand partners will serve (SmartyAds wants 100k impressions). Everywhere else is 80, i.e. 80% AdMob / 20% our exchange: the 20% exercises our path on live traffic without putting the bulk of proven revenue on an unproven source. Flip this one number to change the balance.
+
+**`_ir_off_note`**
+
+IR is 'off': no ads at all in Iran, from either source. Owner's call. Note this is the ONE switch that matters -- mode 'off' gates both admob_ad and rostam_adtech, so admob_share_regions.IR below is now moot rather than wrong. It is left in place so the mix is already correct if IR is ever turned back on.
+

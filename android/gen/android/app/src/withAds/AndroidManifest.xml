@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adtech-only manifest.
+
+  Everything here used to live in src/main, which meant a brand with ads turned
+  OFF still shipped the AdMob metadata and the CustomEventAdActivity.
+
+  ⚠️ The AD_ID permission is NOT here and must not come back. It belongs to
+  `play-services-ads-identifier`, which every brand links for attribution and
+  fraud — not to the ad SDK. It lives in src/main, with the reasoning written
+  out there.
+
+  Merged only into brands whose manifest sets android.adtech = true.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!-- AdMob App ID (required; the SDK crashes at init without it). Value is
+             the ${admobAppId} manifest placeholder set per build type/flavor in
+             build.gradle.kts — Google's SAMPLE id by default and on all debug
+             builds, the real id only on release brands that set it. -->
+        <!-- Full-screen host for creatives won by SmartyAdsCustomEvent (our own
+             exchange, mediated inside AdMob). Not exported: only the AdMob SDK
+             starts it, via the adapter, in-process. -->
+        <activity
+            android:name=".ads.CustomEventAdActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="${admobAppId}" />
+        <!-- Defer AdMob's own initialization; we call MobileAds.initialize()
+             ourselves at launch (AdMobInitializer) so init never blocks cold
+             start and we control ordering vs the WebView warm-up. -->
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+            android:value="true" />
+    </application>
+</manifest>

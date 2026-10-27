@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.utp",
+    "module": "android-device-provider-profile",
+    "version": "31.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-device-provider-profile-31.13.2.jar",
+          "url": "android-device-provider-profile-31.13.2.jar",
+          "size": 5980,
+          "sha512": "417bef9867383272c535643b4e21e1b55eaa71931c6aa32775f4b9a852f10f8894fd7509eb6f945989cfdc744fd18ed36a44ee56d49655c6b613ad283cdd775a",
+          "sha256": "9560c25859c9c15c77144cbb58370bad394882ecc3169fd5e589b7d4e52e866f",
+          "sha1": "6f967b531b24d2cbac2753a710f2fdd30f675a94",
+          "md5": "53287d7566e82e3063fddb64ba9a2b2d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "31.13.2"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.25.5"
+          }
+        },
+        {
+          "group": "com.android.tools.utp",
+          "module": "android-device-provider-profile-proto",
+          "version": {
+            "requires": "31.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-device-provider-profile-31.13.2.jar",
+          "url": "android-device-provider-profile-31.13.2.jar",
+          "size": 5980,
+          "sha512": "417bef9867383272c535643b4e21e1b55eaa71931c6aa32775f4b9a852f10f8894fd7509eb6f945989cfdc744fd18ed36a44ee56d49655c6b613ad283cdd775a",
+          "sha256": "9560c25859c9c15c77144cbb58370bad394882ecc3169fd5e589b7d4e52e866f",
+          "sha1": "6f967b531b24d2cbac2753a710f2fdd30f675a94",
+          "md5": "53287d7566e82e3063fddb64ba9a2b2d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-device-provider-profile-31.13.2-javadoc.jar",
+          "url": "android-device-provider-profile-31.13.2-javadoc.jar",
+          "size": 261,
+          "sha512": "21dfd87ef8c42fae203356bb7ce7943eb9fdd24a7b8b2fd15b16cd5bf99c5920a72848b235ea223bb03578c4f7803b2b3ab4f0a071f96192bd294873e4259737",
+          "sha256": "4201a821d118290ee7a9ad2d2248bc6f651172b30dc8d1a73764481f81bf6166",
+          "sha1": "6fa7a15930b418df85fc4d32fcea31c320ecd103",
+          "md5": "a649742ea77b6d203ee827e40e91c3cd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-device-provider-profile-31.13.2-sources.jar",
+          "url": "android-device-provider-profile-31.13.2-sources.jar",
+          "size": 2793,
+          "sha512": "818d646b63fb0dbe4031cba52bbe6ffe4ca2ef5141769af5dee0fd7016dd8a2dd451ba64e82422a9e8f5a32bf655367db3f5ca3f2f813d5900cefd0d41504f84",
+          "sha256": "0d2fd7484bd55319b403464f50df5f0211a64a4d5a640c254dc43bfb8c7226ce",
+          "sha1": "0806ba7c52c9b63a3f97a8ea70e24d252d6a2c2c",
+          "md5": "95fd37153a61c16ceb5566d88c8ad3ec"
+        }
+      ]
+    }
+  ]
+}

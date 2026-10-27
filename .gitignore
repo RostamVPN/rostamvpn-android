@@ -1,0 +1,63 @@
+# ── Rust ──────────────────────────────────────────────
+**/target/
+Cargo.lock.orig
+
+# ── Android / Gradle ──────────────────────────────────
+**/build/
+.gradle/
+**/.cxx/
+local.properties
+*.apk
+*.aab
+
+# ── Node ──────────────────────────────────────────────
+**/node_modules/
+
+# ── Large data / dumps ────────────────────────────────
+*.csv
+
+# ── IDE / OS ──────────────────────────────────────────
+.idea/
+*.iml
+.DS_Store
+
+# NOTE: signing material (keystore/*.jks + key.properties) is INTENTIONALLY
+# committed so this repo builds a signed release out-of-the-box. This is a
+# PRIVATE repo on silo.redteam.net — treat access as access to the Play Store
+# signing key. Do NOT mirror this repo to any public host.
+
+# redsocket_http is the SERVER and has its own repo
+# (silo.redteam.net:redteam/redsocket_http.git). It lived here until 2026-08-26;
+# it now sits at ~/silo/redsocket_http. Keep the ignore as a backstop so a stray
+# clone can never be committed: it carries server keys + release binaries, and
+# access to THIS repo equals Play signing authority.
+redsocket_http/
+
+# Understand-Anything knowledge graph. Regenerable via /understand; 700K of
+# derived JSON that churns on every code change. The .understandignore inside
+# it IS worth keeping if you tune the scan — un-ignore that one file if so.
+.ua/
+build/store/
+
+# Kotlin compiler session files: build scratch, never source.
+.kotlin/
+
+# Generated handoff kits: rebuild with tools/brand/gen-brand-kit.py.
+# The artwork sources are all tracked; these are copies of them.
+brand-kits/
+
+# Python bytecode. tools/whitelabel/gen-ios.py imports gen-branding.py through
+# importlib so the two generators cannot derive different colours, which makes
+# __pycache__ appear where it never used to.
+__pycache__/
+*.pyc
+
+# Fleet dashboard data — regenerate with tools/fleet/collect.py
+tools/fleet/dashboard/config.json
+tools/fleet/dashboard/results.json
+
+# Real endpoint lists and configs never belong in the public tree. Each has a
+# .example beside it carrying RFC 5737 / RFC 3849 documentation addresses, so the
+# shape is readable without naming a server anyone can reach or block.
+android/prefer-hosts-iran.txt
+android/gen/android/app/src/test/resources/

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tunnel notification small icon. A brand overrides this name in its
+         own res/values/notification_icon.xml; never in a locale folder. -->
+    <drawable name="ic_notification">@android:drawable/ic_lock_lock</drawable>
+</resources>

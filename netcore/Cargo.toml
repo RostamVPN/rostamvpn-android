@@ -1,0 +1,84 @@
+[package]
+name = "netcore"
+version = "1.0.0"
+edition = "2021"
+description = "Client transport core (Noise NK + SOCKS5) for the mobile apps"
+
+# Produces libnetcore.so. The library name, the JNI class it binds to and every
+# log tag are deliberately generic: a distinctive proprietary name on an exported
+# symbol or in `strings` is a free static signature for a blocklist, and this
+# binary ships where the app is blocked. Renamed 2026-10-27 — see CLAUDE.md.
+[lib]
+name = "netcore"
+# cdylib for Android (JNI .so); staticlib for iOS, where a Network Extension
+# links the transport in rather than dlopen-ing it.
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+jni = "0.21"
+snow = "0.9"
+# release_max_level_warn drops info!/debug!/trace! from release builds. Two
+# ordinary reasons: it keeps the binary smaller, and debug logging on this path
+# names the user's destinations -- host, SNI, endpoint -- which has no business
+# in logcat, where any app with READ_LOGS on an older device could read it.
+# warn/error survive, so a real failure is still diagnosable in a bug report.
+log = { version = "0.4", features = ["release_max_level_warn"] }
+android_logger = "0.14"
+env_logger = { version = "0.11", optional = true }
+hex = "0.4"
+rand = "0.8"
+socket2 = { version = "0.5", features = ["all"] }
+serde_json = "1"
+tokio = { version = "1", features = ["net", "time", "sync", "io-util", "rt", "rt-multi-thread", "macros"] }
+
+# MUX2's multiplexer (mux.rs, tunnel.rs, socks5.rs).
+yamux = "0.13"
+# Config unwrap. chacha20poly1305 and blake2 already ride in via snow, so this
+# adds no new supply chain -- just names what was already linked.
+chacha20poly1305 = "0.10"
+ed25519-dalek = { version = "2", default-features = false, features = ["alloc"] }
+blake2 = "0.10"
+base64 = "0.22"
+futures = "0.3"
+tokio-util = { version = "0.7", features = ["rt", "compat"] }
+
+[profile.release]
+opt-level = 3
+lto = "fat"          # whole-program inlining across crates; the tunnel hot path
+                     # (Noise encrypt/decrypt + framing) spans snow/chacha20/our code
+codegen-units = 1    # no parallel-codegen boundaries to block inlining
+panic = "unwind"     # MUST stay unwind: the JNI entry points use catch_unwind so a
+                     # Rust panic returns "err:panic:…" instead of killing the process
+strip = true
+
+# CPU targeting — verified, not assumed (`rustc --print cfg --target …`):
+#
+#   aarch64-linux-android      → target_feature="neon" is ON by default
+#   armv7-linux-androideabi    → no target features by default
+#
+# chacha20 selects its SIMD backend with a COMPILE-TIME cfg
+# (`all(target_arch="aarch64", target_feature="neon")`), not runtime dispatch. So
+# arm64 — the overwhelming majority of the fleet — ALREADY gets the NEON ChaCha20
+# path in the tunnel hot loop. Nothing to add there.
+#
+# armv7 currently gets the `soft` backend. `-C target-feature=+neon` would speed it
+# up, but NEON is OPTIONAL in the armeabi-v7a ABI, so the .so would SIGILL on any
+# device without it — and old budget ARMv7 handsets are exactly our Iran tail with
+# minSdk 23. Not worth trading a hard crash for throughput on a shrinking ABI. If
+# it ever is, ship it as a separate `armeabi-v7a with NEON` split, never as a
+# blanket flag.
+#
+# Also deliberately NOT set: `-C target-cpu=…` and `+aes/+sha2` on arm64 — same
+# SIGILL class of risk, and the Noise suite is ChaCha20-Poly1305, so the ARMv8
+# AES/SHA extensions buy us nothing on this path anyway.
+
+[dev-dependencies]
+rand = "0.8"
+
+[[bin]]
+name = "netcore-cli"
+path = "src/bin/netcore-cli.rs"
+required-features = ["cli"]
+
+[features]
+cli = ["env_logger"]

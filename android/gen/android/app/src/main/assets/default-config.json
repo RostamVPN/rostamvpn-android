@@ -1,0 +1,294 @@
+{
+ "api": {
+  "base": "https://cashier.example.com",
+  "key": "REPLACE_WITH_WGTCP_API_KEY",
+  "fallback_bases": [
+   "https://cashier-fallback.example.com",
+   "https://dexample000001.cloudfront.net",
+   "https://dexample000002.cloudfront.net",
+   "https://example.global.ssl.fastly.net"
+  ],
+  "google_client_id": "REPLACE_WITH_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+  "google_signin_enabled": false
+ },
+ "version": "6.7.0",
+ "transport_order": [
+  "redsocket"
+ ],
+ "transport_order_regions": {
+  "IR": [
+   "redsocket"
+  ],
+  "RU": [
+   "redsocket"
+  ]
+ },
+ "transport": {
+  "redsocket": {
+   "enabled": true,
+   "pubkey": "e644c8a4dbc44c56b2e2a1f2587a785fc5813aba74674e151455d51cf86dc405",
+   "mux": true,
+   "entries": [
+    {
+     "name": "rs-http-site1-1",
+     "host": "192.0.2.160",
+     "port": 80,
+     "protocol": "http",
+     "weight": 1
+    },
+    {
+     "name": "rs-http-site1-2",
+     "host": "192.0.2.161",
+     "port": 80,
+     "protocol": "http",
+     "weight": 1
+    },
+    {
+     "name": "rs-http-site2-1",
+     "host": "198.51.100.130",
+     "port": 80,
+     "protocol": "http",
+     "weight": 3
+    },
+    {
+     "name": "rs-http-site2-2",
+     "host": "198.51.100.131",
+     "port": 80,
+     "protocol": "http",
+     "weight": 3
+    },
+    {
+     "name": "rs-http-site3-1",
+     "host": "192.0.2.10",
+     "port": 80,
+     "protocol": "http",
+     "weight": 10
+    },
+    {
+     "name": "rs-http-site3-2",
+     "host": "192.0.2.12",
+     "port": 80,
+     "protocol": "http",
+     "weight": 10
+    },
+    {
+     "name": "rs-http-site4-1",
+     "host": "203.0.113.120",
+     "port": 80,
+     "protocol": "http",
+     "weight": 10
+    },
+    {
+     "name": "rs-http-site4-2",
+     "host": "203.0.113.180",
+     "port": 80,
+     "protocol": "http",
+     "weight": 10
+    },
+    {
+     "host": "2001:db8::110",
+     "port": 80
+    },
+    {
+     "host": "2001:db8::130",
+     "port": 80
+    },
+    {
+     "host": "2001:db8:5::20",
+     "port": 80
+    },
+    {
+     "host": "2001:db8:5::6",
+     "port": 80
+    }
+   ],
+   "premium_entries": [
+    {
+     "host": "pop-b-p-v4.example.net",
+     "port": 80,
+     "region": "fra",
+     "priority": 18
+    },
+    {
+     "host": "pop-b-v6.example.net",
+     "port": 80,
+     "region": "fra",
+     "priority": 19
+    },
+    {
+     "host": "pop-a-p-v4.example.net",
+     "port": 80,
+     "region": "lax",
+     "priority": 18
+    },
+    {
+     "host": "pop-a-v6.example.net",
+     "port": 80,
+     "region": "lax",
+     "priority": 19
+    }
+   ],
+   "upgrade_hosts": [
+    "login.microsoftonline.com",
+    "outlook.office365.com",
+    "teams.microsoft.com",
+    "graph.microsoft.com",
+    "www.bing.com"
+   ],
+   "cloudfront_domains": [
+    "dexample000003.cloudfront.net",
+    "dexample000004.cloudfront.net"
+   ]
+  }
+ },
+ "ipv6_first": false,
+ "ipv4_first_regions": [
+  "IR",
+  "RU"
+ ],
+ "freedom_regions": {
+  "IR": [
+   "Asia/Tehran",
+   "Iran"
+  ],
+  "RU": [
+   "Europe/Kaliningrad",
+   "Europe/Moscow",
+   "Europe/Kirov",
+   "Europe/Volgograd",
+   "Europe/Astrakhan",
+   "Europe/Saratov",
+   "Europe/Ulyanovsk",
+   "Europe/Samara",
+   "Asia/Yekaterinburg",
+   "Asia/Omsk",
+   "Asia/Novosibirsk",
+   "Asia/Barnaul",
+   "Asia/Tomsk",
+   "Asia/Novokuznetsk",
+   "Asia/Krasnoyarsk",
+   "Asia/Irkutsk",
+   "Asia/Chita",
+   "Asia/Yakutsk",
+   "Asia/Khandyga",
+   "Asia/Vladivostok",
+   "Asia/Ust-Nera",
+   "Asia/Magadan",
+   "Asia/Sakhalin",
+   "Asia/Srednekolymsk",
+   "Asia/Kamchatka",
+   "Asia/Anadyr",
+   "W-SU"
+  ],
+  "CU": [
+   "America/Havana",
+   "Cuba"
+  ],
+  "SY": [
+   "Asia/Damascus"
+  ]
+ },
+ "freedom_keyboards": {
+  "IR": [
+   "fa",
+   "ckb"
+  ]
+ },
+ "freedom_keyboard_strict": true,
+ "throttle": {
+  "enabled": true,
+  "free_kbps": 2000,
+  "hard_stop": false
+ },
+ "health": {
+  "enabled": true,
+  "interval_secs": 45,
+  "failures_before_reconnect": 2,
+  "max_auto_reconnects": 3,
+  "cooldown_secs": 300,
+  "probe_url": "https://ip-geo.example.com/"
+ },
+ "policy_version": 1,
+ "region_policies": {
+  "Asia/Tehran": {
+   "seeded_winners": [
+    "http"
+   ],
+   "disabled_transports": []
+  },
+  "Iran": {
+   "seeded_winners": [
+    "http"
+   ],
+   "disabled_transports": []
+  }
+ },
+ "regions": {
+  "fra": {
+   "label": "🇩🇪 Frankfurt · Internet Exchange",
+   "ips": [
+    "pop-b-f-v4.example.net",
+    "pop-b-f-v6.example.net"
+   ]
+  },
+  "lax": {
+   "label": "🇺🇸 Los Angeles · Internet Exchange",
+   "ips": [
+    "pop-a-f-v4.example.net",
+    "pop-a-f-v6.example.net"
+   ]
+  }
+ },
+ "ads": {
+  "enabled": true,
+  "default_mode": "always",
+  "interval_secs": 0,
+  "admob_ad": {
+   "enabled": true,
+   "off_regions": []
+  },
+  "rostam_adtech": {
+   "enabled": false,
+   "off_regions": []
+  },
+  "adtech_url": "",
+  "regions": {
+   "IR": "off",
+   "RU": "always"
+  },
+  "opt_out_regions": [
+   "IR",
+   "RU"
+  ],
+  "admob_share_pct": 100,
+  "admob_share_regions": {
+   "IR": 0,
+   "RU": 0
+  },
+  "grace_connects": 1
+ },
+ "freedom_tier": true,
+ "review": {
+  "enabled": true,
+  "min_sustained_secs": 30,
+  "min_good_sessions": 3,
+  "min_days_since_first_use": 2,
+  "ask_cooldown_days": 45
+ },
+ "premium_regions": {
+  "fra": {
+   "ips": [
+    "192.0.2.47",
+    "192.0.2.55",
+    "192.0.2.63"
+   ]
+  },
+  "lax": {
+   "ips": [
+    "203.0.113.171",
+    "203.0.113.173",
+    "203.0.113.175"
+   ]
+  }
+ }
+}

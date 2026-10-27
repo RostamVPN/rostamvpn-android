@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    DEBUG ONLY. This receiver and its class live in the debug source set, and
+    they must stay there.
+
+    It was in src/main with android:exported="true" and no permission, so it
+    shipped in every release bundle. Any app on the device could send STOP_VPN
+    to it and silently tear the tunnel down. For a user relying on this app to
+    reach the open internet, that drops their traffic into the clear with no
+    indication, which is the exact failure the app exists to prevent.
+    DEBUG_START_VPN was the same door in the other direction: bring the tunnel
+    up with an empty allowed-apps list and a caller-chosen SOCKS port.
+
+    Nothing references these broadcasts (no skill, script or Kotlin caller), so
+    the release build loses nothing by not having them.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <receiver
+            android:name=".DebugReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.rostamvpn.android.DEBUG_START_VPN" />
+                <action android:name="com.rostamvpn.android.DEBUG_TEST_PROTOCOL" />
+                <action android:name="com.rostamvpn.android.STOP_VPN" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

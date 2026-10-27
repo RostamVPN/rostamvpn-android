@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Screen Tagline - Arabic -->
+
+    <!-- About Screen Strings - Arabic -->
+    <string name="about_title">إنترنت مفتوح للجميع، في كل مكان</string>
+    <string name="about_description_1">يمنحك %1$s وصولاً سريعاً وخاصاً إلى الإنترنت المفتوح، لتظل المواقع والتطبيقات التي تعتمد عليها تعمل أينما كنت.</string>
+    <string name="about_description_2">يُطوَّر ويُدار %1$s بواسطة فريق دولي من مهندسي الشبكات والأمن ومن المدافعين العريقين عن حرية الإنترنت. منذ أكثر من عقد ونحن نعمل على تعزيز الأمان الرقمي وحماية الوصول المفتوح وغير الخاضع للرقابة إلى المعلومات للجميع.</string>
+
+    <!-- About Screen Header - Arabic -->
+    <string name="about_screen_title">حول %1$s</string>
+
+    <!-- About Screen Sections - Arabic -->
+
+    <!-- Server Selection - Connection Mode - Arabic -->
+
+    <!-- App Selection - Arabic -->
+    <string name="protected_apps">التطبيقات المحمية</string>
+    <string name="only_selected_apps">فقط التطبيقات المحددة ستستخدم VPN</string>
+
+    <!-- Theme - Arabic -->
+    <string name="appearance">المظهر</string>
+    <string name="theme_auto">تلقائي</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+
+    <!-- Settings - Arabic -->
+    <string name="settings">الإعدادات</string>
+    <string name="share_debug_log">مشاركة سجل التصحيح</string>
+    <string name="about">حول</string>
+    <string name="version_format">الإصدار %s</string>
+
+    <!-- DNS Resolver Settings - Arabic -->
+
+    <!-- Open Source Screen - Arabic -->
+    <string name="open_source_libraries">مكتبات المصدر المفتوح</string>
+
+    <!-- Privacy Policy Screen - Arabic -->
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="effective_date">تاريخ النفاذ: 3 فبراير 2026</string>
+
+    <!-- Main Screen Status - Arabic -->
+    <string name="vpn_on">VPN مُفعّل</string>
+    <string name="vpn_off">VPN مُعطّل</string>
+    <string name="connecting">جارٍ الاتصال…</string>
+    <string name="connection_failed">فشل الاتصال</string>
+    <string name="tap_to_connect">اضغط للاتصال</string>
+    <string name="tap_to_disconnect">اضغط لقطع الاتصال</string>
+    <string name="connecting_to_server">جارٍ الاتصال بالخادم…</string>
+    <string name="cd_menu">القائمة</string>
+
+    <!-- Auto-failover status - Arabic -->
+    <string name="trying_server">جارٍ تجربة الخادم التالي…</string>
+
+    <!-- Traffic Display - Arabic -->
+
+    <!-- QR Config - Arabic -->
+    <string name="qr_config">رمز QR للإعدادات</string>
+
+    <!-- Messages Screen - Arabic -->
+
+    <!-- Hardcoded strings - Arabic -->
+    <string name="tap_to_cancel">اضغط للإلغاء</string>
+    <string name="close_menu">إغلاق القائمة</string>
+    <string name="made_in_usa">صُنع في أمريكا</string>
+    <string name="region_label">المنطقة</string>
+    <string name="region_automatic">تلقائي</string>
+    <string name="region_auto_hint">يختار أسرع منطقة متاحة</string>
+    <string name="region_location_hint">الاتصال عبر هذا الموقع</string>
+    <string name="region_locked_hint">تلقائي — اختر منطقة مع الاشتراك المميز</string>
+    <string name="go_premium">اشترك في بريميوم</string>
+    <string name="premium_tagline">سرعة كاملة دائمًا · أي منطقة</string>
+    <string name="upgrade">ترقية</string>
+    <string name="language">اللغة</string>
+    <string name="language_auto">تلقائي (حسب المنطقة)</string>
+    <string name="settings_connection">الاتصال</string>
+    <string name="connection_hint">يختار تلقائيًا أفضل مسار. تجاوز لتفضيل واحد.</string>
+    <string name="premium">النسخة المميزة</string>
+    <string name="usage_stats">إحصاءات الاستخدام</string>
+    <string name="usage_total_used">إجمالي البيانات المستخدمة</string>
+    <string name="usage_this_session">هذه الجلسة</string>
+    <string name="usage_free_allowance">الحصة المجانية</string>
+    <string name="usage_device_note">يُحتسب الإجمالي على هذا الجهاز عبر كل الجلسات.</string>
+    <string name="usage_used_up">انتهت البيانات المجانية — بادر بالترقية للمزيد</string>
+    <string name="data_free_remaining">متبقٍ %1$s</string>
+    <string name="data_free_out">نفدت البيانات المجانية</string>
+    <string name="data_free_low_cta">على وشك النفاد — قم بالترقية للحفاظ على السرعة الكاملة</string>
+    <string name="data_free_out_cta">تريد السرعة الكاملة؟ قم بالترقية إلى Premium.</string>
+    <string name="speed_state_full">سرعة كاملة</string>
+    <string name="speed_state_reduced">سرعة مخفّضة</string>
+    <string name="premium_title_throttled">استعد سرعتك الكاملة</string>
+    <string name="premium_tagline_throttled">تريد السرعة الكاملة؟ قم بالترقية إلى Premium.</string>
+
+    <!-- QR config - Arabic -->
+    <string name="scan_qr_code">مسح رمز QR</string>
+    <string name="scan_another">مسح رمز آخر</string>
+    <string name="regenerate_qr">تجديد رمز QR</string>
+    <string name="qr_config_applied_ok">تمت إضافة خوادم جديدة — تُطبَّق عند الاتصال التالي</string>
+    <string name="qr_share_title">شارك خوادمك</string>
+    <string name="qr_share_body">من كان اتصاله محجوبًا يمكنه مسح هذا للحصول على خوادم تعمل.</string>
+    <string name="qr_share_count">يتضمّن %1$d خادمًا</string>
+    <string name="qr_share_unavailable">لا يوجد رمز قابل للمشاركة منشور حاليًا</string>
+    <string name="qr_share_unverified">فشل التحقق من هذا الرمز فلم يُعرض</string>
+
+    <!-- Paywall / restore - Arabic -->
+    <string name="premium_active">النسخة المميزة مفعّلة ✓</string>
+    <string name="restore_code_hint">رمز الاستعادة — لاستخدام النسخة المميزة على جهاز آخر:</string>
+    <string name="loading_plans">جارٍ تحميل الخطط…</string>
+    <string name="already_premium_restore">لديك اشتراك مميز؟ استعده برمزك</string>
+    <string name="account_code">رمز الحساب</string>
+    <string name="restore">استعادة</string>
+    <string name="restore_none">لم يُعثر على أي اشتراك في حساب المتجر هذا</string>
+
+    <!-- App selection - Arabic -->
+    <string name="search_apps">البحث في التطبيقات…</string>
+
+    <!-- Connection status (toasts and connect button) - Arabic -->
+    <string name="status_starting_vpn">جارٍ تشغيل VPN…</string>
+    <string name="status_finding_path">جارٍ البحث عن أسرع مسار…</string>
+    <string name="status_connected">متصل · %1$s</string>
+    <string name="status_disconnected">غير متصل</string>
+    <string name="status_failed">فشل الاتصال: %1$s</string>
+
+    <!-- Transport fallback notices - Arabic -->
+
+    <!-- Entry flow: splash, welcome, sign-in - Arabic -->
+    <string name="splash_tagline">حارس الخط</string>
+    <string name="welcome_title">حارس لاتصالك</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">حارس</string>
+    <string name="welcome_body">هادئ، يقظ، لا يساوم. يقف %1$s بينك وبين الإنترنت المفتوح.</string>
+    <string name="get_started">ابدأ الآن</string>
+    <string name="signin_title">مرحبًا بك في %1$s</string>
+    <string name="signin_subtitle">سجّل الدخول للاحتفاظ بالنسخة المميزة على كل أجهزتك، أو تابع مباشرة — التطبيق يعمل بدون حساب.</string>
+    <string name="continue_with_google">المتابعة عبر Google</string>
+    <string name="continue_with_apple">المتابعة عبر Apple</string>
+    <string name="have_account_code">لديّ رمز حساب</string>
+    <string name="continue_as_guest">المتابعة بدون حساب</string>
+    <string name="back_action">رجوع</string>
+    <string name="signin_unavailable">تسجيل الدخول غير متاح حاليًا. يمكنك متابعة استخدام التطبيق بدون حساب.</string>
+
+    <!-- Account screen (Settings -> Account) -->
+    <string name="account">الحساب</string>
+    <string name="account_free_title">لا يوجد اشتراك على هذا الجهاز</string>
+    <string name="account_free_body">يعمل %1$s بدون حساب. النسخة المميزة تأتي من عملية الشراء في المتجر. اضغط على استعادة لنقلها إلى جهاز جديد.</string>
+    <string name="account_premium_title">النسخة المميزة مفعّلة</string>
+    <string name="account_plan">الخطة</string>
+    <string name="account_renews">يتجدّد في %1$s</string>
+    <string name="account_expires">ينتهي في %1$s</string>
+    <string name="already_subscribed">لديك اشتراك بالفعل؟ سجّل الدخول لاستعادته</string>
+    <string name="account_signed_in">تم تسجيل الدخول \u2014 اشتراكك مرتبط بهذا الحساب</string>
+
+    <!-- Paywall — hero, plan rows, rails. -->
+    <string name="paywall_eyebrow">%1$s بريميوم</string>
+    <string name="paywall_headline">الطريق السريع للخروج.</string>
+    <string name="paywall_subhead">لا شيء يقف في طريقك.</string>
+    <string name="paywall_perk_regions_title">كل المناطق</string>
+    <string name="paywall_perk_regions_body">اتصل من أي مكان، وبدّل وقتما تشاء.</string>
+    <string name="paywall_perk_speed_title">سرعة كاملة دائمًا</string>
+    <string name="paywall_perk_speed_body">بلا حد للاستهلاك، وبلا إبطاء.</string>
+    <string name="plan_period_weekly">أسبوعي</string>
+    <string name="plan_period_monthly">شهري</string>
+    <string name="plan_period_3month">كل ٣ أشهر</string>
+    <string name="plan_period_6month">كل ٦ أشهر</string>
+    <string name="plan_period_yearly">سنوي</string>
+    <string name="plan_save_badge">خصم %1$d%%</string>
+    <string name="plan_save_vs_monthly">توفير %1$d%% مقارنة بالشهري</string>
+    <string name="plans_unavailable">الخطط غير متاحة حاليًا. يرجى المحاولة لاحقًا.</string>
+    <string name="start_free_trial">ابدأ التجربة المجانية</string>
+    <string name="pay_with_card">الدفع بالبطاقة</string>
+    <string name="pay_with_crypto">الدفع بالعملات الرقمية</string>
+    <string name="pay_alipay">علي باي</string>
+    <string name="pay_wechat">وي تشات باي</string>
+    <string name="paywall_disclosure_play">يتجدد تلقائيًا حتى الإلغاء. يمكنك الإلغاء في أي وقت من \u2068Google Play \u203A Subscriptions\u2069.</string>
+    <string name="paywall_disclosure_stripe">بطاقات و\u2068Apple Pay\u2069 و\u2068Google Pay\u2069 \u2014 بحماية \u2068Stripe\u2069. يتجدد حتى الإلغاء.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069 و\u2068USDT\u2069 وعملات أخرى. بلا بطاقة وبلا بنك \u2014 لا شيء يربط الدفع بك.</string>
+    <string name="paywall_disclosure_paymentwall">بطاقات وطرق دفع محلية. يتجدد حتى الإلغاء.</string>
+    <string name="paywall_disclosure_china">تُفعَّل النسخة المميزة تلقائيًا بمجرد اكتمال الدفع، مع تشفير من طرف إلى طرف.</string>
+    <string name="cd_close">إغلاق</string>
+
+    <!-- Split tunnelling (app selector) -->
+    <string name="split_tunnel_title">التطبيقات وشبكة VPN</string>
+    <string name="split_mode_exclude">كل التطبيقات ما عدا المحددة</string>
+    <string name="split_mode_exclude_desc">التطبيقات المحددة تتجاوز VPN وتتصل مباشرة. استخدم هذا لتطبيقات البنوك والتطبيقات المحلية الأخرى.</string>
+    <string name="split_mode_include">التطبيقات المحددة فقط</string>
+    <string name="split_state_all">كل التطبيقات تستخدم VPN</string>
+    <string name="split_state_none">لا يستخدم VPN أي تطبيق</string>
+    <string name="split_state_bypass">%1$d من %2$d تطبيقًا تتجاوز VPN</string>
+    <string name="split_state_only">%1$d من %2$d تطبيقًا تستخدم VPN</string>
+    <string name="split_reconnect_note">أي تغيير يعيد اتصال VPN.</string>
+    <string name="select_recommended">المقترحة</string>
+    <string name="select_all">الكل</string>
+    <string name="select_none">لا شيء</string>
+
+    <!-- Paywall and free-data meter -->
+    <string name="speed_state_limited">محدودة بـ %1$s</string>
+    <string name="data_free_low_note">سيستمر العمل بسرعة %1$s بعد ذلك. النسخة المميزة تبقى بالسرعة الكاملة.</string>
+    <string name="data_free_out_note">الاتصال قائم، بسرعة %1$s. النسخة المميزة تعيد السرعة الكاملة.</string>
+    <string name="data_free_one_time">حصة شهرية</string>
+    <string name="premium_title_default">بيانات بلا حدود، وسرعة كاملة دائمًا</string>
+    <string name="premium_body_default">النسخة المميزة · كل المناطق · بلا إعلانات</string>
+    <string name="paywall_headline_offer">بلا حدود. سرعة كاملة. بلا إعلانات.</string>
+    <string name="paywall_subhead_offer">تتجدد حصتك المجانية كل شهر. الاشتراك المميز لا ينفد أبدًا.</string>
+    <string name="paywall_subhead_throttled">سرعتك محدودة الآن بـ %1$s. النسخة المميزة تزيل هذا الحد.</string>
+    <string name="plan_hero_unit">شهريًا</string>
+    <string name="paywall_perk_data_title">بيانات بلا حدود</string>
+    <string name="paywall_perk_data_body">تتجدد الحصة المجانية كل شهر. الاشتراك المميز بلا حد.</string>
+    <string name="paywall_perk_data_body_once">الحصة المجانية تُمنح مرة واحدة فقط. مع الاشتراك المميز لا تنفد البيانات أبدًا.</string>
+    <string name="paywall_perk_speed_body_limit">تنخفض المجانية إلى %1$s بعد نفادها. النسخة المميزة لا تنخفض أبدًا.</string>
+    <string name="paywall_perk_ads_title">بلا إعلانات</string>
+    <string name="paywall_perk_ads_body">لا إعلان بملء الشاشة عند الاتصال.</string>
+    <string name="paywall_reassure">لا حاجة إلى حساب أو بريد إلكتروني.</string>
+    <string name="plan_per_month">%1$s شهريًا</string>
+    <string name="proof_downloads">أكثر من %1$s تنزيل</string>
+    <string name="proof_rating">%1$s من %2$s تقييم</string>
+    <string name="bypass_title">الوجهات التي تتجاوز VPN</string>
+    <string name="bypass_desc">تتصل حركة البيانات المتجهة إلى عناوين IP والنطاقات المدرجة هنا اتصالاً مباشرًا، أيًا كان التطبيق الذي يرسلها. مفيد للخدمات المصرفية والحكومية المحلية التي ترفض العناوين الأجنبية.</string>
+    <string name="bypass_hint">عنوان IP أو نطاق، مثل 192.168.1.0/24</string>
+    <string name="bypass_add">إضافة</string>
+    <string name="bypass_remove">إزالة</string>
+    <string name="bypass_invalid">أدخل عنوان IP أو نطاقًا، مثل 10.0.0.0/8</string>
+    <string name="bypass_none">لا شيء — كل الوجهات تستخدم VPN</string>
+    <string name="bypass_count">الوجهات التي تتجاوز VPN: %1$d</string>
+    <string name="bypass_over_budget">تعذّر تطبيق %1$d من المدخلات على هذا الجهاز، وهي ما زالت تستخدم VPN. أزل بعض المدخلات أو استخدم نطاقات أوسع.</string>
+    <string name="restore_ok">تمت استعادة بريميوم</string>
+    <string name="restore_invalid">الرمز غير صالح</string>
+    <string name="open_source_intro">تم بناء %1$s بمساعدة مشاريع المصدر المفتوح التالية.</string>
+    <string name="cd_back">رجوع</string>
+    <string name="paywall_perk_ixp_title">أجهزتنا الخاصة</string>
+    <string name="paywall_perk_ixp_body">معظم شبكات VPN تستأجر خوادم افتراضية رخيصة. أما خوادمنا فتوجد داخل نقاط تبادل الإنترنت حيث تلتقي كبرى شبكات العالم — مسار أقصر وتطبيق أسرع.</string>
+    <string name="onboarding_plans_title">مجاني أو مميز</string>
+    <string name="onboarding_plans_body">المجاني يمنحك حصة شهرية بالسرعة الكاملة، ثم بيانات غير محدودة بسرعة أقل مع إعلانات. المميز يلغي الحد والتباطؤ والإعلانات.</string>
+    <string name="continue_label">متابعة</string>
+    <string name="skip_label">تخطي</string>
+    <string name="rate_app">قيّم %1$s</string>
+    <string name="esim_mine">شرائح eSIM الخاصة بي</string>
+    <string name="esim_purchase_unavailable">شراء شرائح eSIM غير متاح في هذا الإصدار بعد.</string>
+    <string name="esim_install">التثبيت على هذا الهاتف</string>
+    <string name="esim_install_failed">تعذّر التثبيت تلقائيًا. امسح رمز QR أو أدخل الرموز أدناه.</string>
+    <string name="esim_installed">تم تثبيت eSIM. قد يستغرق ظهورها في الإعدادات دقيقة.</string>
+    <string name="esim_activation_code">رمز التفعيل</string>
+    <string name="esim_copy">نسخ</string>
+    <string name="esim_copied">تم النسخ</string>
+    <string name="esim_none">لا توجد شرائح eSIM على هذا الجهاز بعد.</string>
+    <string name="esim_load_failed">تعذّر تحميل شرائح eSIM. تحقّق من اتصالك وحاول مرة أخرى.</string>
+    <string name="esim_retry">حاول مرة أخرى</string>
+    <string name="esim_left_of">متبقٍ %1$s من %2$s</string>
+    <string name="esim_status_ready">جاهزة للتثبيت</string>
+    <string name="esim_status_active">نشطة</string>
+    <string name="esim_status_used">مستهلكة</string>
+    <string name="esim_status_expired">منتهية</string>
+    <string name="esim_account">الحساب والاستعادة</string>
+    <string name="tabs_connect">اتصال</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">الحساب</string>
+    <string name="tabs_status_protected">محمي · تم حظر %1$d اليوم</string>
+    <string name="tabs_status_connected">متصل</string>
+    <string name="tabs_status_connecting">جارٍ الاتصال…</string>
+    <string name="tabs_status_failed">تعذّر الاتصال. اضغط للمحاولة مرة أخرى.</string>
+    <string name="tabs_status_off">متوقف</string>
+    <string name="tabs_guardian_open">اطّلع على ما تم رفضه</string>
+    <string name="tabs_ring_connect">اتصال</string>
+    <string name="tabs_ring_disconnect">قطع الاتصال</string>
+    <string name="tabs_ring_cancel">جارٍ الاتصال، اضغط للإلغاء</string>
+    <string name="tabs_elapsed">الوقت</string>
+    <string name="tabs_download">تنزيل</string>
+    <string name="tabs_upload">رفع</string>
+    <string name="tabs_route">المسار</string>
+    <string name="tabs_route_auto">تلقائي</string>
+    <string name="tabs_disconnect">قطع الاتصال</string>
+    <string name="tabs_guardian_title">الحارس</string>
+    <string name="tabs_guardian_on">الاتصالات المرفوضة والمشبوهة خلال آخر ٣٠ يومًا.</string>
+    <string name="tabs_guardian_off">الحماية متوقفة. لا يتم رفض أي شيء.</string>
+    <string name="tabs_guardian_empty">لم يُرفض شيء بعد.</string>
+    <string name="tabs_guardian_row">المنفذ %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">سماح</string>
+    <string name="tabs_allowed">مسموح</string>
+    <string name="tabs_rules">القواعد</string>
+    <string name="tabs_rules_master">الحماية</string>
+    <string name="tabs_rules_master_sub">رفض الاتصال بالمواقع الضارة المعروفة.</string>
+    <string name="tabs_rules_categories">المرفوض حسب الفئة</string>
+    <string name="tabs_rules_allow">السماح دائمًا</string>
+    <string name="tabs_rules_deny">الرفض دائمًا</string>
+    <string name="tabs_rules_empty">لا شيء بعد.</string>
+    <string name="tabs_rules_remove">إزالة</string>
+    <string name="tabs_rules_hint">موقع أو عنوان</string>
+    <string name="tabs_rules_add">إضافة</string>
+    <string name="tabs_passes_title">شرائح eSIM</string>
+    <string name="tabs_store">المتجر</string>
+    <string name="tabs_my_passes">شرائح eSIM الخاصة بي</string>
+    <string name="tabs_where">إلى أين تسافر؟</string>
+    <string name="tabs_search_hint">دولة أو مدينة أو منطقة</string>
+    <string name="tabs_from">من %1$s</string>
+    <string name="tabs_all_destinations">كل الوجهات</string>
+    <string name="tabs_how_long">كم تستغرق الرحلة؟</string>
+    <string name="tabs_days">%1$d يوم</string>
+    <string name="tabs_how_much">كيف تستخدم البيانات؟</string>
+    <string name="tabs_usage_maps">الخرائط والرسائل</string>
+    <string name="tabs_usage_socials">التواصل الاجتماعي والتصفح</string>
+    <string name="tabs_usage_streaming">الفيديو والبث</string>
+    <string name="tabs_need">نحو %1$s غيغابايت لمدة %2$d يوم.</string>
+    <string name="tabs_recommended">موصى بها</string>
+    <string name="tabs_plan_line">%1$s · %2$d يوم</string>
+    <string name="tabs_buy">شراء</string>
+    <string name="tabs_number_row">مع رقم محلي: %1$d دقيقة · %2$s · %3$d يوم</string>
+    <string name="tabs_see_all">عرض كل الخطط</string>
+    <string name="tabs_hide_all">إخفاء كل الخطط</string>
+    <string name="tabs_unlimited">غير محدودة</string>
+    <string name="tabs_refund">استرداد المبلغ إذا لم تُفعَّل بياناتك.</string>
+    <string name="tabs_no_passes">لا توجد شرائح eSIM بعد</string>
+    <string name="tabs_no_passes_body">اشترِ eSIM وسيتم تثبيتها على هاتفك خلال ثوانٍ. لا حاجة لتبديل شريحة SIM، ويبقى رقمك الأساسي مفعّلًا للمكالمات.</string>
+    <string name="tabs_browse">تصفّح شرائح eSIM</string>
+    <string name="tabs_status_active">نشطة</string>
+    <string name="tabs_status_ready">جاهزة</string>
+    <string name="tabs_status_used">مستهلكة</string>
+    <string name="tabs_status_expired">منتهية</string>
+    <string name="tabs_used">تم استخدام %1$s</string>
+    <string name="tabs_left">متبقٍ %1$s</string>
+    <string name="tabs_install">تثبيت</string>
+    <string name="tabs_topup">إعادة الشحن</string>
+    <string name="tabs_install_title">ثبّت شريحة eSIM</string>
+    <string name="tabs_install_here">التثبيت على هذا الهاتف</string>
+    <string name="tabs_install_other">أو امسح هذا الرمز من هاتف آخر: الإعدادات، ثم بيانات الجوال، ثم إضافة خطة.</string>
+    <string name="tabs_installed">تم تثبيت eSIM. قد يستغرق ظهورها في الإعدادات دقيقة.</string>
+    <string name="tabs_install_failed">تعذّر التثبيت تلقائيًا. امسح الرمز أو أدخل التفاصيل أدناه.</string>
+    <string name="tabs_topup_none">لا يمكن إعادة شحن شريحة eSIM هذه. اشترِ شريحة جديدة بدلًا منها.</string>
+    <string name="tabs_checkout">الدفع</string>
+    <string name="tabs_pay_unavailable">شراء شرائح eSIM غير متاح في هذا الإصدار بعد.</string>
+    <string name="tabs_load_failed">تعذّر التحميل. تحقّق من اتصالك.</string>
+    <string name="tabs_retry">حاول مرة أخرى</string>
+    <string name="tabs_pro">برو</string>
+    <string name="tabs_per_month">%1$s / شهريًا</string>
+    <string name="tabs_active_until">نشط حتى %1$s</string>
+    <string name="tabs_active">نشط</string>
+    <string name="tabs_not_active">غير نشط</string>
+    <string name="tabs_go_pro">اشترك في برو</string>
+    <string name="tabs_renews">يتجدد شهريًا. ألغِ في أي وقت.</string>
+    <string name="tabs_restore_code">رمز الاستعادة</string>
+    <string name="tabs_other_device">الاستخدام على جهاز آخر</string>
+    <string name="tabs_code_body">هذا الرمز هو حسابك. احتفظ به في مكان آمن وأدخله على هاتف جديد لاستعادة برو.</string>
+    <string name="tabs_legal">المعلومات القانونية</string>
+    <string name="tabs_guardian_updated">آخر تحديث لقائمة الحماية: %1$s</string>
+    <string name="tabs_notified">مشبوه</string>
+    <string name="tabs_notices">إشعارات</string>
+    <string name="tabs_rules_toggles">الفئات</string>
+    <string name="tabs_second_number">رقم ثانٍ</string>
+    <string name="tabs_second_number_body">رقم محلي مع بيانات ودقائق ورسائل SMS. تنتهي صلاحيته؛ أعد شحنه قبل ذلك للاحتفاظ بالرقم.</string>
+    <string name="tabs_number_where">رقم أي دولة؟</string>
+    <string name="tabs_number_note">يبدأ عند أول اتصال. أعد الشحن بنفسك قبل انتهاء الصلاحية للاحتفاظ بالرقم.</string>
+    <string name="tabs_number_line">%1$s · %2$d دقيقة · %3$d رسالة</string>
+    <string name="tabs_expires_on">تنتهي في %1$s</string>
+    <string name="tabs_starts_on_connect">يبدأ عند أول اتصال</string>
+    <string name="tabs_voice_sms_left">متبقٍ %1$d دقيقة · %2$d رسالة</string>
+    <string name="tabs_reload_keep">أعد الشحن للاحتفاظ بهذا الرقم</string>
+    <string name="tabs_reload_within">أعد الشحن خلال %1$d يوم للاحتفاظ بهذا الرقم</string>
+    <string name="tabs_not_reloadable">لا يمكن إعادة شحن هذا الرقم؛ ينتهي في %1$s</string>
+    <string name="tabs_not_reloadable_nodate">لا يمكن إعادة شحن هذا الرقم</string>
+    <string name="tabs_number_ended">انتهى هذا الرقم</string>
+    <string name="tabs_number_label">رقمك</string>
+    <string name="tabs_number_label_hint">يظهر رقمك في «حالة SIM»</string>
+    <string name="tabs_save">حفظ</string>
+    <string name="tabs_edit">تعديل</string>
+    <string name="tabs_alerts_channel">تنبيهات eSIM</string>
+    <string name="tabs_alert_expired">%1$s: انتهت صلاحية شريحة eSIM.</string>
+    <string name="tabs_alert_expired_number">%1$s: انتهت صلاحية شريحة eSIM. أعد الشحن خلال %2$d يوم للاحتفاظ بهذا الرقم.</string>
+    <string name="tabs_alert_grace">%1$s: أعد الشحن خلال %2$d يوم للاحتفاظ بهذا الرقم.</string>
+    <string name="tabs_alert_data">%1$s: تم استخدام %2$d%% من البيانات.</string>
+    <string name="tabs_reload">إعادة الشحن</string>
+    <string name="tabs_offline_pay">أنت غير متصل. يتطلب الشراء اتصالاً بالإنترنت.</string>
+    <string name="tabs_offline_saved">أسعار محفوظة من زيارتك الأخيرة. قد تكون تغيّرت.</string>
+    <string name="tabs_runout">بهذا المعدل، ستنفد بياناتك في حوالي %1$s.</string>
+    <string name="tabs_add_topup">أضف %1$s · %2$s</string>
+    <string name="tabs_esim_code">رمز الوصول إلى eSIM</string>
+    <string name="tabs_esim_code_body">أدخل هذا الرمز على هاتف آخر أو على e-sim.net لرؤية شرائح eSIM الخاصة بك هناك. احتفظ به سرًا: فهو يكشف رموز تثبيت شرائحك.</string>
+    <string name="tabs_esim_restore">استعادة شرائح eSIM من هاتف آخر</string>
+    <string name="tabs_esim_restored">شرائح eSIM التي نُقلت إلى هذا الهاتف: %1$d</string>
+    <string name="tabs_esim_code_bad">لم يتم العثور على هذا الرمز. تحقق منه وحاول مرة أخرى.</string>
+    <string name="tabs_sort_total">الأقل سعرًا</string>
+    <string name="tabs_sort_per_gb">لكل GB</string>
+    <string name="tabs_sort_per_day">لكل يوم</string>
+    <string name="tabs_best_value">أفضل قيمة</string>
+    <string name="tabs_signin_body">سجّل الدخول لرؤية شرائح eSIM التي اشتريتها ببريدك الإلكتروني، على أي هاتف.</string>
+    <string name="tabs_signin_google">المتابعة باستخدام Google</string>
+    <string name="tabs_signin_apple">المتابعة باستخدام Apple</string>
+    <string name="tabs_signed_in_as">تم تسجيل الدخول باسم %1$s</string>
+    <string name="tabs_sign_out">تسجيل الخروج</string>
+    <string name="tabs_delete_account">حذف حساب eSIM</string>
+    <string name="tabs_delete_body">ستتم إزالة بريدك الإلكتروني من طلبات eSIM وسيتم تسجيل خروجك. تبقى شرائح eSIM على هذا الهاتف.</string>
+    <string name="tabs_delete_confirm">حذف</string>
+    <string name="tabs_deleted">تم حذف حساب eSIM الخاص بك.</string>
+    <string name="tabs_expiry_unavailable">تاريخ الانتهاء غير متاح الآن</string>
+    <string name="tabs_alert_exp_days">%1$s: الأيام المتبقية حتى انتهاء صلاحية شريحة eSIM: %2$d.</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s: تنتهي صلاحية شريحة eSIM غدًا.</string>
+    <string name="tabs_alert_ends_on">%1$s: تنتهي في %2$s. لا يمكن إعادة شحن هذا الخط.</string>
+    <string name="tabs_alert_reload_hint">أعد الشحن لمواصلة استخدامها.</string>
+    <string name="tabs_tile_protected">محمي</string>
+    <string name="tabs_widget_desc">الاتصال والمحظور اليوم وبيانات eSIM في لمحة</string>
+    <string name="tabs_widget_blocked">تم حظر %1$d اليوم</string>
+    <string name="tabs_live_esim">%1$s: متبقٍ %2$s، حتى %3$s</string>
+    <string name="tabs_live_esim_left">%1$s: متبقٍ %2$s</string>
+    <string name="tabs_live_days_left">الأيام المتبقية: %1$d</string>
+    <string name="tabs_live_route">المسار: %1$s</string>
+    <string name="tabs_live_session">هذه الجلسة: ↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">يشمل %2$s · عدد الأيام: %1$d</string>
+    <string name="link_signin_confirm">تسجيل الدخول إلى الحساب الذي فتح هذا الرابط على %1$s؟ سيستخدم هذا الجهاز خطة ذلك الحساب.</string>
+    <string name="link_claim_confirm">الاستعادة باستخدام رمز الحساب من هذا الرابط؟ سيستخدم هذا الجهاز خطة ذلك الرمز.</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">ترقية</string>
+    <string name="home_data_line">شريحة eSIM للسفر ورقم أمريكي، في التطبيق نفسه</string>
+    <string name="home_travel_esim">eSIM للسفر</string>
+    <string name="home_countries_170">أكثر من 170 دولة</string>
+    <string name="home_us_number">رقم أمريكي</string>
+    <string name="home_second_line">خط ثانٍ</string>
+    <string name="home_free_helper">اتصال آمن، أينما سافرت</string>
+    <string name="home_connected">متصل</string>
+    <string name="home_connecting">جارٍ الاتصال…</string>
+    <string name="home_disconnecting">جارٍ قطع الاتصال</string>
+    <string name="home_failed">فشل الاتصال</string>
+    <string name="home_not_connected">غير متصل</string>
+    <string name="home_try_again_long">حاول مرة أخرى أو تحقق من شبكتك.</string>
+    <string name="home_try_again">حاول مرة أخرى</string>
+    <string name="shop_where">إلى أين أنت ذاهب؟</string>
+    <string name="shop_search">دولة أو منطقة أو مدينة</string>
+    <string name="shop_clear">مسح</string>
+    <string name="shop_local_helper">دولة واحدة، شريحة eSIM واحدة. كل سعر هو أرخص باقة هناك.</string>
+    <string name="shop_regional_helper">عدة دول على شريحة eSIM واحدة. كل سعر هو أرخص باقة.</string>
+    <string name="shop_global_helper">شريحة eSIM واحدة لمعظم أنحاء العالم. كل سعر هو أرخص باقة.</string>
+    <string name="shop_near_me">بالقرب مني</string>
+    <string name="shop_americas">الأمريكتان</string>
+    <string name="shop_middle_east">الشرق الأوسط</string>
+    <string name="shop_your_country">بلدك</string>
+    <string name="shop_no_match">لا توجد وجهات تطابق «%1$s».</string>
+    <string name="shop_try_nearby">جرّب دولة قريبة أو شريحة eSIM إقليمية.</string>
+    <string name="shop_results">النتائج</string>
+    <string name="shop_from">ابتداءً من</string>
+    <string name="shop_real_us_number">رقم أمريكي حقيقي</string>
+    <string name="shop_us_number_sub">احصل على رقم أمريكي كخط ثانٍ</string>
+    <string name="shop_dest_unavailable">هذه الوجهة غير متاحة.</string>
+    <string name="shop_try_again">حاول مرة أخرى</string>
+    <string name="shop_data_plans">باقات البيانات</string>
+    <string name="shop_data_only">بيانات فقط. يبقى رقمك الأساسي مفعّلًا للمكالمات والرسائل.</string>
+    <string name="shop_with_number">مع رقم هاتف</string>
+    <string name="shop_with_number_sub">رقم محلي من هذا البلد، مع بيانات ودقائق ورسائل SMS.</string>
+    <string name="shop_supports_esim">تم الفحص تلقائيًا · يدعم eSIM</string>
+    <string name="shop_no_esim_support">لا يدعم eSIM، لذلك لا يمكن تثبيت شريحة eSIM للسفر عليه.</string>
+    <string name="shop_install_now">ثبّتها الآن، وتبدأ عند وصولك واتصالك.</string>
+    <string name="shop_delivered">الباقات مقدَّمة من e-sim.net.</string>
+    <string name="shop_plans_from">باقات ابتداءً من %1$s</string>
+    <string name="shop_trip_length">مدة الرحلة</string>
+    <string name="shop_how_you_use">كيف تستخدم البيانات</string>
+    <string name="shop_light">فاتح</string>
+    <string name="shop_heavy">مكثف</string>
+    <string name="shop_recommended_for">موصى بها لمدة %1$s</string>
+    <string name="shop_your_trip">رحلتك</string>
+    <string name="shop_buy_now">اشترِ الآن</string>
+    <string name="shop_per_day">%1$s/يوم</string>
+    <string name="shop_one_day">يوم واحد</string>
+    <string name="shop_number_plan">رقم هاتف + %1$d دقيقة + %2$d رسالة</string>
+    <string name="shop_checkout">الدفع</string>
+    <string name="shop_top_up">شحن</string>
+    <string name="shop_cancel">إلغاء</string>
+    <string name="shop_your_plan">باقتك</string>
+    <string name="shop_esim_with_number">eSIM مع رقم هاتف</string>
+    <string name="shop_data_esim">eSIM للبيانات</string>
+    <string name="shop_valid_for">صالحة لمدة</string>
+    <string name="shop_calls_texts">المكالمات والرسائل</string>
+    <string name="shop_min_texts">%1$d دقيقة · %2$d رسالة</string>
+    <string name="shop_network">الشبكة</string>
+    <string name="shop_adds_to">تُضاف إلى eSIM</string>
+    <string name="shop_pay_with">الدفع عبر</string>
+    <string name="shop_card">بطاقة</string>
+    <string name="shop_discount_code">رمز الخصم</string>
+    <string name="shop_apply">تطبيق</string>
+    <string name="shop_code_applied">تم تطبيق %1$s: خصم %2$s</string>
+    <string name="shop_add_code">إضافة رمز خصم</string>
+    <string name="shop_price">السعر</string>
+    <string name="shop_discount">الخصم</string>
+    <string name="shop_one_payment">دفعة واحدة، بلا اشتراك. الأسعار بالدولار الأمريكي.</string>
+    <string name="shop_send_exactly">أرسل %1$s %2$s بالضبط عبر شبكة %3$s</string>
+    <string name="shop_wallet_code">رمز الدفع لمحفظتك</string>
+    <string name="shop_amount_unique">المبلغ خاص بهذا الطلب. أرسله في تحويل واحد، من أي محفظة أو منصة تداول.</string>
+    <string name="shop_amount">المبلغ (%1$s)</string>
+    <string name="shop_address">العنوان (%1$s)</string>
+    <string name="shop_open_wallet">فتح في المحفظة</string>
+    <string name="shop_waiting_payment">بانتظار الدفع</string>
+    <string name="shop_send_before">أرسل قبل %1$s. يصل عادةً خلال دقيقة.</string>
+    <string name="shop_coinbase">عملات أخرى عبر Coinbase</string>
+    <string name="shop_pay_crypto_title">الدفع بالعملات المشفرة</string>
+    <string name="shop_pay">ادفع %1$s</string>
+    <string name="shop_pay_in_crypto">ادفع %1$s بالعملات المشفرة</string>
+    <string name="shop_too_many">محاولات كثيرة جدًا. انتظر بضع دقائق ثم حاول مرة أخرى.</string>
+    <string name="shop_sheet_failed">تعذّر فتح نافذة الدفع.</string>
+    <string name="shop_unexpected">ردّ غير متوقع من e-sim.net. حدّث التطبيق أو حاول مرة أخرى.</string>
+    <string name="shop_offline_pay">أنت غير متصل. اتصل لإتمام الدفع.</string>
+    <string name="shop_copy">نسخ</string>
+    <string name="shop_copy_code">نسخ الرمز</string>
+    <string name="shop_your_esim">شريحة eSIM الخاصة بك</string>
+    <string name="shop_order">الطلب</string>
+    <string name="shop_confirming">جارٍ تأكيد الدفع</string>
+    <string name="shop_setting_up">جارٍ إعداد شريحة eSIM</string>
+    <string name="shop_under_minute">يستغرق هذا عادةً أقل من دقيقة. يمكنك مغادرة هذه الشاشة؛ ستجد شريحة eSIM في شرائح eSIM الخاصة بي.</string>
+    <string name="shop_payment">الدفع</string>
+    <string name="shop_ready_install">جاهزة للتثبيت</string>
+    <string name="shop_order_id">الطلب %1$s</string>
+    <string name="shop_refunded">تم استرداد مبلغ هذا الطلب</string>
+    <string name="shop_setup_failed">تعذّر علينا إعداد شريحة eSIM</string>
+    <string name="shop_payment_safe">دفعتك في أمان. راسل support@e-sim.net مع رقم الطلب %1$s وسنحل المشكلة أو نعيد إليك المبلغ.</string>
+    <string name="shop_email_support">مراسلة الدعم</string>
+    <string name="shop_close">إغلاق</string>
+    <string name="shop_done">تم</string>
+    <string name="shop_ready">شريحة eSIM جاهزة</string>
+    <string name="shop_your_number">رقمك</string>
+    <string name="shop_install_esim">تثبيت eSIM</string>
+    <string name="shop_install_code">رمز تثبيت شريحة eSIM هذه</string>
+    <string name="shop_smdp">عنوان SM-DP+</string>
+    <string name="shop_activation_code">رمز التفعيل</string>
+    <string name="shop_install">تثبيت</string>
+    <string name="shop_other_ways">طرق أخرى للتثبيت</string>
+    <string name="shop_install_guide">فتح دليل التثبيت</string>
+    <string name="shop_open_settings">فتح الإعدادات</string>
+    <string name="shop_my_esims">شرائح eSIM الخاصة بي</string>
+    <string name="shop_no_esims">لا توجد شرائح eSIM بعد</string>
+    <string name="shop_no_esims_body">اشترِ eSIM من المتجر وستظهر هنا. بلا شريحة فعلية، ويبقى رقمك الأساسي فعّالًا للمكالمات.</string>
+    <string name="shop_past">السابقة</string>
+    <string name="shop_not_installed">غير مثبّتة</string>
+    <string name="shop_used_up">مُستهلَك</string>
+    <string name="shop_expired">منتهية الصلاحية</string>
+    <string name="shop_unlimited_data">بيانات بلا حدود</string>
+    <string name="shop_left_of">متبقٍ %1$s من %2$s</string>
+    <string name="shop_one_day_left">متبقٍ يوم واحد</string>
+    <string name="shop_install_again">التثبيت مرة أخرى</string>
+    <string name="shop_installs_once">تُثبَّت شريحة eSIM مرة واحدة لكل هاتف. إذا حذفتها من الإعدادات، فقد لا يمكن تثبيتها مرة أخرى.</string>
+    <string name="shop_not_reloadable">لا يمكن شحن شريحة eSIM هذه. شريحة eSIM جديدة للوجهة نفسها تفي بالغرض.</string>
+    <string name="shop_add_data">إضافة بيانات</string>
+    <string name="shop_data_added">تُضاف البيانات إلى شريحة eSIM هذه. لا حاجة لإعادة التثبيت.</string>
+    <string name="shop_restore_here">استعادة شرائح eSIM على هذا الهاتف</string>
+    <string name="shop_your_access_code">رمز الوصول الخاص بك</string>
+    <string name="shop_restore_title">استعادة شرائح eSIM</string>
+    <string name="shop_access_code">رمز الوصول</string>
+    <string name="shop_find_code">ستجده على هاتفك الآخر في شرائح eSIM الخاصة بي › رمز الوصول الخاص بك، أو في بريد الإيصال.</string>
+    <string name="shop_restore">استعادة</string>
+    <string name="shop_code_body">أدخل هذا الرمز على جهازك الآخر لترى شرائح eSIM الخاصة بك هناك. احتفظ به لنفسك: فهو ينقل شرائح eSIM الخاصة بك.</string>
+    <string name="shop_second_number">رقم ثانٍ</string>
+    <string name="shop_from_price">من %1$s</string>
+    <string name="shop_number_body">رقم محلي مع بيانات ودقائق ورسائل SMS. تنتهي صلاحيته؛ اشحنه للاحتفاظ بالرقم.</string>
+    <string name="shop_number_p1">خط ثانٍ</string>
+    <string name="shop_number_p1_sub">يبقى رقمك الأساسي وشريحتك كما هما.</string>
+    <string name="shop_number_p2">تصل المكالمات والرسائل هنا</string>
+    <string name="shop_number_p3">بلا حساب، بلا هوية</string>
+    <string name="shop_number_p3_sub">لا حاجة إلى التسجيل. ادفع وثبّت.</string>
+    <string name="shop_number_p4">البيانات مشمولة</string>
+    <string name="shop_number_p4_sub">تتضمن كل باقة بيانات جوال في الولايات المتحدة.</string>
+    <string name="shop_choose_plan">اختر باقة</string>
+    <string name="acct_upgrade">ترقية</string>
+    <string name="acct_free_plan">الخطة المجانية</string>
+    <string name="acct_manage_sub">إدارة الاشتراك</string>
+    <string name="acct_usage">إحصاءات الاستخدام</string>
+    <string name="acct_subscription">الاشتراك</string>
+    <string name="acct_connection">الاتصال</string>
+    <string name="acct_settings">الإعدادات</string>
+    <string name="acct_appearance">المظهر</string>
+    <string name="acct_language">اللغة</string>
+    <string name="acct_light">فاتح</string>
+    <string name="acct_dark">داكن</string>
+    <string name="acct_automatic">تلقائي</string>
+    <string name="acct_rate">قيّم %1$s</string>
+    <string name="acct_about">حول %1$s</string>
+    <string name="acct_privacy">سياسة الخصوصية</string>
+    <string name="acct_terms">شروط الاستخدام</string>
+    <string name="acct_support">الدعم والشؤون القانونية</string>
+    <string name="shop_stablecoins">عملات مستقرة USDT · USDC</string>
+    <string name="acct_delete">حذف الحساب</string>
+    <string name="acct_delete_title">هل تريد حذف حسابك؟</string>
+    <string name="acct_delete_footer">يحذف حسابك ورمزه وسجل استخدامك. لا يلغي الاشتراك.</string>
+    <string name="acct_delete_body">سيتم حذف حسابك وسجل استخدامك الآن.</string>
+    <string name="acct_deleted">تم حذف الحساب. تبقى شرائح eSIM على هذا الهاتف مثبتة.</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">قبل الاتصال</string>
+    <string name="vpn_disclosure_what">يستخدم %1$s خدمة VPN في Android لتمرير حركة الإنترنت لهذا الهاتف عبر نفق مشفّر إلى خوادم %1$s.</string>
+    <string name="vpn_disclosure_data">أثناء الاتصال، ترى خوادمنا عنوان IP الخاص بك وكمية البيانات التي تستخدمها. نحفظ عناوين IP الخاصة بك وبلدها وشبكتها ووقت آخر اتصال لك وكمية البيانات التي تستخدمها، مع معرّف %1$s لهذا الجهاز، لتقديم خطتك ومنع إساءة الاستخدام. لا نبيع هذه البيانات.</string>
+    <string name="vpn_disclosure_next">بعد ذلك سيطلب منك Android السماح باتصال VPN.</string>
+    <string name="disclosure_not_now">ليس الآن</string>
+</resources>

@@ -1,0 +1,620 @@
+<resources>
+    <string name="app_name">RostamVPN</string>
+    <string name="main_activity_title">RostamVPN</string>
+
+    <!-- Main Screen Tagline -->
+
+    <!-- About Screen Strings -->
+    <string name="about_title">An Open Internet for Everyone, Everywhere</string>
+    <string name="about_description_1">%1$s gives you fast, private access to the open internet, so the sites and apps you rely on keep working wherever you are.</string>
+    <string name="about_description_2">%1$s is built and operated by an international team of network and security engineers and longtime advocates for internet freedom. For over a decade, we have worked to strengthen digital security and protect open, uncensored access to information for people everywhere.</string>
+
+    <!-- About Screen Header -->
+    <string name="about_screen_title">About %1$s</string>
+
+    <!-- Premium / paywall -->
+    <string name="premium">Premium</string>
+    <string name="usage_stats">Usage stats</string>
+    <string name="usage_total_used">Total data used</string>
+    <string name="usage_this_session">This session</string>
+    <string name="usage_free_allowance">Free allowance</string>
+    <string name="usage_device_note">Total is measured on this device across all sessions.</string>
+    <string name="usage_used_up">Free data used up — upgrade for more</string>
+
+    <!-- About Screen Sections -->
+
+    <!-- Server Selection - Connection Mode -->
+
+    <!-- App Selection -->
+    <string name="protected_apps">Protected Apps</string>
+    <!-- Reused as the include-mode description; wording already fits exactly. -->
+    <string name="only_selected_apps">Only selected apps will use the VPN</string>
+    <string name="split_tunnel_title">Apps and the VPN</string>
+    <string name="split_mode_exclude">All apps except selected</string>
+    <string name="split_mode_exclude_desc">Selected apps skip the VPN and connect directly. Use this for banking and other local apps.</string>
+    <string name="split_mode_include">Only selected apps</string>
+    <string name="split_state_all">All apps use the VPN</string>
+    <string name="split_state_none">No apps use the VPN</string>
+    <string name="split_state_bypass">%1$d of %2$d apps skip the VPN</string>
+    <string name="split_state_only">%1$d of %2$d apps use the VPN</string>
+    <string name="split_reconnect_note">Changes reconnect the VPN.</string>
+    <string name="bypass_title">Destinations that skip the VPN</string>
+    <string name="bypass_desc">Traffic to these IP addresses and ranges connects directly, whichever app sends it. Useful for local banking and government services that refuse foreign addresses.</string>
+    <string name="bypass_hint">IP or range, e.g. 192.168.1.0/24</string>
+    <string name="bypass_add">Add</string>
+    <string name="bypass_remove">Remove</string>
+    <string name="bypass_invalid">Enter an IP address or range, such as 10.0.0.0/8</string>
+    <string name="bypass_none">None — all destinations use the VPN</string>
+    <string name="bypass_count">%1$d destination(s) skip the VPN</string>
+    <string name="bypass_over_budget">%1$d entry cannot be applied on this device and still uses the VPN. Remove some entries or use wider ranges.</string>
+    <string name="select_recommended">Recommended</string>
+    <string name="select_all">All</string>
+    <string name="select_none">None</string>
+
+    <!-- Theme -->
+    <string name="appearance">Appearance</string>
+    <string name="theme_auto">Auto</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="share_debug_log">Share Debug Log</string>
+    <string name="about">About</string>
+    <string name="version_format">Version %s</string>
+    <string name="app_tagline">Your Digital Guardian</string>
+
+    <!-- DNS Resolver Settings -->
+
+    <!-- Open Source Screen -->
+    <string name="open_source_libraries">Open Source Libraries</string>
+
+    <!-- Privacy Policy Screen -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="effective_date">Effective date: February 5, 2026</string>
+
+    <!-- Main Screen Status -->
+    <string name="vpn_on">VPN On</string>
+    <string name="vpn_off">VPN Off</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="tap_to_connect">Tap to connect</string>
+    <string name="tap_to_disconnect">Tap to disconnect</string>
+    <string name="connecting_to_server">Connecting to server…</string>
+    <string name="cd_menu">Menu</string>
+
+    <!-- Auto-failover status -->
+    <string name="trying_server">Trying next server…</string>
+
+    <!-- Traffic Display -->
+
+    <!-- QR Config -->
+    <string name="qr_config">Config QR</string>
+
+    <!-- Messages Screen -->
+
+    <!-- Hardcoded strings moved to resources -->
+    <string name="tap_to_cancel">Tap to cancel</string>
+    <string name="close_menu">Close menu</string>
+    <string name="made_in_usa">Made in USA</string>
+
+    <!-- CDN Scanner -->
+
+    <!-- Network Scanner -->
+    <string name="region_label">Region</string>
+    <string name="region_automatic">Automatic</string>
+    <string name="region_auto_hint">Picks the fastest working region</string>
+    <string name="region_location_hint">Connect via this location</string>
+    <string name="region_locked_hint">Automatic — choose a region with Premium</string>
+    <string name="go_premium">Go Premium</string>
+    <string name="premium_tagline">Full speed always · choose any region</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="language">Language</string>
+    <string name="language_auto">Automatic (by region)</string>
+    <string name="settings_connection">Connection</string>
+    <string name="connection_hint">Auto picks the best path. Override to prefer one.</string>
+    <string name="data_free_remaining">%1$s left</string>
+    <string name="data_free_out">Free data used</string>
+    <string name="data_free_low_cta">Running low — upgrade to stay at full speed</string>
+    <string name="data_free_out_cta">Want full speed back? Upgrade to Premium.</string>
+    <string name="speed_state_full">Full speed</string>
+    <string name="speed_state_reduced">Reduced speed</string>
+    <string name="premium_title_throttled">Get your full speed back</string>
+    <string name="premium_tagline_throttled">Want full speed back? Upgrade to Premium.</string>
+    <!-- Free-data meter, honest states. %1$s is a speed the app formats from the
+         SAME config value it enforces (e.g. "2 Mbps"), never a literal, so the
+         copy cannot outlive a config change. The free tier is never cut off —
+         it slows — and these say exactly that rather than implying a cliff. -->
+    <string name="speed_state_limited">Limited to %1$s</string>
+    <string name="data_free_low_note">It keeps working at %1$s after this. Premium stays at full speed.</string>
+    <string name="data_free_out_note">Still connected, at %1$s. Premium restores full speed.</string>
+    <string name="data_free_one_time">Monthly allowance</string>
+    <!-- Home upgrade card. Leads with what the user GETS; the old heading was
+         the name of the action ("Go Premium") repeated on the button beside it. -->
+    <string name="premium_title_default">Unlimited data, always full speed</string>
+    <string name="premium_body_default">Premium · every region · no ads</string>
+    <!-- QR config -->
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_another">Scan Another</string>
+    <string name="regenerate_qr">Regenerate QR</string>
+
+    <!-- Paywall / restore -->
+    <string name="premium_active">Premium is active \u2713</string>
+    <string name="restore_code_hint">Restore code \u2014 use Premium on another device:</string>
+    <string name="loading_plans">Loading plans\u2026</string>
+    <string name="already_premium_restore">Already premium? Restore with your code</string>
+    <string name="account_code">Account code</string>
+    <string name="restore">Restore</string>
+
+    <!-- App selection -->
+    <string name="search_apps">Search apps\u2026</string>
+
+    <!-- Connection status (shown in toasts and the connect button) -->
+    <string name="status_starting_vpn">Starting VPN\u2026</string>
+    <string name="status_finding_path">Finding fastest path\u2026</string>
+    <string name="status_connected">Connected \u00B7 %1$s</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_failed">Connection failed: %1$s</string>
+    <!-- Entry flow: splash, welcome, sign-in -->
+    <string name="splash_tagline">Guardian of the line</string>
+    <string name="welcome_title">A guardian for your connection</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">guardian</string>
+    <string name="welcome_body">Quiet, vigilant, uncompromising. %1$s stands between you and the open internet.</string>
+    <string name="get_started">Get started</string>
+    <string name="signin_title">Welcome to %1$s</string>
+    <string name="signin_subtitle">Sign in to keep Premium across your devices, or just continue \u2014 the app works without an account.</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="have_account_code">I have an account code</string>
+    <string name="continue_as_guest">Continue without an account</string>
+    <string name="back_action">Back</string>
+    <string name="signin_unavailable">Sign-in isn\'t available right now. You can keep using the app without an account.</string>
+    <!-- Account screen (Settings -> Account). Sign-in is OPTIONAL and exists to
+         carry a PAID subscription between devices; the app works without it. -->
+    <string name="account">Account</string>
+    <string name="account_free_title">No subscription on this device</string>
+    <string name="account_free_body">%1$s works without an account. Premium comes from your store purchase. Tap Restore to bring it to a new device.</string>
+    <string name="account_premium_title">Premium is active</string>
+    <string name="account_plan">Plan</string>
+    <string name="account_renews">Renews %1$s</string>
+    <string name="account_expires">Expires %1$s</string>
+    <string name="already_subscribed">Already subscribed? Sign in to restore it</string>
+    <string name="account_signed_in">Signed in \u2014 your subscription follows this account</string>
+    <!-- Result of scanning a config QR code -->
+    <string name="qr_config_applied_ok">New servers added \u2014 they apply on your next connect</string>
+    <!-- Config QR sharing -->
+    <string name="qr_share_title">Share your servers</string>
+    <string name="qr_share_body">Someone whose connection is blocked can scan this to get working servers.</string>
+    <string name="qr_share_count">%1$d servers included</string>
+    <string name="qr_share_unavailable">No shareable code is published right now</string>
+    <string name="qr_share_unverified">This code failed verification and was not shown</string>
+    <!-- Shown when an explicitly chosen protocol cannot be used and the app
+         falls back, so the substitution is never silent. -->
+
+    <!-- Paywall - hero, plan rows, rails. All 38 locales carry these. -->
+    <string name="paywall_eyebrow">%1$s PREMIUM</string>
+    <string name="paywall_headline">The fast lane out.</string>
+    <string name="paywall_subhead">Nothing in your way.</string>
+    <string name="paywall_perk_regions_title">Every region</string>
+    <string name="paywall_perk_regions_body">Connect anywhere, switch anytime.</string>
+    <string name="paywall_perk_speed_title">Full speed, always</string>
+    <string name="paywall_perk_speed_body">No cap, and never slowed down.</string>
+    <!-- Offer-led hero. paywall_headline/paywall_subhead above are atmosphere and
+         are kept for the throttled path's neighbours; these state the offer.
+         paywall_subhead_throttled takes the user's CURRENT limit as %1$s — the
+         only urgency on this screen is the user's own true state, never a timer. -->
+    <string name="paywall_headline_offer">Unlimited. Full speed. No ads.</string>
+    <string name="paywall_subhead_offer">Your free allowance renews every month. Premium never runs out.</string>
+    <string name="paywall_subhead_throttled">You are limited to %1$s right now. Premium removes the cap.</string>
+    <!-- Hero price unit, under the per-month figure on a single-plan paywall.
+         Deliberately a bare noun phrase with NO placeholder: the amount above it
+         is formatted by Play (currency symbol, position and grouping all vary),
+         and splitting a price into symbol + digits breaks in fa, where the unit
+         is a word. -->
+    <string name="plan_hero_unit">per month</string>
+    <string name="paywall_perk_data_title">Unlimited data</string>
+    <string name="paywall_perk_data_body">The free allowance renews every month. Premium has no cap.</string>
+    <!-- Same perk, for a brand whose allowance does NOT come back. Chosen when
+         the cashier reports period_days = 0. No GB figure: the allowance is
+         server-driven per brand and per region, so a number written here goes
+         stale silently and is simply wrong for some users. -->
+    <string name="paywall_perk_data_body_once">Your free data is a one-time allowance. Premium never runs out.</string>
+    <string name="paywall_perk_speed_body_limit">Free drops to %1$s once it runs out. Premium never does.</string>
+    <string name="paywall_perk_ads_title">No ads</string>
+    <string name="paywall_perk_ads_body">No full-screen ad when you connect.</string>
+    <string name="paywall_perk_ixp_title">Our own hardware</string>
+    <string name="paywall_perk_ixp_body">Most VPNs rent cheap virtual servers. Ours sits inside the internet exchanges where the world\'s major networks meet — a shorter path, and a faster app.</string>
+    <!-- Risk reversal. True for every rail: no sign-up, no email, no name. For
+         this audience that is worth more than a refund promise. -->
+    <string name="paywall_reassure">No account or email needed.</string>
+    <!-- Value anchor on a multi-month plan: the same price expressed per month,
+         so it can be compared with the monthly row without arithmetic. -->
+    <string name="plan_per_month">%1$s per month</string>
+    <!-- Trust row. The NUMBERS are per-brand resources (brands/&lt;id&gt;.json), never
+         hardcoded here — four of the five brands are not the one with a million
+         downloads, and a shared literal would be a false claim for them. -->
+    <string name="proof_downloads">Over %1$s downloads</string>
+    <string name="proof_rating">%1$s from %2$s reviews</string>
+    <string name="plan_period_weekly">Weekly</string>
+    <string name="plan_period_monthly">Monthly</string>
+    <string name="plan_period_3month">Every 3 months</string>
+    <string name="plan_period_6month">Every 6 months</string>
+    <string name="plan_period_yearly">Yearly</string>
+    <string name="plan_save_badge">SAVE %1$d%%</string>
+    <string name="plan_save_vs_monthly">Save %1$d%% vs monthly</string>
+    <string name="plans_unavailable">Plans aren\'t available right now. Please try again later.</string>
+    <string name="start_free_trial">Start free trial</string>
+    <string name="pay_with_card">Pay with card</string>
+    <string name="pay_with_crypto">Pay with crypto</string>
+    <string name="pay_alipay">Alipay</string>
+    <string name="pay_wechat">WeChat Pay</string>
+    <string name="paywall_disclosure_play">Renews automatically until canceled. Cancel anytime in \u2068Google Play \u203A Subscriptions\u2069.</string>
+    <string name="paywall_disclosure_stripe">Cards, Apple Pay &amp; Google Pay \u2014 secured by Stripe. Renews until canceled.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT and other coins. No card, no bank \u2014 nothing links the payment to you.</string>
+    <string name="paywall_disclosure_paymentwall">Cards &amp; local methods. Renews until canceled.</string>
+    <string name="paywall_disclosure_china">Premium activates automatically once payment completes, encrypted end to end.</string>
+    <string name="cd_close">Close</string>
+    <string name="restore_ok">Premium restored</string>
+    <string name="restore_invalid">Code not valid</string>
+    <string name="restore_none">No subscription found on this store account</string>
+    <string name="open_source_intro">%1$s is built with the help of the following open source projects.</string>
+    <string name="cd_back">Back</string>
+    <string name="onboarding_plans_title">Free, or Premium</string>
+    <string name="onboarding_plans_body">Free gives you a monthly allowance at full speed, then unlimited traffic at a slower speed, with ads. Premium removes the cap, the slowdown and the ads.</string>
+    <string name="continue_label">Continue</string>
+    <string name="skip_label">Skip</string>
+    <string name="rate_app">Rate %1$s</string>
+    <!-- eSIM store (FEATURE_ESIM brands only). The title lives in
+         esim_strings.xml: "eSIM" is a product term and stays Latin. The purchase notice must not point anywhere else to pay:
+         on Play that pointer is itself a payments-policy violation. -->
+    <string name="esim_mine">My eSIMs</string>
+    <string name="esim_purchase_unavailable">eSIM purchases aren\'t available in this version yet.</string>
+    <string name="esim_install">Install on this phone</string>
+    <string name="esim_install_failed">Couldn\'t install automatically. Scan the QR code or enter the codes below.</string>
+    <string name="esim_installed">eSIM installed. It can take a minute to appear in Settings.</string>
+    <string name="esim_activation_code">Activation code</string>
+    <string name="esim_copy">Copy</string>
+    <string name="esim_copied">Copied</string>
+    <string name="esim_none">No eSIMs on this device yet.</string>
+    <string name="esim_load_failed">Couldn\'t load your eSIMs. Check your connection and try again.</string>
+    <string name="esim_retry">Try again</string>
+    <string name="esim_left_of">%1$s left of %2$s</string>
+    <string name="esim_status_ready">Ready to install</string>
+    <string name="esim_status_active">Active</string>
+    <string name="esim_status_used">Used up</string>
+    <string name="esim_status_expired">Expired</string>
+    <string name="esim_account">Account and restore</string>
+    <!-- tabs treatment (Internet Pro design): no VPN in copy; the travel data product is called eSIM (owner, 2026-10-15) -->
+    <string name="tabs_connect">Connect</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">Account</string>
+    <string name="tabs_status_protected">Protected · %1$d blocked today</string>
+    <string name="tabs_status_connected">Connected</string>
+    <string name="tabs_status_connecting">Connecting…</string>
+    <string name="tabs_status_failed">Couldn\'t connect. Tap to try again.</string>
+    <string name="tabs_status_off">Off</string>
+    <string name="tabs_guardian_open">See what was refused</string>
+    <string name="tabs_ring_connect">Connect</string>
+    <string name="tabs_ring_disconnect">Disconnect</string>
+    <string name="tabs_ring_cancel">Connecting, tap to cancel</string>
+    <string name="tabs_elapsed">Time</string>
+    <string name="tabs_download">Download</string>
+    <string name="tabs_upload">Upload</string>
+    <string name="tabs_route">Route</string>
+    <string name="tabs_route_auto">Auto</string>
+    <string name="tabs_disconnect">Disconnect</string>
+    <string name="tabs_guardian_title">Guardian</string>
+    <string name="tabs_guardian_on">Refused and flagged connections from the last 30 days.</string>
+    <string name="tabs_guardian_off">Protection is off. Nothing is being refused.</string>
+    <string name="tabs_guardian_empty">Nothing refused yet.</string>
+    <string name="tabs_guardian_row">Port %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">Allow</string>
+    <string name="tabs_allowed">Allowed</string>
+    <string name="tabs_rules">Rules</string>
+    <string name="tabs_rules_master">Protection</string>
+    <string name="tabs_rules_master_sub">Refuse connections to known malicious sites.</string>
+    <string name="tabs_rules_categories">Refused by category</string>
+    <string name="tabs_rules_allow">Always allow</string>
+    <string name="tabs_rules_deny">Always refuse</string>
+    <string name="tabs_rules_empty">None yet.</string>
+    <string name="tabs_rules_remove">Remove</string>
+    <string name="tabs_rules_hint">Site or address</string>
+    <string name="tabs_rules_add">Add</string>
+    <string name="tabs_passes_title">eSIMs</string>
+    <string name="tabs_store">Store</string>
+    <string name="tabs_my_passes">My eSIMs</string>
+    <string name="tabs_where">Where are you going?</string>
+    <string name="tabs_search_hint">Country, city or region</string>
+    <string name="tabs_from">from %1$s</string>
+    <string name="tabs_all_destinations">All destinations</string>
+    <string name="tabs_how_long">How long is the trip?</string>
+    <string name="tabs_days">%1$d days</string>
+    <string name="tabs_how_much">How do you use data?</string>
+    <string name="tabs_usage_maps">Maps and messages</string>
+    <string name="tabs_usage_socials">Social and browsing</string>
+    <string name="tabs_usage_streaming">Video and streaming</string>
+    <string name="tabs_need">About %1$s GB for %2$d days.</string>
+    <string name="tabs_recommended">RECOMMENDED</string>
+    <string name="tabs_plan_line">%1$s · %2$d days</string>
+    <string name="tabs_buy">Buy</string>
+    <string name="tabs_number_row">With a local number: %1$d min · %2$s · %3$d days</string>
+    <string name="tabs_see_all">See all plans</string>
+    <string name="tabs_hide_all">Hide all plans</string>
+    <string name="tabs_unlimited">Unlimited</string>
+    <string name="tabs_refund">Refund if your data doesn\'t activate.</string>
+    <string name="tabs_no_passes">No eSIMs yet</string>
+    <string name="tabs_no_passes_body">Buy an eSIM and it installs on your phone in seconds. No SIM card to swap, and your main number stays on for calls.</string>
+    <string name="tabs_browse">Browse eSIMs</string>
+    <string name="tabs_status_active">Active</string>
+    <string name="tabs_status_ready">Ready</string>
+    <string name="tabs_status_used">Used up</string>
+    <string name="tabs_status_expired">Expired</string>
+    <string name="tabs_used">%1$s used</string>
+    <string name="tabs_left">%1$s left</string>
+    <string name="tabs_install">Install</string>
+    <string name="tabs_topup">Top up</string>
+    <string name="tabs_install_title">Install your eSIM</string>
+    <string name="tabs_install_here">Install on this phone</string>
+    <string name="tabs_install_other">Or scan this code from another phone: Settings, then Mobile data, then Add plan.</string>
+    <string name="tabs_installed">eSIM installed. It can take a minute to appear in Settings.</string>
+    <string name="tabs_install_failed">Couldn\'t install automatically. Scan the code or enter the details below.</string>
+    <string name="tabs_topup_none">This eSIM can\'t be topped up. Buy a new one instead.</string>
+    <string name="tabs_checkout">Checkout</string>
+    <string name="tabs_pay_unavailable">Buying eSIMs isn\'t available in this version yet.</string>
+    <string name="tabs_load_failed">Couldn\'t load. Check your connection.</string>
+    <string name="tabs_retry">Try again</string>
+    <string name="tabs_pro">Pro</string>
+    <string name="tabs_per_month">%1$s / month</string>
+    <string name="tabs_active_until">Active until %1$s</string>
+    <string name="tabs_active">Active</string>
+    <string name="tabs_not_active">Not active</string>
+    <string name="tabs_go_pro">Go Pro</string>
+    <string name="tabs_renews">Renews monthly. Cancel anytime.</string>
+    <string name="tabs_restore_code">Restore code</string>
+    <string name="tabs_other_device">Use on another device</string>
+    <string name="tabs_code_body">This code is your account. Keep it somewhere safe and enter it on a new phone to restore Pro.</string>
+    <string name="tabs_legal">Legal</string>
+    <string name="tabs_guardian_updated">Protection list updated %1$s</string>
+    <string name="tabs_notified">Flagged</string>
+    <string name="tabs_notices">Notices</string>
+    <string name="tabs_rules_toggles">Categories</string>
+    <string name="tabs_second_number">Second number</string>
+    <string name="tabs_second_number_body">A local number with data, minutes and SMS. It expires; reload it before then to keep the number.</string>
+    <string name="tabs_number_where">Which country\'s number?</string>
+    <string name="tabs_number_note">Starts when you first connect. Nothing renews by itself: reload before it expires to keep the number.</string>
+    <string name="tabs_number_line">%1$s · %2$d min · %3$d SMS</string>
+    <string name="tabs_expires_on">Expires %1$s</string>
+    <string name="tabs_starts_on_connect">Starts when you first connect</string>
+    <string name="tabs_voice_sms_left">%1$d min · %2$d SMS left</string>
+    <string name="tabs_reload_keep">Reload to keep this number</string>
+    <string name="tabs_reload_within">Reload within %1$d days to keep this number</string>
+    <string name="tabs_not_reloadable">This number cannot be reloaded; it ends on %1$s</string>
+    <string name="tabs_not_reloadable_nodate">This number cannot be reloaded</string>
+    <string name="tabs_number_ended">This number has ended</string>
+    <string name="tabs_number_label">Your number</string>
+    <string name="tabs_number_label_hint">Your number appears in SIM status</string>
+    <string name="tabs_save">Save</string>
+    <string name="tabs_edit">Edit</string>
+    <string name="tabs_alerts_channel">eSIM alerts</string>
+    <string name="tabs_alert_expired">%1$s has expired.</string>
+    <string name="tabs_alert_expired_number">%1$s has expired. Reload within %2$d days to keep the number.</string>
+    <string name="tabs_alert_grace">%1$s: reload within %2$d days to keep the number.</string>
+    <string name="tabs_alert_data">%1$s has used %2$d%% of its data.</string>
+    <string name="tabs_reload">Reload</string>
+    <string name="tabs_offline_pay">You\'re offline. Buying needs an internet connection.</string>
+    <string name="tabs_offline_saved">Saved prices from your last visit. They may have changed.</string>
+    <string name="tabs_runout">At this pace, your data runs out around %1$s.</string>
+    <string name="tabs_add_topup">Add %1$s · %2$s</string>
+    <string name="tabs_esim_code">eSIM access code</string>
+    <string name="tabs_esim_code_body">Enter this code on another phone, or on e-sim.net, to see your eSIMs there. Keep it private: it opens your eSIMs\' install codes.</string>
+    <string name="tabs_esim_restore">Restore eSIMs from another phone</string>
+    <string name="tabs_esim_restored">eSIMs moved to this phone: %1$d</string>
+    <string name="tabs_esim_code_bad">That code was not found. Check it and try again.</string>
+    <string name="tabs_sort_total">Lowest price</string>
+    <string name="tabs_sort_per_gb">Per GB</string>
+    <string name="tabs_sort_per_day">Per day</string>
+    <string name="tabs_best_value">Best value</string>
+    <string name="tabs_signin_body">Sign in to see the eSIMs you bought with your email, on any phone.</string>
+    <string name="tabs_signin_google">Continue with Google</string>
+    <string name="tabs_signin_apple">Continue with Apple</string>
+    <string name="tabs_signed_in_as">Signed in as %1$s</string>
+    <string name="tabs_sign_out">Sign out</string>
+    <string name="tabs_delete_account">Delete eSIM account</string>
+    <string name="tabs_delete_body">Your email is removed from your eSIM orders and you are signed out. Your eSIMs stay on this phone.</string>
+    <string name="tabs_delete_confirm">Delete</string>
+    <string name="tabs_deleted">Your eSIM account was deleted.</string>
+    <string name="tabs_expiry_unavailable">Expiry date unavailable right now</string>
+    <string name="tabs_alert_exp_days">%1$s expires in %2$d days.</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s expires tomorrow.</string>
+    <string name="tabs_alert_ends_on">%1$s ends on %2$s. This line cannot be reloaded.</string>
+    <string name="tabs_alert_reload_hint">Reload to keep it going.</string>
+    <string name="tabs_tile_protected">Protected</string>
+    <string name="tabs_widget_desc">Connection, blocked today and eSIM data at a glance</string>
+    <string name="tabs_widget_blocked">Blocked today: %1$d</string>
+    <string name="tabs_live_esim">%1$s: %2$s left, until %3$s</string>
+    <string name="tabs_live_esim_left">%1$s: %2$s left</string>
+    <string name="tabs_live_days_left">Days left: %1$d</string>
+    <string name="tabs_live_route">Route: %1$s</string>
+    <string name="tabs_live_session">This session: ↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">Includes %1$d days of %2$s</string>
+    <string name="link_signin_confirm">Sign in to the account that opened this link on %1$s? This device will use that account\'s plan.</string>
+    <string name="link_claim_confirm">Restore with the account code from this link? This device will use that code\'s plan.</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">Upgrade</string>
+    <string name="home_data_line">Travel eSIM and a US number, in the same app</string>
+    <string name="home_travel_esim">Travel eSIM</string>
+    <string name="home_countries_170">170+ countries</string>
+    <string name="home_us_number">US number</string>
+    <string name="home_second_line">A second line</string>
+    <string name="home_free_helper">Secure connectivity, wherever you travel</string>
+    <string name="home_connected">Connected</string>
+    <string name="home_connecting">Connecting…</string>
+    <string name="home_disconnecting">Disconnecting</string>
+    <string name="home_failed">Connection Failed</string>
+    <string name="home_not_connected">Not connected</string>
+    <string name="home_try_again_long">Try again or check your network.</string>
+    <string name="home_try_again">Try Again</string>
+    <string name="shop_where">Where are you going?</string>
+    <string name="shop_search">Country, region or city</string>
+    <string name="shop_clear">Clear</string>
+    <string name="shop_local_helper">One country, one eSIM. Each price is the cheapest plan there.</string>
+    <string name="shop_regional_helper">Several countries on one eSIM. Each price is the cheapest plan.</string>
+    <string name="shop_global_helper">One eSIM for most of the world. Each price is the cheapest plan.</string>
+    <string name="shop_near_me">Near me</string>
+    <string name="shop_americas">Americas</string>
+    <string name="shop_middle_east">Middle East</string>
+    <string name="shop_your_country">Your country</string>
+    <string name="shop_no_match">No destinations match “%1$s”.</string>
+    <string name="shop_try_nearby">Try a nearby country or a regional eSIM.</string>
+    <string name="shop_results">Results</string>
+    <string name="shop_from">from</string>
+    <string name="shop_real_us_number">A real US number</string>
+    <string name="shop_us_number_sub">Get a US number as a second line</string>
+    <string name="shop_dest_unavailable">This destination isn\'t available.</string>
+    <string name="shop_try_again">Try again</string>
+    <string name="shop_data_plans">Data plans</string>
+    <string name="shop_data_only">Data only. Your main number stays on for calls and texts.</string>
+    <string name="shop_with_number">With a phone number</string>
+    <string name="shop_with_number_sub">A local number of this country, with data, minutes and SMS.</string>
+    <string name="shop_supports_esim">Checked automatically · supports eSIM</string>
+    <string name="shop_no_esim_support">It has no eSIM support, so a travel eSIM won\'t install here.</string>
+    <string name="shop_install_now">Install now, it starts when you arrive and connect.</string>
+    <string name="shop_delivered">Plans are delivered by e-sim.net.</string>
+    <string name="shop_plans_from">Plans from %1$s</string>
+    <string name="shop_trip_length">Trip length</string>
+    <string name="shop_how_you_use">How you use data</string>
+    <string name="shop_light">Light</string>
+    <string name="shop_heavy">Heavy</string>
+    <string name="shop_recommended_for">Recommended for %1$s</string>
+    <string name="shop_your_trip">Your trip</string>
+    <string name="shop_buy_now">Buy now</string>
+    <string name="shop_per_day">%1$s/day</string>
+    <string name="shop_one_day">1 day</string>
+    <string name="shop_number_plan">Phone number + %1$d min + %2$d texts</string>
+    <string name="shop_checkout">Checkout</string>
+    <string name="shop_top_up">Top up</string>
+    <string name="shop_cancel">Cancel</string>
+    <string name="shop_your_plan">Your plan</string>
+    <string name="shop_esim_with_number">eSIM with a phone number</string>
+    <string name="shop_data_esim">Data eSIM</string>
+    <string name="shop_valid_for">Valid for</string>
+    <string name="shop_calls_texts">Calls and texts</string>
+    <string name="shop_min_texts">%1$d min · %2$d texts</string>
+    <string name="shop_network">Network</string>
+    <string name="shop_adds_to">Adds to eSIM</string>
+    <string name="shop_pay_with">Pay with</string>
+    <string name="shop_card">Card</string>
+    <string name="shop_discount_code">Discount code</string>
+    <string name="shop_apply">Apply</string>
+    <string name="shop_code_applied">%1$s applied: %2$s off</string>
+    <string name="shop_add_code">Add a discount code</string>
+    <string name="shop_price">Price</string>
+    <string name="shop_discount">Discount</string>
+    <string name="shop_one_payment">One payment, no subscription. Prices in US dollars.</string>
+    <string name="shop_send_exactly">Send exactly %1$s %2$s on %3$s</string>
+    <string name="shop_wallet_code">Payment code for your wallet</string>
+    <string name="shop_amount_unique">The amount is unique to this order. Send it in one transfer, from any wallet or exchange.</string>
+    <string name="shop_amount">Amount (%1$s)</string>
+    <string name="shop_address">Address (%1$s)</string>
+    <string name="shop_open_wallet">Open in wallet</string>
+    <string name="shop_waiting_payment">Waiting for payment</string>
+    <string name="shop_send_before">Send before %1$s. It usually lands in a minute.</string>
+    <string name="shop_coinbase">Other coins via Coinbase</string>
+    <string name="shop_pay_crypto_title">Pay with crypto</string>
+    <string name="shop_pay">Pay %1$s</string>
+    <string name="shop_pay_in_crypto">Pay %1$s in crypto</string>
+    <string name="shop_too_many">Too many tries. Wait a few minutes and try again.</string>
+    <string name="shop_sheet_failed">Couldn\'t open the payment sheet.</string>
+    <string name="shop_unexpected">We got an unexpected answer from e-sim.net. Update the app or try again.</string>
+    <string name="shop_offline_pay">You\'re offline. Connect to pay.</string>
+    <string name="shop_copy">Copy</string>
+    <string name="shop_copy_code">Copy code</string>
+    <string name="shop_your_esim">Your eSIM</string>
+    <string name="shop_order">Order</string>
+    <string name="shop_confirming">Confirming your payment</string>
+    <string name="shop_setting_up">Setting up your eSIM</string>
+    <string name="shop_under_minute">This usually takes under a minute. You can leave this screen; your eSIM will be in My eSIMs.</string>
+    <string name="shop_payment">Payment</string>
+    <string name="shop_ready_install">Ready to install</string>
+    <string name="shop_order_id">Order %1$s</string>
+    <string name="shop_refunded">This order was refunded</string>
+    <string name="shop_setup_failed">We couldn\'t set up your eSIM</string>
+    <string name="shop_payment_safe">Your payment is safe. Write to support@e-sim.net with order %1$s and we\'ll fix it or refund you.</string>
+    <string name="shop_email_support">Email support</string>
+    <string name="shop_close">Close</string>
+    <string name="shop_done">Done</string>
+    <string name="shop_ready">Your eSIM is ready</string>
+    <string name="shop_your_number">Your number</string>
+    <string name="shop_install_esim">Install eSIM</string>
+    <string name="shop_install_code">Code to install this eSIM</string>
+    <string name="shop_smdp">SM-DP+ address</string>
+    <string name="shop_activation_code">Activation code</string>
+    <string name="shop_install">Install</string>
+    <string name="shop_other_ways">Other ways to install</string>
+    <string name="shop_install_guide">Open install guide</string>
+    <string name="shop_open_settings">Open Settings</string>
+    <string name="shop_my_esims">My eSIMs</string>
+    <string name="shop_no_esims">No eSIMs yet</string>
+    <string name="shop_no_esims_body">Buy an eSIM in the Store and it appears here. No physical SIM, and your main number stays on for calls.</string>
+    <string name="shop_past">Past</string>
+    <string name="shop_not_installed">Not installed</string>
+    <string name="shop_used_up">Used up</string>
+    <string name="shop_expired">Expired</string>
+    <string name="shop_unlimited_data">Unlimited data</string>
+    <string name="shop_left_of">%1$s left of %2$s</string>
+    <string name="shop_one_day_left">1 day left</string>
+    <string name="shop_install_again">Install again</string>
+    <string name="shop_installs_once">An eSIM installs once per phone. If you deleted it from Settings, it may not install again.</string>
+    <string name="shop_not_reloadable">This eSIM cannot be reloaded. A new eSIM for the same destination works instead.</string>
+    <string name="shop_add_data">Add data</string>
+    <string name="shop_data_added">Data is added to this eSIM. Nothing to reinstall.</string>
+    <string name="shop_restore_here">Restore eSIMs on this phone</string>
+    <string name="shop_your_access_code">Your access code</string>
+    <string name="shop_restore_title">Restore eSIMs</string>
+    <string name="shop_access_code">Access code</string>
+    <string name="shop_find_code">Find it on your other phone under My eSIMs › Your access code, or in your receipt email.</string>
+    <string name="shop_restore">Restore</string>
+    <string name="shop_code_body">Enter this code on your other device to see your eSIMs there. Keep it private: it moves your eSIMs.</string>
+    <string name="shop_second_number">Second number</string>
+    <string name="shop_from_price">From %1$s</string>
+    <string name="shop_number_body">A local number with data, minutes and SMS. It expires; reload it to keep the number.</string>
+    <string name="shop_number_p1">A second line</string>
+    <string name="shop_number_p1_sub">Your main number and SIM stay as they are.</string>
+    <string name="shop_number_p2">Calls and texts arrive here</string>
+    <string name="shop_number_p3">No account, no ID</string>
+    <string name="shop_number_p3_sub">Nothing to sign up for. Pay and install.</string>
+    <string name="shop_number_p4">Data included</string>
+    <string name="shop_number_p4_sub">Every plan comes with mobile data in the US.</string>
+    <string name="shop_choose_plan">Choose a plan</string>
+    <string name="acct_upgrade">Upgrade</string>
+    <string name="acct_free_plan">Free plan</string>
+    <string name="acct_manage_sub">Manage subscription</string>
+    <string name="acct_usage">Usage stats</string>
+    <string name="acct_subscription">Subscription</string>
+    <string name="acct_connection">Connection</string>
+    <string name="acct_settings">Settings</string>
+    <string name="acct_appearance">Appearance</string>
+    <string name="acct_language">Language</string>
+    <string name="acct_light">Light</string>
+    <string name="acct_dark">Dark</string>
+    <string name="acct_automatic">Automatic</string>
+    <string name="acct_rate">Rate %1$s</string>
+    <string name="acct_about">About %1$s</string>
+    <string name="acct_privacy">Privacy Policy</string>
+    <string name="acct_terms">Terms of Use</string>
+    <string name="acct_support">Support &amp; legal</string>
+    <string name="shop_stablecoins">USDT · USDC stablecoins</string>
+    <string name="acct_delete">Delete account</string>
+    <string name="acct_delete_title">Delete your account?</string>
+    <string name="acct_delete_footer">Erases your account, its code and your usage history. It does not cancel a subscription.</string>
+    <string name="acct_delete_body">Your account and usage history will be erased now.</string>
+    <string name="acct_deleted">Account deleted. eSIMs on this phone stay installed.</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">Before you connect</string>
+    <string name="vpn_disclosure_what">%1$s uses Android\'s VPN service to send this phone\'s internet traffic through an encrypted tunnel to %1$s servers.</string>
+    <string name="vpn_disclosure_data">While you\'re connected, our servers see your IP address and how much data you use. We store your IP addresses, their country and network, when you last connected and how much data you use, together with this device\'s %1$s ID, to run your plan and prevent abuse. We don\'t sell this data.</string>
+    <string name="vpn_disclosure_next">Next, Android asks you to allow the VPN connection.</string>
+    <string name="disclosure_not_now">Not now</string>
+</resources>

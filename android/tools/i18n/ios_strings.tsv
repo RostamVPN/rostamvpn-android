@@ -1,0 +1,208 @@
+# android_key	ios catalog key	target (main|direct)
+# Every new string of the redvpn tabs treatment, taken from the iOS catalog
+# (rostamvpn-ios/rostamvpn/Localizable.xcstrings) so both apps say the same
+# words in all 38 locales. Generated into res/ by xcstrings_to_android.py.
+tab_home	tab_home	main
+tab_esim	eSIM	main
+tab_account	Account	main
+home_upgrade	Upgrade	main
+home_pro	Pro	main
+home_data	Data	main
+home_data_line	Travel eSIM and a US number, in the same app	main
+home_travel_esim	Travel eSIM	main
+home_countries_170	170+ countries	main
+home_us_number	US number	main
+home_second_line	A second line	main
+home_free_helper	Secure connectivity, wherever you travel	main
+home_connected	Connected	main
+home_connecting	Connecting…	main
+home_disconnecting	Disconnecting	main
+home_failed	Connection Failed	main
+home_not_connected	Not connected	main
+home_try_again_long	Try again or check your network.	main
+home_try_again	Try Again	main
+shop_where	Where are you going?	main
+shop_search	Country, region or city	main
+shop_clear	Clear	main
+shop_collections	Collections	main
+shop_local	Local	main
+shop_regional	Regional	main
+shop_global	Global	main
+shop_local_helper	One country, one eSIM. Each price is the cheapest plan there.	main
+shop_regional_helper	Several countries on one eSIM. Each price is the cheapest plan.	main
+shop_global_helper	One eSIM for most of the world. Each price is the cheapest plan.	main
+shop_near_me	Near me	main
+shop_europe	Europe	main
+shop_asia	Asia	main
+shop_americas	Americas	main
+shop_middle_east	Middle East	main
+shop_africa	Africa	main
+shop_oceania	Oceania	main
+shop_your_country	Your country	main
+shop_no_match	No destinations match “%@”.	main
+shop_try_nearby	Try a nearby country or a regional eSIM.	main
+shop_results	Results	main
+shop_from	from	main
+shop_countries	%lld countries	main
+shop_real_us_number	A real US number	main
+shop_us_number_sub	Get a US number as a second line	main
+shop_dest_unavailable	This destination isn't available.	main
+shop_try_again	Try again	main
+shop_data_plans	Data plans	main
+shop_data_only	Data only. Your main number stays on for calls and texts.	main
+shop_with_number	With a phone number	main
+shop_with_number_sub	A local number of this country, with data, minutes and SMS.	main
+shop_supports_esim	Checked automatically · supports eSIM	main
+shop_no_esim_support	It has no eSIM support, so a travel eSIM won't install here.	main
+shop_install_now	Install now, it starts when you arrive and connect.	main
+shop_delivered	Plans are delivered by e-sim.net.	main
+shop_plans_from	Plans from %@	main
+shop_trip_length	Trip length	main
+shop_how_you_use	How you use data	main
+shop_light	Light	main
+shop_social	Social	main
+shop_heavy	Heavy	main
+shop_recommended_for	Recommended for %@	main
+shop_your_trip	Your trip	main
+shop_buy_now	Buy now	main
+shop_per_day	%@/day	main
+shop_per_gb	%@/GB	main
+shop_one_day	1 day	main
+shop_days	%lld days	main
+shop_number_plan	Phone number + %lld min + %lld texts	main
+shop_checkout	Checkout	main
+shop_top_up	Top up	main
+shop_cancel	Cancel	main
+shop_your_plan	Your plan	main
+shop_esim_with_number	eSIM with a phone number	main
+shop_data_esim	Data eSIM	main
+shop_valid_for	Valid for	main
+shop_calls_texts	Calls and texts	main
+shop_min_texts	%lld min · %lld texts	main
+shop_network	Network	main
+shop_adds_to	Adds to eSIM	main
+shop_pay_with	Pay with	main
+shop_card	Card	main
+shop_crypto	Crypto	main
+shop_discount_code	Discount code	main
+shop_apply	Apply	main
+shop_code_applied	%@ applied: %@ off	main
+shop_add_code	Add a discount code	main
+shop_price	Price	main
+shop_discount	Discount	main
+shop_total	Total	main
+shop_one_payment	One payment, no subscription. Prices in US dollars.	main
+shop_send_exactly	Send exactly %@ %@ on %@	main
+shop_wallet_code	Payment code for your wallet	main
+shop_amount_unique	The amount is unique to this order. Send it in one transfer, from any wallet or exchange.	main
+shop_amount	Amount (%@)	main
+shop_address	Address (%@)	main
+shop_open_wallet	Open in wallet	main
+shop_waiting_payment	Waiting for payment	main
+shop_send_before	Send before %@. It usually lands in a minute.	main
+shop_coinbase	Other coins via Coinbase	main
+shop_pay_crypto_title	Pay with crypto	main
+shop_pay	Pay %@	main
+shop_pay_in_crypto	Pay %@ in crypto	main
+shop_too_many	Too many tries. Wait a few minutes and try again.	main
+shop_sheet_failed	Couldn't open the payment sheet.	main
+shop_unexpected	We got an unexpected answer from e-sim.net. Update the app or try again.	main
+shop_offline_pay	You're offline. Connect to pay.	main
+shop_copy	Copy	main
+shop_copy_code	Copy code	main
+shop_your_esim	Your eSIM	main
+shop_order	Order	main
+shop_confirming	Confirming your payment	main
+shop_setting_up	Setting up your eSIM	main
+shop_under_minute	This usually takes under a minute. You can leave this screen; your eSIM will be in My eSIMs.	main
+shop_payment	Payment	main
+shop_ready_install	Ready to install	main
+shop_order_id	Order %@	main
+shop_refunded	This order was refunded	main
+shop_setup_failed	We couldn't set up your eSIM	main
+shop_payment_safe	Your payment is safe. Write to support@e-sim.net with order %@ and we'll fix it or refund you.	main
+shop_email_support	Email support	main
+shop_close	Close	main
+shop_done	Done	main
+shop_ready	Your eSIM is ready	main
+shop_your_number	Your number	main
+shop_install_esim	Install eSIM	main
+shop_install_code	Code to install this eSIM	main
+shop_smdp	SM-DP+ address	main
+shop_activation_code	Activation code	main
+shop_install	Install	main
+shop_other_ways	Other ways to install	main
+shop_install_guide	Open install guide	main
+shop_open_settings	Open Settings	main
+shop_my_esims	My eSIMs	main
+shop_no_esims	No eSIMs yet	main
+shop_no_esims_body	Buy an eSIM in the Store and it appears here. No physical SIM, and your main number stays on for calls.	main
+shop_active	Active	main
+shop_past	Past	main
+shop_not_installed	Not installed	main
+shop_used_up	Used up	main
+shop_expired	Expired	main
+shop_unlimited_data	Unlimited data	main
+shop_left_of	%@ left of %@	main
+shop_one_day_left	1 day left	main
+shop_days_left	%lld days left	main
+shop_install_again	Install again	main
+shop_installs_once	An eSIM installs once per phone. If you deleted it from Settings, it may not install again.	main
+shop_not_reloadable	This eSIM cannot be reloaded. A new eSIM for the same destination works instead.	main
+shop_add_data	Add data	main
+shop_data_added	Data is added to this eSIM. Nothing to reinstall.	main
+shop_details	Details	main
+shop_restore_here	Restore eSIMs on this phone	main
+shop_your_access_code	Your access code	main
+shop_restore_title	Restore eSIMs	main
+shop_access_code	Access code	main
+shop_find_code	Find it on your other phone under My eSIMs › Your access code, or in your receipt email.	main
+shop_restore	Restore	main
+shop_code_body	Enter this code on your other device to see your eSIMs there. Keep it private: it moves your eSIMs.	main
+shop_min	%lld min	main
+shop_texts	%lld texts	main
+shop_second_number	Second number	main
+shop_from_price	From %@	main
+shop_number_body	A local number with data, minutes and SMS. It expires; reload it to keep the number.	main
+shop_number_p1	A second line	main
+shop_number_p1_sub	Your main number and SIM stay as they are.	main
+shop_number_p2	Calls and texts arrive here	main
+shop_number_p3	No account, no ID	main
+shop_number_p3_sub	Nothing to sign up for. Pay and install.	main
+shop_number_p4	Data included	main
+shop_number_p4_sub	Every plan comes with mobile data in the US.	main
+shop_choose_plan	Choose a plan	main
+acct_title	Account	main
+acct_premium	Premium	main
+acct_active	Active	main
+acct_upgrade	Upgrade	main
+acct_free_plan	Free plan	main
+acct_manage_sub	Manage subscription	main
+acct_usage	Usage stats	main
+acct_subscription	Subscription	main
+acct_connection	Connection	main
+acct_settings	Settings	main
+acct_appearance	Appearance	main
+acct_language	Language	main
+acct_auto	Auto	main
+acct_light	Light	main
+acct_dark	Dark	main
+acct_automatic	Automatic	main
+acct_rate	Rate %@	main
+acct_about	About %@	main
+acct_privacy	Privacy Policy	main
+acct_terms	Terms of Use	main
+acct_support	Support & legal	main
+acct_sign_in	Sign in	direct
+acct_sign_in_sub	Use your email to keep Premium on every device	direct
+acct_manage_on	Manage on %@	direct
+acct_signed_in_as	Signed in as %@	direct
+shop_card_brands	Visa, Mastercard, Amex	main
+shop_stablecoins	USDT · USDC stablecoins	main
+shop_apn	APN	main
+shop_iccid	ICCID	main
+acct_delete	Delete account	main
+acct_delete_title	Delete your account?	main
+acct_delete_footer	Erases your account, its code and your usage history. It does not cancel a subscription.	main
+acct_delete_body	Your account and usage history will be erased now.	main
+acct_deleted	Account deleted. eSIMs on this phone stay installed.	main

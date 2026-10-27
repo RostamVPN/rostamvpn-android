@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Android 11 and below (fullBackupContent).
+
+  The WireGuard private key must never leave the device. Everything else is
+  backed up as before, including the cid, so a user restoring to a new phone
+  keeps their entitlement. The two live in separate preference files precisely
+  so these rules can differ: Android excludes whole files, never single keys.
+
+  On restore the key is simply absent, and a fresh one is generated and
+  provisioned on the next connect. The server treats that as a re-key, revoking
+  the old peer and returning its address.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="wgtcp_identity.xml" />
+    <!-- e-sim.net sign-in session (EsimSession): a bearer for the email's eSIMs. -->
+    <exclude domain="sharedpref" path="esim_session.xml" />
+</full-backup-content>

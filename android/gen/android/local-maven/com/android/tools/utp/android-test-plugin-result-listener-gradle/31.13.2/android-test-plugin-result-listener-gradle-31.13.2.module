@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.utp",
+    "module": "android-test-plugin-result-listener-gradle",
+    "version": "31.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "android-test-plugin-result-listener-gradle-31.13.2.jar",
+          "url": "android-test-plugin-result-listener-gradle-31.13.2.jar",
+          "size": 11961,
+          "sha512": "63c526bdb4c5e746167bb597465c6fdb1be04e5cb5b6024406280d7607965ffae551e1eaa6fdcb52bbf7f32ad7c7a3dd2fd3ac3516af4f02624eb6c5187f4c88",
+          "sha256": "f5ed39ecda77684730b2616d112d69f92f509e3d6c38828abc6a863ef77fe0e5",
+          "sha1": "8256e3ebd7868b14c9e34f60865730eae0c40892",
+          "md5": "2f771c0e862ac16420dbec6782b485c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "31.13.2"
+          }
+        },
+        {
+          "group": "com.android.tools.utp",
+          "module": "android-test-plugin-result-listener-gradle-proto",
+          "version": {
+            "requires": "31.13.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-core",
+          "version": {
+            "requires": "1.69.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-protobuf",
+          "version": {
+            "requires": "1.69.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-stub",
+          "version": {
+            "requires": "1.69.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-netty",
+          "version": {
+            "requires": "1.69.1"
+          }
+        },
+        {
+          "group": "io.grpc",
+          "module": "grpc-inprocess",
+          "version": {
+            "requires": "1.69.1"
+          }
+        },
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.25.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "com.google.testing.platform",
+          "module": "core-proto",
+          "version": {
+            "requires": "0.0.9-alpha03"
+          }
+        },
+        {
+          "group": "com.google.testing.platform",
+          "module": "android-device-provider-local",
+          "version": {
+            "requires": "0.0.9-alpha03"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-test-plugin-result-listener-gradle-31.13.2.jar",
+          "url": "android-test-plugin-result-listener-gradle-31.13.2.jar",
+          "size": 11961,
+          "sha512": "63c526bdb4c5e746167bb597465c6fdb1be04e5cb5b6024406280d7607965ffae551e1eaa6fdcb52bbf7f32ad7c7a3dd2fd3ac3516af4f02624eb6c5187f4c88",
+          "sha256": "f5ed39ecda77684730b2616d112d69f92f509e3d6c38828abc6a863ef77fe0e5",
+          "sha1": "8256e3ebd7868b14c9e34f60865730eae0c40892",
+          "md5": "2f771c0e862ac16420dbec6782b485c5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-test-plugin-result-listener-gradle-31.13.2-javadoc.jar",
+          "url": "android-test-plugin-result-listener-gradle-31.13.2-javadoc.jar",
+          "size": 261,
+          "sha512": "21dfd87ef8c42fae203356bb7ce7943eb9fdd24a7b8b2fd15b16cd5bf99c5920a72848b235ea223bb03578c4f7803b2b3ab4f0a071f96192bd294873e4259737",
+          "sha256": "4201a821d118290ee7a9ad2d2248bc6f651172b30dc8d1a73764481f81bf6166",
+          "sha1": "6fa7a15930b418df85fc4d32fcea31c320ecd103",
+          "md5": "a649742ea77b6d203ee827e40e91c3cd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "android-test-plugin-result-listener-gradle-31.13.2-sources.jar",
+          "url": "android-test-plugin-result-listener-gradle-31.13.2-sources.jar",
+          "size": 3663,
+          "sha512": "28e78538dd26d08263bd7291ca8c8591dca293a3db1bb707f422e6d4ccc0f6dd974f3f03a21431401ce40d59d13dc4bcce3e5fbf3531605bcd654b9b45eb224e",
+          "sha256": "6bfbf9294b46b008cf99a58c37e20597a5545440e2fb4f028713998bd033247d",
+          "sha1": "5412957e85e1a71c220c74d26bdb45c166de239f",
+          "md5": "1a2b1a89e5b23bd845905e66eb5f1cd0"
+        }
+      ]
+    }
+  ]
+}

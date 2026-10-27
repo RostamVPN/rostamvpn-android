@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Screen Tagline - Chinese -->
+
+    <!-- About Screen Strings - Chinese -->
+    <string name="about_title">人人可用、处处畅通的开放互联网</string>
+    <string name="about_description_1">%1$s 让您快速、私密地访问开放互联网，您依赖的网站和应用无论身在何处都能正常使用。</string>
+    <string name="about_description_2">%1$s 由一支国际化的网络与安全工程师团队以及长期倡导互联网自由的人士开发和运营。十多年来，我们致力于加强数字安全，保护所有人自由、不受审查地获取信息。</string>
+
+    <!-- About Screen Header - Chinese -->
+    <string name="about_screen_title">关于 %1$s</string>
+
+    <!-- About Screen Sections - Chinese -->
+
+    <!-- Server Selection - Connection Mode - Chinese -->
+
+    <!-- App Selection - Chinese -->
+    <string name="protected_apps">受保护的应用程序</string>
+    <string name="only_selected_apps">仅选定的应用程序将使用 VPN</string>
+
+    <!-- Theme - Chinese -->
+    <string name="appearance">外观</string>
+    <string name="theme_auto">自动</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+
+    <!-- Settings - Chinese -->
+    <string name="settings">设置</string>
+    <string name="share_debug_log">分享调试日志</string>
+    <string name="about">关于</string>
+    <string name="version_format">版本 %s</string>
+
+    <!-- DNS Resolver Settings - Chinese -->
+
+    <!-- Open Source Screen - Chinese -->
+    <string name="open_source_libraries">开源库</string>
+
+    <!-- Privacy Policy Screen - Chinese -->
+    <string name="privacy_policy">隐私政策</string>
+    <string name="effective_date">生效日期：2026 年 2 月 3 日</string>
+
+    <!-- Main Screen Status - Chinese -->
+    <string name="vpn_on">VPN 已开启</string>
+    <string name="vpn_off">VPN 已关闭</string>
+    <string name="connecting">连接中…</string>
+    <string name="connection_failed">连接失败</string>
+    <string name="tap_to_connect">点击连接</string>
+    <string name="tap_to_disconnect">点击断开</string>
+    <string name="connecting_to_server">正在连接服务器…</string>
+    <string name="cd_menu">菜单</string>
+
+    <!-- Auto-failover status - Chinese -->
+    <string name="trying_server">正在尝试下一个服务器…</string>
+
+    <!-- Traffic Display - Chinese -->
+
+    <!-- QR Config - Chinese -->
+    <string name="qr_config">配置二维码</string>
+
+    <!-- Messages Screen - Chinese -->
+
+    <!-- Hardcoded strings - Chinese -->
+    <string name="tap_to_cancel">点击取消</string>
+    <string name="close_menu">关闭菜单</string>
+    <string name="made_in_usa">美国制造</string>
+
+    <!-- Network Scanner -->
+    <string name="region_label">区域</string>
+    <string name="region_automatic">自动</string>
+    <string name="region_auto_hint">自动选择最快的可用区域</string>
+    <string name="region_location_hint">通过此位置连接</string>
+    <string name="region_locked_hint">自动 — 升级会员后可选择区域</string>
+    <string name="go_premium">升级会员</string>
+    <string name="premium_tagline">始终全速 · 任选区域</string>
+    <string name="upgrade">升级</string>
+    <string name="language">语言</string>
+    <string name="language_auto">自动（按区域）</string>
+    <string name="settings_connection">连接</string>
+    <string name="connection_hint">自动选择最佳线路，可手动指定。</string>
+    <string name="premium">高级会员</string>
+    <string name="usage_stats">使用统计</string>
+    <string name="usage_total_used">总用量</string>
+    <string name="usage_this_session">本次会话</string>
+    <string name="usage_free_allowance">免费额度</string>
+    <string name="usage_device_note">总量在本设备上跨所有会话统计。</string>
+    <string name="usage_used_up">免费流量已用完 — 升级以获取更多</string>
+    <string name="data_free_remaining">剩余 %1$s</string>
+    <string name="data_free_out">免费流量已用完</string>
+    <string name="data_free_low_cta">即将用完 — 升级以保持全速</string>
+    <string name="data_free_out_cta">想要恢复全速？升级到 Premium。</string>
+    <string name="speed_state_full">全速</string>
+    <string name="speed_state_reduced">已限速</string>
+    <string name="premium_title_throttled">恢复你的全速体验</string>
+    <string name="premium_tagline_throttled">想要恢复全速？升级到 Premium。</string>
+
+    <!-- QR config - Chinese -->
+    <string name="scan_qr_code">扫描二维码</string>
+    <string name="scan_another">再扫一个</string>
+    <string name="regenerate_qr">重新生成二维码</string>
+    <string name="qr_config_applied_ok">已添加新服务器 — 将在下次连接时生效</string>
+    <string name="qr_share_title">分享你的服务器</string>
+    <string name="qr_share_body">连接被封锁的人可以扫描此码，获取可用的服务器。</string>
+    <string name="qr_share_count">包含 %1$d 个服务器</string>
+    <string name="qr_share_unavailable">当前没有可分享的代码</string>
+    <string name="qr_share_unverified">此代码未通过校验，未予显示</string>
+
+    <!-- Paywall / restore - Chinese -->
+    <string name="premium_active">高级会员已启用 ✓</string>
+    <string name="restore_code_hint">恢复代码 — 在其他设备上使用高级会员：</string>
+    <string name="loading_plans">正在加载套餐…</string>
+    <string name="already_premium_restore">已经是高级会员？用你的代码恢复</string>
+    <string name="account_code">账号代码</string>
+    <string name="restore">恢复</string>
+    <string name="restore_none">此应用商店账号下未找到订阅</string>
+
+    <!-- App selection - Chinese -->
+    <string name="search_apps">搜索应用…</string>
+
+    <!-- Connection status (shown in toasts and the connect button) - Chinese -->
+    <string name="status_starting_vpn">正在启动 VPN…</string>
+    <string name="status_finding_path">正在寻找最快的线路…</string>
+    <string name="status_connected">已连接 · %1$s</string>
+    <string name="status_disconnected">已断开连接</string>
+    <string name="status_failed">连接失败：%1$s</string>
+
+    <!-- Entry flow: splash, welcome, sign-in - Chinese -->
+    <string name="splash_tagline">线路的守护者</string>
+    <string name="welcome_title">守护你的每一次连接</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">守护</string>
+    <string name="welcome_body">沉静、警觉、绝不妥协。%1$s 守在你与开放互联网之间。</string>
+    <string name="get_started">开始使用</string>
+    <string name="signin_title">欢迎使用 %1$s</string>
+    <string name="signin_subtitle">登录后可在你的多台设备上继续使用高级会员，也可以直接继续 — 不注册账号也能正常使用。</string>
+    <string name="continue_with_google">使用 Google 继续</string>
+    <string name="continue_with_apple">使用 Apple 继续</string>
+    <string name="have_account_code">我有账号代码</string>
+    <string name="continue_as_guest">不使用账号继续</string>
+    <string name="back_action">返回</string>
+    <string name="signin_unavailable">登录暂时不可用。你仍然可以在不使用账号的情况下继续使用本应用。</string>
+
+    <!-- Account screen (Settings -> Account) -->
+    <string name="account">账号</string>
+    <string name="account_free_title">此设备上没有订阅</string>
+    <string name="account_free_body">不需要账号也能使用 %1$s。高级会员来自你在应用商店的购买。点按 恢复 即可转移到新设备。</string>
+    <string name="account_premium_title">高级会员已启用</string>
+    <string name="account_plan">套餐</string>
+    <string name="account_renews">%1$s 续订</string>
+    <string name="account_expires">%1$s 到期</string>
+    <string name="already_subscribed">已经订阅？登录即可恢复</string>
+    <string name="account_signed_in">已登录 \u2014 订阅跟随此账号</string>
+
+    <!-- Paywall - Chinese (moved out of PaywallScreen.kt's if (cn) branches). -->
+    <string name="paywall_eyebrow">%1$s 高级会员</string>
+    <string name="paywall_headline">极速专线，自由无界</string>
+    <string name="paywall_subhead">无限制 · 全速直连</string>
+    <string name="paywall_perk_regions_title">任选节点</string>
+    <string name="paywall_perk_regions_body">随时切换全球任意线路。</string>
+    <string name="paywall_perk_speed_title">始终全速</string>
+    <string name="paywall_perk_speed_body">不限量，永不降速。</string>
+    <string name="pay_alipay">支付宝</string>
+    <string name="pay_wechat">微信支付</string>
+    <string name="paywall_disclosure_china">支付成功后自动开通会员，全程安全加密。</string>
+
+    <string name="plan_period_weekly">每周</string>
+    <string name="plan_period_monthly">每月</string>
+    <string name="plan_period_3month">每 3 个月</string>
+    <string name="plan_period_6month">每 6 个月</string>
+    <string name="plan_period_yearly">每年</string>
+    <string name="plan_save_badge">省 %1$d%%</string>
+    <string name="plan_save_vs_monthly">比按月省 %1$d%%</string>
+    <string name="plans_unavailable">暂时无法获取套餐，请稍后再试。</string>
+    <string name="start_free_trial">开始免费试用</string>
+    <string name="pay_with_card">银行卡支付</string>
+    <string name="pay_with_crypto">加密货币支付</string>
+    <string name="paywall_disclosure_play">到期自动续订，直到取消。可随时在 \u2068Google Play \u203A Subscriptions\u2069 中取消。</string>
+    <string name="paywall_disclosure_stripe">银行卡、Apple Pay 和 Google Pay \u2014 由 Stripe 提供安全保障。到期自动续订，直到取消。</string>
+    <string name="paywall_disclosure_crypto">Bitcoin、USDT 等币种。无需银行卡，无需银行 \u2014 没有任何信息把这笔付款和你联系起来。</string>
+    <string name="paywall_disclosure_paymentwall">银行卡及本地支付方式。到期自动续订，直到取消。</string>
+    <string name="cd_close">关闭</string>
+
+    <!-- Split tunnelling (app selector) -->
+    <string name="split_tunnel_title">应用与 VPN</string>
+    <string name="split_mode_exclude">除所选之外的所有应用</string>
+    <string name="split_mode_exclude_desc">所选应用不走 VPN，直接连接。银行等本地应用请用这个模式。</string>
+    <string name="split_mode_include">仅所选应用</string>
+    <string name="split_state_all">所有应用都走 VPN</string>
+    <string name="split_state_none">没有应用走 VPN</string>
+    <string name="split_state_bypass">%2$d 个应用中有 %1$d 个不走 VPN</string>
+    <string name="split_state_only">%2$d 个应用中有 %1$d 个走 VPN</string>
+    <string name="split_reconnect_note">更改后会重新连接 VPN。</string>
+    <string name="select_recommended">推荐</string>
+    <string name="select_all">全选</string>
+    <string name="select_none">全不选</string>
+
+    <!-- Paywall and free-data meter -->
+    <string name="speed_state_limited">限速至 %1$s</string>
+    <string name="data_free_low_note">之后仍可使用，速度为 %1$s。高级会员始终全速。</string>
+    <string name="data_free_out_note">仍在连接中，速度为 %1$s。高级会员可恢复全速。</string>
+    <string name="data_free_one_time">每月额度</string>
+    <string name="premium_title_default">不限流量，始终全速</string>
+    <string name="premium_body_default">高级会员 · 全部区域 · 无广告</string>
+    <string name="paywall_headline_offer">不限量。全速。无广告。</string>
+    <string name="paywall_subhead_offer">免费额度每月刷新。高级版永不用尽。</string>
+    <string name="paywall_subhead_throttled">你当前被限速至 %1$s。高级会员取消该限制。</string>
+    <string name="plan_hero_unit">每月</string>
+    <string name="paywall_perk_data_title">不限流量</string>
+    <string name="paywall_perk_data_body">免费额度每月刷新。高级版没有上限。</string>
+    <string name="paywall_perk_data_body_once">免费额度只给一次。高级版的流量永远用不完。</string>
+    <string name="paywall_perk_speed_body_limit">免费额度用完后会降到 %1$s。高级会员永不降速。</string>
+    <string name="paywall_perk_ads_title">无广告</string>
+    <string name="paywall_perk_ads_body">连接时没有全屏广告。</string>
+    <string name="paywall_reassure">无需账号，也无需邮箱。</string>
+    <string name="plan_per_month">%1$s / 月</string>
+    <string name="proof_downloads">下载量超过 %1$s</string>
+    <string name="proof_rating">%2$s 条评价，%1$s 分</string>
+    <string name="bypass_title">不走 VPN 的目标地址</string>
+    <string name="bypass_desc">发往这些 IP 地址和网段的流量将直接连接，无论由哪个应用发出。适用于拒绝境外地址的本地银行和政务服务。</string>
+    <string name="bypass_hint">IP 或网段，例如 192.168.1.0/24</string>
+    <string name="bypass_add">添加</string>
+    <string name="bypass_remove">移除</string>
+    <string name="bypass_invalid">请输入 IP 地址或网段，例如 10.0.0.0/8</string>
+    <string name="bypass_none">无：所有目标地址都走 VPN</string>
+    <string name="bypass_count">%1$d 个目标地址不走 VPN</string>
+    <string name="bypass_over_budget">%1$d 个条目无法在本设备上生效，仍走 VPN。请移除部分条目，或改用范围更大的网段。</string>
+    <string name="restore_ok">高级会员已恢复</string>
+    <string name="restore_invalid">代码无效</string>
+    <string name="open_source_intro">%1$s 的开发得益于以下开源项目。</string>
+    <string name="cd_back">返回</string>
+    <string name="paywall_perk_ixp_title">我们自己的硬件</string>
+    <string name="paywall_perk_ixp_body">大多数 VPN 租用廉价虚拟服务器。我们的设备位于互联网交换中心内部，全球主要网络在那里交汇——路径更短，应用更快。</string>
+    <string name="onboarding_plans_title">免费或高级版</string>
+    <string name="onboarding_plans_body">免费版每月提供一定的全速流量，用完后可继续无限使用，但速度降低并带广告。高级版去除流量上限、限速和广告。</string>
+    <string name="continue_label">继续</string>
+    <string name="skip_label">跳过</string>
+    <string name="rate_app">给 %1$s 评分</string>
+    <string name="esim_mine">我的 eSIM</string>
+    <string name="esim_purchase_unavailable">此版本暂不支持购买 eSIM。</string>
+    <string name="esim_install">在此手机上安装</string>
+    <string name="esim_install_failed">无法自动安装。请扫描二维码或输入下方的代码。</string>
+    <string name="esim_installed">eSIM 已安装。可能需要一分钟才会显示在设置中。</string>
+    <string name="esim_activation_code">激活码</string>
+    <string name="esim_copy">复制</string>
+    <string name="esim_copied">已复制</string>
+    <string name="esim_none">此设备上还没有 eSIM。</string>
+    <string name="esim_load_failed">无法加载你的 eSIM。请检查网络连接后重试。</string>
+    <string name="esim_retry">重试</string>
+    <string name="esim_left_of">剩余 %1$s / 共 %2$s</string>
+    <string name="esim_status_ready">可安装</string>
+    <string name="esim_status_active">使用中</string>
+    <string name="esim_status_used">已用完</string>
+    <string name="esim_status_expired">已过期</string>
+    <string name="esim_account">账户与恢复</string>
+    <string name="tabs_connect">连接</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">账户</string>
+    <string name="tabs_status_protected">已保护 · 今日已拦截 %1$d 个</string>
+    <string name="tabs_status_connected">已连接</string>
+    <string name="tabs_status_connecting">正在连接…</string>
+    <string name="tabs_status_failed">无法连接。点按重试。</string>
+    <string name="tabs_status_off">已关闭</string>
+    <string name="tabs_guardian_open">查看被拒绝的内容</string>
+    <string name="tabs_ring_connect">连接</string>
+    <string name="tabs_ring_disconnect">断开连接</string>
+    <string name="tabs_ring_cancel">正在连接，点按取消</string>
+    <string name="tabs_elapsed">时长</string>
+    <string name="tabs_download">下载</string>
+    <string name="tabs_upload">上传</string>
+    <string name="tabs_route">线路</string>
+    <string name="tabs_route_auto">自动</string>
+    <string name="tabs_disconnect">断开连接</string>
+    <string name="tabs_guardian_title">守护</string>
+    <string name="tabs_guardian_on">过去 30 天内被拒绝和被标记的连接。</string>
+    <string name="tabs_guardian_off">保护已关闭，不会拒绝任何连接。</string>
+    <string name="tabs_guardian_empty">暂无被拒绝的内容。</string>
+    <string name="tabs_guardian_row">端口 %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">允许</string>
+    <string name="tabs_allowed">已允许</string>
+    <string name="tabs_rules">规则</string>
+    <string name="tabs_rules_master">保护</string>
+    <string name="tabs_rules_master_sub">拒绝连接到已知的恶意网站。</string>
+    <string name="tabs_rules_categories">按类别拒绝</string>
+    <string name="tabs_rules_allow">始终允许</string>
+    <string name="tabs_rules_deny">始终拒绝</string>
+    <string name="tabs_rules_empty">暂无。</string>
+    <string name="tabs_rules_remove">移除</string>
+    <string name="tabs_rules_hint">网站或地址</string>
+    <string name="tabs_rules_add">添加</string>
+    <string name="tabs_passes_title">eSIM</string>
+    <string name="tabs_store">商店</string>
+    <string name="tabs_my_passes">我的 eSIM</string>
+    <string name="tabs_where">你要去哪里？</string>
+    <string name="tabs_search_hint">国家、城市或地区</string>
+    <string name="tabs_from">%1$s 起</string>
+    <string name="tabs_all_destinations">所有目的地</string>
+    <string name="tabs_how_long">行程有多长？</string>
+    <string name="tabs_days">%1$d 天</string>
+    <string name="tabs_how_much">你如何使用流量？</string>
+    <string name="tabs_usage_maps">地图和消息</string>
+    <string name="tabs_usage_socials">社交和浏览</string>
+    <string name="tabs_usage_streaming">视频和流媒体</string>
+    <string name="tabs_need">%2$d 天约需 %1$s GB。</string>
+    <string name="tabs_recommended">推荐</string>
+    <string name="tabs_plan_line">%1$s · %2$d 天</string>
+    <string name="tabs_buy">购买</string>
+    <string name="tabs_number_row">含本地号码：%1$d 分钟 · %2$s · %3$d 天</string>
+    <string name="tabs_see_all">查看所有套餐</string>
+    <string name="tabs_hide_all">隐藏所有套餐</string>
+    <string name="tabs_unlimited">不限量</string>
+    <string name="tabs_refund">如果流量未能激活，我们将退款。</string>
+    <string name="tabs_no_passes">还没有 eSIM</string>
+    <string name="tabs_no_passes_body">购买 eSIM，几秒钟即可装到手机上。无需更换 SIM 卡，你的主号码仍可正常接打电话。</string>
+    <string name="tabs_browse">浏览 eSIM</string>
+    <string name="tabs_status_active">使用中</string>
+    <string name="tabs_status_ready">可使用</string>
+    <string name="tabs_status_used">已用完</string>
+    <string name="tabs_status_expired">已过期</string>
+    <string name="tabs_used">已用 %1$s</string>
+    <string name="tabs_left">剩余 %1$s</string>
+    <string name="tabs_install">安装</string>
+    <string name="tabs_topup">充值</string>
+    <string name="tabs_install_title">安装你的 eSIM</string>
+    <string name="tabs_install_here">在此手机上安装</string>
+    <string name="tabs_install_other">或在另一部手机上扫描此代码：设置 > 移动数据 > 添加套餐。</string>
+    <string name="tabs_installed">eSIM 已安装。可能需要一分钟才会显示在设置中。</string>
+    <string name="tabs_install_failed">无法自动安装。请扫描代码或在下方输入详细信息。</string>
+    <string name="tabs_topup_none">此 eSIM 无法充值。请改为购买新的 eSIM。</string>
+    <string name="tabs_checkout">结账</string>
+    <string name="tabs_pay_unavailable">此版本暂不支持购买 eSIM。</string>
+    <string name="tabs_load_failed">无法加载。请检查网络连接。</string>
+    <string name="tabs_retry">重试</string>
+    <string name="tabs_pro">专业版</string>
+    <string name="tabs_per_month">%1$s / 月</string>
+    <string name="tabs_active_until">有效期至 %1$s</string>
+    <string name="tabs_active">已激活</string>
+    <string name="tabs_not_active">未激活</string>
+    <string name="tabs_go_pro">升级专业版</string>
+    <string name="tabs_renews">按月续订，可随时取消。</string>
+    <string name="tabs_restore_code">恢复码</string>
+    <string name="tabs_other_device">在其他设备上使用</string>
+    <string name="tabs_code_body">此代码就是你的账户。请妥善保存，在新手机上输入即可恢复专业版。</string>
+    <string name="tabs_legal">法律信息</string>
+    <string name="tabs_guardian_updated">保护列表更新于 %1$s</string>
+    <string name="tabs_notified">已标记</string>
+    <string name="tabs_notices">公告</string>
+    <string name="tabs_rules_toggles">类别</string>
+    <string name="tabs_second_number">第二号码</string>
+    <string name="tabs_second_number_body">含流量、通话分钟和短信的本地号码。号码有有效期，请在到期前充值以保留号码。</string>
+    <string name="tabs_number_where">哪个国家的号码？</string>
+    <string name="tabs_number_note">首次连接时开始计时。如需保留号码，请在到期前自行充值。</string>
+    <string name="tabs_number_line">%1$s · %2$d 分钟 · %3$d 条短信</string>
+    <string name="tabs_expires_on">%1$s 到期</string>
+    <string name="tabs_starts_on_connect">首次连接时开始计时</string>
+    <string name="tabs_voice_sms_left">剩余 %1$d 分钟 · %2$d 条短信</string>
+    <string name="tabs_reload_keep">充值以保留此号码</string>
+    <string name="tabs_reload_within">请在 %1$d 天内充值以保留此号码</string>
+    <string name="tabs_not_reloadable">此号码无法充值，将于 %1$s 结束</string>
+    <string name="tabs_not_reloadable_nodate">此号码无法充值</string>
+    <string name="tabs_number_ended">此号码已终止</string>
+    <string name="tabs_number_label">你的号码</string>
+    <string name="tabs_number_label_hint">可在“SIM 卡状态”中查看你的号码</string>
+    <string name="tabs_save">保存</string>
+    <string name="tabs_edit">编辑</string>
+    <string name="tabs_alerts_channel">eSIM 提醒</string>
+    <string name="tabs_alert_expired">%1$s：eSIM 已过期。</string>
+    <string name="tabs_alert_expired_number">%1$s：eSIM 已过期。请在 %2$d 天内充值以保留此号码。</string>
+    <string name="tabs_alert_grace">%1$s：请在 %2$d 天内充值以保留此号码。</string>
+    <string name="tabs_alert_data">%1$s：已使用 %2$d%% 的流量。</string>
+    <string name="tabs_reload">充值</string>
+    <string name="tabs_offline_pay">你已离线。购买需要联网。</string>
+    <string name="tabs_offline_saved">这是你上次访问时保存的价格，可能已有变动。</string>
+    <string name="tabs_runout">按这个速度，你的流量大约会在 %1$s 用完。</string>
+    <string name="tabs_add_topup">加购 %1$s · %2$s</string>
+    <string name="tabs_esim_code">eSIM 访问码</string>
+    <string name="tabs_esim_code_body">在另一部手机或 e-sim.net 上输入此代码，即可在那里查看你的 eSIM。请妥善保管：它可以打开你的 eSIM 安装码。</string>
+    <string name="tabs_esim_restore">从另一部手机恢复 eSIM</string>
+    <string name="tabs_esim_restored">已转移到此手机的 eSIM：%1$d</string>
+    <string name="tabs_esim_code_bad">找不到此代码。请检查后重试。</string>
+    <string name="tabs_sort_total">最低价</string>
+    <string name="tabs_sort_per_gb">按 GB</string>
+    <string name="tabs_sort_per_day">按天</string>
+    <string name="tabs_best_value">最划算</string>
+    <string name="tabs_signin_body">登录后，可在任意手机上查看用你的邮箱购买的 eSIM。</string>
+    <string name="tabs_signin_google">使用 Google 继续</string>
+    <string name="tabs_signin_apple">使用 Apple 继续</string>
+    <string name="tabs_signed_in_as">已登录：%1$s</string>
+    <string name="tabs_sign_out">退出登录</string>
+    <string name="tabs_delete_account">删除 eSIM 账户</string>
+    <string name="tabs_delete_body">你的邮箱将从 eSIM 订单中移除，并退出登录。你的 eSIM 仍保留在这部手机上。</string>
+    <string name="tabs_delete_confirm">删除</string>
+    <string name="tabs_deleted">你的 eSIM 账户已删除。</string>
+    <string name="tabs_expiry_unavailable">暂时无法获取到期日期</string>
+    <string name="tabs_alert_exp_days">%1$s：eSIM 将在 %2$d 天后到期。</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s：eSIM 明天到期。</string>
+    <string name="tabs_alert_ends_on">%1$s：将于 %2$s 终止。此线路无法充值。</string>
+    <string name="tabs_alert_reload_hint">充值即可继续使用。</string>
+    <string name="tabs_tile_protected">已保护</string>
+    <string name="tabs_widget_desc">连接状态、今日拦截和 eSIM 流量一目了然</string>
+    <string name="tabs_widget_blocked">今日已拦截 %1$d 个</string>
+    <string name="tabs_live_esim">%1$s：剩余 %2$s，至 %3$s</string>
+    <string name="tabs_live_esim_left">%1$s：剩余 %2$s</string>
+    <string name="tabs_live_days_left">剩余天数：%1$d</string>
+    <string name="tabs_live_route">线路：%1$s</string>
+    <string name="tabs_live_session">本次连接：↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">含 %2$s %1$d 天</string>
+    <string name="link_signin_confirm">要登录在 %1$s 上打开此链接的账户吗？此设备将使用该账户的套餐。</string>
+    <string name="link_claim_confirm">要使用此链接中的账户代码恢复吗？此设备将使用该代码的套餐。</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">升级</string>
+    <string name="home_data_line">旅行 eSIM 和美国号码，尽在同一应用</string>
+    <string name="home_travel_esim">旅行 eSIM</string>
+    <string name="home_countries_170">170+ 个国家和地区</string>
+    <string name="home_us_number">美国号码</string>
+    <string name="home_second_line">第二条线路</string>
+    <string name="home_free_helper">安全连接，无论你去哪里旅行</string>
+    <string name="home_connected">已连接</string>
+    <string name="home_connecting">连接中…</string>
+    <string name="home_disconnecting">正在断开</string>
+    <string name="home_failed">连接失败</string>
+    <string name="home_not_connected">未连接</string>
+    <string name="home_try_again_long">请重试或检查网络。</string>
+    <string name="home_try_again">重试</string>
+    <string name="shop_where">你要去哪里？</string>
+    <string name="shop_search">国家、地区或城市</string>
+    <string name="shop_clear">清除</string>
+    <string name="shop_local_helper">一个国家，一张 eSIM。每个价格均为当地最便宜的套餐。</string>
+    <string name="shop_regional_helper">多个国家共用一张 eSIM。每个价格均为最便宜的套餐。</string>
+    <string name="shop_global_helper">一张 eSIM 覆盖全球大部分地区。每个价格均为最便宜的套餐。</string>
+    <string name="shop_near_me">我附近</string>
+    <string name="shop_americas">美洲</string>
+    <string name="shop_middle_east">中东</string>
+    <string name="shop_your_country">你的国家</string>
+    <string name="shop_no_match">没有与“%1$s”匹配的目的地。</string>
+    <string name="shop_try_nearby">试试邻近国家或区域 eSIM。</string>
+    <string name="shop_results">结果</string>
+    <string name="shop_from">起</string>
+    <string name="shop_real_us_number">真实的美国号码</string>
+    <string name="shop_us_number_sub">获取美国号码作为第二条线路</string>
+    <string name="shop_dest_unavailable">此目的地不可用。</string>
+    <string name="shop_try_again">重试</string>
+    <string name="shop_data_plans">流量套餐</string>
+    <string name="shop_data_only">仅含流量。你的主号码仍可用于通话和短信。</string>
+    <string name="shop_with_number">带电话号码</string>
+    <string name="shop_with_number_sub">该国家/地区的本地号码，含流量、通话分钟和短信。</string>
+    <string name="shop_supports_esim">已自动检测 · 支持 eSIM</string>
+    <string name="shop_no_esim_support">这台设备不支持 eSIM，无法安装旅行 eSIM。</string>
+    <string name="shop_install_now">现在安装，到达并联网后开始计时。</string>
+    <string name="shop_delivered">套餐由 e-sim.net 提供。</string>
+    <string name="shop_plans_from">%1$s 起</string>
+    <string name="shop_trip_length">行程天数</string>
+    <string name="shop_how_you_use">你的流量使用方式</string>
+    <string name="shop_light">浅色</string>
+    <string name="shop_heavy">重度</string>
+    <string name="shop_recommended_for">适合 %1$s</string>
+    <string name="shop_your_trip">你的行程</string>
+    <string name="shop_buy_now">立即购买</string>
+    <string name="shop_per_day">%1$s/天</string>
+    <string name="shop_one_day">1 天</string>
+    <string name="shop_number_plan">电话号码 + %1$d 分钟 + %2$d 条短信</string>
+    <string name="shop_checkout">结账</string>
+    <string name="shop_top_up">充值</string>
+    <string name="shop_cancel">取消</string>
+    <string name="shop_your_plan">你的套餐</string>
+    <string name="shop_esim_with_number">带电话号码的 eSIM</string>
+    <string name="shop_data_esim">流量 eSIM</string>
+    <string name="shop_valid_for">有效期</string>
+    <string name="shop_calls_texts">通话和短信</string>
+    <string name="shop_min_texts">%1$d 分钟 · %2$d 条短信</string>
+    <string name="shop_network">网络</string>
+    <string name="shop_adds_to">充值到 eSIM</string>
+    <string name="shop_pay_with">支付方式</string>
+    <string name="shop_card">银行卡</string>
+    <string name="shop_discount_code">优惠码</string>
+    <string name="shop_apply">使用</string>
+    <string name="shop_code_applied">已使用 %1$s：减 %2$s</string>
+    <string name="shop_add_code">添加优惠码</string>
+    <string name="shop_price">价格</string>
+    <string name="shop_discount">优惠</string>
+    <string name="shop_one_payment">一次性付款，非订阅。价格以美元计。</string>
+    <string name="shop_send_exactly">请在 %3$s 上准确发送 %1$s %2$s</string>
+    <string name="shop_wallet_code">钱包付款码</string>
+    <string name="shop_amount_unique">此金额为本订单专属。请从任意钱包或交易所一次性转账。</string>
+    <string name="shop_amount">金额（%1$s）</string>
+    <string name="shop_address">地址（%1$s）</string>
+    <string name="shop_open_wallet">在钱包中打开</string>
+    <string name="shop_waiting_payment">等待付款</string>
+    <string name="shop_send_before">请在 %1$s 前发送。通常一分钟内到账。</string>
+    <string name="shop_coinbase">通过 Coinbase 使用其他币种</string>
+    <string name="shop_pay_crypto_title">使用加密货币支付</string>
+    <string name="shop_pay">支付 %1$s</string>
+    <string name="shop_pay_in_crypto">用加密货币支付 %1$s</string>
+    <string name="shop_too_many">尝试次数过多。请等几分钟再试。</string>
+    <string name="shop_sheet_failed">无法打开付款页面。</string>
+    <string name="shop_unexpected">e-sim.net 返回了意外结果。请更新 App 或重试。</string>
+    <string name="shop_offline_pay">你处于离线状态。请联网后再支付。</string>
+    <string name="shop_copy">拷贝</string>
+    <string name="shop_copy_code">复制代码</string>
+    <string name="shop_your_esim">你的 eSIM</string>
+    <string name="shop_order">订单</string>
+    <string name="shop_confirming">正在确认付款</string>
+    <string name="shop_setting_up">正在设置你的 eSIM</string>
+    <string name="shop_under_minute">通常不到一分钟。你可以离开此页面，eSIM 会出现在“我的 eSIM”中。</string>
+    <string name="shop_payment">付款</string>
+    <string name="shop_ready_install">可以安装</string>
+    <string name="shop_order_id">订单 %1$s</string>
+    <string name="shop_refunded">此订单已退款</string>
+    <string name="shop_setup_failed">我们无法设置你的 eSIM</string>
+    <string name="shop_payment_safe">你的付款是安全的。请发邮件至 support@e-sim.net 并注明订单号 %1$s，我们会解决问题或为你退款。</string>
+    <string name="shop_email_support">联系客服邮箱</string>
+    <string name="shop_close">关闭</string>
+    <string name="shop_done">完成</string>
+    <string name="shop_ready">你的 eSIM 已准备就绪</string>
+    <string name="shop_your_number">你的号码</string>
+    <string name="shop_install_esim">安装 eSIM</string>
+    <string name="shop_install_code">安装此 eSIM 的代码</string>
+    <string name="shop_smdp">SM-DP+ 地址</string>
+    <string name="shop_activation_code">激活码</string>
+    <string name="shop_install">安装</string>
+    <string name="shop_other_ways">其他安装方式</string>
+    <string name="shop_install_guide">打开安装指南</string>
+    <string name="shop_open_settings">打开设置</string>
+    <string name="shop_my_esims">我的 eSIM</string>
+    <string name="shop_no_esims">还没有 eSIM</string>
+    <string name="shop_no_esims_body">在商店购买 eSIM，它会显示在这里。无需实体 SIM 卡，你的主号码照常接打电话。</string>
+    <string name="shop_past">历史</string>
+    <string name="shop_not_installed">未安装</string>
+    <string name="shop_used_up">已用完</string>
+    <string name="shop_expired">已过期</string>
+    <string name="shop_unlimited_data">不限流量</string>
+    <string name="shop_left_of">剩余 %1$s / 共 %2$s</string>
+    <string name="shop_one_day_left">剩 1 天</string>
+    <string name="shop_install_again">重新安装</string>
+    <string name="shop_installs_once">每部手机只能安装一次 eSIM。如果你已在“设置”中删除它，可能无法再次安装。</string>
+    <string name="shop_not_reloadable">此 eSIM 无法充值。可改买同一目的地的新 eSIM。</string>
+    <string name="shop_add_data">充值流量</string>
+    <string name="shop_data_added">流量会加到这张 eSIM 上，无需重新安装。</string>
+    <string name="shop_restore_here">在此手机上恢复 eSIM</string>
+    <string name="shop_your_access_code">你的访问码</string>
+    <string name="shop_restore_title">恢复 eSIM</string>
+    <string name="shop_access_code">访问码</string>
+    <string name="shop_find_code">在另一部手机的“我的 eSIM › 你的访问码”中找到它，或查看收据邮件。</string>
+    <string name="shop_restore">恢复</string>
+    <string name="shop_code_body">在另一台设备上输入此代码即可查看你的 eSIM。请妥善保管：它可以转移你的 eSIM。</string>
+    <string name="shop_second_number">第二号码</string>
+    <string name="shop_from_price">%1$s 起</string>
+    <string name="shop_number_body">含流量、通话分钟和短信的本地号码。号码会到期，充值即可保留号码。</string>
+    <string name="shop_number_p1">第二条线路</string>
+    <string name="shop_number_p1_sub">你的主号码和 SIM 卡保持不变。</string>
+    <string name="shop_number_p2">通话和短信会发到这里</string>
+    <string name="shop_number_p3">无需账号，无需证件</string>
+    <string name="shop_number_p3_sub">无需注册。付款即可安装。</string>
+    <string name="shop_number_p4">包含流量</string>
+    <string name="shop_number_p4_sub">每个套餐都包含美国境内的移动数据。</string>
+    <string name="shop_choose_plan">选择套餐</string>
+    <string name="acct_upgrade">升级</string>
+    <string name="acct_free_plan">免费版</string>
+    <string name="acct_manage_sub">管理订阅</string>
+    <string name="acct_usage">使用统计</string>
+    <string name="acct_subscription">订阅</string>
+    <string name="acct_connection">连接</string>
+    <string name="acct_settings">设置</string>
+    <string name="acct_appearance">外观</string>
+    <string name="acct_language">语言</string>
+    <string name="acct_light">浅色</string>
+    <string name="acct_dark">深色</string>
+    <string name="acct_automatic">自动</string>
+    <string name="acct_rate">给 %1$s 评分</string>
+    <string name="acct_about">关于 %1$s</string>
+    <string name="acct_privacy">隐私政策</string>
+    <string name="acct_terms">使用条款</string>
+    <string name="acct_support">支持与法律信息</string>
+    <string name="shop_stablecoins">USDT · USDC 稳定币</string>
+    <string name="acct_delete">删除账户</string>
+    <string name="acct_delete_title">要删除你的账户吗？</string>
+    <string name="acct_delete_footer">删除你的账户、账户代码和使用记录，但不会取消订阅。</string>
+    <string name="acct_delete_body">你的账户和使用记录将立即删除。</string>
+    <string name="acct_deleted">账户已删除。这台手机上的 eSIM 仍会保留。</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">连接之前</string>
+    <string name="vpn_disclosure_what">%1$s 使用 Android 的 VPN 服务，通过加密隧道将这部手机的网络流量发送到 %1$s 的服务器。</string>
+    <string name="vpn_disclosure_data">连接期间，我们的服务器能看到你的 IP 地址和使用的流量。为了提供你的套餐并防止滥用，我们会保存你的 IP 地址、其所属国家和网络、你最近一次连接的时间以及流量使用情况，并与这台设备的 %1$s ID 一起保存。我们不会出售这些数据。</string>
+    <string name="vpn_disclosure_next">接下来，Android 会请你允许 VPN 连接。</string>
+    <string name="disclosure_not_now">以后再说</string>
+</resources>

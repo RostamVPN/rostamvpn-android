@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Languages this app ships, for the Android 13+ per-app language picker
+     (Settings > Apps > … > Language). Without this file the picker does not
+     appear at all and users are stuck with whatever the device locale is.
+
+     BCP-47 tags here, which are NOT always the resource folder name: Hebrew is
+     values-iw but "he", Indonesian is values-in but "id". Android's resource
+     system still uses the legacy folder codes; the tags below are what the
+     picker and LocaleManager speak.
+
+     Keep in sync with res/values-*/strings.xml. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en"/>
+    <locale android:name="am"/>
+    <locale android:name="ar"/>
+    <locale android:name="az"/>
+    <locale android:name="azb"/>
+    <locale android:name="be"/>
+    <locale android:name="bo"/>
+    <locale android:name="ckb"/>
+    <locale android:name="de"/>
+    <locale android:name="el"/>
+    <locale android:name="es"/>
+    <locale android:name="fa"/>
+    <locale android:name="fi"/>
+    <locale android:name="fr"/>
+    <locale android:name="he"/>
+    <locale android:name="hi"/>
+    <locale android:name="hr"/>
+    <locale android:name="id"/>
+    <locale android:name="it"/>
+    <locale android:name="kk"/>
+    <locale android:name="km"/>
+    <locale android:name="ko"/>
+    <locale android:name="ky"/>
+    <locale android:name="my"/>
+    <locale android:name="nb"/>
+    <locale android:name="nl"/>
+    <locale android:name="pt"/>
+    <locale android:name="ru"/>
+    <locale android:name="sw"/>
+    <locale android:name="tg"/>
+    <locale android:name="th"/>
+    <locale android:name="ti"/>
+    <locale android:name="tk"/>
+    <locale android:name="tr"/>
+    <locale android:name="uk"/>
+    <locale android:name="uz"/>
+    <locale android:name="vi"/>
+    <locale android:name="zh-CN"/>
+</locale-config>

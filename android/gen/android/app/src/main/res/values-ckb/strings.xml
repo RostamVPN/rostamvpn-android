@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Screen Tagline -->
+
+    <!-- About Screen Strings -->
+    <string name="about_title">ئینتەرنێتێکی ئازاد بۆ هەمووان، لە هەموو شوێنێک</string>
+    <string name="about_description_1">%1$s دەستڕاگەیشتنێکی خێرا و تایبەت بە ئینتەرنێتی ئازادت پێ دەبەخشێت، تا ئەو ماڵپەڕ و ئەپانەی پشتیان پێ دەبەستیت لە هەر شوێنێکدا کار بکەن.</string>
+    <string name="about_description_2">%1$s لەلایەن تیمێکی نێودەوڵەتی ئەندازیارانی تۆڕ و ئاسایش و لایەنگرانی دێرینی ئازادی ئینتەرنێتەوە دروست کراوە و بەڕێوە دەبرێت. زیاتر لە دە ساڵە کار دەکەین بۆ بەهێزکردنی ئاسایشی دیجیتاڵ و پاراستنی دەستڕاگەیشتنی ئازاد و بێ سانسۆر بە زانیاری بۆ خەڵکی هەموو شوێنێک.</string>
+
+    <!-- About Screen Header -->
+    <string name="about_screen_title">دەربارەی %1$s</string>
+
+    <!-- Premium / paywall -->
+    <string name="premium">پرێمیۆم</string>
+    <string name="usage_stats">ئاماری بەکارهێنان</string>
+    <string name="usage_total_used">کۆی داتای بەکارهاتوو</string>
+    <string name="usage_this_session">ئەم دانیشتنە</string>
+    <string name="usage_free_allowance">بەشی بەخۆڕایی</string>
+    <string name="usage_device_note">کۆی گشتی لەسەر ئەم ئامێرە و بۆ هەموو دانیشتنەکان دەپێورێت.</string>
+    <string name="usage_used_up">داتای بەخۆڕایی تەواو بوو — بۆ زیاتر بەرزی بکەرەوە</string>
+
+    <!-- About Screen Sections -->
+
+    <!-- Server Selection - Connection Mode -->
+
+    <!-- App Selection -->
+    <string name="protected_apps">ئەپە پارێزراوەکان</string>
+    <string name="only_selected_apps">تەنها ئەپە هەڵبژێردراوەکان VPN بەکاردەهێنن</string>
+
+    <!-- Theme -->
+    <string name="appearance">ڕووکار</string>
+    <string name="theme_auto">خۆکار</string>
+    <string name="theme_light">ڕووناک</string>
+    <string name="theme_dark">تاریک</string>
+
+    <!-- Settings -->
+    <string name="settings">ڕێکخستنەکان</string>
+    <string name="share_debug_log">هاوبەشکردنی لۆگی هەڵەدۆزی</string>
+    <string name="about">دەربارە</string>
+    <string name="version_format">وەشانی %s</string>
+
+    <!-- DNS Resolver Settings -->
+
+    <!-- Open Source Screen -->
+    <string name="open_source_libraries">کتێبخانە سەرچاوەکراوەکان</string>
+
+    <!-- Privacy Policy Screen -->
+    <string name="privacy_policy">سیاسەتی تایبەتمەندێتی</string>
+    <string name="effective_date">بەرواری جێبەجێبوون: ٥ی شوباتی ٢٠٢٦</string>
+
+    <!-- Main Screen Status -->
+    <string name="vpn_on">VPN چالاکە</string>
+    <string name="vpn_off">VPN ناچالاکە</string>
+    <string name="connecting">پەیوەندی دەکرێت…</string>
+    <string name="connection_failed">پەیوەندی سەرکەوتوو نەبوو</string>
+    <string name="tap_to_connect">بۆ پەیوەندی دەستی لێبدە</string>
+    <string name="tap_to_disconnect">بۆ پچڕاندن دەستی لێبدە</string>
+    <string name="connecting_to_server">پەیوەندی بە ڕاژە دەکرێت…</string>
+    <string name="cd_menu">مێنیو</string>
+
+    <!-- Auto-failover status -->
+    <string name="trying_server">ڕاژەی داهاتوو تاقی دەکرێتەوە…</string>
+
+    <!-- Traffic Display -->
+
+    <!-- QR Config -->
+    <string name="qr_config">QRی ڕێکخستن</string>
+
+    <!-- Messages Screen -->
+
+    <!-- Hardcoded strings moved to resources -->
+    <string name="tap_to_cancel">بۆ هەڵوەشاندنەوە دەستی لێبدە</string>
+    <string name="close_menu">داخستنی مێنیو</string>
+    <string name="made_in_usa">دروستکراوە لە ئەمریکا</string>
+
+    <!-- CDN Scanner -->
+
+    <!-- Network Scanner -->
+    <string name="region_label">ناوچە</string>
+    <string name="region_automatic">خۆکار</string>
+    <string name="region_auto_hint">خێراترین ناوچەی کارا هەڵدەبژێرێت</string>
+    <string name="region_location_hint">لە ڕێگەی ئەم شوێنەوە پەیوەندی بکە</string>
+    <string name="region_locked_hint">خۆکار — بە پرێمیۆم ناوچە هەڵبژێرە</string>
+    <string name="go_premium">پرێمیۆم وەربگرە</string>
+    <string name="premium_tagline">هەمیشە خێرایی تەواو · هەر ناوچەیەک هەڵبژێرە</string>
+    <string name="upgrade">بەرزکردنەوە</string>
+    <string name="language">زمان</string>
+    <string name="language_auto">خۆکار (بەپێی ناوچە)</string>
+    <string name="settings_connection">پەیوەندی</string>
+    <string name="connection_hint">خۆکار باشترین ڕێڕەو هەڵدەبژێرێت. بۆ پێشخستنی یەکێکیان بیگۆڕە.</string>
+    <string name="data_free_remaining">%1$s ماوە</string>
+    <string name="data_free_out">داتای بەخۆڕایی تەواو بوو</string>
+    <string name="data_free_low_cta">کەم ماوە — بۆ مانەوە لەسەر خێرایی تەواو بەرزی بکەرەوە</string>
+    <string name="data_free_out_cta">خێرایی تەواوت دەوێتەوە؟ بەرز ببەرەوە بۆ پرێمیۆم.</string>
+    <string name="speed_state_full">خێرایی تەواو</string>
+    <string name="speed_state_reduced">خێرایی کەمکراوە</string>
+    <string name="premium_title_throttled">خێرایی تەواوت بگەڕێنەوە</string>
+    <string name="premium_tagline_throttled">خێرایی تەواوت دەوێتەوە؟ بەرز ببەرەوە بۆ پرێمیۆم.</string>
+    <!-- QR config -->
+    <string name="scan_qr_code">سکانی کۆدی QR</string>
+    <string name="scan_another">سکانی یەکێکی تر</string>
+    <string name="regenerate_qr">دروستکردنەوەی QR</string>
+    <string name="qr_config_applied_ok">ڕاژەی نوێ زیادکرا — لە پەیوەندی داهاتووت جێبەجێ دەبن</string>
+    <string name="qr_share_title">ڕاژەکانت هاوبەش بکە</string>
+    <string name="qr_share_body">ئەو کەسەی پەیوەندییەکەی بلۆک کراوە دەتوانێت ئەمە سکان بکات بۆ وەرگرتنی ڕاژەی کارا.</string>
+    <string name="qr_share_count">%1$d ڕاژە لەخۆدەگرێت</string>
+    <string name="qr_share_unavailable">ئێستا هیچ کۆدێکی هاوبەشکردن بڵاو نەکراوەتەوە</string>
+    <string name="qr_share_unverified">ئەم کۆدە پشتڕاست نەکرایەوە و پیشان نەدرا</string>
+
+    <!-- Paywall / restore -->
+    <string name="premium_active">پرێمیۆم چالاکە \u2713</string>
+    <string name="restore_code_hint">کۆدی گەڕاندنەوە \u2014 پرێمیۆم لەسەر ئامێرێکی تر بەکاربهێنە:</string>
+    <string name="loading_plans">پلانەکان بار دەکرێن\u2026</string>
+    <string name="already_premium_restore">پێشتر پرێمیۆمت هەیە؟ بە کۆدەکەت بیگەڕێنەوە</string>
+    <string name="account_code">کۆدی هەژمار</string>
+    <string name="restore">گەڕاندنەوە</string>
+    <string name="restore_none">هیچ بەشداریەک لەم هەژمارەی کۆگادا نەدۆزرایەوە</string>
+
+    <!-- App selection -->
+    <string name="search_apps">گەڕان بەدوای ئەپەکان\u2026</string>
+
+    <!-- Connection status (shown in toasts and the connect button) -->
+    <string name="status_starting_vpn">VPN دەست پێدەکات\u2026</string>
+    <string name="status_finding_path">خێراترین ڕێڕەو دەدۆزرێتەوە\u2026</string>
+    <string name="status_connected">پەیوەست بوو \u00B7 %1$s</string>
+    <string name="status_disconnected">پەیوەندی پچڕا</string>
+    <string name="status_failed">پەیوەندی سەرکەوتوو نەبوو: %1$s</string>
+
+    <!-- Transport fallback notices -->
+    <!-- Entry flow: splash, welcome, sign-in -->
+    <string name="splash_tagline">پارێزەری هێڵەکە</string>
+    <string name="welcome_title">پارێزەرێک بۆ پەیوەندییەکەت</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">پارێزەرێک</string>
+    <string name="welcome_body">بێدەنگ، ئاگادار، بێ کۆڵدان. %1$s لە نێوان تۆ و ئینتەرنێتی کراوەدا دەوەستێت.</string>
+    <string name="get_started">دەستپێبکە</string>
+    <string name="signin_title">بەخێربێیت بۆ %1$s</string>
+    <string name="signin_subtitle">بچۆرە ژوورەوە تا پرێمیۆم لەسەر هەموو ئامێرەکانت بمێنێتەوە، یان تەنها بەردەوام بە \u2014 ئەپەکە بەبێ هەژمار کار دەکات.</string>
+    <string name="continue_with_google">بەردەوامبوون بە Google</string>
+    <string name="continue_with_apple">بەردەوامبوون بە Apple</string>
+    <string name="have_account_code">کۆدی هەژمارم هەیە</string>
+    <string name="continue_as_guest">بەبێ هەژمار بەردەوام بە</string>
+    <string name="back_action">گەڕانەوە</string>
+    <string name="signin_unavailable">چوونەژوورەوە ئێستا بەردەست نییە. دەتوانیت بەبێ هەژمار بەردەوام بیت لە بەکارهێنانی ئەپەکە.</string>
+
+    <!-- Account screen (Settings -> Account) -->
+    <string name="account">هەژمار</string>
+    <string name="account_free_title">هیچ ئابوونەیەک لەسەر ئەم ئامێرەدا نییە</string>
+    <string name="account_free_body">%1$s بەبێ هەژمار کار دەکات. پرێمیەم لە کڕینەکەت لە کۆگاکەوە دێت. بۆ گواستنەوەی بۆ ئامێرێکی نوێ، گەڕاندنەوە لێبدە.</string>
+    <string name="account_premium_title">پرێمیۆم چالاکە</string>
+    <string name="account_plan">پلان</string>
+    <string name="account_renews">نوێدەبێتەوە %1$s</string>
+    <string name="account_expires">بەسەردەچێت %1$s</string>
+    <string name="already_subscribed">پێشتر ئابوونەت هەیە؟ بچۆرە ژوورەوە بۆ گەڕاندنەوەی</string>
+    <string name="account_signed_in">چوویتە ژوورەوە \u2014 ئابوونەکەت لەگەڵ ئەم هەژمارەدایە</string>
+
+    <!-- Paywall — hero, plan rows, rails. -->
+    <string name="paywall_eyebrow">%1$s پرێمیۆم</string>
+    <string name="paywall_headline">ڕێگای خێرای دەرچوون.</string>
+    <string name="paywall_subhead">هیچ بەربەستێک لەبەردەمت نییە.</string>
+    <string name="paywall_perk_regions_title">هەموو ناوچەکان</string>
+    <string name="paywall_perk_regions_body">لە هەر شوێنێکەوە پەیوەندی بکە، هەر کاتێک بتەوێت بگۆڕە.</string>
+    <string name="paywall_perk_speed_title">هەمیشە بە خێرایی تەواو</string>
+    <string name="paywall_perk_speed_body">سنووری بەکارهێنان نییە، خێراییش کەم ناکرێتەوە.</string>
+    <string name="plan_period_weekly">هەفتانە</string>
+    <string name="plan_period_monthly">مانگانە</string>
+    <string name="plan_period_3month">هەر 3 مانگ جارێک</string>
+    <string name="plan_period_6month">هەر 6 مانگ جارێک</string>
+    <string name="plan_period_yearly">ساڵانە</string>
+    <string name="plan_save_badge">%1$d%% داشکاندن</string>
+    <string name="plan_save_vs_monthly">%1$d%% کەمتر لە مانگانە</string>
+    <string name="plans_unavailable">پلانەکان لە ئێستادا بەردەست نین. تکایە دواتر هەوڵ بدەرەوە.</string>
+    <string name="start_free_trial">دەستپێکردنی ماوەی خۆڕایی</string>
+    <string name="pay_with_card">پارەدان بە کارت</string>
+    <string name="pay_with_crypto">پارەدان بە دراوی دیجیتاڵی</string>
+    <string name="pay_alipay">ئەلی‌پەی</string>
+    <string name="pay_wechat">وی‌چات پەی</string>
+    <string name="paywall_disclosure_play">تا هەڵنەوەشێنرێتەوە خۆکارانە نوێ دەبێتەوە. هەر کاتێک لە \u2068Google Play \u203A Subscriptions\u2069 هەڵیبوەشێنەرەوە.</string>
+    <string name="paywall_disclosure_stripe">کارت و \u2068Apple Pay\u2069 و \u2068Google Pay\u2069 \u2014 بە \u2068Stripe\u2069 پارێزراوە. تا هەڵنەوەشێنرێتەوە نوێ دەبێتەوە.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069 و \u2068USDT\u2069 و دراوی تر. بێ کارت، بێ بانک \u2014 هیچ شتێک پارەدانەکە بە تۆوە نابەستێتەوە.</string>
+    <string name="paywall_disclosure_paymentwall">کارت و ڕێگاکانی پارەدانی ناوخۆیی. تا هەڵنەوەشێنرێتەوە نوێ دەبێتەوە.</string>
+    <string name="paywall_disclosure_china">دوای تەواوبوونی پارەدان پرێمیۆم خۆکارانە چالاک دەبێت، بە شێوەی سەرتاسەری شیفرەکراو.</string>
+    <string name="cd_close">داخستن</string>
+
+    <!-- Split tunnelling (app selector) -->
+    <string name="split_tunnel_title">ئەپەکان و VPN</string>
+    <string name="split_mode_exclude">هەموو ئەپەکان جگە لە هەڵبژێردراوەکان</string>
+    <string name="split_mode_exclude_desc">ئەپە هەڵبژێردراوەکان VPN بەکارناهێنن و ڕاستەوخۆ پەیوەندی دەکەن. ئەمە بۆ ئەپی بانک و ئەپە ناوخۆییەکانی تر بەکاربهێنە.</string>
+    <string name="split_mode_include">تەنها ئەپە هەڵبژێردراوەکان</string>
+    <string name="split_state_all">هەموو ئەپەکان VPN بەکاردەهێنن</string>
+    <string name="split_state_none">هیچ ئەپێک VPN بەکارناهێنێت</string>
+    <string name="split_state_bypass">%1$d لە %2$d ئەپ VPN بەکارناهێنن</string>
+    <string name="split_state_only">%1$d لە %2$d ئەپ VPN بەکاردەهێنن</string>
+    <string name="split_reconnect_note">گۆڕانکاری VPN دووبارە پەیوەست دەکاتەوە.</string>
+    <string name="select_recommended">پێشنیارکراو</string>
+    <string name="select_all">هەموو</string>
+    <string name="select_none">هیچ</string>
+
+    <!-- Paywall and free-data meter -->
+    <string name="speed_state_limited">سنووردارە بە %1$s</string>
+    <string name="data_free_low_note">دوای ئەمە بە %1$s بەردەوام دەبێت. پرێمیۆم لەسەر خێرایی تەواو دەمێنێتەوە.</string>
+    <string name="data_free_out_note">هێشتا پەیوەستە، بە %1$s. پرێمیۆم خێرایی تەواو دەگەڕێنێتەوە.</string>
+    <string name="data_free_one_time">بەشی مانگانە</string>
+    <string name="premium_title_default">داتای بێسنوور، هەمیشە خێرایی تەواو</string>
+    <string name="premium_body_default">پرێمیۆم · هەموو ناوچەکان · بێ ڕیکلام</string>
+    <string name="paywall_headline_offer">بێسنوور. خێرایی تەواو. بێ ڕیکلام.</string>
+    <string name="paywall_subhead_offer">بەشە بەخۆڕاییەکەت هەموو مانگێک نوێ دەبێتەوە. پرێمیۆم هەرگیز تەواو نابێت.</string>
+    <string name="paywall_subhead_throttled">ئێستا سنووردار کراویت بە %1$s. پرێمیۆم ئەم سنوورە لادەبات.</string>
+    <string name="plan_hero_unit">مانگانە</string>
+    <string name="paywall_perk_data_title">داتای بێسنوور</string>
+    <string name="paywall_perk_data_body">بەشە بەخۆڕاییەکە هەموو مانگێک نوێ دەبێتەوە. پرێمیۆم سنووری نییە.</string>
+    <string name="paywall_perk_data_body_once">بەشە بەخۆڕاییەکە تەنها جارێک دەدرێت. لەگەڵ پرێمیۆم داتا هەرگیز تەواو نابێت.</string>
+    <string name="paywall_perk_speed_body_limit">دوای تەواوبوونی بەخۆڕایی خێرایی دەکەوێتە %1$s. پرێمیۆم هەرگیز وا نابێت.</string>
+    <string name="paywall_perk_ads_title">بێ ڕیکلام</string>
+    <string name="paywall_perk_ads_body">کاتێک پەیوەندی دەکەیت هیچ ڕیکلامێکی پڕ بە شاشە نییە.</string>
+    <string name="paywall_reassure">پێویست بە هەژمار یان ئیمەیل ناکات.</string>
+    <string name="plan_per_month">%1$s مانگانە</string>
+    <string name="proof_downloads">زیاتر لە %1$s داگرتن</string>
+    <string name="proof_rating">%1$s لە %2$s پێداچوونەوە</string>
+    <string name="bypass_title">ئەو ناونیشانانەی VPN بەکارناهێنن</string>
+    <string name="bypass_desc">ترافیک بۆ ئەم ناونیشان و مەودایانەی IP ڕاستەوخۆ پەیوەست دەبێت، لە هەر ئەپێکەوە بێت. بەسوودە بۆ خزمەتگوزارییە بانکی و حکومییە ناوخۆییەکان کە ناونیشانی بیانی ڕەت دەکەنەوە.</string>
+    <string name="bypass_hint">ناونیشانی IP یان مەودا، بۆ نموونە 192.168.1.0/24</string>
+    <string name="bypass_add">زیادکردن</string>
+    <string name="bypass_remove">لابردن</string>
+    <string name="bypass_invalid">ناونیشانی IP یان مەودایەک بنووسن، وەک 10.0.0.0/8</string>
+    <string name="bypass_none">هیچ — هەموو ناونیشانەکان VPN بەکاردەهێنن</string>
+    <string name="bypass_count">VPN بۆ %1$d ناونیشان بەکارناهێنرێت</string>
+    <string name="bypass_over_budget">%1$d تۆمار لەم ئامێرەدا جێبەجێ ناکرێت و هێشتا VPN بەکاردەهێنێت. هەندێک تۆمار لاببەن یان مەودای فراوانتر بەکاربهێنن.</string>
+    <string name="restore_ok">پرێمیۆم گەڕێنرایەوە</string>
+    <string name="restore_invalid">کۆدەکە دروست نییە</string>
+    <string name="open_source_intro">%1$s بە یارمەتی ئەم پڕۆژانەی سەرچاوەکراوەی خوارەوە دروست کراوە.</string>
+    <string name="cd_back">گەڕانەوە</string>
+    <string name="paywall_perk_ixp_title">ئامێری خۆمان</string>
+    <string name="paywall_perk_ixp_body">زۆربەی VPNەکان ڕاژەی مەعنەوی هەرزان بەکرێ دەگرن. هی ئێمە لەناو ناوەندەکانی ئاڵوگۆڕی ئینتەرنێتدایە کە گەورەترین تۆڕەکانی جیهان تێیدا کۆدەبنەوە — ڕێگایەکی کورتتر و ئەپێکی خێراتر.</string>
+    <string name="onboarding_plans_title">بەخۆڕایی یان پرێمیەم</string>
+    <string name="onboarding_plans_body">بەخۆڕایی مانگانە ڕێژەیەکت پێدەدات بە خێرایی تەواو، دواتر ترافیکی بێسنوور بە خێرایی کەمتر لەگەڵ ڕیکلام. پرێمیەم سنوور و خاوبوونەوە و ڕیکلامەکان لادەبات.</string>
+    <string name="continue_label">بەردەوام بە</string>
+    <string name="skip_label">بازبدە</string>
+    <string name="rate_app">هەڵسەنگاندنی %1$s</string>
+    <string name="esim_mine">eSIMەکانم</string>
+    <string name="esim_purchase_unavailable">کڕینی eSIM هێشتا لەم وەشانەدا بەردەست نییە.</string>
+    <string name="esim_install">دامەزراندن لەسەر ئەم مۆبایلە</string>
+    <string name="esim_install_failed">نەتوانرا بە شێوەی خۆکار دابمەزرێت. کۆدی QR سکان بکە یان کۆدەکانی خوارەوە بنووسە.</string>
+    <string name="esim_installed">eSIM دامەزرا. لەوانەیە خولەکێک بخایەنێت تا لە ڕێکخستنەکاندا دەربکەوێت.</string>
+    <string name="esim_activation_code">کۆدی چالاککردن</string>
+    <string name="esim_copy">کۆپی</string>
+    <string name="esim_copied">کۆپی کرا</string>
+    <string name="esim_none">هێشتا هیچ eSIMێک لەسەر ئەم ئامێرە نییە.</string>
+    <string name="esim_load_failed">نەتوانرا eSIMەکانت باربکرێن. پەیوەندییەکەت بپشکنە و دووبارە هەوڵ بدەرەوە.</string>
+    <string name="esim_retry">دووبارە هەوڵ بدەرەوە</string>
+    <string name="esim_left_of">%1$s ماوە لە %2$s</string>
+    <string name="esim_status_ready">ئامادەیە بۆ دامەزراندن</string>
+    <string name="esim_status_active">چالاک</string>
+    <string name="esim_status_used">تەواو بوو</string>
+    <string name="esim_status_expired">بەسەرچوو</string>
+    <string name="esim_account">هەژمار و گەڕاندنەوە</string>
+    <string name="tabs_connect">پەیوەندی</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">هەژمار</string>
+    <string name="tabs_status_protected">پارێزراو · ئەمڕۆ %1$d ڕێگیری لێکرا</string>
+    <string name="tabs_status_connected">پەیوەندیکراو</string>
+    <string name="tabs_status_connecting">پەیوەندی دەکرێت…</string>
+    <string name="tabs_status_failed">نەتوانرا پەیوەندی بکرێت. بۆ دووبارە هەوڵدان دەست لێبدە.</string>
+    <string name="tabs_status_off">کوژاوە</string>
+    <string name="tabs_guardian_open">ببینە چی ڕەتکرایەوە</string>
+    <string name="tabs_ring_connect">پەیوەندی</string>
+    <string name="tabs_ring_disconnect">پچڕاندن</string>
+    <string name="tabs_ring_cancel">پەیوەندی دەکرێت، بۆ هەڵوەشاندنەوە دەست لێبدە</string>
+    <string name="tabs_elapsed">کات</string>
+    <string name="tabs_download">داگرتن</string>
+    <string name="tabs_upload">بارکردن</string>
+    <string name="tabs_route">ڕێڕەو</string>
+    <string name="tabs_route_auto">خۆکار</string>
+    <string name="tabs_disconnect">پچڕاندن</string>
+    <string name="tabs_guardian_title">پاسەوان</string>
+    <string name="tabs_guardian_on">پەیوەندییە ڕەتکراوە و گوماناوییەکانی ٣٠ ڕۆژی ڕابردوو.</string>
+    <string name="tabs_guardian_off">پاراستن کوژاوەتەوە. هیچ شتێک ڕەت ناکرێتەوە.</string>
+    <string name="tabs_guardian_empty">هێشتا هیچ شتێک ڕەت نەکراوەتەوە.</string>
+    <string name="tabs_guardian_row">دەروازەی %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">ڕێگەدان</string>
+    <string name="tabs_allowed">ڕێگەپێدراو</string>
+    <string name="tabs_rules">یاساکان</string>
+    <string name="tabs_rules_master">پاراستن</string>
+    <string name="tabs_rules_master_sub">ڕەتکردنەوەی پەیوەندی بە ماڵپەڕە زیانبەخشە ناسراوەکان.</string>
+    <string name="tabs_rules_categories">ڕەتکراو بەپێی پۆل</string>
+    <string name="tabs_rules_allow">هەمیشە ڕێگە بدە</string>
+    <string name="tabs_rules_deny">هەمیشە ڕەتی بکەرەوە</string>
+    <string name="tabs_rules_empty">هێشتا هیچ نییە.</string>
+    <string name="tabs_rules_remove">لابردن</string>
+    <string name="tabs_rules_hint">ماڵپەڕ یان ناونیشان</string>
+    <string name="tabs_rules_add">زیادکردن</string>
+    <string name="tabs_passes_title">eSIMەکان</string>
+    <string name="tabs_store">فرۆشگا</string>
+    <string name="tabs_my_passes">eSIMەکانم</string>
+    <string name="tabs_where">بۆ کوێ دەچیت؟</string>
+    <string name="tabs_search_hint">وڵات، شار یان هەرێم</string>
+    <string name="tabs_from">لە %1$s ـەوە</string>
+    <string name="tabs_all_destinations">هەموو شوێنەکان</string>
+    <string name="tabs_how_long">گەشتەکە چەند دەخایەنێت؟</string>
+    <string name="tabs_days">%1$d ڕۆژ</string>
+    <string name="tabs_how_much">چۆن داتا بەکاردەهێنیت؟</string>
+    <string name="tabs_usage_maps">نەخشە و نامەکان</string>
+    <string name="tabs_usage_socials">تۆڕە کۆمەڵایەتییەکان و گەڕان</string>
+    <string name="tabs_usage_streaming">ڤیدیۆ و پەخشی ڕاستەوخۆ</string>
+    <string name="tabs_need">نزیکەی %1$s گێگابایت بۆ %2$d ڕۆژ.</string>
+    <string name="tabs_recommended">پێشنیازکراو</string>
+    <string name="tabs_plan_line">%1$s · %2$d ڕۆژ</string>
+    <string name="tabs_buy">کڕین</string>
+    <string name="tabs_number_row">لەگەڵ ژمارەیەکی ناوخۆیی: %1$d خولەک · %2$s · %3$d ڕۆژ</string>
+    <string name="tabs_see_all">بینینی هەموو پلانەکان</string>
+    <string name="tabs_hide_all">شاردنەوەی هەموو پلانەکان</string>
+    <string name="tabs_unlimited">بێسنوور</string>
+    <string name="tabs_refund">ئەگەر داتاکەت چالاک نەبوو، پارەکەت دەگەڕێندرێتەوە.</string>
+    <string name="tabs_no_passes">هێشتا هیچ eSIMێک نییە</string>
+    <string name="tabs_no_passes_body">eSIM بکڕە و لە چەند چرکەیەکدا لەسەر مۆبایلەکەت دادەمەزرێت. پێویست بە گۆڕینی سیمکارت نییە، و ژمارە سەرەکییەکەت بۆ پەیوەندی کارا دەمێنێتەوە.</string>
+    <string name="tabs_browse">گەڕان لە eSIMەکان</string>
+    <string name="tabs_status_active">چالاک</string>
+    <string name="tabs_status_ready">ئامادە</string>
+    <string name="tabs_status_used">تەواو بوو</string>
+    <string name="tabs_status_expired">بەسەرچوو</string>
+    <string name="tabs_used">%1$s بەکارهاتووە</string>
+    <string name="tabs_left">%1$s ماوە</string>
+    <string name="tabs_install">دامەزراندن</string>
+    <string name="tabs_topup">پڕکردنەوە</string>
+    <string name="tabs_install_title">eSIMەکەت دابمەزرێنە</string>
+    <string name="tabs_install_here">دامەزراندن لەسەر ئەم مۆبایلە</string>
+    <string name="tabs_install_other">یان ئەم کۆدە لە مۆبایلێکی ترەوە سکان بکە: ڕێکخستنەکان، پاشان داتای مۆبایل، پاشان زیادکردنی پلان.</string>
+    <string name="tabs_installed">eSIM دامەزرا. لەوانەیە خولەکێک بخایەنێت تا لە ڕێکخستنەکاندا دەربکەوێت.</string>
+    <string name="tabs_install_failed">نەتوانرا بە خۆکاری دابمەزرێت. کۆدەکە سکان بکە یان وردەکارییەکانی خوارەوە بنووسە.</string>
+    <string name="tabs_topup_none">ئەم eSIMە پڕناکرێتەوە. لە جیاتی ئەوە eSIMێکی نوێ بکڕە.</string>
+    <string name="tabs_checkout">پارەدان</string>
+    <string name="tabs_pay_unavailable">کڕینی eSIM هێشتا لەم وەشانەدا بەردەست نییە.</string>
+    <string name="tabs_load_failed">نەتوانرا باربکرێت. پەیوەندییەکەت بپشکنە.</string>
+    <string name="tabs_retry">دووبارە هەوڵ بدەرەوە</string>
+    <string name="tabs_pro">پرۆ</string>
+    <string name="tabs_per_month">%1$s / مانگ</string>
+    <string name="tabs_active_until">چالاکە تا %1$s</string>
+    <string name="tabs_active">چالاک</string>
+    <string name="tabs_not_active">ناچالاک</string>
+    <string name="tabs_go_pro">ببە بە پرۆ</string>
+    <string name="tabs_renews">مانگانە نوێ دەبێتەوە. هەر کاتێک بتەوێت هەڵیبوەشێنەوە.</string>
+    <string name="tabs_restore_code">کۆدی گەڕاندنەوە</string>
+    <string name="tabs_other_device">بەکارهێنان لەسەر ئامێرێکی تر</string>
+    <string name="tabs_code_body">ئەم کۆدە هەژمارەکەتە. لە شوێنێکی پارێزراو هەڵیبگرە و لەسەر مۆبایلێکی نوێ بینووسە بۆ گەڕاندنەوەی پرۆ.</string>
+    <string name="tabs_legal">زانیاری یاسایی</string>
+    <string name="tabs_guardian_updated">لیستی پاراستن نوێکرایەوە: %1$s</string>
+    <string name="tabs_notified">گوماناوی</string>
+    <string name="tabs_notices">ئاگادارییەکان</string>
+    <string name="tabs_rules_toggles">پۆلەکان</string>
+    <string name="tabs_second_number">ژمارەی دووەم</string>
+    <string name="tabs_second_number_body">ژمارەیەکی ناوخۆیی لەگەڵ ئینتەرنێت، خولەک و SMS. ماوەکەی بەسەردەچێت؛ بۆ پاراستنی ژمارەکە پێش ئەوە پڕی بکەرەوە.</string>
+    <string name="tabs_number_where">ژمارەی کام وڵات؟</string>
+    <string name="tabs_number_note">لە یەکەم پەیوەستبوونتەوە دەست پێدەکات. بۆ پاراستنی ژمارەکە، خۆت پێش بەسەرچوونی پڕی بکەرەوە.</string>
+    <string name="tabs_number_line">%1$s · %2$d خولەک · %3$d SMS</string>
+    <string name="tabs_expires_on">بەسەردەچێت لە %1$s</string>
+    <string name="tabs_starts_on_connect">لە یەکەم پەیوەستبوونتەوە دەست پێدەکات</string>
+    <string name="tabs_voice_sms_left">%1$d خولەک · %2$d SMS ماوە</string>
+    <string name="tabs_reload_keep">بۆ پاراستنی ئەم ژمارەیە پڕی بکەرەوە</string>
+    <string name="tabs_reload_within">لە ماوەی %1$d ڕۆژدا پڕی بکەرەوە بۆ پاراستنی ئەم ژمارەیە</string>
+    <string name="tabs_not_reloadable">ئەم ژمارەیە ناتوانرێت پڕ بکرێتەوە؛ لە %1$s کۆتایی دێت</string>
+    <string name="tabs_not_reloadable_nodate">ئەم ژمارەیە ناتوانرێت پڕ بکرێتەوە</string>
+    <string name="tabs_number_ended">ئەم ژمارەیە کۆتایی هاتووە</string>
+    <string name="tabs_number_label">ژمارەکەت</string>
+    <string name="tabs_number_label_hint">ژمارەکەت لە «دۆخی SIM» دەردەکەوێت</string>
+    <string name="tabs_save">پاشەکەوت</string>
+    <string name="tabs_edit">دەستکاری</string>
+    <string name="tabs_alerts_channel">ئاگادارکردنەوەکانی eSIM</string>
+    <string name="tabs_alert_expired">%1$s: eSIM بەسەرچوو.</string>
+    <string name="tabs_alert_expired_number">%1$s: eSIM بەسەرچوو. لە ماوەی %2$d ڕۆژدا پڕی بکەرەوە بۆ پاراستنی ئەم ژمارەیە.</string>
+    <string name="tabs_alert_grace">%1$s: لە ماوەی %2$d ڕۆژدا پڕی بکەرەوە بۆ پاراستنی ئەم ژمارەیە.</string>
+    <string name="tabs_alert_data">%1$s: %2$d%%ی داتاکە بەکارهاتووە.</string>
+    <string name="tabs_reload">پڕکردنەوە</string>
+    <string name="tabs_offline_pay">ئۆفلاینیت. کڕین پێویستی بە ئینتەرنێتە.</string>
+    <string name="tabs_offline_saved">نرخە پاشەکەوتکراوەکان لە سەردانی پێشووت. لەوانەیە گۆڕابن.</string>
+    <string name="tabs_runout">بەم خێراییە، داتاکەت نزیکەی %1$s تەواو دەبێت.</string>
+    <string name="tabs_add_topup">%1$s زیاد بکە · %2$s</string>
+    <string name="tabs_esim_code">کۆدی چوونەژوورەوەی eSIM</string>
+    <string name="tabs_esim_code_body">ئەم کۆدە لە مۆبایلێکی تر یان لە e-sim.net بنووسە بۆ بینینی eSIMەکانت لەوێ. بە نهێنی بیپارێزە: کۆدی دامەزراندنی eSIMەکانت دەکاتەوە.</string>
+    <string name="tabs_esim_restore">گەڕاندنەوەی eSIM لە مۆبایلێکی ترەوە</string>
+    <string name="tabs_esim_restored">ئەو eSIMانەی گوازرانەوە بۆ ئەم مۆبایلە: %1$d</string>
+    <string name="tabs_esim_code_bad">ئەم کۆدە نەدۆزرایەوە. بیپشکنە و دووبارە هەوڵ بدەوە.</string>
+    <string name="tabs_sort_total">کەمترین نرخ</string>
+    <string name="tabs_sort_per_gb">بۆ هەر GB</string>
+    <string name="tabs_sort_per_day">بۆ هەر ڕۆژ</string>
+    <string name="tabs_best_value">باشترین بەها</string>
+    <string name="tabs_signin_body">بچۆ ژوورەوە بۆ بینینی ئەو eSIMانەی بە ئیمەیڵەکەت کڕیوتن، لە هەر مۆبایلێک.</string>
+    <string name="tabs_signin_google">بەردەوام بە لەگەڵ Google</string>
+    <string name="tabs_signin_apple">بەردەوام بە لەگەڵ Apple</string>
+    <string name="tabs_signed_in_as">چوویتە ژوورەوە وەک %1$s</string>
+    <string name="tabs_sign_out">چوونەدەرەوە</string>
+    <string name="tabs_delete_account">سڕینەوەی هەژماری eSIM</string>
+    <string name="tabs_delete_body">ئیمەیڵەکەت لە داواکارییەکانی eSIM لادەبرێت و دەچیتە دەرەوە. eSIMەکانت لەسەر ئەم مۆبایلە دەمێننەوە.</string>
+    <string name="tabs_delete_confirm">سڕینەوە</string>
+    <string name="tabs_deleted">هەژماری eSIMەکەت سڕایەوە.</string>
+    <string name="tabs_expiry_unavailable">بەرواری بەسەرچوون ئێستا بەردەست نییە</string>
+    <string name="tabs_alert_exp_days">%1$s: ماوەی eSIM دوای %2$d ڕۆژ بەسەردەچێت.</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s: ماوەی eSIM سبەی بەسەردەچێت.</string>
+    <string name="tabs_alert_ends_on">%1$s: لە %2$s کۆتایی دێت. ئەم هێڵە پڕناکرێتەوە.</string>
+    <string name="tabs_alert_reload_hint">پڕی بکەرەوە بۆ ئەوەی بەردەوام بێت.</string>
+    <string name="tabs_tile_protected">پارێزراو</string>
+    <string name="tabs_widget_desc">پەیوەندی، بلۆککراوەکانی ئەمڕۆ و داتای eSIM بە یەک سەیرکردن</string>
+    <string name="tabs_widget_blocked">ئەمڕۆ %1$d ڕێگیری لێکرا</string>
+    <string name="tabs_live_esim">%1$s: %2$s ماوە، تا %3$s</string>
+    <string name="tabs_live_esim_left">%1$s: %2$s ماوە</string>
+    <string name="tabs_live_days_left">ڕۆژە ماوەکان: %1$d</string>
+    <string name="tabs_live_route">ڕێڕەو: %1$s</string>
+    <string name="tabs_live_session">ئەم دانیشتنە: ↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">%2$s لەخۆدەگرێت: %1$d ڕۆژ</string>
+    <string name="link_signin_confirm">چوونەژوورەوە بۆ ئەو هەژمارەی ئەم بەستەرەی لە %1$s کردەوە؟ ئەم ئامێرە پلانی ئەو هەژمارە بەکاردەهێنێت.</string>
+    <string name="link_claim_confirm">گەڕاندنەوە بە کۆدی هەژماری ئەم بەستەرە؟ ئەم ئامێرە پلانی ئەو کۆدە بەکاردەهێنێت.</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">بەرزکردنەوە</string>
+    <string name="home_data_line">هەم eSIMی گەشت، هەم ژمارەیەکی ئەمریکی، لە هەمان ئەپدا</string>
+    <string name="home_travel_esim">eSIMی گەشت</string>
+    <string name="home_countries_170">+170 وڵات</string>
+    <string name="home_us_number">ژمارەی ئەمریکی</string>
+    <string name="home_second_line">هێڵی دووەم</string>
+    <string name="home_free_helper">پەیوەندییەکی پارێزراو، بۆ هەر کوێ گەشت بکەیت</string>
+    <string name="home_connected">بەستراوە</string>
+    <string name="home_connecting">پەیوەندی دەکرێت…</string>
+    <string name="home_disconnecting">دەپچڕێت</string>
+    <string name="home_failed">پەیوەندی سەرکەوتوو نەبوو</string>
+    <string name="home_not_connected">پەیوەست نییە</string>
+    <string name="home_try_again_long">دووبارە هەوڵ بدەرەوە یان تۆڕەکەت بپشکنە.</string>
+    <string name="home_try_again">دووبارە هەوڵبدەرەوە</string>
+    <string name="shop_where">بۆ کوێ دەچیت؟</string>
+    <string name="shop_search">وڵات، ناوچە یان شار</string>
+    <string name="shop_clear">سڕینەوە</string>
+    <string name="shop_local_helper">یەک وڵات، یەک eSIM. هەر نرخێک هەرزانترین پلانی ئەوێیە.</string>
+    <string name="shop_regional_helper">چەند وڵاتێک لەسەر یەک eSIM. هەر نرخێک هەرزانترین پلانە.</string>
+    <string name="shop_global_helper">یەک eSIM بۆ زۆربەی جیهان. هەر نرخێک هەرزانترین پلانە.</string>
+    <string name="shop_near_me">نزیک من</string>
+    <string name="shop_americas">ئەمریکاکان</string>
+    <string name="shop_middle_east">ڕۆژهەڵاتی ناوەڕاست</string>
+    <string name="shop_your_country">وڵاتەکەت</string>
+    <string name="shop_no_match">هیچ شوێنێک لەگەڵ «%1$s» ناگونجێت.</string>
+    <string name="shop_try_nearby">وڵاتێکی نزیک یان eSIMێکی هەرێمی تاقی بکەرەوە.</string>
+    <string name="shop_results">ئەنجامەکان</string>
+    <string name="shop_from">لە</string>
+    <string name="shop_real_us_number">ژمارەیەکی ڕاستەقینەی ئەمریکی</string>
+    <string name="shop_us_number_sub">ژمارەیەکی ئەمریکی وەک هێڵی دووەم وەربگرە</string>
+    <string name="shop_dest_unavailable">ئەم شوێنە بەردەست نییە.</string>
+    <string name="shop_try_again">دووبارە هەوڵ بدەرەوە</string>
+    <string name="shop_data_plans">پلانەکانی داتا</string>
+    <string name="shop_data_only">تەنها داتا. ژمارە سەرەکییەکەت بۆ پەیوەندی و نامە هەڵکراو دەمێنێتەوە.</string>
+    <string name="shop_with_number">لەگەڵ ژمارەی تەلەفۆن</string>
+    <string name="shop_with_number_sub">ژمارەیەکی ناوخۆیی ئەم وڵاتە، لەگەڵ ئینتەرنێت، خولەک و SMS.</string>
+    <string name="shop_supports_esim">بە شێوەی خۆکار پشکنرا · پشتگیری eSIM دەکات</string>
+    <string name="shop_no_esim_support">پشتگیری eSIM ی نییە، بۆیە eSIMی گەشت لێرە دانامەزرێت.</string>
+    <string name="shop_install_now">ئێستا دایبمەزرێنە، کاتێک گەیشتیت و پەیوەست بوویت دەست پێدەکات.</string>
+    <string name="shop_delivered">پلانەکان لەلایەن e-sim.net ەوە دابین دەکرێن.</string>
+    <string name="shop_plans_from">پلانەکان لە %1$sەوە</string>
+    <string name="shop_trip_length">ماوەی گەشت</string>
+    <string name="shop_how_you_use">چۆن داتا بەکاردەهێنیت</string>
+    <string name="shop_light">ڕووناک</string>
+    <string name="shop_heavy">قورس</string>
+    <string name="shop_recommended_for">پێشنیارکراو بۆ %1$s</string>
+    <string name="shop_your_trip">گەشتەکەت</string>
+    <string name="shop_buy_now">ئێستا بیکڕە</string>
+    <string name="shop_per_day">%1$s/ڕۆژ</string>
+    <string name="shop_one_day">1 ڕۆژ</string>
+    <string name="shop_number_plan">ژمارەی تەلەفۆن + %1$d خولەک + %2$d نامە</string>
+    <string name="shop_checkout">پارەدان</string>
+    <string name="shop_top_up">پڕکردنەوە</string>
+    <string name="shop_cancel">پاشگەزبوونەوە</string>
+    <string name="shop_your_plan">پلانەکەت</string>
+    <string name="shop_esim_with_number">eSIM لەگەڵ ژمارەی تەلەفۆن</string>
+    <string name="shop_data_esim">eSIMی داتا</string>
+    <string name="shop_valid_for">ماوەی کارکردن</string>
+    <string name="shop_calls_texts">پەیوەندی و نامە</string>
+    <string name="shop_min_texts">%1$d خولەک · %2$d نامە</string>
+    <string name="shop_network">تۆڕ</string>
+    <string name="shop_adds_to">زیاد دەکرێت بۆ eSIM</string>
+    <string name="shop_pay_with">پارەدان بە</string>
+    <string name="shop_card">کارت</string>
+    <string name="shop_discount_code">کۆدی داشکاندن</string>
+    <string name="shop_apply">جێبەجێکردن</string>
+    <string name="shop_code_applied">%1$s جێبەجێ کرا: %2$s داشکاندن</string>
+    <string name="shop_add_code">زیادکردنی کۆدی داشکاندن</string>
+    <string name="shop_price">نرخ</string>
+    <string name="shop_discount">داشکاندن</string>
+    <string name="shop_one_payment">یەک پارەدان، بێ بەشداریکردن. نرخەکان بە دۆلاری ئەمریکی.</string>
+    <string name="shop_send_exactly">ڕێک %1$s %2$s لەسەر %3$s بنێرە</string>
+    <string name="shop_wallet_code">کۆدی پارەدان بۆ جزدانەکەت</string>
+    <string name="shop_amount_unique">ئەم بڕە تایبەتە بەم داواکارییە. بە یەک گواستنەوە بینێرە، لە هەر جزدان یان ئاڵوگۆڕگەیەک.</string>
+    <string name="shop_amount">بڕ (%1$s)</string>
+    <string name="shop_address">ناونیشان (%1$s)</string>
+    <string name="shop_open_wallet">کردنەوە لە جزداندا</string>
+    <string name="shop_waiting_payment">چاوەڕێی پارەدان</string>
+    <string name="shop_send_before">پێش %1$s بینێرە. بەزۆری لە خولەکێکدا دەگات.</string>
+    <string name="shop_coinbase">دراوەکانی تر لە ڕێگەی Coinbase</string>
+    <string name="shop_pay_crypto_title">پارەدان بە کریپتۆ</string>
+    <string name="shop_pay">پارەدانی %1$s</string>
+    <string name="shop_pay_in_crypto">پارەدانی %1$s بە کریپتۆ</string>
+    <string name="shop_too_many">هەوڵی زۆر درا. چەند خولەکێک چاوەڕێ بکە و دووبارە هەوڵ بدەرەوە.</string>
+    <string name="shop_sheet_failed">پەڕەی پارەدان نەکرایەوە.</string>
+    <string name="shop_unexpected">وەڵامێکی چاوەڕواننەکراومان لە e-sim.net وەرگرت. ئەپەکە نوێ بکەرەوە یان دووبارە هەوڵ بدەرەوە.</string>
+    <string name="shop_offline_pay">تۆ دەرهێڵیت. بۆ پارەدان پەیوەست بە.</string>
+    <string name="shop_copy">کۆپی</string>
+    <string name="shop_copy_code">کۆپی کۆد</string>
+    <string name="shop_your_esim">eSIMەکەت</string>
+    <string name="shop_order">داواکاری</string>
+    <string name="shop_confirming">پشتڕاستکردنەوەی پارەدانەکەت</string>
+    <string name="shop_setting_up">ئامادەکردنی eSIMەکەت</string>
+    <string name="shop_under_minute">ئەمە بەزۆری کەمتر لە خولەکێک دەخایەنێت. دەتوانیت ئەم شاشەیە جێبهێڵیت؛ eSIMەکەت لە eSIMەکانم دەبێت.</string>
+    <string name="shop_payment">پارەدان</string>
+    <string name="shop_ready_install">ئامادەی دامەزراندن</string>
+    <string name="shop_order_id">داواکاری %1$s</string>
+    <string name="shop_refunded">پارەی ئەم داواکارییە گەڕێندرایەوە</string>
+    <string name="shop_setup_failed">نەمانتوانی eSIMەکەت ئامادە بکەین</string>
+    <string name="shop_payment_safe">پارەکەت پارێزراوە. بە ژمارەی داواکاری %1$s بۆ support@e-sim.net بنووسە، چاکی دەکەینەوە یان پارەکەت دەگەڕێنینەوە.</string>
+    <string name="shop_email_support">ئیمەیڵ بۆ پشتگیری</string>
+    <string name="shop_close">داخستن</string>
+    <string name="shop_done">تەواو</string>
+    <string name="shop_ready">eSIMەکەت ئامادەیە</string>
+    <string name="shop_your_number">ژمارەکەت</string>
+    <string name="shop_install_esim">دامەزراندنی eSIM</string>
+    <string name="shop_install_code">کۆد بۆ دامەزراندنی ئەم eSIMـە</string>
+    <string name="shop_smdp">ناونیشانی SM-DP+</string>
+    <string name="shop_activation_code">کۆدی چالاککردن</string>
+    <string name="shop_install">دامەزراندن</string>
+    <string name="shop_other_ways">ڕێگاکانی تری دامەزراندن</string>
+    <string name="shop_install_guide">کردنەوەی ڕێبەری دامەزراندن</string>
+    <string name="shop_open_settings">کردنەوەی ڕێکخستنەکان</string>
+    <string name="shop_my_esims">eSIMەکانم</string>
+    <string name="shop_no_esims">هێشتا هیچ eSIMێک نییە</string>
+    <string name="shop_no_esims_body">eSIM لە فرۆشگاکە بکڕە و لێرە دەردەکەوێت. سیمی فیزیکی نییە، و ژمارە سەرەکییەکەت بۆ پەیوەندی کارا دەمێنێتەوە.</string>
+    <string name="shop_past">ڕابردوو</string>
+    <string name="shop_not_installed">دانەمەزراوە</string>
+    <string name="shop_used_up">تەواوبوو</string>
+    <string name="shop_expired">بەسەرچوو</string>
+    <string name="shop_unlimited_data">داتای بێسنوور</string>
+    <string name="shop_left_of">%1$s ماوە لە %2$s</string>
+    <string name="shop_one_day_left">1 ڕۆژ ماوە</string>
+    <string name="shop_install_again">دووبارە دامەزراندن</string>
+    <string name="shop_installs_once">eSIM یەک جار لە هەر مۆبایلێک دادەمەزرێت. ئەگەر لە ڕێکخستنەکان سڕیتەوە، لەوانەیە دووبارە دانەمەزرێتەوە.</string>
+    <string name="shop_not_reloadable">ئەم eSIMـە پڕ ناکرێتەوە. eSIMێکی نوێ بۆ هەمان شوێن لە جیاتی ئەو کار دەکات.</string>
+    <string name="shop_add_data">زیادکردنی داتا</string>
+    <string name="shop_data_added">داتا بۆ ئەم eSIMـە زیاد دەکرێت. پێویست بە دووبارە دامەزراندن ناکات.</string>
+    <string name="shop_restore_here">گەڕاندنەوەی eSIMەکان بۆ ئەم مۆبایلە</string>
+    <string name="shop_your_access_code">کۆدی دەستپێگەیشتنەکەت</string>
+    <string name="shop_restore_title">گەڕاندنەوەی eSIMەکان</string>
+    <string name="shop_access_code">کۆدی دەستپێگەیشتن</string>
+    <string name="shop_find_code">لە مۆبایلەکەی ترت لە eSIMەکانم › کۆدی دەستپێگەیشتنەکەت دەیدۆزیتەوە، یان لە ئیمەیڵی پسوولەکەدا.</string>
+    <string name="shop_restore">گەڕاندنەوە</string>
+    <string name="shop_code_body">ئەم کۆدە لە ئامێرەکەی ترت بنووسە بۆ ئەوەی eSIMەکانت لەوێ ببینیت. بە نهێنی بیهێڵەوە: eSIMەکانت دەگوازێتەوە.</string>
+    <string name="shop_second_number">ژمارەی دووەم</string>
+    <string name="shop_from_price">لە %1$sەوە</string>
+    <string name="shop_number_body">ژمارەیەکی ناوخۆیی لەگەڵ ئینتەرنێت، خولەک و SMS. ماوەکەی بەسەر دەچێت؛ بۆ هێشتنەوەی ژمارەکە پڕی بکەرەوە.</string>
+    <string name="shop_number_p1">هێڵی دووەم</string>
+    <string name="shop_number_p1_sub">ژمارە سەرەکییەکەت و SIMـەکەت وەک خۆیان دەمێننەوە.</string>
+    <string name="shop_number_p2">پەیوەندی و نامەکان لێرە دەگەن</string>
+    <string name="shop_number_p3">بێ هەژمار، بێ ناسنامە</string>
+    <string name="shop_number_p3_sub">پێویست بە خۆتۆمارکردن نییە. پارە بدە و دایبمەزرێنە.</string>
+    <string name="shop_number_p4">داتا لەخۆدەگرێت</string>
+    <string name="shop_number_p4_sub">هەموو پلانێک داتای مۆبایلی لە ئەمریکا لەگەڵدایە.</string>
+    <string name="shop_choose_plan">پلانێک هەڵبژێرە</string>
+    <string name="acct_upgrade">بەرزکردنەوە</string>
+    <string name="acct_free_plan">پلانی بێبەرامبەر</string>
+    <string name="acct_manage_sub">بەڕێوەبردنی بەشداریکردن</string>
+    <string name="acct_usage">ئاماری بەکارهێنان</string>
+    <string name="acct_subscription">بەشداریکردن</string>
+    <string name="acct_connection">پەیوەندی</string>
+    <string name="acct_settings">ڕێکخستنەکان</string>
+    <string name="acct_appearance">ڕووخسار</string>
+    <string name="acct_language">زمان</string>
+    <string name="acct_light">ڕووناک</string>
+    <string name="acct_dark">تاریک</string>
+    <string name="acct_automatic">خۆکار</string>
+    <string name="acct_rate">هەڵسەنگاندنی %1$s</string>
+    <string name="acct_about">دەربارەی %1$s</string>
+    <string name="acct_privacy">سیاسەتی تایبەتمەندێتی</string>
+    <string name="acct_terms">مەرجەکانی بەکارهێنان</string>
+    <string name="acct_support">پشتگیری و یاسایی</string>
+    <string name="shop_stablecoins">دراوە جێگیرەکانی USDT · USDC</string>
+    <string name="acct_delete">سڕینەوەی هەژمار</string>
+    <string name="acct_delete_title">هەژمارەکەت بسڕیتەوە؟</string>
+    <string name="acct_delete_footer">هەژمار، کۆد و مێژووی بەکارهێنانت دەسڕێتەوە. بەشداریکردن هەڵناوەشێنێتەوە.</string>
+    <string name="acct_delete_body">هەژمارەکەت و مێژووی بەکارهێنانت ئێستا دەسڕدرێنەوە.</string>
+    <string name="acct_deleted">هەژمار سڕایەوە. eSIMەکانی ئەم تەلەفۆنە دامەزراو دەمێننەوە.</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">پێش پەیوەندیکردن</string>
+    <string name="vpn_disclosure_what">%1$s خزمەتگوزاریی VPNی ئەندرۆید بەکاردەهێنێت بۆ ئەوەی هاتوچۆی ئینتەرنێتی ئەم مۆبایلە بە تونێلێکی شفرەکراو بنێرێت بۆ ڕاژەکارەکانی %1$s.</string>
+    <string name="vpn_disclosure_data">تا پەیوەندیت هەیە، ڕاژەکارەکانمان ناونیشانی IPکەت و بڕی ئەو داتایەی بەکاری دەهێنیت دەبینن. ناونیشانەکانی IPت، وڵات و تۆڕەکەیان، کاتی دوایین پەیوەندیکردن و بڕی داتای بەکارهاتوو لەگەڵ ناسنامەی %1$sی ئەم ئامێرە هەڵدەگرین، بۆ پێشکەشکردنی پلانەکەت و ڕێگرتن لە خراپ بەکارهێنان. ئەم داتایانە نافرۆشین.</string>
+    <string name="vpn_disclosure_next">دواتر ئەندرۆید داوات لێدەکات ڕێگە بە پەیوەندیی VPN بدەیت.</string>
+    <string name="disclosure_not_now">ئێستا نا</string>
+</resources>

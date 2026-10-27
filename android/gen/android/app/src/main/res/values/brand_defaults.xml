@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Fallbacks for the per-brand trust-row numbers. The real values are
+     GENERATED into src/<brand>/res/values/brand_proof.xml from that brand's
+     manifest (tools/whitelabel/gen-branding.py); a flavor resource outranks
+     this one, so these are only ever reached by a flavor someone added by hand
+     without regenerating.
+
+     They are ZERO on purpose. Zero means "no numbers to show", and the paywall
+     draws no trust row at all — so the failure mode of forgetting to generate is
+     a missing row, never a claim borrowed from another brand.
+
+     NOT in strings.xml: these are numbers about one Play listing, not copy, and
+     tools/i18n/validate-translations.py would otherwise demand a translation of
+     them in all 37 locales. -->
+<resources>
+    <integer name="brand_proof_downloads">0</integer>
+    <integer name="brand_proof_rating_x10">0</integer>
+    <integer name="brand_proof_reviews">0</integer>
+
+    <!-- Does this brand have real mascot artwork for the connect dial? The
+         real value is GENERATED into src/<brand>/res/values/brand_mascot.xml
+         from that brand's manifest (branding.hasMascot).
+
+         FALSE on purpose, for the same reason the numbers above are zero: the
+         failure mode of forgetting to generate must be the neutral outcome,
+         never a wrong claim. False draws the power glyph, which is right for
+         four of the five brands and merely unbranded for the fifth. True on a
+         brand without artwork would render its GENERATED PLACEHOLDER (a
+         coloured disc with a letter in it) inside the dial, as though it
+         were a logo. -->
+    <bool name="brand_has_mascot">false</bool>
+
+    <!-- Which VISUAL TREATMENT this brand renders — its home
+         composition AND its launch entry. The real value is GENERATED into src/<brand>/res/values/brand_layout.xml from that
+         brand's manifest (branding.style).
+
+         "classic" on purpose, and unknown values resolve to it in Kotlin too
+         (BrandStyle.from). Same rule as everything else in this file: the
+         failure mode of forgetting to regenerate is TODAY'S SHIPPING LAYOUT,
+         which is correct for three of the five brands and merely un-special
+         for the other two. The alternative — defaulting to a variant — would
+         let a brand nobody has looked at inherit a composition built around a
+         different brand's mark and palette.
+
+         NOT translatable: it is an enum tag the dispatch matches on, not copy.
+         It also deliberately does not live in strings.xml, so
+         tools/i18n/validate-translations.py never asks for 37 translations of
+         the word "classic". -->
+    <string name="brand_style" translatable="false">classic</string>
+</resources>

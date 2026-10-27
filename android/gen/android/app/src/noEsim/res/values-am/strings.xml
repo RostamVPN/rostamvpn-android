@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Overrides, for a brand whose manifest says features.esim is false.
+
+     These four strings are the ONLY ones in main/res that name the eSIM
+     store's domain. A brand that sells no eSIM shipped all four, in every
+     language, so the sister domain was readable in its resources.arsc long
+     after it was gone from the dex. A runtime flag does not remove a string
+     from a binary.
+
+     WHY AN OVERRIDE AND NOT A MOVE. All four are referenced from
+     src/main/java (ShopScreens.kt:621, ShopCheckout.kt:276 and :466,
+     ShopApi.kt:83,90, AccountTab.kt:330), which every brand compiles.
+     Removing them from main is an Unresolved reference on every brand. The
+     resource merge lets the flavour value win instead, so main is untouched,
+     Kotlin is untouched and the R class is stable. src/probe/res is wired the
+     same way (build.gradle.kts).
+
+     WHY ALL 39 QUALIFIERS. A locale qualifier beats a source-set override. A
+     copy in values/ alone still loses to main/res/values-fa/, and the domain
+     would ship in Persian anyway. This is the rule that once showed
+     "RostamVPN" to every Persian device on RedVPN.
+
+     WHY NO TRANSLATION. Every one of these is unreachable when the flag is
+     false: AccountTab.kt:330 sits inside a dialog behind the FEATURE_ESIM
+     gate at :132, and the shop screens are only reachable through openEsim(),
+     which VpnViewModel.kt:2374 refuses. Identical neutral English in all 39
+     is adequate, and inventing 38 translations of dead copy is not.
+
+     shop_payment_safe MUST keep exactly one %1$s. A second specifier is an
+     IllegalFormatException in that language only. -->
+<resources>
+    <string name="tabs_esim_code_body">Enter this code on another phone to see your eSIMs there. Keep it private: it opens your eSIMs\' install codes.</string>
+    <string name="shop_delivered">Plans are delivered by our eSIM partner.</string>
+    <string name="shop_unexpected">We got an unexpected answer from the store. Update the app or try again.</string>
+    <string name="shop_payment_safe">Your payment is safe. Contact support with order %1$s and we\'ll fix it or refund you.</string>
+</resources>

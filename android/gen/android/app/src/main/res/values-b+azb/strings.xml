@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Screen Tagline -->
+
+    <!-- About Screen Strings -->
+    <string name="about_title">هامی اۆچون، هر یئرده آچیق اینترنت</string>
+    <string name="about_description_1">%1$s سیزه آچیق اینترنته سۆرعتلی و گیزلی گیریش تأمین ائدیر، بئله‌لیکله اعتماد ائتدیگینیز سایتلار و اپلیکاسیالار هارادا اولسانیز دا ایشله‌مه‌یه داوام ائدیر.</string>
+    <string name="about_description_2">%1$s بئینه‌لمیللی بیر شبکه و امنیت مۆهندیسلری تیمی، حابئله اینترنت آزادلیغینین چوخ ایللیک مۆدافیعچیلری طرفیندن یارادیلیب و ایداره اولونور. اون ایلدن آرتیقدیر کی رقمی امنیتی گۆجلندیرمک و هر یئرده اینسانلار اۆچون آچیق و سانسورسوز معلومات گیریشینی قوروماق یولوندا چالیشیریق.</string>
+
+    <!-- About Screen Header -->
+    <string name="about_screen_title">%1$s حاقیندا</string>
+
+    <!-- Premium / paywall -->
+    <string name="premium">اؤزل نۆسخه</string>
+    <string name="usage_stats">ایستیفاده آمارلاری</string>
+    <string name="usage_total_used">ایشله‌نن اۆمومی داده</string>
+    <string name="usage_this_session">بۇ جلسه</string>
+    <string name="usage_free_allowance">پولسوز سهمیه</string>
+    <string name="usage_device_note">اۆمومی مقدار بۇ جیهازدا و بۆتۆن جلسه‌لر بویو اؤلچۆلۆر.</string>
+    <string name="usage_used_up">پولسوز داده قورتاردی — داها آرتیق اۆچون یۆکسلدین</string>
+
+    <!-- About Screen Sections -->
+
+    <!-- Server Selection - Connection Mode -->
+
+    <!-- App Selection -->
+    <string name="protected_apps">قورونان برنامه‌لر</string>
+    <string name="only_selected_apps">یالنیز سئچیلن برنامه‌لر VPN‌دن ایستیفاده ائده‌جک</string>
+
+    <!-- Theme -->
+    <string name="appearance">گؤرۆنۆش</string>
+    <string name="theme_auto">اوتوماتیک</string>
+    <string name="theme_light">ایشیقلی</string>
+    <string name="theme_dark">قارانلیق</string>
+
+    <!-- Settings -->
+    <string name="settings">تنظیملر</string>
+    <string name="share_debug_log">خطا لاگینی پایلاش</string>
+    <string name="about">حاقیندا</string>
+    <string name="version_format">نۆسخه %s</string>
+
+    <!-- DNS Resolver Settings -->
+
+    <!-- Open Source Screen -->
+    <string name="open_source_libraries">آچیق قایناقلی کیتابخانالار</string>
+
+    <!-- Privacy Policy Screen -->
+    <string name="privacy_policy">محرمانه‌لیک سیاستی</string>
+    <string name="effective_date">اعتبار تاریخی: ۵ فوریه ۲۰۲۶</string>
+
+    <!-- Main Screen Status -->
+    <string name="vpn_on">VPN آچیق</string>
+    <string name="vpn_off">VPN باغلی</string>
+    <string name="connecting">باغلانیر…</string>
+    <string name="connection_failed">باغلانتی آلینمادی</string>
+    <string name="tap_to_connect">باغلانماق اۆچون توخونون</string>
+    <string name="tap_to_disconnect">باغلانتینی کسمک اۆچون توخونون</string>
+    <string name="connecting_to_server">سرورا باغلانیر…</string>
+    <string name="cd_menu">منو</string>
+
+    <!-- Auto-failover status -->
+    <string name="trying_server">سونراکی سرور یوخلانیر…</string>
+
+    <!-- Traffic Display -->
+
+    <!-- QR Config -->
+    <string name="qr_config">تنظیملر QR</string>
+
+    <!-- Messages Screen -->
+
+    <!-- Hardcoded strings moved to resources -->
+    <string name="tap_to_cancel">لغو ائتمک اۆچون توخونون</string>
+    <string name="close_menu">منونو باغلا</string>
+    <string name="made_in_usa">آمریکا ساختی</string>
+
+    <!-- CDN Scanner -->
+
+    <!-- Network Scanner -->
+    <string name="region_label">بؤلگه</string>
+    <string name="region_automatic">اوتوماتیک</string>
+    <string name="region_auto_hint">ان سۆرعتلی ایشله‌ین بؤلگه‌نی سئچیر</string>
+    <string name="region_location_hint">بۇ یئر اۆزریندن باغلانین</string>
+    <string name="region_locked_hint">اوتوماتیک — بؤلگه سئچمک اۆچون اؤزل نۆسخه لازیمدیر</string>
+    <string name="go_premium">اؤزل نۆسخه آل</string>
+    <string name="premium_tagline">همیشه تام سۆرعت · ایسته‌دیگین بؤلگه‌نی سئچ</string>
+    <string name="upgrade">یۆکسلت</string>
+    <string name="language">دیل</string>
+    <string name="language_auto">اوتوماتیک (بؤلگه‌یه گؤره)</string>
+    <string name="settings_connection">باغلانتی</string>
+    <string name="connection_hint">اوتوماتیک ان یاخشی یولو سئچیر. بیرینی اۆستۆن توتماق اۆچون دَییشین.</string>
+    <string name="data_free_remaining">%1$s قالیب</string>
+    <string name="data_free_out">پولسوز داده قورتاریب</string>
+    <string name="data_free_low_cta">آز قالیب — تام سۆرعتده قالماق اۆچون یۆکسلدین</string>
+    <string name="data_free_out_cta">تام سۆرعت ایسته‌ییرسن؟ اؤزل نۆسخه‌یه یۆکسلت.</string>
+    <string name="speed_state_full">تام سۆرعت</string>
+    <string name="speed_state_reduced">آزالدیلمیش سۆرعت</string>
+    <string name="premium_title_throttled">تام سۆرعتینی گئری آل</string>
+    <string name="premium_tagline_throttled">تام سۆرعت ایسته‌ییرسن؟ اؤزل نۆسخه‌یه یۆکسلت.</string>
+    <!-- QR config -->
+    <string name="scan_qr_code">QR کودونو اسکن ائت</string>
+    <string name="scan_another">باشقاسینی اسکن ائت</string>
+    <string name="regenerate_qr">QR‌نی یئنیدن یارات</string>
+    <string name="qr_config_applied_ok">یئنی سرورلر اَلاوه اولوندو — سونراکی باغلانتیدان اعتبارلا ایشه دۆشۆر</string>
+    <string name="qr_share_title">سرورلرینی پایلاش</string>
+    <string name="qr_share_body">باغلانتیسی بلوک اولونان بیر کس بۇنو اسکن ائدیب ایشله‌ین سرورلر آلا بیلر.</string>
+    <string name="qr_share_count">%1$d سرور داخیلدیر</string>
+    <string name="qr_share_unavailable">حاضیردا پایلاشماق اۆچون کود یایینلانماییب</string>
+    <string name="qr_share_unverified">بۇ کود دوغرولانمادی و گؤستریلمه‌دی</string>
+
+    <!-- Paywall / restore -->
+    <string name="premium_active">اؤزل نۆسخه فعالدیر \u2713</string>
+    <string name="restore_code_hint">گری‌قایتارما کودو \u2014 اؤزل نۆسخه‌نی باشقا جیهازدا ایشلدین:</string>
+    <string name="loading_plans">پلانلار یۆکلنیر\u2026</string>
+    <string name="already_premium_restore">آرتیق اؤزل نۆسخه‌ن وار؟ کودونلا گری قایتار</string>
+    <string name="account_code">حساب کودو</string>
+    <string name="restore">گری قایتار</string>
+    <string name="restore_none">بو مغازه حسابیندا آبونه‌لیک تاپیلمادی</string>
+
+    <!-- App selection -->
+    <string name="search_apps">برنامه‌لرده آختار\u2026</string>
+
+    <!-- Connection status (shown in toasts and the connect button) -->
+    <string name="status_starting_vpn">VPN باشلادیلیر\u2026</string>
+    <string name="status_finding_path">ان سۆرعتلی یول آختاریلیر\u2026</string>
+    <string name="status_connected">باغلاندی \u00B7 %1$s</string>
+    <string name="status_disconnected">باغلانتی کسیلدی</string>
+    <string name="status_failed">باغلانتی آلینمادی: %1$s</string>
+
+    <!-- Transport fallback notices -->
+    <!-- Entry flow: splash, welcome, sign-in -->
+    <string name="splash_tagline">خطین کشیکچیسی</string>
+    <string name="welcome_title">باغلانتین اۆچون بیر کشیکچی</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">کشیکچی</string>
+    <string name="welcome_body">سسسیز، آییق، گۆزشتسیز. %1$s سنینله آچیق اینترنت آراسیندا دایانیر.</string>
+    <string name="get_started">باشلا</string>
+    <string name="signin_title">%1$s‌ه خوش گلمیسینیز</string>
+    <string name="signin_subtitle">اؤزل نۆسخه‌نی بۆتون جیهازلارینیزدا ساخلاماق اۆچون گیریش ائدین، یا دا سادجه داوام ائدین \u2014 برنامه حساب اولمادان دا ایشلیر.</string>
+    <string name="continue_with_google">Google ایله داوام ائت</string>
+    <string name="continue_with_apple">Apple ایله داوام ائت</string>
+    <string name="have_account_code">حساب کودوم وار</string>
+    <string name="continue_as_guest">حسابسیز داوام ائت</string>
+    <string name="back_action">گئری</string>
+    <string name="signin_unavailable">گیریش ایندی مۆمکۆن دئییل. برنامه‌نی حساب اولمادان ایشلتمگه داوام ائده بیلرسینیز.</string>
+
+    <!-- Account screen (Settings -> Account) -->
+    <string name="account">حساب</string>
+    <string name="account_free_title">بۇ جیهازدا آبونه‌لیک یوخدور</string>
+    <string name="account_free_body">%1$s حساب اولمادان ایشلر. پریمیوم مغازه‌ده‌کی آلیشینیزدان گلیر. یئنی جیهازا گتیرمک اوچون گری قایتار دویمه‌سینه توخونون.</string>
+    <string name="account_premium_title">اؤزل نۆسخه فعالدیر</string>
+    <string name="account_plan">پلان</string>
+    <string name="account_renews">یئنیله‌نمه %1$s</string>
+    <string name="account_expires">بیتمه %1$s</string>
+    <string name="already_subscribed">آرتیق آبونه‌سن؟ گری قایتارماق اۆچون گیریش ائت</string>
+    <string name="account_signed_in">گیریش ائدیلدی \u2014 آبونه‌لیگین بۇ حسابا باغلیدیر</string>
+
+    <!-- Paywall — hero, plan rows, rails. -->
+    <string name="paywall_eyebrow">%1$s اؤزل نۆسخه</string>
+    <string name="paywall_headline">سوره‌تلی چیخیش یولو.</string>
+    <string name="paywall_subhead">قاباغیزدا هئچ بیر انگل یوخدور.</string>
+    <string name="paywall_perk_regions_title">بوتون بؤلگه‌لر</string>
+    <string name="paywall_perk_regions_body">هر یئره باغلانین، هر واخت ده‌ییشین.</string>
+    <string name="paywall_perk_speed_title">همیشه تام سوره‌ت</string>
+    <string name="paywall_perk_speed_body">لیمیت یوخدور، سوره‌ت هئچ واخت آزالدیلمیر.</string>
+    <string name="plan_period_weekly">هفته‌لیک</string>
+    <string name="plan_period_monthly">آیلیق</string>
+    <string name="plan_period_3month">هر 3 آیدان بیر</string>
+    <string name="plan_period_6month">هر 6 آیدان بیر</string>
+    <string name="plan_period_yearly">ایللیک</string>
+    <string name="plan_save_badge">%1$d%% ائندیریم</string>
+    <string name="plan_save_vs_monthly">آیلیقلا مقایسه‌ده %1$d%% قنائت</string>
+    <string name="plans_unavailable">پلانلار حاضیردا الچاتان دئییل. لطفاً سونرا یئنیدن جهد ائدین.</string>
+    <string name="start_free_trial">پولسوز سیناغا باشلا</string>
+    <string name="pay_with_card">کارتلا اؤده</string>
+    <string name="pay_with_crypto">کریپتو ایله اؤده</string>
+    <string name="pay_alipay">الی‌پی</string>
+    <string name="pay_wechat">وی‌چت پی</string>
+    <string name="paywall_disclosure_play">لغو ائدیلنه قدر اؤزو یئنیله‌نیر. هر واخت \u2068Google Play \u203A Subscriptions\u2069 بؤلومونده لغو ائده بیلرسینیز.</string>
+    <string name="paywall_disclosure_stripe">کارتلار، \u2068Apple Pay\u2069 و \u2068Google Pay\u2069 \u2014 \u2068Stripe\u2069 طرفیندن قورونور. لغو ائدیلنه قدر یئنیله‌نیر.</string>
+    <string name="paywall_disclosure_crypto">\u2068Bitcoin\u2069، \u2068USDT\u2069 و باشقا کریپتووالیوتالار. کارت یوخدور، بانک یوخدور \u2014 اؤده‌نیشی سیزینله باغلایان هئچ نه یوخدور.</string>
+    <string name="paywall_disclosure_paymentwall">کارتلار و یئرلی اؤده‌نیش یوللاری. لغو ائدیلنه قدر یئنیله‌نیر.</string>
+    <string name="paywall_disclosure_china">اؤده‌نیش تاماملانان کیمی اؤزل نۆسخه اؤزو فعال اولور، اوجدان-اوجا شیفره‌له‌نمیش.</string>
+    <string name="cd_close">باغلا</string>
+
+    <!-- Split tunnelling (app selector) -->
+    <string name="split_tunnel_title">برنامه‌لر و VPN</string>
+    <string name="split_mode_exclude">سئچیلنلردن باشقا بۆتون برنامه‌لر</string>
+    <string name="split_mode_exclude_desc">سئچیلن برنامه‌لر VPN‌دن یان کئچیب دوغرودان باغلانیر. بونو بانک و باشقا یئرلی برنامه‌لر اۆچون ایشلدین.</string>
+    <string name="split_mode_include">یالنیز سئچیلن برنامه‌لر</string>
+    <string name="split_state_all">بۆتون برنامه‌لر VPN ایشلدیر</string>
+    <string name="split_state_none">هئچ بیر برنامه VPN ایشلتمیر</string>
+    <string name="split_state_bypass">%2$d برنامه‌دن %1$d دنه‌سی VPN‌دن یان کئچیر</string>
+    <string name="split_state_only">%2$d برنامه‌دن %1$d دنه‌سی VPN ایشلدیر</string>
+    <string name="split_reconnect_note">ده‌ییشیکلیکلر VPN‌ی یئنیدن باغلاییر.</string>
+    <string name="select_recommended">تؤوصیه اولونان</string>
+    <string name="select_all">هامیسی</string>
+    <string name="select_none">هئچ بیری</string>
+
+    <!-- Paywall and free-data meter -->
+    <string name="speed_state_limited">%1$s ایله محدودلاشیب</string>
+    <string name="data_free_low_note">بوندان سونرا %1$s سۆرعتی ایله ایشلمه‌یه داوام ائدیر. اؤزل نۆسخه تام سۆرعتده قالیر.</string>
+    <string name="data_free_out_note">باغلی قالیر، %1$s سۆرعتی ایله. اؤزل نۆسخه تام سۆرعتی قایتاریر.</string>
+    <string name="data_free_one_time">آیلیق کوتا</string>
+    <string name="premium_title_default">لیمیتسیز داده، همیشه تام سۆرعت</string>
+    <string name="premium_body_default">اؤزل نۆسخه · بۆتون بؤلگه‌لر · رئکلامسیز</string>
+    <string name="paywall_headline_offer">لیمیتسیز. تام سۆرعت. رئکلامسیز.</string>
+    <string name="paywall_subhead_offer">پولسوز سهمیه‌نیز هر آی یئنیله‌نیر. اؤزل نۆسخه هئچ واخت قورتارماز.</string>
+    <string name="paywall_subhead_throttled">ایندی %1$s ایله محدودلاشیبسان. اؤزل نۆسخه بو حددی گؤتۆرۆر.</string>
+    <string name="plan_hero_unit">آیدا</string>
+    <string name="paywall_perk_data_title">لیمیتسیز داده</string>
+    <string name="paywall_perk_data_body">پولسوز سهمیه هر آی یئنیله‌نیر. اؤزل نۆسخه‌ده حدّ یوخدور.</string>
+    <string name="paywall_perk_data_body_once">پولسوز سهمیه یالنیز بیر دفعه وئریلیر. اؤزل نۆسخه‌ده داده هئچ واخت قورتارمیر.</string>
+    <string name="paywall_perk_speed_body_limit">پولسوز داده قورتاراندا سۆرعت %1$s سویه‌سینه دۆشۆر. اؤزل نۆسخه‌ده هئچ واخت دۆشمۆر.</string>
+    <string name="paywall_perk_ads_title">رئکلامسیز</string>
+    <string name="paywall_perk_ads_body">باغلانان زامان تام اکران رئکلام یوخدور.</string>
+    <string name="paywall_reassure">حساب و یا ای‌میل لازیم دئییل.</string>
+    <string name="plan_per_month">آیدا %1$s</string>
+    <string name="proof_downloads">%1$s-دن آرتیق ائندیرمه</string>
+    <string name="proof_rating">%2$s رأی اساسیندا %1$s</string>
+    <string name="bypass_title">VPN‌دن یان کئچن آدرسلر</string>
+    <string name="bypass_desc">بۇ IP آدرسلرینه و آرالیقلارینا گئدن ترافیک، هانسی برنامه گؤندرمه‌سیندن آسیلی اولمایاراق، دوغرودان باغلانیر. خارجی آدرسلری رد ائدن یئرلی بانک و دؤولت خیدمتلری اۆچون فایدالیدیر.</string>
+    <string name="bypass_hint">IP یا دا آرالیق، مثلاً 192.168.1.0/24</string>
+    <string name="bypass_add">اَلاوه ائت</string>
+    <string name="bypass_remove">سیل</string>
+    <string name="bypass_invalid">IP آدرسی یا دا آرالیق داخیل ائدین، مثلاً 10.0.0.0/8</string>
+    <string name="bypass_none">هئچ بیری — بۆتون آدرسلر VPN ایشلدیر</string>
+    <string name="bypass_count">%1$d آدرس VPN‌دن یان کئچیر</string>
+    <string name="bypass_over_budget">%1$d آدرس بۇ جیهازدا تطبیق اولونا بیلمیر و هله ده VPN ایشلدیر. بیر نئچه آدرسی سیلین یا دا داها گئنیش آرالیقلار ایشلدین.</string>
+    <string name="restore_ok">اؤزل نۆسخه گری قایتاریلدی</string>
+    <string name="restore_invalid">کود گئچرلی دئییل</string>
+    <string name="open_source_intro">%1$s آشاغیداکی آچیق قایناقلی پروژه‌لرین کؤمه‌یی ایله قورولوب.</string>
+    <string name="cd_back">گئری</string>
+    <string name="paywall_perk_ixp_title">اؤز دونانیمیمیز</string>
+    <string name="paywall_perk_ixp_body">چوخ VPN‌لر اوجوز مجازی سرورلر کیرایه‌لیر. بیزیمکی دونیانین باشلیجا شبکه‌لری بیرلشن اینترنت دَییشیم مرکزلرینده‌دیر — داها قیسا یول، داها سورعتلی اپلیکاسیون.</string>
+    <string name="onboarding_plans_title">پولسوز یا پریمیوم</string>
+    <string name="onboarding_plans_body">پولسوز پلان آیلیق تام سورعتلی حجم وئریر، سونرا رکلاملارلا داها یاواش سورعتده لیمیتسیز ترافیک. پریمیوم لیمیتی، یاواشلاماغی و رکلاملاری آرادان قالدیریر.</string>
+    <string name="continue_label">داوام ائت</string>
+    <string name="skip_label">کئچ</string>
+    <string name="rate_app">%1$s دَیرلندیر</string>
+    <string name="esim_mine">منیم eSIMلریم</string>
+    <string name="esim_purchase_unavailable">eSIM آلیش‌لاری بو نۆسخه‌ده هله یوخدور.</string>
+    <string name="esim_install">بو تلفونا قور</string>
+    <string name="esim_install_failed">اۆزو قورولا بیلمه‌دی. QR کودو اسکن ائدین یا آشاغیداکی کودلاری یازین.</string>
+    <string name="esim_installed">eSIM قورولدو. تنظیملرده گؤرونمه‌سی بیر دقیقه چکه بیلر.</string>
+    <string name="esim_activation_code">فعال‌لاشدیرما کودو</string>
+    <string name="esim_copy">کوپی ائت</string>
+    <string name="esim_copied">کوپی اولوندو</string>
+    <string name="esim_none">بو جهازدا هله eSIM یوخدور.</string>
+    <string name="esim_load_failed">eSIMلرینیز یۆکلنه بیلمه‌دی. باغلانتینی یوخلایین و یئنیدن چالیشین.</string>
+    <string name="esim_retry">یئنیدن چالیش</string>
+    <string name="esim_left_of">%2$s-دان %1$s قالیب</string>
+    <string name="esim_status_ready">قورماغا حاضیر</string>
+    <string name="esim_status_active">فعال</string>
+    <string name="esim_status_used">قورتاریب</string>
+    <string name="esim_status_expired">مدتی بیتیب</string>
+    <string name="esim_account">حساب و قایتارما</string>
+    <string name="tabs_connect">باغلان</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">حساب</string>
+    <string name="tabs_status_protected">قورونور · بو گون %1$d دانا باغلاندی</string>
+    <string name="tabs_status_connected">باغلانیب</string>
+    <string name="tabs_status_connecting">باغلانیر…</string>
+    <string name="tabs_status_failed">باغلانا بیلمه‌دی. یئنیدن چالیشماق اۆچون توخونون.</string>
+    <string name="tabs_status_off">سؤنوک</string>
+    <string name="tabs_guardian_open">نه‌لرین رد ائدیلدیگینی گؤرون</string>
+    <string name="tabs_ring_connect">باغلان</string>
+    <string name="tabs_ring_disconnect">باغلانتینی کس</string>
+    <string name="tabs_ring_cancel">باغلانیر، لغو ائتمک اۆچون توخونون</string>
+    <string name="tabs_elapsed">واخت</string>
+    <string name="tabs_download">ائندیرمه</string>
+    <string name="tabs_upload">یۆکله‌مه</string>
+    <string name="tabs_route">یول</string>
+    <string name="tabs_route_auto">اۆزو</string>
+    <string name="tabs_disconnect">باغلانتینی کس</string>
+    <string name="tabs_guardian_title">قورویوجو</string>
+    <string name="tabs_guardian_on">سون ۳۰ گونده رد ائدیلن و شۆبهه‌لی باغلانتیلار.</string>
+    <string name="tabs_guardian_off">قوروما سؤنوکدور. هئچ نه رد ائدیلمیر.</string>
+    <string name="tabs_guardian_empty">هله هئچ نه رد ائدیلمه‌ییب.</string>
+    <string name="tabs_guardian_row">پورت %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">ایذن وئر</string>
+    <string name="tabs_allowed">ایذن وئریلیب</string>
+    <string name="tabs_rules">قایدالار</string>
+    <string name="tabs_rules_master">قوروما</string>
+    <string name="tabs_rules_master_sub">تانینمیش زیانلی سایتلارا باغلانتینی رد ائت.</string>
+    <string name="tabs_rules_categories">دسته‌یه گؤره رد ائدیلنلر</string>
+    <string name="tabs_rules_allow">همیشه ایذن وئر</string>
+    <string name="tabs_rules_deny">همیشه رد ائت</string>
+    <string name="tabs_rules_empty">هله هئچ نه یوخدور.</string>
+    <string name="tabs_rules_remove">سیل</string>
+    <string name="tabs_rules_hint">سایت یا آدرس</string>
+    <string name="tabs_rules_add">آرتیر</string>
+    <string name="tabs_passes_title">eSIMلر</string>
+    <string name="tabs_store">ماغازا</string>
+    <string name="tabs_my_passes">منیم eSIMلریم</string>
+    <string name="tabs_where">هارایا گئدیرسیز؟</string>
+    <string name="tabs_search_hint">اؤلکه، شهر یا بؤلگه</string>
+    <string name="tabs_from">%1$s-دان</string>
+    <string name="tabs_all_destinations">بۆتون مقصدلر</string>
+    <string name="tabs_how_long">سفر نه قدر چکیر؟</string>
+    <string name="tabs_days">%1$d گۆن</string>
+    <string name="tabs_how_much">اینترنتی نئجه ایشله‌دیرسیز؟</string>
+    <string name="tabs_usage_maps">خریطه‌لر و مئساژلار</string>
+    <string name="tabs_usage_socials">سوسیال شبکه‌لر و گزینتی</string>
+    <string name="tabs_usage_streaming">ویدیو و جانلی یاییم</string>
+    <string name="tabs_need">%2$d گۆن اۆچون تخمیناً %1$s گیگابایت.</string>
+    <string name="tabs_recommended">تؤوصیه ائدیلن</string>
+    <string name="tabs_plan_line">%1$s · %2$d گۆن</string>
+    <string name="tabs_buy">آل</string>
+    <string name="tabs_number_row">یئرلی نؤمره ایله: %1$d دقیقه · %2$s · %3$d گۆن</string>
+    <string name="tabs_see_all">بۆتون پلانلاری گؤر</string>
+    <string name="tabs_hide_all">بۆتون پلانلاری گیزلت</string>
+    <string name="tabs_unlimited">لیمیتسیز</string>
+    <string name="tabs_refund">اینترنتینیز فعال‌لاشمازسا پولونوز قایتاریلار.</string>
+    <string name="tabs_no_passes">هله eSIM یوخدور</string>
+    <string name="tabs_no_passes_body">eSIM آلین، ثانیه‌لر ایچینده تلفونونوزا قوراشدیریلیر. SIM کارتی دییشمک لازیم دئییل، اصلی نؤمره‌نیز زنگلر اوچون آچیق قالیر.</string>
+    <string name="tabs_browse">eSIMلره باخ</string>
+    <string name="tabs_status_active">فعال</string>
+    <string name="tabs_status_ready">حاضیر</string>
+    <string name="tabs_status_used">قورتاریب</string>
+    <string name="tabs_status_expired">مدتی بیتیب</string>
+    <string name="tabs_used">%1$s ایشله‌نیب</string>
+    <string name="tabs_left">%1$s قالیب</string>
+    <string name="tabs_install">قور</string>
+    <string name="tabs_topup">آرتیرما</string>
+    <string name="tabs_install_title">eSIMینیزی قورون</string>
+    <string name="tabs_install_here">بو تلفونا قور</string>
+    <string name="tabs_install_other">یا بو کودو باشقا تلفوندان اسکن ائدین: تنظیملر، سونرا موبایل اینترنت، سونرا پلان آرتیر.</string>
+    <string name="tabs_installed">eSIM قورولدو. تنظیملرده گؤرونمه‌سی بیر دقیقه چکه بیلر.</string>
+    <string name="tabs_install_failed">اۆزو قورولا بیلمه‌دی. کودو اسکن ائدین یا آشاغیداکی بیلگیلری یازین.</string>
+    <string name="tabs_topup_none">بو eSIMی آرتیرماق اولماز. یئرینه یئنی بیرینی آلین.</string>
+    <string name="tabs_checkout">اؤده‌مه</string>
+    <string name="tabs_pay_unavailable">eSIM آلماق بو نۆسخه‌ده هله مۆمکۆن دئییل.</string>
+    <string name="tabs_load_failed">یۆکلنه بیلمه‌دی. باغلانتینیزی یوخلایین.</string>
+    <string name="tabs_retry">یئنیدن چالیش</string>
+    <string name="tabs_pro">پرو</string>
+    <string name="tabs_per_month">%1$s / آی</string>
+    <string name="tabs_active_until">%1$s-دک فعال</string>
+    <string name="tabs_active">فعال</string>
+    <string name="tabs_not_active">فعال دئییل</string>
+    <string name="tabs_go_pro">پرو-یا کئچ</string>
+    <string name="tabs_renews">هر آی یئنیله‌نیر. هر واخت لغو ائده بیلرسیز.</string>
+    <string name="tabs_restore_code">قایتارما کودو</string>
+    <string name="tabs_other_device">باشقا جهازدا ایشلت</string>
+    <string name="tabs_code_body">بو کود سیزین حسابینیزدیر. اونو گۆونلی بیر یئرده ساخلایین و پرو-نو قایتارماق اۆچون یئنی تلفوندا یازین.</string>
+    <string name="tabs_legal">حقوقی بیلگیلر</string>
+    <string name="tabs_guardian_updated">قوروما لیستی یئنیلندی: %1$s</string>
+    <string name="tabs_notified">شۆبهه‌لی</string>
+    <string name="tabs_notices">بیلدیریش‌لر</string>
+    <string name="tabs_rules_toggles">دسته‌لر</string>
+    <string name="tabs_second_number">ایکینجی نؤمره</string>
+    <string name="tabs_second_number_body">اینترنت، دقیقه و پیامک ایله یئرلی نؤمره. مدتی بیتیر؛ نؤمره‌نی ساخلاماق اوچون اوندان قاباق آرتیرین.</string>
+    <string name="tabs_number_where">هانسی اؤلکه‌نین نؤمره‌سی؟</string>
+    <string name="tabs_number_note">ایلک دفعه قوشولاندا باشلاییر. نؤمره‌نی ساخلاماق اوچون مدتی بیتمه‌میش اؤزونوز آرتیرین.</string>
+    <string name="tabs_number_line">%1$s · %2$d دقیقه · %3$d پیامک</string>
+    <string name="tabs_expires_on">بیتمه تاریخی: %1$s</string>
+    <string name="tabs_starts_on_connect">ایلک دفعه قوشولاندا باشلاییر</string>
+    <string name="tabs_voice_sms_left">%1$d دقیقه · %2$d پیامک قالیب</string>
+    <string name="tabs_reload_keep">بو نؤمره‌نی ساخلاماق اوچون آرتیرین</string>
+    <string name="tabs_reload_within">بو نؤمره‌نی ساخلاماق اوچون %1$d گۆن ایچینده آرتیرین</string>
+    <string name="tabs_not_reloadable">بو نؤمره آرتیریلا بیلمز؛ %1$s تاریخینده بیتیر</string>
+    <string name="tabs_not_reloadable_nodate">بو نؤمره آرتیریلا بیلمز</string>
+    <string name="tabs_number_ended">بو نؤمره‌نین مدتی بیتیب</string>
+    <string name="tabs_number_label">نؤمره‌نیز</string>
+    <string name="tabs_number_label_hint">نؤمره‌نیز «سیم‌کارت وضعیتی» بؤلمه‌سینده گؤرونور</string>
+    <string name="tabs_save">ساخلا</string>
+    <string name="tabs_edit">دَییشدیر</string>
+    <string name="tabs_alerts_channel">eSIM بیلدیریشلری</string>
+    <string name="tabs_alert_expired">%1$s: eSIMین مدتی بیتیب.</string>
+    <string name="tabs_alert_expired_number">%1$s: eSIMین مدتی بیتیب. بو نؤمره‌نی ساخلاماق اوچون %2$d گۆن ایچینده آرتیرین.</string>
+    <string name="tabs_alert_grace">%1$s: بو نؤمره‌نی ساخلاماق اوچون %2$d گۆن ایچینده آرتیرین.</string>
+    <string name="tabs_alert_data">%1$s: داتانین %2$d%% ایشلدیلیب.</string>
+    <string name="tabs_reload">آرتیرما</string>
+    <string name="tabs_offline_pay">اینترنئته باغلی دئییلسینیز. آلماق اوچون اینترنئت لازیمدیر.</string>
+    <string name="tabs_offline_saved">سون گلیشینیزدن ساخلانمیش قیمتلر. دییشمیش اولا بیلر.</string>
+    <string name="tabs_runout">بو سرعتله داتانیز تخمینن %1$s تاریخینده بیتهجک.</string>
+    <string name="tabs_add_topup">%1$s آرتیر · %2$s</string>
+    <string name="tabs_esim_code">eSIM گیریش کودو</string>
+    <string name="tabs_esim_code_body">eSIMلرینیزی اورادا گؤرمک اوچون بو کودو باشقا تلفوندا یا e-sim.net سایتیندا یازین. گیزلی ساخلایین: eSIMلرینیزین قوراشدیرما کودلارینی آچیر.</string>
+    <string name="tabs_esim_restore">eSIMلری باشقا تلفوندان قایتار</string>
+    <string name="tabs_esim_restored">بو تلفونا کؤچورولن eSIMلر: %1$d</string>
+    <string name="tabs_esim_code_bad">بو کود تاپیلمادی. یوخلاییب یئنیدن چالیشین.</string>
+    <string name="tabs_sort_total">ان اوجوز قیمت</string>
+    <string name="tabs_sort_per_gb">هر GB اوچون</string>
+    <string name="tabs_sort_per_day">هر گون اوچون</string>
+    <string name="tabs_best_value">ان سرفه‌لی</string>
+    <string name="tabs_signin_body">ایمیلینیزله آلدیغینیز eSIMلری هر تلفوندا گؤرمک اوچون گیریش ائدین.</string>
+    <string name="tabs_signin_google">Google ایله داوام ائت</string>
+    <string name="tabs_signin_apple">Apple ایله داوام ائت</string>
+    <string name="tabs_signed_in_as">%1$s اولاراق گیریش ائتمیسینیز</string>
+    <string name="tabs_sign_out">چیخیش</string>
+    <string name="tabs_delete_account">eSIM حسابینی سیل</string>
+    <string name="tabs_delete_body">ایمیلینیز eSIM سیفاریشلرینیزدن سیلینه‌جک و چیخیش ائده‌جکسینیز. eSIMلرینیز بو تلفوندا قالیر.</string>
+    <string name="tabs_delete_confirm">سیل</string>
+    <string name="tabs_deleted">eSIM حسابینیز سیلیندی.</string>
+    <string name="tabs_expiry_unavailable">بیتمه تاریخی ایندی الده دئییل</string>
+    <string name="tabs_alert_exp_days">%1$s: eSIMین بیتمه‌سینه %2$d گون قالیب.</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s: eSIMین مدتی صاباح بیتیر.</string>
+    <string name="tabs_alert_ends_on">%1$s: %2$s تاریخینده بیتیر. بو خطی آرتیرماق اولمور.</string>
+    <string name="tabs_alert_reload_hint">ایشلتمه‌یه داوام ائتمک اوچون آرتیرین.</string>
+    <string name="tabs_tile_protected">قورونور</string>
+    <string name="tabs_widget_desc">باغلانتی، بو گون باغلانانلار و eSIM داتاسی بیر باخیشدا</string>
+    <string name="tabs_widget_blocked">بو گون %1$d دانا باغلاندی</string>
+    <string name="tabs_live_esim">%1$s: %2$s قالیب، %3$s تاریخینه‌دک</string>
+    <string name="tabs_live_esim_left">%1$s: %2$s قالیب</string>
+    <string name="tabs_live_days_left">قالان گونلر: %1$d</string>
+    <string name="tabs_live_route">یول: %1$s</string>
+    <string name="tabs_live_session">بو سئانس: ↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">%2$s داخیلدیر: %1$d گون</string>
+    <string name="link_signin_confirm">بو لینکی %1$s اوستونده آچان حسابا گیریلسین؟ بو جیهاز او حسابین پلانیندان ایستیفاده ائده‌جک.</string>
+    <string name="link_claim_confirm">بو لینکده‌کی حساب کودو ایله قایتاریلسین؟ بو جیهاز او کودون پلانیندان ایستیفاده ائده‌جک.</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">یۆکسلت</string>
+    <string name="home_data_line">سفر eSIM‌ی و آمریکا نومره‌سی بیر تطبیقده</string>
+    <string name="home_travel_esim">سفر eSIM-ی</string>
+    <string name="home_countries_170">170+ اؤلکه</string>
+    <string name="home_us_number">آمریکا نومره‌سی</string>
+    <string name="home_second_line">ایکینجی خط</string>
+    <string name="home_free_helper">هارا سفر ائتسه‌نیز، گۆونلی باغلانتی</string>
+    <string name="home_connected">قوشولدو</string>
+    <string name="home_connecting">باغلانیر…</string>
+    <string name="home_disconnecting">قطع اولونور</string>
+    <string name="home_failed">باغلانتی آلینمادی</string>
+    <string name="home_not_connected">باغلی دئییل</string>
+    <string name="home_try_again_long">یئنیدن یوخلایین یا شبکه‌نیزی یوخلایین.</string>
+    <string name="home_try_again">یئنیدن سینا</string>
+    <string name="shop_where">هارا گئدیرسینیز؟</string>
+    <string name="shop_search">اؤلکه، بؤلگه یا شهر</string>
+    <string name="shop_clear">تمیزله</string>
+    <string name="shop_local_helper">بیر اؤلکه، بیر eSIM. هر قیمت اوردا ان اوجوز پلاندیر.</string>
+    <string name="shop_regional_helper">بیر نئچه اؤلکه بیر eSIM‌ده. هر قیمت ان اوجوز پلاندیر.</string>
+    <string name="shop_global_helper">دونیانین چوخ یئری اۆچون بیر eSIM. هر قیمت ان اوجوز پلاندیر.</string>
+    <string name="shop_near_me">یاخینلیقدا</string>
+    <string name="shop_americas">آمریکا</string>
+    <string name="shop_middle_east">اورتا شرق</string>
+    <string name="shop_your_country">سیزین اؤلکه‌نیز</string>
+    <string name="shop_no_match">«%1$s» ایله اویغون مقصد یوخدور.</string>
+    <string name="shop_try_nearby">یاخین بیر اؤلکه یا بؤلگه‌سل بیر eSIM سینا.</string>
+    <string name="shop_results">نتیجه‌لر</string>
+    <string name="shop_from">باشلایان</string>
+    <string name="shop_real_us_number">حقیقی آمریکا نومره‌سی</string>
+    <string name="shop_us_number_sub">ایکینجی خط کیمی آمریکا نومره‌سی آلین</string>
+    <string name="shop_dest_unavailable">بو مقصد مؤجود دئییل.</string>
+    <string name="shop_try_again">یئنیدن یوخلایین</string>
+    <string name="shop_data_plans">داده پلانلاری</string>
+    <string name="shop_data_only">یالنیز داده. اصلی نومره‌نیز زنگ و پیامک اوچون آچیق قالیر.</string>
+    <string name="shop_with_number">تلفون نومره‌سی ایله</string>
+    <string name="shop_with_number_sub">بو اؤلکه‌نین اینترنت، دقیقه و SMS ایله یئرلی نومره‌سی.</string>
+    <string name="shop_supports_esim">اوتوماتیک یوخلاندی · eSIM-ی دستکلر</string>
+    <string name="shop_no_esim_support">eSIM دستگی یوخدور، اونا گؤره سفر eSIM-ی بورادا قورولماز.</string>
+    <string name="shop_install_now">ایندی قورون، چاتیب قوشولاندا باشلاییر.</string>
+    <string name="shop_delivered">پلانلار e-sim.net طرفیندن تأمین اولونور.</string>
+    <string name="shop_plans_from">%1$s-دان باشلایان پلانلار</string>
+    <string name="shop_trip_length">سفر مدتی</string>
+    <string name="shop_how_you_use">داده‌نی نئجه ایشله‌دیرسینیز</string>
+    <string name="shop_light">ایشیقلی</string>
+    <string name="shop_heavy">آغیر</string>
+    <string name="shop_recommended_for">%1$s اوچون توصیه اولونور</string>
+    <string name="shop_your_trip">سفرینیز</string>
+    <string name="shop_buy_now">ایندی ساتین آل</string>
+    <string name="shop_per_day">%1$s/گون</string>
+    <string name="shop_one_day">1 گون</string>
+    <string name="shop_number_plan">تلفون نومره‌سی + %1$d دقیقه + %2$d پیامک</string>
+    <string name="shop_checkout">اؤدمه</string>
+    <string name="shop_top_up">آرتیر</string>
+    <string name="shop_cancel">لغو</string>
+    <string name="shop_your_plan">پلانینیز</string>
+    <string name="shop_esim_with_number">تلفون نومره‌لی eSIM</string>
+    <string name="shop_data_esim">داده eSIM-ی</string>
+    <string name="shop_valid_for">اعتبار مدتی</string>
+    <string name="shop_calls_texts">زنگ و پیامک</string>
+    <string name="shop_min_texts">%1$d دقیقه · %2$d پیامک</string>
+    <string name="shop_network">شبکه</string>
+    <string name="shop_adds_to">eSIM-ه آرتیریلیر</string>
+    <string name="shop_pay_with">اؤدمه یولو</string>
+    <string name="shop_card">کارت</string>
+    <string name="shop_discount_code">اندیریم کودو</string>
+    <string name="shop_apply">تطبیق ائت</string>
+    <string name="shop_code_applied">%1$s تطبیق اولوندو: %2$s اندیریم</string>
+    <string name="shop_add_code">اندیریم کودو آرتیر</string>
+    <string name="shop_price">قیمت</string>
+    <string name="shop_discount">اندیریم</string>
+    <string name="shop_one_payment">بیر دفعه‌لیک اؤدمه، آبونه یوخ. قیمتلر آمریکا دلاریندادیر.</string>
+    <string name="shop_send_exactly">دقیق %1$s %2$s گؤندرین، %3$s شبکه‌سینده</string>
+    <string name="shop_wallet_code">کیف پولونوز اوچون اؤدمه کودو</string>
+    <string name="shop_amount_unique">بو مبلغ یالنیز بو سیفاریشه عاییددیر. اونو بیر کؤچورمه ایله، هر کیف پولدان یا بیرژادان گؤندرین.</string>
+    <string name="shop_amount">مبلغ (%1$s)</string>
+    <string name="shop_address">آدرس (%1$s)</string>
+    <string name="shop_open_wallet">کیف پولدا آچ</string>
+    <string name="shop_waiting_payment">اؤدمه گؤزله‌نیلیر</string>
+    <string name="shop_send_before">%1$s-دان قاباق گؤندرین. آدتاً بیر دقیقه‌ده چاتیر.</string>
+    <string name="shop_coinbase">Coinbase ایله باشقا کوینلر</string>
+    <string name="shop_pay_crypto_title">کریپتو ایله اؤده</string>
+    <string name="shop_pay">%1$s اؤده</string>
+    <string name="shop_pay_in_crypto">%1$s کریپتو ایله اؤده</string>
+    <string name="shop_too_many">چوخلو جهد اولدو. بیر نئچه دقیقه گؤزلهیین و یئنیدن یوخلایین.</string>
+    <string name="shop_sheet_failed">اؤدمه پنجره‌سی آچیلا بیلمه‌دی.</string>
+    <string name="shop_unexpected">e-sim.net-دن گؤزله‌نیلمز جاواب آلدیق. برنامه‌نی یئنیله‌یین یا یئنیدن یوخلایین.</string>
+    <string name="shop_offline_pay">آفلاینسینیز. اؤدمک اوچون قوشولون.</string>
+    <string name="shop_copy">کؤچور</string>
+    <string name="shop_copy_code">کودو کوپی ائدین</string>
+    <string name="shop_your_esim">eSIM-ینیز</string>
+    <string name="shop_order">سیفاریش</string>
+    <string name="shop_confirming">اؤدمه‌نیز تصدیق اولونور</string>
+    <string name="shop_setting_up">eSIM-ینیز حاضیرلانیر</string>
+    <string name="shop_under_minute">بو آدتاً بیر دقیقه‌دن آز چکیر. بو صفحه‌دن چیخا بیلرسینیز؛ eSIM-ینیز منیم eSIM‌لریم بؤلومونده اولاجاق.</string>
+    <string name="shop_payment">اؤدمه</string>
+    <string name="shop_ready_install">قورماغا حاضیر</string>
+    <string name="shop_order_id">سیفاریش %1$s</string>
+    <string name="shop_refunded">بو سیفاریشین پولو قایتاریلدی</string>
+    <string name="shop_setup_failed">eSIM-ینیزی حاضیرلایا بیلمه‌دیک</string>
+    <string name="shop_payment_safe">اؤدمه‌نیز تهلوکه‌سیزدیر. %1$s سیفاریش نومره‌سی ایله support@e-sim.net-ه یازین، دوزلدرریک یا پولونوزو قایتاریریق.</string>
+    <string name="shop_email_support">دسته ایمیل گؤندر</string>
+    <string name="shop_close">باغلا</string>
+    <string name="shop_done">حاضیردیر</string>
+    <string name="shop_ready">eSIM-ینیز حاضیردیر</string>
+    <string name="shop_your_number">نومره‌نیز</string>
+    <string name="shop_install_esim">eSIM قور</string>
+    <string name="shop_install_code">بو eSIM-ی قورماق اوچون کود</string>
+    <string name="shop_smdp">SM-DP+ آدرسی</string>
+    <string name="shop_activation_code">فعال‌لاشدیرما کودو</string>
+    <string name="shop_install">قور</string>
+    <string name="shop_other_ways">قورماغین باشقا یوللاری</string>
+    <string name="shop_install_guide">قورما بلدچیسینی آچ</string>
+    <string name="shop_open_settings">تنظیملری آچ</string>
+    <string name="shop_my_esims">منیم eSIM‌لریم</string>
+    <string name="shop_no_esims">هله eSIM یوخدور</string>
+    <string name="shop_no_esims_body">ماغازادا eSIM آلین و بورادا گؤرونر. فیزیکی SIM یوخدور، اصلی نومره‌نیز ایسه زنگلر اوچون آچیق قالار.</string>
+    <string name="shop_past">کئچمیش</string>
+    <string name="shop_not_installed">قورولمایب</string>
+    <string name="shop_used_up">قورتاریب</string>
+    <string name="shop_expired">واختی بیتیب</string>
+    <string name="shop_unlimited_data">لیمیتسیز داده</string>
+    <string name="shop_left_of">%2$s-دن %1$s قالیب</string>
+    <string name="shop_one_day_left">1 گون قالیب</string>
+    <string name="shop_install_again">یئنیدن قور</string>
+    <string name="shop_installs_once">eSIM هر تلفونا بیر دفعه قورولور. اگر اونو تنظیملردن سیلمیسینیزسه، بلکه یئنیدن قورولماسین.</string>
+    <string name="shop_not_reloadable">بو eSIM آرتیریلا بیلمز. عینی مقصد اوچون یئنی بیر eSIM اونون یئرینه ایشله‌ییر.</string>
+    <string name="shop_add_data">حجم آرتیر</string>
+    <string name="shop_data_added">اینترنت بو eSIM‌ه آرتیریلیر. یئنیدن قورماق لازیم دئییل.</string>
+    <string name="shop_restore_here">eSIM‌لری بو تلفوندا برپا ائت</string>
+    <string name="shop_your_access_code">گیریش کودونوز</string>
+    <string name="shop_restore_title">eSIM‌لری برپا ائت</string>
+    <string name="shop_access_code">گیریش کودو</string>
+    <string name="shop_find_code">اونو او بیری تلفونونوزدا منیم eSIM‌لریم › گیریش کودونوز بؤلومونده، یا قبض ایمیلینده تاپین.</string>
+    <string name="shop_restore">گری قایتار</string>
+    <string name="shop_code_body">eSIM‌لرینی اوردا گؤرمک اوچون بو کودو او بیری جیهازینا گیر. اونو گیزلی ساخلا: eSIM‌لرینی کؤچورور.</string>
+    <string name="shop_second_number">ایکینجی نومره</string>
+    <string name="shop_from_price">%1$s-دن باشلایاراق</string>
+    <string name="shop_number_body">اینترنت، دقیقه و SMS ایله یئرلی بیر نومره. مدتی بیتر؛ نومره‌نی ساخلاماق اوچون شارژ ائدین.</string>
+    <string name="shop_number_p1">ایکینجی خط</string>
+    <string name="shop_number_p1_sub">اصلی نومره‌نیز و SIM-ینیز اولدوغو کیمی قالیر.</string>
+    <string name="shop_number_p2">زنگ و پیامکلار بورا گلیر</string>
+    <string name="shop_number_p3">حساب یوخ، کیملیک یوخ</string>
+    <string name="shop_number_p3_sub">قئیدیّات لازیم دئییل. اؤده‌یین و قورون.</string>
+    <string name="shop_number_p4">داده داخیلدیر</string>
+    <string name="shop_number_p4_sub">هر پلانین آمریکادا موبایل داده‌سی وار.</string>
+    <string name="shop_choose_plan">بیر پلان سئچین</string>
+    <string name="acct_upgrade">یۆکسلت</string>
+    <string name="acct_free_plan">پولسوز پلان</string>
+    <string name="acct_manage_sub">آبونه‌نی ایداره ائت</string>
+    <string name="acct_usage">ایستیفاده آمارلاری</string>
+    <string name="acct_subscription">آبونه</string>
+    <string name="acct_connection">باغلانتی</string>
+    <string name="acct_settings">تنظیملر</string>
+    <string name="acct_appearance">گؤرونوش</string>
+    <string name="acct_language">دیل</string>
+    <string name="acct_light">ایشیقلی</string>
+    <string name="acct_dark">قارانلیق</string>
+    <string name="acct_automatic">اوتوماتیک</string>
+    <string name="acct_rate">%1$s دَیرلندیر</string>
+    <string name="acct_about">%1$s حاقیندا</string>
+    <string name="acct_privacy">محرمانه‌لیک سیاستی</string>
+    <string name="acct_terms">ایستیفاده شرطلری</string>
+    <string name="acct_support">دستک و حقوقی</string>
+    <string name="shop_stablecoins">USDT · USDC ثابت کوینلری</string>
+    <string name="acct_delete">حسابی سیل</string>
+    <string name="acct_delete_title">حسابینیز سیلینسین؟</string>
+    <string name="acct_delete_footer">حسابینیزی، کودونو و ایستیفاده تاریخچه‌نیزی سیلیر. آبونه‌نی لغو ائتمیر.</string>
+    <string name="acct_delete_body">حسابینیز و ایستیفاده تاریخچه‌نیز ایندی سیلینهجک.</string>
+    <string name="acct_deleted">حساب سیلیندی. بو تلفونداکی eSIM-لر قورولو قالیر.</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">باغلانمادان قاباق</string>
+    <string name="vpn_disclosure_what">%1$s بو تلفونون اینترنت ترافیکینی شیفره‌لنمیش بیر تونل ایله %1$s سرورلرینه گؤندرمک اوچون اندرویدین VPN خیدمتیندن ایستیفاده ائدیر.</string>
+    <string name="vpn_disclosure_data">باغلی اولدوغونوز مدتده سرورلریمیز IP آدرسینیزی و نه قدر داتا ایشلتدیگینیزی گؤرور. پلانینیزی ساغلاماق و سوءاستفاده‌نین قاباغینی آلماق اوچون IP آدرسلرینیزی، اونلارین اؤلکه و شبکه‌سینی، سون باغلانما واختینیزی و داتا ایشلتمه‌نیزی بو جیهازین %1$s شناسه‌سی ایله بیرلیکده ساخلاییریق. بو داتالاری ساتمیریق.</string>
+    <string name="vpn_disclosure_next">سونرا اندروید سیزدن VPN باغلانتیسینا ایجازه وئرمگی ایسته‌یه‌جک.</string>
+    <string name="disclosure_not_now">ایندی یوخ</string>
+</resources>

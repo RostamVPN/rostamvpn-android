@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Web account (WebAccount.kt, direct flavour only). %1$s is the brand's
+         web host (BuildConfig.WEB_ACCOUNT_HOST), never a brand name literal.
+         English only for now: translate before a direct release that ships it. -->
+    <string name="web_account_body">Sign in with your email to use the same account here and on %1$s.</string>
+    <string name="web_account_email">Email</string>
+    <string name="web_account_send_code">Send code</string>
+    <string name="web_account_code_sent">We sent a 6-digit code to %1$s.</string>
+    <string name="web_account_code">6-digit code</string>
+    <string name="web_account_sign_in">Sign in</string>
+    <string name="web_account_other_email">Use a different email</string>
+    <string name="web_account_bad_email">Enter a valid email address.</string>
+    <string name="web_account_wrong_code">That code is wrong or has expired.</string>
+    <string name="web_account_too_many">Too many tries. Wait a few minutes and try again.</string>
+    <string name="web_account_manage">Manage on %1$s</string>
+    <string name="web_account_open_failed">Could not open %1$s. Check your connection.</string>
+</resources>

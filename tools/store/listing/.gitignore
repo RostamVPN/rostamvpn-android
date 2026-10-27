@@ -1,0 +1,6 @@
+# validate.py is imported by appstore/validate.py, so running either one leaves
+# a __pycache__ here. A compiled copy of a validator was committed once and then
+# showed up as a modified binary in every later diff, which is noise in a
+# directory whose whole job is reviewable text.
+__pycache__/
+*.pyc

@@ -1,0 +1,47 @@
+# ChaCha20 NEON backend, aarch64 only.
+#
+# snow -> chacha20poly1305 -> chacha20 0.9.1 carries a NEON backend, but it is
+# gated behind `--cfg chacha20_force_neon` and therefore compiled OUT by default.
+# Without this flag every device runs the portable scalar path for every Noise
+# transport frame -- i.e. the whole tunnel hot path.
+#
+# Measured on R5CY13EDP7A (arm64), 1400-byte frames, ChaCha20-Poly1305 seal:
+#     soft   130,252 frames/s   1,459 Mbps   7.68 us/frame
+#     neon   243,563 frames/s   2,728 Mbps   4.11 us/frame     1.87x
+#
+# Wire safety: verified byte-identical ciphertext between the two backends across
+# 48 vectors spanning block boundaries (0/1/31/63/64/65/127/128/129/1400/2047/2048
+# bytes x 4 nonces), with decrypt round-trip passing on both -- fnv1a
+# 8c2a5370a47d0b60 either way. Same cipher, different implementation; nothing the
+# deployed fleet can observe.
+#
+# aarch64 only on purpose: the backend is `target_arch = "aarch64"` gated, so the
+# flag is inert for armeabi-v7a. NEON is mandatory in ARMv8, so there is no device
+# split to worry about and no need for per-CPU library variants.
+#
+# The "force" in the name is historical -- the backend needed nightly intrinsics
+# when 0.9.1 shipped. It builds on stable (verified, rustc 1.91.1).
+#
+# Path scrubbing rides in the same table on purpose: for a given target triple,
+# [target.<triple>] rustflags REPLACES [build] rustflags, so remaps must live
+# here or they silently vanish from the android build. Panic and Location
+# strings otherwise embed /Users/... and the registry cache into the shipped
+# .so; everything home-rooted collapses to "x".
+[target.aarch64-linux-android]
+rustflags = [
+  "--cfg", "chacha20_force_neon",
+  "--remap-path-prefix=/Users/architect=x",
+]
+
+[target.armv7-linux-androideabi]
+rustflags = [
+  "--remap-path-prefix=/Users/architect=x",
+]
+
+# Non-android (macos dev/test builds): same scrubbing via [build]. Android
+# targets don't read this table (their [target] tables replace it), so no
+# duplication effect there.
+[build]
+rustflags = [
+  "--remap-path-prefix=/Users/architect=x",
+]

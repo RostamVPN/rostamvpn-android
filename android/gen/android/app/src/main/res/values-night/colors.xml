@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Dark mode launch ground. FALLBACKS ONLY, same as res/values/colors.xml:
+      each brand overlays res/values-night/launch_colors.xml.
+
+      launch_bg is #121212 because that is RostamDarkColorScheme.background
+      (Theme.kt), which is brand neutral, so the departure has nothing to reveal.
+      It is also, not by coincidence, the top stop of the iOS dark launch
+      gradient: the two platforms agree here without either being adjusted.
+
+      NOTE: this resolves against the SYSTEM night mode, which is what the system
+      splash uses too. The in-app Settings theme (auto/light/dark) cannot reach
+      it, because the starting window is built before attachBaseContext runs and
+      no configuration override can get there. A user who has FORCED the opposite
+      of their system theme therefore sees the overlay agree with the splash and
+      cross fade into the app over the 250ms departure, rather than a hard cut at
+      the hand-off the app cannot animate.
+    -->
+    <color name="launch_bg">#FF121212</color>
+    <color name="launch_bg_deep">#FF0E1E25</color>
+    <color name="launch_ink">#FFF0EDE6</color>
+</resources>

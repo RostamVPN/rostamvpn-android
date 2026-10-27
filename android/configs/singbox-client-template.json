@@ -1,0 +1,161 @@
+{
+  "_comment": "RostamVPN sing-box client configuration template",
+  "_server_ip": "192.0.2.23",
+  "_uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+  "_reality_pubkey": "3Zer3wjGml6JkdOA8mAuNSsT0vtv_M2JKQHM6l2naDU",
+  "_reality_short_id": "de6fd351834ba8b7",
+
+  "log": {
+    "level": "debug",
+    "timestamp": true
+  },
+
+  "dns": {
+    "servers": [
+      {"tag": "cloudflare", "address": "1.1.1.1", "strategy": "prefer_ipv4"},
+      {"tag": "google", "address": "8.8.8.8", "strategy": "prefer_ipv4"}
+    ]
+  },
+
+  "inbounds": [
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system"
+    },
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "127.0.0.1",
+      "listen_port": 1080
+    }
+  ],
+
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "reality-443-google",
+      "server": "192.0.2.23",
+      "server_port": 443,
+      "uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3Zer3wjGml6JkdOA8mAuNSsT0vtv_M2JKQHM6l2naDU",
+          "short_id": "de6fd351834ba8b7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "reality-2082-excoino",
+      "server": "192.0.2.23",
+      "server_port": 2082,
+      "uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "excoino.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3Zer3wjGml6JkdOA8mAuNSsT0vtv_M2JKQHM6l2naDU",
+          "short_id": "de6fd351834ba8b7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "reality-22-digikala",
+      "server": "192.0.2.23",
+      "server_port": 22,
+      "uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "digikala.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3Zer3wjGml6JkdOA8mAuNSsT0vtv_M2JKQHM6l2naDU",
+          "short_id": "de6fd351834ba8b7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "ws-8443",
+      "server": "192.0.2.23",
+      "server_port": 8443,
+      "uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "http-8080",
+      "server": "192.0.2.23",
+      "server_port": 8080,
+      "uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+      "transport": {
+        "type": "httpupgrade",
+        "path": "/connect"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "grpc-2087",
+      "server": "192.0.2.23",
+      "server_port": 2087,
+      "uuid": "d286e706-36ec-4cf7-82a8-287e51633b6b",
+      "transport": {
+        "type": "grpc",
+        "service_name": "tunnel"
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ],
+
+  "route": {
+    "rules": [
+      {
+        "protocol": ["dns"],
+        "outbound": "direct"
+      },
+      {
+        "geoip": ["ir", "private"],
+        "outbound": "direct"
+      }
+    ],
+    "final": "reality-443-google",
+    "auto_detect_interface": true
+  }
+}

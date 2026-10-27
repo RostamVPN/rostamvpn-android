@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Screen Tagline - Russian -->
+
+    <!-- About Screen Strings - Russian -->
+    <string name="about_title">Открытый интернет для всех и везде</string>
+    <string name="about_description_1">%1$s даёт вам быстрый и приватный доступ к открытому интернету, чтобы нужные вам сайты и приложения работали где угодно.</string>
+    <string name="about_description_2">%1$s создаётся и управляется международной командой сетевых инженеров и специалистов по безопасности, а также давними защитниками свободы интернета. Более десяти лет мы работаем над усилением цифровой безопасности и защитой открытого, нецензурируемого доступа к информации для всех.</string>
+
+    <!-- About Screen Header - Russian -->
+    <string name="about_screen_title">О %1$s</string>
+
+    <!-- About Screen Sections - Russian -->
+
+    <!-- Server Selection - Connection Mode - Russian -->
+
+    <!-- App Selection - Russian -->
+    <string name="protected_apps">Защищённые приложения</string>
+    <string name="only_selected_apps">Только выбранные приложения будут использовать VPN</string>
+
+    <!-- Theme - Russian -->
+    <string name="appearance">Оформление</string>
+    <string name="theme_auto">Авто</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+
+    <!-- Settings - Russian -->
+    <string name="settings">Параметры</string>
+    <string name="share_debug_log">Поделиться журналом отладки</string>
+    <string name="about">О программе</string>
+    <string name="version_format">Версия %s</string>
+
+    <!-- DNS Resolver Settings - Russian -->
+
+    <!-- Open Source Screen - Russian -->
+    <string name="open_source_libraries">Библиотеки с открытым исходным кодом</string>
+
+    <!-- Privacy Policy Screen - Russian -->
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="effective_date">Дата вступления в силу: 3 февраля 2026</string>
+
+    <!-- Main Screen Status - Russian -->
+    <string name="vpn_on">VPN включён</string>
+    <string name="vpn_off">VPN выключен</string>
+    <string name="connecting">Подключение…</string>
+    <string name="connection_failed">Ошибка подключения</string>
+    <string name="tap_to_connect">Нажмите для подключения</string>
+    <string name="tap_to_disconnect">Нажмите для отключения</string>
+    <string name="connecting_to_server">Подключение к серверу…</string>
+    <string name="cd_menu">Меню</string>
+
+    <!-- Auto-failover status - Russian -->
+    <string name="trying_server">Пробуем следующий сервер…</string>
+
+    <!-- Traffic Display - Russian -->
+
+    <!-- QR Config - Russian -->
+    <string name="qr_config">QR-конфигурация</string>
+
+    <!-- Messages Screen - Russian -->
+
+    <!-- Hardcoded strings - Russian -->
+    <string name="tap_to_cancel">Нажмите для отмены</string>
+    <string name="close_menu">Закрыть меню</string>
+    <string name="made_in_usa">Сделано в США</string>
+
+    <!-- Network Scanner -->
+    <string name="region_label">Регион</string>
+    <string name="region_automatic">Автоматически</string>
+    <string name="region_auto_hint">Выбирает самый быстрый доступный регион</string>
+    <string name="region_location_hint">Подключиться через эту локацию</string>
+    <string name="region_locked_hint">Автоматически — выбор региона в Premium</string>
+    <string name="go_premium">Premium</string>
+    <string name="premium_tagline">Всегда полная скорость · любой регион</string>
+    <string name="upgrade">Улучшить</string>
+    <string name="language">Язык</string>
+    <string name="language_auto">Автоматически (по региону)</string>
+    <string name="settings_connection">Подключение</string>
+    <string name="connection_hint">Авто выбирает лучший путь. Переопределите при необходимости.</string>
+    <string name="premium">Премиум</string>
+    <string name="usage_stats">Статистика трафика</string>
+    <string name="usage_total_used">Всего использовано</string>
+    <string name="usage_this_session">Эта сессия</string>
+    <string name="usage_free_allowance">Бесплатный объём</string>
+    <string name="usage_device_note">Итог считается на этом устройстве за все сессии.</string>
+    <string name="usage_used_up">Бесплатный трафик исчерпан — оформите Премиум</string>
+    <string name="data_free_remaining">осталось %1$s</string>
+    <string name="data_free_out">Бесплатные данные израсходованы</string>
+    <string name="data_free_low_cta">Заканчивается — обновите, чтобы сохранить полную скорость</string>
+    <string name="data_free_out_cta">Хотите полную скорость? Оформите Premium.</string>
+    <string name="speed_state_full">Полная скорость</string>
+    <string name="speed_state_reduced">Пониженная скорость</string>
+    <string name="premium_title_throttled">Верните полную скорость</string>
+    <string name="premium_tagline_throttled">Хотите полную скорость? Оформите Premium.</string>
+
+    <!-- QR config - Russian -->
+    <string name="scan_qr_code">Сканировать QR-код</string>
+    <string name="scan_another">Сканировать ещё</string>
+    <string name="regenerate_qr">Обновить QR</string>
+    <string name="qr_config_applied_ok">Новые серверы добавлены — они будут использованы при следующем подключении</string>
+    <string name="qr_share_title">Поделитесь своими серверами</string>
+    <string name="qr_share_body">Тот, у кого соединение заблокировано, может отсканировать этот код и получить рабочие серверы.</string>
+    <string name="qr_share_count">Серверов включено: %1$d</string>
+    <string name="qr_share_unavailable">Сейчас нет опубликованного кода для передачи</string>
+    <string name="qr_share_unverified">Этот код не прошёл проверку и не был показан</string>
+
+    <!-- Paywall / restore - Russian -->
+    <string name="premium_active">Premium активен ✓</string>
+    <string name="restore_code_hint">Код восстановления — используйте Premium на другом устройстве:</string>
+    <string name="loading_plans">Загрузка тарифов…</string>
+    <string name="already_premium_restore">Уже есть Premium? Восстановите по коду</string>
+    <string name="account_code">Код аккаунта</string>
+    <string name="restore">Восстановить</string>
+    <string name="restore_none">На этом аккаунте магазина подписка не найдена</string>
+
+    <!-- App selection - Russian -->
+    <string name="search_apps">Поиск приложений…</string>
+
+    <!-- Connection status (toasts and connect button) - Russian -->
+    <string name="status_starting_vpn">Запуск VPN…</string>
+    <string name="status_finding_path">Поиск быстрого пути…</string>
+    <string name="status_connected">Подключено · %1$s</string>
+    <string name="status_disconnected">Отключено</string>
+    <string name="status_failed">Ошибка подключения: %1$s</string>
+
+    <!-- Entry flow: splash, welcome, sign-in - Russian -->
+    <string name="splash_tagline">Страж на линии</string>
+    <string name="welcome_title">Защитник вашего соединения</string>
+    <!-- The single word inside welcome_title to highlight. It must appear in
+         welcome_title verbatim or no highlight is drawn (the title still shows). -->
+    <string name="welcome_title_accent">Защитник</string>
+    <string name="welcome_body">Спокойно, бдительно, непреклонно. %1$s стоит между вами и открытым интернетом.</string>
+    <string name="get_started">Начать</string>
+    <string name="signin_title">Добро пожаловать в %1$s</string>
+    <string name="signin_subtitle">Войдите, чтобы Premium работал на всех ваших устройствах, или просто продолжите — приложение работает и без аккаунта.</string>
+    <string name="continue_with_google">Продолжить с Google</string>
+    <string name="continue_with_apple">Продолжить с Apple</string>
+    <string name="have_account_code">У меня есть код аккаунта</string>
+    <string name="continue_as_guest">Продолжить без аккаунта</string>
+    <string name="back_action">Назад</string>
+    <string name="signin_unavailable">Вход сейчас недоступен. Вы можете продолжать пользоваться приложением без аккаунта.</string>
+
+    <!-- Account screen (Settings -> Account) -->
+    <string name="account">Аккаунт</string>
+    <string name="account_free_title">На этом устройстве нет подписки</string>
+    <string name="account_free_body">%1$s работает без аккаунта. Premium приходит из вашей покупки в магазине. Нажмите Восстановить, чтобы перенести его на новое устройство.</string>
+    <string name="account_premium_title">Premium активен</string>
+    <string name="account_plan">Тариф</string>
+    <string name="account_renews">Продление %1$s</string>
+    <string name="account_expires">Истекает %1$s</string>
+    <string name="already_subscribed">Уже есть подписка? Войдите, чтобы восстановить</string>
+    <string name="account_signed_in">Вы вошли \u2014 подписка привязана к этому аккаунту</string>
+
+    <!-- Paywall — hero, plan rows, rails. -->
+    <string name="paywall_eyebrow">%1$s ПРЕМИУМ</string>
+    <string name="paywall_headline">Быстрый путь наружу.</string>
+    <string name="paywall_subhead">Ничего на пути.</string>
+    <string name="paywall_perk_regions_title">Все регионы</string>
+    <string name="paywall_perk_regions_body">Подключайтесь откуда угодно, переключайтесь когда угодно.</string>
+    <string name="paywall_perk_speed_title">Всегда полная скорость</string>
+    <string name="paywall_perk_speed_body">Без лимита и без замедления.</string>
+    <string name="plan_period_weekly">Еженедельно</string>
+    <string name="plan_period_monthly">Ежемесячно</string>
+    <string name="plan_period_3month">Каждые 3 месяца</string>
+    <string name="plan_period_6month">Каждые 6 месяцев</string>
+    <string name="plan_period_yearly">Ежегодно</string>
+    <string name="plan_save_badge">СКИДКА %1$d%%</string>
+    <string name="plan_save_vs_monthly">Экономия %1$d%% по сравнению с месячным</string>
+    <string name="plans_unavailable">Тарифы сейчас недоступны. Попробуйте позже.</string>
+    <string name="start_free_trial">Начать бесплатный период</string>
+    <string name="pay_with_card">Оплатить картой</string>
+    <string name="pay_with_crypto">Оплатить криптовалютой</string>
+    <string name="pay_alipay">Alipay</string>
+    <string name="pay_wechat">WeChat Pay</string>
+    <string name="paywall_disclosure_play">Продлевается автоматически до отмены. Отменить можно в любой момент в \u2068Google Play \u203A Subscriptions\u2069.</string>
+    <string name="paywall_disclosure_stripe">Карты, Apple Pay и Google Pay \u2014 защищено Stripe. Продлевается до отмены.</string>
+    <string name="paywall_disclosure_crypto">Bitcoin, USDT и другие монеты. Без карты и без банка \u2014 ничто не связывает платёж с вами.</string>
+    <string name="paywall_disclosure_paymentwall">Карты и местные способы оплаты. Продлевается до отмены.</string>
+    <string name="paywall_disclosure_china">Премиум включается автоматически сразу после оплаты, со сквозным шифрованием.</string>
+    <string name="cd_close">Закрыть</string>
+
+    <!-- Split tunnelling (app selector) -->
+    <string name="split_tunnel_title">Приложения и VPN</string>
+    <string name="split_mode_exclude">Все приложения, кроме выбранных</string>
+    <string name="split_mode_exclude_desc">Выбранные приложения идут в обход VPN и подключаются напрямую. Используйте это для банковских и других локальных приложений.</string>
+    <string name="split_mode_include">Только выбранные приложения</string>
+    <string name="split_state_all">Все приложения используют VPN</string>
+    <string name="split_state_none">Ни одно приложение не использует VPN</string>
+    <string name="split_state_bypass">%1$d из %2$d приложений идут в обход VPN</string>
+    <string name="split_state_only">%1$d из %2$d приложений используют VPN</string>
+    <string name="split_reconnect_note">Изменения переподключают VPN.</string>
+    <string name="select_recommended">Рекомендуемые</string>
+    <string name="select_all">Все</string>
+    <string name="select_none">Ничего</string>
+
+    <!-- Paywall and free-data meter -->
+    <string name="speed_state_limited">Ограничено до %1$s</string>
+    <string name="data_free_low_note">После этого продолжит работать на %1$s. Премиум остаётся на полной скорости.</string>
+    <string name="data_free_out_note">Подключение сохраняется, на %1$s. Премиум возвращает полную скорость.</string>
+    <string name="data_free_one_time">Ежемесячный объём</string>
+    <string name="premium_title_default">Безлимитный трафик, всегда полная скорость</string>
+    <string name="premium_body_default">Премиум · все регионы · без рекламы</string>
+    <string name="paywall_headline_offer">Безлимит. Полная скорость. Без рекламы.</string>
+    <string name="paywall_subhead_offer">Бесплатный объём обновляется каждый месяц. Premium не заканчивается.</string>
+    <string name="paywall_subhead_throttled">Сейчас скорость ограничена до %1$s. Премиум снимает ограничение.</string>
+    <string name="plan_hero_unit">в месяц</string>
+    <string name="paywall_perk_data_title">Безлимитный трафик</string>
+    <string name="paywall_perk_data_body">Бесплатный объём обновляется каждый месяц. У Premium нет лимита.</string>
+    <string name="paywall_perk_data_body_once">Бесплатный объём даётся один раз. С Premium трафик никогда не заканчивается.</string>
+    <string name="paywall_perk_speed_body_limit">Когда бесплатный трафик закончится, скорость падает до %1$s. У Премиума — никогда.</string>
+    <string name="paywall_perk_ads_title">Без рекламы</string>
+    <string name="paywall_perk_ads_body">Никакой полноэкранной рекламы при подключении.</string>
+    <string name="paywall_reassure">Не нужны ни аккаунт, ни почта.</string>
+    <string name="plan_per_month">%1$s в месяц</string>
+    <string name="proof_downloads">Более %1$s загрузок</string>
+    <string name="proof_rating">%1$s на основе %2$s отзывов</string>
+    <string name="bypass_title">Адреса в обход VPN</string>
+    <string name="bypass_desc">Трафик к этим IP-адресам и диапазонам идёт напрямую, из любого приложения. Подходит для местных банковских и государственных сервисов, которые не принимают иностранные адреса.</string>
+    <string name="bypass_hint">IP или диапазон, например 192.168.1.0/24</string>
+    <string name="bypass_add">Добавить</string>
+    <string name="bypass_remove">Удалить</string>
+    <string name="bypass_invalid">Введите IP-адрес или диапазон, например 10.0.0.0/8</string>
+    <string name="bypass_none">Список пуст — весь трафик идёт через VPN</string>
+    <string name="bypass_count">Адресов в обход VPN: %1$d</string>
+    <string name="bypass_over_budget">Записей не применено на этом устройстве: %1$d — они по-прежнему идут через VPN. Удалите часть записей или используйте более широкие диапазоны.</string>
+    <string name="restore_ok">Premium восстановлен</string>
+    <string name="restore_invalid">Код недействителен</string>
+    <string name="open_source_intro">%1$s создан с помощью следующих проектов с открытым исходным кодом.</string>
+    <string name="cd_back">Назад</string>
+    <string name="paywall_perk_ixp_title">Наше собственное оборудование</string>
+    <string name="paywall_perk_ixp_body">Большинство VPN арендуют дешёвые виртуальные серверы. Наши стоят внутри точек обмена трафиком, где сходятся крупнейшие сети мира — короче путь и быстрее приложение.</string>
+    <string name="onboarding_plans_title">Бесплатно или Premium</string>
+    <string name="onboarding_plans_body">В бесплатном есть месячный объём на полной скорости, затем безлимитный трафик на пониженной скорости с рекламой. Premium убирает лимит, замедление и рекламу.</string>
+    <string name="continue_label">Продолжить</string>
+    <string name="skip_label">Пропустить</string>
+    <string name="rate_app">Оценить %1$s</string>
+    <string name="esim_mine">Мои eSIM</string>
+    <string name="esim_purchase_unavailable">Покупка eSIM пока недоступна в этой версии.</string>
+    <string name="esim_install">Установить на этот телефон</string>
+    <string name="esim_install_failed">Не удалось установить автоматически. Отсканируйте QR-код или введите коды ниже.</string>
+    <string name="esim_installed">eSIM установлена. Она может появиться в Настройках через минуту.</string>
+    <string name="esim_activation_code">Код активации</string>
+    <string name="esim_copy">Копировать</string>
+    <string name="esim_copied">Скопировано</string>
+    <string name="esim_none">На этом устройстве пока нет eSIM.</string>
+    <string name="esim_load_failed">Не удалось загрузить ваши eSIM. Проверьте подключение и попробуйте снова.</string>
+    <string name="esim_retry">Повторить</string>
+    <string name="esim_left_of">Осталось %1$s из %2$s</string>
+    <string name="esim_status_ready">Готова к установке</string>
+    <string name="esim_status_active">Активна</string>
+    <string name="esim_status_used">Израсходована</string>
+    <string name="esim_status_expired">Истекла</string>
+    <string name="esim_account">Аккаунт и восстановление</string>
+    <string name="tabs_connect">Подключение</string>
+    <string name="tabs_passes">eSIM</string>
+    <string name="tabs_account">Аккаунт</string>
+    <string name="tabs_status_protected">Защищено · сегодня заблокировано: %1$d</string>
+    <string name="tabs_status_connected">Подключено</string>
+    <string name="tabs_status_connecting">Подключение…</string>
+    <string name="tabs_status_failed">Не удалось подключиться. Нажмите, чтобы повторить.</string>
+    <string name="tabs_status_off">Выкл.</string>
+    <string name="tabs_guardian_open">Посмотреть, что отклонено</string>
+    <string name="tabs_ring_connect">Подключить</string>
+    <string name="tabs_ring_disconnect">Отключить</string>
+    <string name="tabs_ring_cancel">Подключение, нажмите для отмены</string>
+    <string name="tabs_elapsed">Время</string>
+    <string name="tabs_download">Загрузка</string>
+    <string name="tabs_upload">Отдача</string>
+    <string name="tabs_route">Маршрут</string>
+    <string name="tabs_route_auto">Автоматически</string>
+    <string name="tabs_disconnect">Отключить</string>
+    <string name="tabs_guardian_title">Страж</string>
+    <string name="tabs_guardian_on">Отклонённые и помеченные соединения за последние 30 дней.</string>
+    <string name="tabs_guardian_off">Защита выключена. Ничего не отклоняется.</string>
+    <string name="tabs_guardian_empty">Пока ничего не отклонено.</string>
+    <string name="tabs_guardian_row">Порт %1$d · %2$s · %3$s</string>
+    <string name="tabs_allow">Разрешить</string>
+    <string name="tabs_allowed">Разрешено</string>
+    <string name="tabs_rules">Правила</string>
+    <string name="tabs_rules_master">Защита</string>
+    <string name="tabs_rules_master_sub">Отклонять соединения с известными вредоносными сайтами.</string>
+    <string name="tabs_rules_categories">Отклоняется по категориям</string>
+    <string name="tabs_rules_allow">Всегда разрешать</string>
+    <string name="tabs_rules_deny">Всегда отклонять</string>
+    <string name="tabs_rules_empty">Пока ничего нет.</string>
+    <string name="tabs_rules_remove">Удалить</string>
+    <string name="tabs_rules_hint">Сайт или адрес</string>
+    <string name="tabs_rules_add">Добавить</string>
+    <string name="tabs_passes_title">eSIM</string>
+    <string name="tabs_store">Магазин</string>
+    <string name="tabs_my_passes">Мои eSIM</string>
+    <string name="tabs_where">Куда вы едете?</string>
+    <string name="tabs_search_hint">Страна, город или регион</string>
+    <string name="tabs_from">от %1$s</string>
+    <string name="tabs_all_destinations">Все направления</string>
+    <string name="tabs_how_long">Сколько длится поездка?</string>
+    <string name="tabs_days">Дней: %1$d</string>
+    <string name="tabs_how_much">Как вы пользуетесь интернетом?</string>
+    <string name="tabs_usage_maps">Карты и сообщения</string>
+    <string name="tabs_usage_socials">Соцсети и сайты</string>
+    <string name="tabs_usage_streaming">Видео и стриминг</string>
+    <string name="tabs_need">Около %1$s ГБ на %2$d дн.</string>
+    <string name="tabs_recommended">РЕКОМЕНДУЕМ</string>
+    <string name="tabs_plan_line">%1$s · %2$d дн.</string>
+    <string name="tabs_buy">Купить</string>
+    <string name="tabs_number_row">С местным номером: %1$d мин · %2$s · %3$d дн.</string>
+    <string name="tabs_see_all">Все тарифы</string>
+    <string name="tabs_hide_all">Скрыть тарифы</string>
+    <string name="tabs_unlimited">Безлимит</string>
+    <string name="tabs_refund">Вернём деньги, если eSIM не активируется.</string>
+    <string name="tabs_no_passes">eSIM пока нет</string>
+    <string name="tabs_no_passes_body">Купите eSIM, и она установится на телефон за секунды. Не нужно менять SIM-карту, а ваш основной номер остаётся включённым для звонков.</string>
+    <string name="tabs_browse">Выбрать eSIM</string>
+    <string name="tabs_status_active">Активен</string>
+    <string name="tabs_status_ready">Готов</string>
+    <string name="tabs_status_used">Израсходован</string>
+    <string name="tabs_status_expired">Истёк</string>
+    <string name="tabs_used">Использовано: %1$s</string>
+    <string name="tabs_left">Осталось: %1$s</string>
+    <string name="tabs_install">Установить</string>
+    <string name="tabs_topup">Пополнить</string>
+    <string name="tabs_install_title">Установите eSIM</string>
+    <string name="tabs_install_here">Установить на этот телефон</string>
+    <string name="tabs_install_other">Или отсканируйте этот код с другого телефона: Настройки, затем Мобильные данные, затем Добавить тариф.</string>
+    <string name="tabs_installed">eSIM установлена. Она может появиться в Настройках через минуту.</string>
+    <string name="tabs_install_failed">Не удалось установить автоматически. Отсканируйте код или введите данные ниже.</string>
+    <string name="tabs_topup_none">Эту eSIM нельзя пополнить. Купите новую.</string>
+    <string name="tabs_checkout">Оформление</string>
+    <string name="tabs_pay_unavailable">Покупка eSIM в этой версии пока недоступна.</string>
+    <string name="tabs_load_failed">Не удалось загрузить. Проверьте подключение.</string>
+    <string name="tabs_retry">Повторить</string>
+    <string name="tabs_pro">Про</string>
+    <string name="tabs_per_month">%1$s / месяц</string>
+    <string name="tabs_active_until">Активен до %1$s</string>
+    <string name="tabs_active">Активен</string>
+    <string name="tabs_not_active">Не активен</string>
+    <string name="tabs_go_pro">Перейти на Про</string>
+    <string name="tabs_renews">Продлевается ежемесячно. Отмена в любой момент.</string>
+    <string name="tabs_restore_code">Код восстановления</string>
+    <string name="tabs_other_device">Использовать на другом устройстве</string>
+    <string name="tabs_code_body">Этот код и есть ваш аккаунт. Сохраните его в надёжном месте и введите на новом телефоне, чтобы восстановить Про.</string>
+    <string name="tabs_legal">Правовая информация</string>
+    <string name="tabs_guardian_updated">Список защиты обновлён: %1$s</string>
+    <string name="tabs_notified">Помечено</string>
+    <string name="tabs_notices">Уведомления</string>
+    <string name="tabs_rules_toggles">Категории</string>
+    <string name="tabs_second_number">Второй номер</string>
+    <string name="tabs_second_number_body">Местный номер с интернетом, минутами и SMS. У него есть срок действия; чтобы сохранить номер, пополните его заранее.</string>
+    <string name="tabs_number_where">Номер какой страны?</string>
+    <string name="tabs_number_note">Начинает действовать при первом подключении. Чтобы сохранить номер, пополните его сами до окончания срока.</string>
+    <string name="tabs_number_line">%1$s · %2$d мин · %3$d SMS</string>
+    <string name="tabs_expires_on">Действует до %1$s</string>
+    <string name="tabs_starts_on_connect">Начинает действовать при первом подключении</string>
+    <string name="tabs_voice_sms_left">Осталось: %1$d мин · %2$d SMS</string>
+    <string name="tabs_reload_keep">Пополните, чтобы сохранить номер</string>
+    <string name="tabs_reload_within">Пополните в течение %1$d дн., чтобы сохранить номер</string>
+    <string name="tabs_not_reloadable">Этот номер нельзя пополнить; он закончится %1$s</string>
+    <string name="tabs_not_reloadable_nodate">Этот номер нельзя пополнить</string>
+    <string name="tabs_number_ended">Срок действия этого номера закончился</string>
+    <string name="tabs_number_label">Ваш номер</string>
+    <string name="tabs_number_label_hint">Ваш номер указан в разделе «Статус SIM-карты»</string>
+    <string name="tabs_save">Сохранить</string>
+    <string name="tabs_edit">Изменить</string>
+    <string name="tabs_alerts_channel">Уведомления eSIM</string>
+    <string name="tabs_alert_expired">%1$s: срок действия eSIM истёк.</string>
+    <string name="tabs_alert_expired_number">%1$s: срок действия eSIM истёк. Пополните в течение %2$d дн., чтобы сохранить номер.</string>
+    <string name="tabs_alert_grace">%1$s: пополните в течение %2$d дн., чтобы сохранить номер.</string>
+    <string name="tabs_alert_data">%1$s: израсходовано %2$d%% трафика.</string>
+    <string name="tabs_reload">Пополнить</string>
+    <string name="tabs_offline_pay">Нет подключения. Для покупки нужен интернет.</string>
+    <string name="tabs_offline_saved">Сохранённые цены с прошлого визита. Они могли измениться.</string>
+    <string name="tabs_runout">При таком расходе трафик закончится примерно %1$s.</string>
+    <string name="tabs_add_topup">Добавить %1$s · %2$s</string>
+    <string name="tabs_esim_code">Код доступа eSIM</string>
+    <string name="tabs_esim_code_body">Введите этот код на другом телефоне или на e-sim.net, чтобы увидеть там свои eSIM. Держите его в тайне: он открывает коды установки ваших eSIM.</string>
+    <string name="tabs_esim_restore">Восстановить eSIM с другого телефона</string>
+    <string name="tabs_esim_restored">eSIM перенесено на этот телефон: %1$d</string>
+    <string name="tabs_esim_code_bad">Такой код не найден. Проверьте его и попробуйте снова.</string>
+    <string name="tabs_sort_total">Дешевле</string>
+    <string name="tabs_sort_per_gb">За GB</string>
+    <string name="tabs_sort_per_day">За день</string>
+    <string name="tabs_best_value">Лучшая цена</string>
+    <string name="tabs_signin_body">Войдите, чтобы видеть eSIM, купленные на ваш email, на любом телефоне.</string>
+    <string name="tabs_signin_google">Продолжить с Google</string>
+    <string name="tabs_signin_apple">Продолжить с Apple</string>
+    <string name="tabs_signed_in_as">Вы вошли как %1$s</string>
+    <string name="tabs_sign_out">Выйти</string>
+    <string name="tabs_delete_account">Удалить аккаунт eSIM</string>
+    <string name="tabs_delete_body">Ваш email будет удалён из заказов eSIM, и вы выйдете. Ваши eSIM останутся на этом телефоне.</string>
+    <string name="tabs_delete_confirm">Удалить</string>
+    <string name="tabs_deleted">Ваш аккаунт eSIM удалён.</string>
+    <string name="tabs_expiry_unavailable">Дата окончания сейчас недоступна</string>
+    <string name="tabs_alert_exp_days">%1$s: до окончания срока eSIM осталось дней: %2$d.</string>
+    <string name="tabs_alert_exp_tomorrow">%1$s: срок действия eSIM истекает завтра.</string>
+    <string name="tabs_alert_ends_on">%1$s: заканчивается %2$s. Эту линию нельзя пополнить.</string>
+    <string name="tabs_alert_reload_hint">Пополните, чтобы продолжить пользоваться.</string>
+    <string name="tabs_tile_protected">Защищено</string>
+    <string name="tabs_widget_desc">Подключение, заблокированное сегодня и трафик eSIM на одном экране</string>
+    <string name="tabs_widget_blocked">Сегодня заблокировано: %1$d</string>
+    <string name="tabs_live_esim">%1$s · Осталось: %2$s, до %3$s</string>
+    <string name="tabs_live_esim_left">%1$s · Осталось: %2$s</string>
+    <string name="tabs_live_days_left">Осталось дней: %1$d</string>
+    <string name="tabs_live_route">Маршрут: %1$s</string>
+    <string name="tabs_live_session">Этот сеанс: ↓ %1$s · ↑ %2$s</string>
+    <string name="tabs_includes_pro_days">Включает %2$s, дней: %1$d</string>
+    <string name="link_signin_confirm">Войти в аккаунт, который открыл эту ссылку на %1$s? Это устройство будет использовать тариф этого аккаунта.</string>
+    <string name="link_claim_confirm">Восстановить по коду аккаунта из этой ссылки? Это устройство будет использовать тариф этого кода.</string>
+    <!-- BEGIN generated by android/tools/i18n/xcstrings_to_android.py from the iOS catalog. Do not edit by hand. -->
+    <string name="home_upgrade">Улучшить</string>
+    <string name="home_data_line">eSIM для поездок и номер США в одном приложении</string>
+    <string name="home_travel_esim">eSIM для поездок</string>
+    <string name="home_countries_170">Более 170 стран</string>
+    <string name="home_us_number">Номер США</string>
+    <string name="home_second_line">Вторая линия</string>
+    <string name="home_free_helper">Безопасная связь, куда бы вы ни поехали</string>
+    <string name="home_connected">Подключено</string>
+    <string name="home_connecting">Подключение…</string>
+    <string name="home_disconnecting">Отключение</string>
+    <string name="home_failed">Не удалось подключиться</string>
+    <string name="home_not_connected">Не подключено</string>
+    <string name="home_try_again_long">Повторите попытку или проверьте сеть.</string>
+    <string name="home_try_again">Повторить</string>
+    <string name="shop_where">Куда едете?</string>
+    <string name="shop_search">Страна, регион или город</string>
+    <string name="shop_clear">Очистить</string>
+    <string name="shop_local_helper">Одна страна — одна eSIM. Указана цена самого дешёвого тарифа.</string>
+    <string name="shop_regional_helper">Несколько стран на одной eSIM. Указана цена самого дешёвого тарифа.</string>
+    <string name="shop_global_helper">Одна eSIM почти для всего мира. Указана цена самого дешёвого тарифа.</string>
+    <string name="shop_near_me">Рядом</string>
+    <string name="shop_americas">Америка</string>
+    <string name="shop_middle_east">Ближний Восток</string>
+    <string name="shop_your_country">Ваша страна</string>
+    <string name="shop_no_match">Нет направлений по запросу «%1$s».</string>
+    <string name="shop_try_nearby">Попробуйте соседнюю страну или региональную eSIM.</string>
+    <string name="shop_results">Результаты</string>
+    <string name="shop_from">от</string>
+    <string name="shop_real_us_number">Настоящий номер США</string>
+    <string name="shop_us_number_sub">Номер США как вторая линия</string>
+    <string name="shop_dest_unavailable">Это направление недоступно.</string>
+    <string name="shop_try_again">Повторить</string>
+    <string name="shop_data_plans">Тарифы с интернетом</string>
+    <string name="shop_data_only">Только интернет. Основной номер остаётся для звонков и SMS.</string>
+    <string name="shop_with_number">С номером телефона</string>
+    <string name="shop_with_number_sub">Местный номер этой страны с интернетом, минутами и SMS.</string>
+    <string name="shop_supports_esim">Проверено автоматически · поддерживает eSIM</string>
+    <string name="shop_no_esim_support">Он не поддерживает eSIM, поэтому eSIM для поездок сюда не установить.</string>
+    <string name="shop_install_now">Установите сейчас — заработает, когда вы прилетите и подключитесь.</string>
+    <string name="shop_delivered">Тарифы предоставляет e-sim.net.</string>
+    <string name="shop_plans_from">Тарифы от %1$s</string>
+    <string name="shop_trip_length">Длительность поездки</string>
+    <string name="shop_how_you_use">Как вы пользуетесь интернетом</string>
+    <string name="shop_light">Светлая</string>
+    <string name="shop_heavy">Много</string>
+    <string name="shop_recommended_for">Рекомендуем на %1$s</string>
+    <string name="shop_your_trip">Ваша поездка</string>
+    <string name="shop_buy_now">Купить сейчас</string>
+    <string name="shop_per_day">%1$s/день</string>
+    <string name="shop_one_day">1 день</string>
+    <string name="shop_number_plan">Номер телефона + %1$d мин + %2$d SMS</string>
+    <string name="shop_checkout">Оформление заказа</string>
+    <string name="shop_top_up">Пополнить</string>
+    <string name="shop_cancel">Отменить</string>
+    <string name="shop_your_plan">Ваш тариф</string>
+    <string name="shop_esim_with_number">eSIM с номером телефона</string>
+    <string name="shop_data_esim">eSIM для интернета</string>
+    <string name="shop_valid_for">Срок действия</string>
+    <string name="shop_calls_texts">Звонки и SMS</string>
+    <string name="shop_min_texts">%1$d мин · %2$d SMS</string>
+    <string name="shop_network">Сеть</string>
+    <string name="shop_adds_to">Пополнение eSIM</string>
+    <string name="shop_pay_with">Способ оплаты</string>
+    <string name="shop_card">Карта</string>
+    <string name="shop_discount_code">Промокод</string>
+    <string name="shop_apply">Применить</string>
+    <string name="shop_code_applied">Код %1$s применён: скидка %2$s</string>
+    <string name="shop_add_code">Добавить промокод</string>
+    <string name="shop_price">Цена</string>
+    <string name="shop_discount">Скидка</string>
+    <string name="shop_one_payment">Разовый платёж, без подписки. Цены в долларах США.</string>
+    <string name="shop_send_exactly">Отправьте ровно %1$s %2$s в сети %3$s</string>
+    <string name="shop_wallet_code">Платёжный код для кошелька</string>
+    <string name="shop_amount_unique">Сумма уникальна для этого заказа. Отправьте её одним переводом с любого кошелька или биржи.</string>
+    <string name="shop_amount">Сумма (%1$s)</string>
+    <string name="shop_address">Адрес (%1$s)</string>
+    <string name="shop_open_wallet">Открыть в кошельке</string>
+    <string name="shop_waiting_payment">Ожидание оплаты</string>
+    <string name="shop_send_before">Отправьте до %1$s. Обычно платёж приходит за минуту.</string>
+    <string name="shop_coinbase">Другие монеты через Coinbase</string>
+    <string name="shop_pay_crypto_title">Оплата криптовалютой</string>
+    <string name="shop_pay">Оплатить %1$s</string>
+    <string name="shop_pay_in_crypto">Оплатить %1$s криптовалютой</string>
+    <string name="shop_too_many">Слишком много попыток. Подождите несколько минут и повторите.</string>
+    <string name="shop_sheet_failed">Не удалось открыть окно оплаты.</string>
+    <string name="shop_unexpected">Неожиданный ответ от e-sim.net. Обновите приложение или попробуйте ещё раз.</string>
+    <string name="shop_offline_pay">Нет подключения. Подключитесь, чтобы оплатить.</string>
+    <string name="shop_copy">Копировать</string>
+    <string name="shop_copy_code">Копировать код</string>
+    <string name="shop_your_esim">Ваша eSIM</string>
+    <string name="shop_order">Заказ</string>
+    <string name="shop_confirming">Подтверждаем оплату</string>
+    <string name="shop_setting_up">Настраиваем eSIM</string>
+    <string name="shop_under_minute">Обычно это занимает меньше минуты. Можно закрыть этот экран — eSIM появится в разделе «Мои eSIM».</string>
+    <string name="shop_payment">Оплата</string>
+    <string name="shop_ready_install">Готов к установке</string>
+    <string name="shop_order_id">Заказ %1$s</string>
+    <string name="shop_refunded">Деньги за заказ возвращены</string>
+    <string name="shop_setup_failed">Не удалось настроить eSIM</string>
+    <string name="shop_payment_safe">Ваши деньги в безопасности. Напишите на support@e-sim.net, указав заказ %1$s, — мы всё исправим или вернём деньги.</string>
+    <string name="shop_email_support">Написать в поддержку</string>
+    <string name="shop_close">Закрыть</string>
+    <string name="shop_done">Готово</string>
+    <string name="shop_ready">Ваша eSIM готова</string>
+    <string name="shop_your_number">Ваш номер</string>
+    <string name="shop_install_esim">Установить eSIM</string>
+    <string name="shop_install_code">Код для установки этой eSIM</string>
+    <string name="shop_smdp">Адрес SM-DP+</string>
+    <string name="shop_activation_code">Код активации</string>
+    <string name="shop_install">Установить</string>
+    <string name="shop_other_ways">Другие способы установки</string>
+    <string name="shop_install_guide">Открыть инструкцию по установке</string>
+    <string name="shop_open_settings">Открыть Настройки</string>
+    <string name="shop_my_esims">Мои eSIM</string>
+    <string name="shop_no_esims">Пока нет eSIM</string>
+    <string name="shop_no_esims_body">Купите eSIM в Магазине, и она появится здесь. Без физической SIM, а ваш основной номер остаётся включённым для звонков.</string>
+    <string name="shop_past">Прошлые</string>
+    <string name="shop_not_installed">Не установлена</string>
+    <string name="shop_used_up">Израсходован</string>
+    <string name="shop_expired">Истёк</string>
+    <string name="shop_unlimited_data">Безлимитный трафик</string>
+    <string name="shop_left_of">Осталось %1$s из %2$s</string>
+    <string name="shop_one_day_left">Остался 1 день</string>
+    <string name="shop_install_again">Установить снова</string>
+    <string name="shop_installs_once">eSIM устанавливается на телефон один раз. Если вы удалили её в Настройках, повторная установка может не сработать.</string>
+    <string name="shop_not_reloadable">Эту eSIM нельзя пополнить. Вместо неё подойдёт новая eSIM для того же направления.</string>
+    <string name="shop_add_data">Добавить трафик</string>
+    <string name="shop_data_added">Трафик добавится на эту eSIM. Ничего переустанавливать не нужно.</string>
+    <string name="shop_restore_here">Восстановить eSIM на этом телефоне</string>
+    <string name="shop_your_access_code">Ваш код доступа</string>
+    <string name="shop_restore_title">Восстановить eSIM</string>
+    <string name="shop_access_code">Код доступа</string>
+    <string name="shop_find_code">Он есть на другом телефоне в разделе «Мои eSIM › Ваш код доступа» или в письме с чеком.</string>
+    <string name="shop_restore">Восстановить</string>
+    <string name="shop_code_body">Введите этот код на другом устройстве, чтобы увидеть там свои eSIM. Никому его не показывайте: он переносит ваши eSIM.</string>
+    <string name="shop_second_number">Второй номер</string>
+    <string name="shop_from_price">От %1$s</string>
+    <string name="shop_number_body">Местный номер с интернетом, минутами и SMS. Срок действия ограничен; пополните его, чтобы сохранить номер.</string>
+    <string name="shop_number_p1">Вторая линия</string>
+    <string name="shop_number_p1_sub">Ваш основной номер и SIM-карта остаются как есть.</string>
+    <string name="shop_number_p2">Звонки и SMS приходят сюда</string>
+    <string name="shop_number_p3">Без аккаунта и документов</string>
+    <string name="shop_number_p3_sub">Не нужно регистрироваться. Оплатите и установите.</string>
+    <string name="shop_number_p4">Трафик включён</string>
+    <string name="shop_number_p4_sub">Каждый тариф включает мобильный интернет в США.</string>
+    <string name="shop_choose_plan">Выберите тариф</string>
+    <string name="acct_upgrade">Улучшить</string>
+    <string name="acct_free_plan">Бесплатный тариф</string>
+    <string name="acct_manage_sub">Управление подпиской</string>
+    <string name="acct_usage">Статистика трафика</string>
+    <string name="acct_subscription">Подписка</string>
+    <string name="acct_connection">Подключение</string>
+    <string name="acct_settings">Настройки</string>
+    <string name="acct_appearance">Оформление</string>
+    <string name="acct_language">Язык</string>
+    <string name="acct_light">Светлая</string>
+    <string name="acct_dark">Тёмная</string>
+    <string name="acct_automatic">Автоматически</string>
+    <string name="acct_rate">Оценить %1$s</string>
+    <string name="acct_about">О %1$s</string>
+    <string name="acct_privacy">Политика конфиденциальности</string>
+    <string name="acct_terms">Условия использования</string>
+    <string name="acct_support">Поддержка и правовая информация</string>
+    <string name="shop_stablecoins">Стейблкоины USDT · USDC</string>
+    <string name="acct_delete">Удалить аккаунт</string>
+    <string name="acct_delete_title">Удалить аккаунт?</string>
+    <string name="acct_delete_footer">Удаляет аккаунт, его код и историю использования. Подписку не отменяет.</string>
+    <string name="acct_delete_body">Ваш аккаунт и история использования будут удалены сейчас.</string>
+    <string name="acct_deleted">Аккаунт удалён. eSIM на этом телефоне остаются установленными.</string>
+    <!-- END generated from the iOS catalog -->
+    <string name="vpn_disclosure_title">Перед подключением</string>
+    <string name="vpn_disclosure_what">%1$s использует VPN-службу Android, чтобы направлять интернет-трафик этого телефона через зашифрованный туннель на серверы %1$s.</string>
+    <string name="vpn_disclosure_data">Пока вы подключены, наши серверы видят ваш IP-адрес и объём используемых данных. Мы храним ваши IP-адреса, их страну и сеть, время последнего подключения и объём данных вместе с идентификатором %1$s этого устройства, чтобы обслуживать ваш тариф и предотвращать злоупотребления. Мы не продаём эти данные.</string>
+    <string name="vpn_disclosure_next">Затем Android попросит вас разрешить VPN-подключение.</string>
+    <string name="disclosure_not_now">Не сейчас</string>
+</resources>

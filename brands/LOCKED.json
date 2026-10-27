@@ -1,0 +1,52 @@
+{
+  "dollarvpn": {
+    "android": {
+      "applicationId": "vpn.dollarvpn.app"
+    },
+    "ios": {
+      "bundleId": "net.dollarvpn.ios.vpn.unlimited.super.proxy.app",
+      "tunnelBundleId": "net.dollarvpn.ios.vpn.unlimited.super.proxy.app.redsocket",
+      "teamId": "LR3WWLG3FQ"
+    }
+  },
+  "goglobe": {
+    "android": {
+      "applicationId": "esim.goglobe.app"
+    },
+    "ios": {
+      "bundleId": null,
+      "tunnelBundleId": null,
+      "teamId": null
+    }
+  },
+  "internetpro": {
+    "android": {
+      "applicationId": "io.internet.pro"
+    },
+    "ios": {
+      "bundleId": "app.internet.pro",
+      "tunnelBundleId": null,
+      "teamId": "8Y6Q4B7AN5"
+    }
+  },
+  "redvpn": {
+    "android": {
+      "applicationId": "com.redvpn.android"
+    },
+    "ios": {
+      "bundleId": "com.redvpn.ios",
+      "tunnelBundleId": "com.redvpn.ios.tunnel",
+      "teamId": "8Y6Q4B7AN5"
+    }
+  },
+  "rostam": {
+    "android": {
+      "applicationId": "com.rostamvpn.android"
+    },
+    "ios": {
+      "bundleId": "com.rostamvpn",
+      "tunnelBundleId": "com.rostamvpn.redsocket",
+      "teamId": "LR3WWLG3FQ"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Script-dependent typography, selected by the RESOURCE SYSTEM.
+
+     There must never be an `if (locale == "fa")` in Kotlin, for the same reason
+     CLAUDE.md 6b bans `if (brand == ...)`: the moment one exists, every new
+     locale is a code change. A qualified resource is the only mechanism that
+     scales to 38 of them.
+
+     paywall_letter_tracking gates two things on the paywall:
+       * letterSpacing on the eyebrow (3sp) and the savings chip (0.8sp).
+         Tracking is inserted BETWEEN letterforms. Arabic-script letters JOIN,
+         so tracking pulls a word apart into what reads as a typo.
+       * FontFamily.Serif on the headline. Android's fallback stack ships no
+         serif Arabic face, so Serif silently degrades to the default sans in
+         exactly those locales — better substituted on purpose than by accident.
+
+     false in: ar, fa, fa-rIR, ckb, b+azb (every Arabic-script locale we ship).
+     Candidates worth an owner decision, deliberately NOT changed here: my
+     (Myanmar), km (Khmer), th (Thai), bo (Tibetan) are complex scripts where
+     tracking is also questionable, but they do not join and the failure is
+     cosmetic rather than word-breaking. -->
+<resources>
+    <bool name="paywall_letter_tracking">true</bool>
+</resources>

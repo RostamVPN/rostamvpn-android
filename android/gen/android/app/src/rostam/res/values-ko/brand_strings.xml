@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rostam's tagline, translated. Lives in the rostam source set, NOT
+     main/res/values-*: a locale qualifier outranks a brand override, so a
+     copy in main showed "Your Digital Guardian" on every other brand in
+     every language (2026-10-12).
+
+     CONTENT, 2026-10-27: the product was repositioned from a VPN ("Your
+     Digital Guardian") to a mobile security app and the English in
+     ../values/brand_strings.xml became "Mobile Security". These 38 files did
+     not move with it, so every non-English device, including the Farsi ones
+     this brand is built for, still described the old product. A tagline
+     change is not finished until the locales change: the structure was
+     already right here, only the words were stale.
+
+     NOTE for the next edit: an XML comment may not contain two hyphens in a
+     row. Writing one here failed mergeResources with a message that named
+     this file and nothing about hyphens. -->
+<resources>
+    <string name="app_tagline">모바일 보안</string>
+</resources>

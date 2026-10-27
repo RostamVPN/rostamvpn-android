@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Not in strings.xml on purpose: "eSIM" is the product's own term in every
+         locale, and tools/i18n/validate-translations.py requires every
+         strings.xml key in all 38 locale files. -->
+    <string name="esim_title" translatable="false">eSIM</string>
+    <string name="esim_smdp_label" translatable="false">SM-DP+</string>
+    <string name="esim_apn_label" translatable="false">APN</string>
+</resources>
